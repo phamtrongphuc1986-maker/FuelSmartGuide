@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fuelsmartguide.io.vn/sitemap.xml
