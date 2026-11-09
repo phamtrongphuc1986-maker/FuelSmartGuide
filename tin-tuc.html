@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#101318">
+<title>Vehicle News — Cars, EVs, E-Motorbikes & E-Bikes Worldwide | FuelSmartGuide</title>
+<meta name="description" content="Daily global vehicle news on cars, electric vehicles, battery technology, e-motorbikes and e-bikes: own-written summaries with links to the original stories. Updated daily at 06:00 and 17:00.">
+<link rel="canonical" href="https://www.fuelsmartguide.io.vn/tin-tuc.html">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<style>*{box-sizing:border-box}body{margin:0;font-family:'Roboto',system-ui,-apple-system,'Segoe UI',sans-serif;background:#0b0e13;color:#f5f7f9}
+h1,h2{font-family:'Playfair Display',Georgia,'Times New Roman',serif;color:#43c6b4;font-weight:800}
+a{color:#43c6b4}
+header{background:#101318;border-bottom:1px solid #23262d;padding:14px 14px 10px}
+header .row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;max-width:1140px;margin:0 auto}
+.logo{font-size:26px;background:#123c38;border-radius:50%;width:46px;height:46px;display:flex;align-items:center;justify-content:center}
+.ttl{font-weight:800;font-size:23px;line-height:1.15}.ttl small{display:block;font-family:'Roboto',sans-serif;font-weight:400;font-size:12.5px;color:#9aa3ad;margin-top:2px}
+.ttl a{color:#43c6b4;text-decoration:none}
+nav.menu{max-width:1140px;margin:10px auto 0;display:flex;gap:4px;flex-wrap:wrap;border-top:1px solid #23262d;padding-top:9px}
+nav.menu a{color:#cfd6dd;text-decoration:none;font-size:13.5px;font-weight:500;padding:5px 10px;border-radius:4px;text-transform:uppercase;letter-spacing:.4px}
+nav.menu a:hover,nav.menu a.on{background:#123c38;color:#7fe3d0}
+main{max-width:860px;margin:0 auto;padding:18px 14px 30px}
+h1{font-size:27px;margin:6px 0 4px}
+.meta{color:#9aa3ad;font-size:13.5px;margin:0 0 8px}
+h2.sec{font-size:21px;margin:26px 0 10px;border-bottom:2px solid #009688;padding-bottom:7px}
+.card{background:#14161a;border:1px solid #26292f;border-radius:6px;padding:15px 17px;margin:12px 0}
+.card h3{font-family:'Playfair Display',Georgia,serif;margin:0 0 7px;font-size:19px;line-height:1.35}
+.card h3 a{color:#eef6f4;text-decoration:none}
+.card h3 a:hover{color:#43c6b4}
+.card p{margin:0 0 9px;color:#d5dbe1;font-size:14.5px;line-height:1.6}
+.card .src{font-size:12.5px;color:#8b939c}
+.card .src a{font-weight:700;text-decoration:none}
+footer{color:#8b939c;font-size:12.5px;text-align:center;padding:24px 14px;line-height:1.6;max-width:1140px;margin:0 auto}
+footer a{color:#43c6b4;text-decoration:none;font-weight:600}
+</style></head><body>
+<header><div class="row"><div class="logo">⛽</div><div class="ttl"><a href="index.html">FuelSmartGuide</a><small>Compare fuel-efficient petrol, diesel &amp; electric vehicles</small></div></div>
+<nav class="menu"><a href="index.html">Home</a><a href="index.html#gas">⛽ Gasoline (Petrol) Vehicles</a><a href="index.html#diesel">🛢️ Diesel Vehicles</a><a href="index.html#ev">⚡ Electric Vehicles</a><a href="index.html#pedal">🚲 Pedal Electric Two-Wheelers</a><a href="tin-tuc.html" class="on">📰 News</a></nav></header>
+<main>
+<h1>📰 Vehicle News</h1>
+<p class="meta">Global news on cars, electric vehicles, batteries, e-motorbikes and e-bikes — updated daily at 06:00 and 17:00. Last updated: <b id="gioCapNhat">loading…</b></p>
+<div id="danhSachTin"><p>Loading news…</p></div>
+</main>
+<footer>© 2026 <b>fuelsmartguide.io.vn</b> — All rights reserved. &nbsp;•&nbsp; <a href="tin-tuc.html">News</a> &nbsp;•&nbsp; <a href="terms-of-use.html">Terms of Use</a> &nbsp;•&nbsp; <a href="privacy-policy.html">Privacy Policy</a><br><span>News headlines and summaries are written by FuelSmartGuide; every item links to the original story at its publisher.</span></footer>
+<script src="tin-tuc-data.js"></script>
+<script>
+(function(){
+  var hop = document.getElementById('danhSachTin');
+  var duLieu = window.TIN_TUC;
+  if(!duLieu || !duLieu.nhom){ hop.innerHTML = '<p>News data could not be loaded. Please try again later.</p>'; return; }
+  document.getElementById('gioCapNhat').textContent = duLieu.capNhat || '';
+  function thoat(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+  var html = '';
+  duLieu.nhom.forEach(function(nhom){
+    html += '<h2 class="sec">' + thoat(nhom.ten) + '</h2>';
+    (nhom.tin||[]).forEach(function(t){
+      html += '<article class="card"><h3><a href="' + thoat(t.link) + '" target="_blank" rel="noopener">' + thoat(t.tieuDe) + '</a></h3>'
+        + '<p>' + thoat(t.tomTat) + '</p>'
+        + '<div class="src">📰 Source: ' + thoat(t.nguon) + ' · 🕐 ' + thoat(t.gio) + ' · <a href="' + thoat(t.link) + '" target="_blank" rel="noopener">Read the original →</a></div></article>';
+    });
+  });
+  hop.innerHTML = html;
+})();
+</script>
+<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});}</script>
+</body></html>
