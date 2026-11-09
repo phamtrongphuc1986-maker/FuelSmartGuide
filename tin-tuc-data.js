@@ -7,12 +7,25 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Monday, November 9, 2026 — afternoon edition",
+  capNhat: "Tuesday, November 10, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "EVs and hybrids pass half of all new-car sales in Australia as battery-electrics triple",
+          baiViet: [
+            "Electric and hybrid vehicles accounted for 51.2% of Australian new-vehicle deliveries in October — the second-highest share of 2026 and of all time, behind only August's 51.8%. Battery-electric sales more than tripled year on year to 24,845, overtaking petrol models, which fell 35.9% to 23,605. The overall market grew 6.8% to 107,493 deliveries, with electrified vehicles at 55,024 against 49,254 for petrol and diesel combined.",
+            "Battery-electrics took 23.1% of the market, up from just 7.3% a year earlier. Over the first ten months of 2026, battery-electric deliveries reached 205,436, up 145.1%, while plug-in hybrids rose 126.7% to 97,023. The Tesla Model Y was October's best-selling EV with 3,105 deliveries and the fourth best-selling vehicle of any type; it remains Australia's best-selling SUV for the year to date with 39,035 deliveries, ahead of the Toyota RAV4 on 35,927. BYD finished second among all brands behind Toyota with 10,025 deliveries, up 153.2%, led by the Sealion 7 (2,524) and joined in the EV top three by the Geely EX5 (1,789).",
+            "The brand race is tightening at the same time. BYD leads year-to-date EV sales with 49,953 units against Tesla's 45,755, and registered 5,271 vehicles in October against Tesla's 4,050. Australia's shift mirrors the records set in Germany and the UK the same month — cheaper Chinese models and intense competition doing much of the work — and with November and December still to come, the open question is whether BYD can stretch its lead and whether Geely can hold its momentum."
+          ],
+          nguon: [
+            { ten: "EV Central (Australia)", link: "https://evcentral.com.au/tesla-and-byd-star-evs-and-hybrids-take-more-than-half-of-october-sales-as-petrol-and-diesel-slide/" },
+            { ten: "Cars24 (The Driven data)", link: "https://www.cars24.com.au/car-news/australian-electric-vehicle-sales-2026/" }
+          ],
+          gio: "Morning, Nov 10"
+        },
         {
           tieuDe: "Electric cars are about to overtake petrol in the UK — and it could happen as soon as December",
           baiViet: [
@@ -40,19 +53,6 @@ window.TIN_TUC = {
             { ten: "Elekhub", link: "https://www.elekhub.com/news/germany-bev-share-37-percent-october" }
           ],
           gio: "Morning, Nov 9"
-        },
-        {
-          tieuDe: "UK expected to cut its 2030 electric car sales target from 80% to about 60%",
-          baiViet: [
-            "The British government is expected to trim its 2030 electric vehicle sales target by roughly a quarter, from 80% of new cars to around 60%, under the zero-emission vehicle (ZEV) mandate, according to a Guardian report citing government sources. The revised plan is expected to be finalised after a Downing Street meeting this week, and the mandate's built-in flexibilities for carmakers could be extended out to 2034.",
-            "The pressure behind the move is the widening gap between the rulebook and the showroom. The mandate requires EVs to reach 33% of sales in 2026, yet battery-electric cars accounted for only 26.6% of new car sales in the first ten months of the year, figures from the Society of Motor Manufacturers and Traders (SMMT) show. Carmakers have argued that supply-chain disruption and soft consumer demand make the current trajectory hard to hit, and the SMMT has publicly called for substantive changes to bring targets in line with real demand. A government spokesperson said the UK remains committed to the ZEV mandate and that no final decisions have been taken, with the 2035 deadline — when all new cars sold must be zero-emission — unchanged.",
-            "The likely softening splits opinion in Westminster. Manufacturers welcome relief from targets backed by financial penalties, while some MPs warn that diluting the mandate would slow climate progress: the ZEV rules have been assessed as the single largest emissions-saving measure in the UK's carbon budgets for 2028–2032."
-          ],
-          nguon: [
-            { ten: "Reuters", link: "https://www.reuters.com/world/uk/uk-government-expected-cut-2030-ev-sales-target-60-guardian-reports-2026-11-08/" },
-            { ten: "The Guardian", link: "https://worldrightnowlive.com/story/labour-expected-to-cut-ev-targets-for-uk-s-car-industry-despite-mps-pr" }
-          ],
-          gio: "Morning, Nov 9"
         }
       ]
     },
@@ -60,6 +60,20 @@ window.TIN_TUC = {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Tesla's China sales crash to 8,817 in October — the lowest since July 2022 — as exports take a record 87% of output",
+          baiViet: [
+            "Tesla sold just 8,817 cars in China in October, down 66.1% year on year and 86.4% from September — the lowest monthly domestic figure since July 2022, when sales totalled 8,461, and the fifth consecutive month of annual declines. The Shanghai plant still wholesaled 67,829 cars, up 10.3% on the year, but 59,012 of them were exported — a record 87% of wholesale output, beating the previous 76% record set in October 2022.",
+            "October is always Tesla's weakest domestic month in a quarter, since the Shanghai factory front-loads exports, but the scale of the drop — below 10,000 domestic sales for the first time in more than four years — points to intensifying competition. BYD led domestic new-energy retail sales in October with 250,301 units, and Tesla is absent from the China Passenger Car Association's list of 17 brands that each sold more than 20,000 new-energy cars in the month. Tesla has delivered 390,000 cars in China so far this year, down 15% year on year, while exports have risen 21.4% to 811,000, with South Korea taking about a fifth of shipments.",
+            "The wider Chinese market tells a similar two-speed story: new-energy retail sales totalled 1.109 million in October, down 13.7% year on year for a tenth straight annual decline, yet new-energy cars reached a record 67.5% of all passenger-car retail sales, and exports surged 144.7% to 582,000 units. Tesla launched a five-year 0% financing plan with a halved down payment in China on October 30, so November's figures will be the first read on whether it can revive domestic demand — though the CPCA cautions that export strength may fade in early 2027 as tax-rebate and tariff windows narrow."
+          ],
+          nguon: [
+            { ten: "CnEVPost", link: "https://cnevpost.com/2026/11/09/tesla-retail-sales-china-oct-2026/" },
+            { ten: "TeslAnt", link: "https://teslant.com/en/news/tesla-china-october-2026-wholesale-67829-2026-11" },
+            { ten: "DriveTeslaCanada", link: "https://driveteslacanada.ca/?p=127757" }
+          ],
+          gio: "Morning, Nov 10"
+        },
         {
           tieuDe: "BYD's Yangwang Altior: a 1,000-hp electric limousine gunning for Rolls-Royce — with a 5-minute charge",
           baiViet: [
@@ -73,20 +87,6 @@ window.TIN_TUC = {
             { ten: "TechNode", link: "https://technode.com/2026/11/09/byd-unveils-yangwang-altior-luxury-sedan-with-top-trim-priced-over-300000/" }
           ],
           gio: "Afternoon, Nov 9"
-        },
-        {
-          tieuDe: "BYD sets November 12 launch for the Denza N8: 1,003 km of range and up to 1,193 hp",
-          baiViet: [
-            "Denza, BYD's premium brand, will officially launch its refreshed N8 electric SUV on November 12 at BYD's headquarters in Shenzhen. Pre-orders opened on October 26. Official pricing is still under wraps, but observers expect the five-seat N8 to undercut the larger N8L, which starts at 299,800 yuan. At 5,150 mm long with a 3,075 mm wheelbase, the N8 sits firmly in the large luxury SUV class, with a 1,046-litre boot, a front trunk and four two-tone paint options.",
-            "The headline numbers come from BYD's second-generation Blade Battery. Two packs are offered — 105.79 kWh and 130.15 kWh — delivering CLTC ranges of up to 800 km and a maximum 1,003 km respectively, roughly 812 km on the WLTP cycle for the big pack. That puts the N8 among the first production EVs to clear the 1,000 km mark in Chinese regulatory filings, and BYD's flash-charging technology is designed to recharge the pack from 10% to 80% in about five minutes.",
-            "Performance spans from brisk to extreme. Single-motor rear-wheel-drive versions produce 320 kW (429 hp) or 370 kW (496 hp), while the tri-motor all-wheel-drive flagship combines a 270 kW front motor with two 310 kW rear motors for 890 kW (1,193 hp) in total — enough to enable party tricks such as a 'compass turn' tank-turn mode. The cabin pairs a 30-inch panoramic display with a full-width head-up display, four zero-gravity seats with heating, ventilation and massage, and the God's Eye 5.0 driver-assistance suite with a roof-mounted LiDAR. A plug-in hybrid version is expected to follow."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/06/byd-launching-5-seat-luxury-suv-next-week-with-1000-km-range/" },
-            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/06/byds-new-denza-n8-ev-to-launch-on-november-12-up-to-1193-hp-and-1003-km-range/" },
-            { ten: "CnEVPost", link: "https://cnevpost.com/2026/11/06/byd-denza-to-launch-nov-12/" }
-          ],
-          gio: "Morning, Nov 9"
         }
       ]
     }
