@@ -36,7 +36,7 @@ footer a{color:#43c6b4;text-decoration:none;font-weight:600}
 <nav class="menu"><a href="index.html">Home</a><a href="index.html#gas">⛽ Gasoline (Petrol) Vehicles</a><a href="index.html#diesel">🛢️ Diesel Vehicles</a><a href="index.html#ev">⚡ Electric Vehicles</a><a href="index.html#pedal">🚲 Pedal Electric Two-Wheelers</a><a href="tin-tuc.html" class="on">📰 News</a></nav></header>
 <main>
 <h1>📰 Vehicle News</h1>
-<p class="meta">Global news on cars, electric vehicles, batteries, e-motorbikes and e-bikes — updated daily at 06:00 and 17:00. Every article below is an original piece in Vietnamese, synthesized from 2–3 reputable foreign outlets (Reuters, Electrek, CarNewsChina…), with reference sources listed at the end of each article. Last updated: <b id="gioCapNhat">loading…</b></p>
+<p class="meta">Global news on cars, electric vehicles, batteries, e-motorbikes and e-bikes — updated daily at 06:00 and 17:00. Every article below is an original piece written by FuelSmartGuide, synthesized from 2–3 reputable foreign outlets (Reuters, Electrek, CarNewsChina…), with reference sources listed at the end of each article. Last updated: <b id="gioCapNhat">loading…</b></p>
 <div id="danhSachTin"><p>Loading news…</p></div>
 </main>
 <footer>© 2026 <b>fuelsmartguide.io.vn</b> — All rights reserved. &nbsp;•&nbsp; <a href="tin-tuc.html">News</a> &nbsp;•&nbsp; <a href="terms-of-use.html">Terms of Use</a> &nbsp;•&nbsp; <a href="privacy-policy.html">Privacy Policy</a><br><span>Every news article is written originally by FuelSmartGuide from 2–3 foreign press sources, listed at the end of each article with links to the originals.</span></footer>
@@ -56,7 +56,7 @@ footer a{color:#43c6b4;text-decoration:none;font-weight:600}
       var nguon = (t.nguon||[]).map(function(n){ return '<a href="' + thoat(n.link) + '" target="_blank" rel="noopener">' + thoat(n.ten) + '</a>'; }).join(' · ');
       html += '<article class="card"><h3>' + thoat(t.tieuDe) + '</h3>'
         + doan
-        + '<div class="src">🕐 ' + thoat(t.gio) + '<br>📚 Nguồn tham khảo: ' + nguon + '</div></article>';
+        + '<div class="src">🕐 ' + thoat(t.gio) + '<br>📚 Sources: ' + nguon + '</div></article>';
     });
   });
   hop.innerHTML = html;
