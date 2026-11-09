@@ -1,4 +1,4 @@
-const CACHE='fsg-v2';
+const CACHE='fsg-v3';
 self.addEventListener('install',function(e){self.skipWaiting();e.waitUntil(caches.open(CACHE).then(function(c){return c.addAll(['/','/index.html']);}));});
 self.addEventListener('activate',function(e){e.waitUntil(caches.keys().then(function(ks){return Promise.all(ks.filter(function(k){return k!==CACHE;}).map(function(k){return caches.delete(k);}));}).then(function(){return self.clients.claim();}));});
 self.addEventListener('fetch',function(e){if(e.request.method!=='GET')return;e.respondWith(fetch(e.request).then(function(r){var cl=r.clone();caches.open(CACHE).then(function(c){c.put(e.request,cl);});return r;}).catch(function(){return caches.match(e.request,{ignoreSearch:true});}));});
