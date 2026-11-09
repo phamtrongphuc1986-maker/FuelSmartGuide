@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Monday, November 9, 2026 — morning edition",
+  capNhat: "Monday, November 9, 2026 — afternoon edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Electric cars are about to overtake petrol in the UK — and it could happen as soon as December",
+          baiViet: [
+            "Battery-electric cars took 32% of the UK's new-car market in October, while petrol cars fell to just 37.2%, according to data from the Society of Motor Manufacturers and Traders (SMMT) — the closest the two have ever been, separated by only 5.2 percentage points. The UK registered 152,730 new cars in October, up 5.4% year on year; battery-electric registrations jumped 32.7% to 48,858, while petrol registrations dropped 11.6% to 56,876. Plug-in hybrids rose 30.1% to 22,898.",
+            "The trend lines point to a crossover in 2027. An analysis of SMMT monthly data going back to March 2024 — when petrol held 55.9% of the market and battery-electrics just 15.2% — puts the crossing at around August 2027, at roughly 33% each. But December could bring it forward: the UK's battery-electric share spikes every December as carmakers push volume to get closer to their zero-emission vehicle mandate targets, and if recent year-on-year shifts hold, electrics could end December at around 37% against petrol's 32% — the first time battery-electrics beat petrol in SMMT's headline figures, mild hybrids included.",
+            "The milestone would land in the middle of a policy argument. The zero-emission vehicle mandate requires 33% of 2026 sales to be zero-emission, yet battery-electrics are only 26.6% of sales in the first ten months — 503,805 units, up 30.4% — and the SMMT forecasts 27.2% for the full year. The government is expected to soften the 2030 target from 80% to about 60%, a move manufacturers welcome but climate advocates warn would slow progress — even as the showroom data suggests the transition is now being driven as much by buyers as by rules."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/05/uk-ev-sales-october-2026-electric-cars-overtake-petrol/" },
+            { ten: "The Cool Down", link: "https://www.thecooldown.com/green-tech/uk-electric-car-sales-petrol-gap/" },
+            { ten: "AfroEuropa", link: "https://www.afroeuropa.com/article/ev-sales-surge-in-germany-and-uk-as-electric-cars-outsell-combustion-models" }
+          ],
+          gio: "Afternoon, Nov 9"
+        },
         {
           tieuDe: "Electric cars take a record 37% of Germany's market in October, outselling petrol and diesel combined",
           baiViet: [
@@ -39,20 +53,6 @@ window.TIN_TUC = {
             { ten: "The Guardian", link: "https://worldrightnowlive.com/story/labour-expected-to-cut-ev-targets-for-uk-s-car-industry-despite-mps-pr" }
           ],
           gio: "Morning, Nov 9"
-        },
-        {
-          tieuDe: "Electric trucks pass half of China's heavy truck sales — and diesel demand is feeling it",
-          baiViet: [
-            "China's freight fleet is electrifying faster than almost anyone predicted. In September, dealers sold 33,100 battery-electric heavy trucks, a 50.3% share of the entire heavy truck market, even as total heavy truck sales shrank 21% year on year. Among tractor units — the rigs that haul long-distance trailers — the electric share reached 64.5%. Through the first nine months of 2026, China sold 226,400 electric heavy trucks, up 64%, nearly matching the whole of 2025 with a quarter of the year still left.",
-            "Fleet operators are following the money. A study by the International Council on Clean Transportation (ICCT) together with the China Automotive Technology and Research Center (CATARC) found battery-electric trucks can run about 19% cheaper per tonne-kilometre than diesel in favourable conditions. The other traditional objection — charging downtime — is being answered with battery swapping: standardised 432 kWh and 513 kWh packs that exchange in roughly five minutes, backed by a rapidly growing swap-station network led by CATL's Qiji brand. Even LNG trucks, long the default diesel alternative, are losing ground fast, their share of heavy-duty registrations collapsing from 37% in March to 11% in July.",
-            "The shift is now visible in oil statistics. Data firm Kpler estimates China's diesel demand will fall by about 230,000 barrels per day in 2026, with electric and LNG trucks together displacing some 680,000 barrels per day of diesel use. Beijing's goal of 40% new-energy heavy truck sales by 2030 has effectively been met four years early on a monthly basis. The caveat is the installed base: electric models still make up only around 8% of the heavy trucks actually on China's roads, so the diesel fleet will take years to turn over even at today's sales rates."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/02/electric-trucks-50-percent-china-heavy-truck-sales-diesel-demand/" },
-            { ten: "TruckAdvice (Australia)", link: "https://truckadvice.com.au/news/china-electric-heavy-truck-sales-50-percent-2026" },
-            { ten: "Meroauto", link: "https://www.en.meroauto.com/electric-trucks-reach-50-of-chinas-heavy-truck-sales-diesel-demand-drops/" }
-          ],
-          gio: "Morning, Nov 9"
         }
       ]
     },
@@ -60,6 +60,20 @@ window.TIN_TUC = {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "BYD's Yangwang Altior: a 1,000-hp electric limousine gunning for Rolls-Royce — with a 5-minute charge",
+          baiViet: [
+            "BYD's luxury brand Yangwang unveiled the Altior flagship sedan at a global debut in Abu Dhabi on November 7 — the brand's first full launch event outside China — and opened pre-orders for a limited 'Shanhe Dingyun' edition priced at 2.08 million yuan (about $310,000), with a 300,000-yuan deposit. The launch edition is capped at 399 cars worldwide, with deliveries expected in the second quarter of 2027 and a five-seat version to follow.",
+            "The numbers are deliberately outrageous for the class: 5,600 mm long on a 3,500 mm wheelbase, rear-hinged coach doors, four seats, and a quad-motor e⁴ setup producing over 1,000 hp — enough for tank turns — fed by a second-generation Blade battery on a 1,000V platform. BYD claims more than 1,000 km of CLTC range (roughly 800–820 km on the WLTP cycle), with flash megawatt charging taking the battery from 10% to 70% in about five minutes.",
+            "The cabin is where BYD is most directly challenging the establishment: Hetian jade trim, gold speaker grilles and aramid fibre in the doors, in a four-seat layout aimed squarely at the Rolls-Royce Ghost and Mercedes-Maybach S-Class. The Altior extends a range that already includes the U7 sedan, the U8 SUVs and the U9 supercar — the same weekend the U9 Xtreme reportedly topped 500 km/h on a closed Abu Dhabi motorway. Yangwang sold 3,251 cars in China in the first nine months of 2026, up 38.9%, and is now selling in the UAE, with UK stores expected next year."
+          ],
+          nguon: [
+            { ten: "InsideEVs", link: "https://insideevs.com/news/814803/byd-yangwang-altior-luxury-ev-rolls-royce-rival/" },
+            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/07/byd-yangwang-altior-debuts-with-rolls-royce-style-coach-doors-and-5-5-metre-body/" },
+            { ten: "TechNode", link: "https://technode.com/2026/11/09/byd-unveils-yangwang-altior-luxury-sedan-with-top-trim-priced-over-300000/" }
+          ],
+          gio: "Afternoon, Nov 9"
+        },
         {
           tieuDe: "BYD sets November 12 launch for the Denza N8: 1,003 km of range and up to 1,193 hp",
           baiViet: [
@@ -71,20 +85,6 @@ window.TIN_TUC = {
             { ten: "Electrek", link: "https://electrek.co/2026/11/06/byd-launching-5-seat-luxury-suv-next-week-with-1000-km-range/" },
             { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/06/byds-new-denza-n8-ev-to-launch-on-november-12-up-to-1193-hp-and-1003-km-range/" },
             { ten: "CnEVPost", link: "https://cnevpost.com/2026/11/06/byd-denza-to-launch-nov-12/" }
-          ],
-          gio: "Morning, Nov 9"
-        },
-        {
-          tieuDe: "CATL moves solid-state batteries to 20 Ah trial cells, targeting 500 Wh/kg",
-          baiViet: [
-            "CATL, the world's largest EV battery maker, says its all-solid-state programme has advanced to producing 20 Ah sample cells, the next step after validating the technology on a 10 Ah platform. The cells use a sulfide-based solid electrolyte and are aimed at an energy density of around 500 Wh/kg — more than double the 160–190 Wh/kg of the mainstream LFP batteries that power most affordable EVs today, and well beyond today's best nickel-rich lithium-ion cells.",
-            "The company is holding to its roadmap of small-scale production in 2027 and mass production around 2030, backed by a solid-state research team that has grown past 1,000 people. Even so, chairman Robin Zeng continues to counsel patience: on a one-to-nine technology readiness scale, he rates all-solid-state batteries at only level four, with manufacturing cost and process engineering still the biggest barriers to commercialisation.",
-            "The year 2027 is shaping up as an industry-wide checkpoint. Samsung SDI plans to begin mass production of its solid-state batteries in the second half of that year, Toyota is preparing its first solid-state EV for 2027–2028 on a similar sulfide route, and BYD's battery arm FinDreams targets limited batches in 2027. Whichever chemistry wins, the outcome will decide how much farther the next generation of electric cars can travel on a single charge."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/10/28/catl-pushes-ahead-20-ah-solid-state-ev-batteries-500-wh-kg/" },
-            { ten: "Gasgoo Auto News", link: "https://autonews.gasgoo.com/articles/news/catl-small-scale-production-of-all-solid-state-batteries-in-2027-2115417224197840897" },
-            { ten: "Shanghai Metals Market (SMM)", link: "https://news.metal.com/newscontent/104183588-catl-all-solid-state-battery-to-enter-small-batch-production-in-2027" }
           ],
           gio: "Morning, Nov 9"
         }
