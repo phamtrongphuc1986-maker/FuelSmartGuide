@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Tuesday, November 10, 2026 — morning edition",
+  capNhat: "Tuesday, November 10, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "France joins the 40% club: battery-electrics take 41% of October sales as Europe's EV wave spreads",
+          baiViet: [
+            "Battery-electric cars took 41% of new-car registrations in France in October 2026 — up from 24% a year earlier — as the country registered 149,341 new passenger cars, 7.0% more than in October 2025, according to PFA and AAA Data. The Tesla Model Y is France's best-selling electric car this year with 39,589 registrations, and the fifth best-selling car overall.",
+            "France is now the third major European market to pass a milestone in the same month: Germany's battery-electrics took a record 37% share in October and the UK's 32% — its highest this year. Spain's battery-electrics rose 81.2% to 16,425 units, and together with plug-in hybrids took 31.5% of the market, almost one sale in three. Norway remains in a league of its own: 98.0% of new cars registered from January to October were electric.",
+            "The pattern is consistent across the continent: purchase incentives, cheaper Chinese models and a wider choice of cars are doing the work, with ACEA data showing battery-electrics at 24.2% of new registrations across the EU, EFTA and the UK in the first nine months of 2026, up from 18.1% a year earlier. The open question now is whether the momentum survives the winter months, when the year-end push to meet mandate targets fades and the market finds its natural level."
+          ],
+          nguon: [
+            { ten: "EuropeSays (PFA/AAA Data, KBA, SMMT, ANFAC, OFV)", link: "https://www.europesays.com/france/107325/" },
+            { ten: "Gumtree (ACEA data)", link: "https://www.gumtree.com/news/cars/chery-edges-past-tesla-europe-bev-share" },
+            { ten: "TeslAnt (KBA data)", link: "https://teslant.com/en/news/germany-october-2026-bev-37-percent-byd-back-ahead-of-tesla-2026-11" }
+          ],
+          gio: "Evening, Nov 10"
+        },
         {
           tieuDe: "EVs and hybrids pass half of all new-car sales in Australia as battery-electrics triple",
           baiViet: [
@@ -39,20 +53,6 @@ window.TIN_TUC = {
             { ten: "AfroEuropa", link: "https://www.afroeuropa.com/article/ev-sales-surge-in-germany-and-uk-as-electric-cars-outsell-combustion-models" }
           ],
           gio: "Afternoon, Nov 9"
-        },
-        {
-          tieuDe: "Electric cars take a record 37% of Germany's market in October, outselling petrol and diesel combined",
-          baiViet: [
-            "Germany's car market has passed a milestone few expected this soon. Buyers registered 94,086 battery-electric cars in October, up 79.5% from a year earlier, giving BEVs a record 37% share of the 254,492 new cars sold, according to the federal transport authority KBA. For the second month in a row, fully electric cars outsold petrol (38,516 registrations, down 40.5%) and diesel (23,882, down 21.6%) put together, while the overall market grew just 1.7% — meaning almost all of the EV gain came directly out of combustion sales.",
-            "The surge has already outrun the industry's own expectations. Registrations for the first ten months reached 698,230 electric cars, up 60.7%, passing the roughly 693,000 units the auto industry association VDA had forecast for the whole of 2026 with two months still to go. Analysts credit the federal government's new purchase incentive, which applies retroactively to cars registered since January 1: it pays €3,000 toward a new BEV and up to €6,000 for lower-income households with children. The effect is visible in the buyer mix — private registrations jumped 20.6% in October while commercial registrations fell 8.2%, a sharp contrast with the slump that followed the abrupt end of the previous subsidy scheme in late 2023.",
-            "The brand race is being reshaped at the same time. BYD has edged ahead of Tesla in year-to-date German registrations, 47,961 to 47,742, although most of BYD's volume is plug-in hybrids rather than pure electrics, and Volkswagen Group models still top the EV sales charts. According to VDIK, the association of international car manufacturers, around half of the electric cars registered in October carried a foreign badge — a sign that Europe's largest EV market is also becoming its most contested."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/04/germany-electric-car-sales-record-37-percent-share/" },
-            { ten: "Electric Future (KBA data compiled by electrive)", link: "https://electricfuture.org/2026/11/04/best-selling-electric-cars-germany/" },
-            { ten: "Elekhub", link: "https://www.elekhub.com/news/germany-bev-share-37-percent-october" }
-          ],
-          gio: "Morning, Nov 9"
         }
       ]
     },
@@ -60,6 +60,20 @@ window.TIN_TUC = {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Tesla's European rebound: registrations triple in Spain and Sweden — but BYD still leads the year",
+          baiViet: [
+            "Tesla's October registrations jumped across six European markets, according to national registration data cited by Reuters: Spain up 271%, Sweden up 248%, Portugal up 186%, Norway up 131%, Italy up 94% and Denmark up 34%. In Germany, Tesla registered 2,932 cars in October — up 290.9% year on year — split into 2,534 Model Ys and 397 Model 3s.",
+            "The rebound has not yet repaired the year-to-date picture. ACEA data for January to September shows BYD at 283,997 European sales against Tesla's 260,575 — a lead of 23,422 vehicles — and Chery edged past Tesla by just 75 registrations, 260,650 to 260,575. In Germany, BYD moved back ahead of Tesla for the year, 47,961 to 47,742, although BYD's total includes plug-in hybrids while every Tesla is battery-electric. Chinese brands took a record 22.5% of new passenger-car registrations in Norway in October.",
+            "Tesla's sales figures could get a further lift from its Full Self-Driving system, approved in Latvia — the tenth EU country to approve the technology. The next ACEA monthly release will show whether October's gains carry into the year-to-date share, and November numbers in early December will give a second data point on whether the jump was a spike or a trend."
+          ],
+          nguon: [
+            { ten: "Tech Insider (Reuters data)", link: "https://tech-insider.org/tesla-europe-rebound-spain-271-percent-byd-ahead-chinese-brands-2026/" },
+            { ten: "EuropeSays (Reuters)", link: "https://www.europesays.com/europe/174593/" },
+            { ten: "Gumtree (ACEA data)", link: "https://www.gumtree.com/news/cars/chery-edges-past-tesla-europe-bev-share" }
+          ],
+          gio: "Evening, Nov 10"
+        },
         {
           tieuDe: "Tesla's China sales crash to 8,817 in October — the lowest since July 2022 — as exports take a record 87% of output",
           baiViet: [
@@ -73,20 +87,6 @@ window.TIN_TUC = {
             { ten: "DriveTeslaCanada", link: "https://driveteslacanada.ca/?p=127757" }
           ],
           gio: "Morning, Nov 10"
-        },
-        {
-          tieuDe: "BYD's Yangwang Altior: a 1,000-hp electric limousine gunning for Rolls-Royce — with a 5-minute charge",
-          baiViet: [
-            "BYD's luxury brand Yangwang unveiled the Altior flagship sedan at a global debut in Abu Dhabi on November 7 — the brand's first full launch event outside China — and opened pre-orders for a limited 'Shanhe Dingyun' edition priced at 2.08 million yuan (about $310,000), with a 300,000-yuan deposit. The launch edition is capped at 399 cars worldwide, with deliveries expected in the second quarter of 2027 and a five-seat version to follow.",
-            "The numbers are deliberately outrageous for the class: 5,600 mm long on a 3,500 mm wheelbase, rear-hinged coach doors, four seats, and a quad-motor e⁴ setup producing over 1,000 hp — enough for tank turns — fed by a second-generation Blade battery on a 1,000V platform. BYD claims more than 1,000 km of CLTC range (roughly 800–820 km on the WLTP cycle), with flash megawatt charging taking the battery from 10% to 70% in about five minutes.",
-            "The cabin is where BYD is most directly challenging the establishment: Hetian jade trim, gold speaker grilles and aramid fibre in the doors, in a four-seat layout aimed squarely at the Rolls-Royce Ghost and Mercedes-Maybach S-Class. The Altior extends a range that already includes the U7 sedan, the U8 SUVs and the U9 supercar — the same weekend the U9 Xtreme reportedly topped 500 km/h on a closed Abu Dhabi motorway. Yangwang sold 3,251 cars in China in the first nine months of 2026, up 38.9%, and is now selling in the UAE, with UK stores expected next year."
-          ],
-          nguon: [
-            { ten: "InsideEVs", link: "https://insideevs.com/news/814803/byd-yangwang-altior-luxury-ev-rolls-royce-rival/" },
-            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/07/byd-yangwang-altior-debuts-with-rolls-royce-style-coach-doors-and-5-5-metre-body/" },
-            { ten: "TechNode", link: "https://technode.com/2026/11/09/byd-unveils-yangwang-altior-luxury-sedan-with-top-trim-priced-over-300000/" }
-          ],
-          gio: "Afternoon, Nov 9"
         }
       ]
     }
