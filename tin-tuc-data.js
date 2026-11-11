@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Tuesday, November 10, 2026 — evening edition",
+  capNhat: "Wednesday, November 11, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "BYD's October: a record 305,743 EVs in one month — more than the entire US sold all last quarter",
+          baiViet: [
+            "BYD sold 490,168 new-energy vehicles in October 2026, up 11% year on year and its strongest month of the year so far — and the sixth consecutive month of growth. Battery-electric passenger cars did almost all of the work: 305,743 units, up 37.4% on a year earlier and the first month BYD has ever sold more than 300,000 pure electrics, a third straight monthly record. Pure electrics are now 63.3% of BYD's passenger sales; plug-in hybrids fell 17.2% to 177,382.",
+            "The headline hides a two-speed story. Exports more than doubled year on year to 170,194 vehicles — 34.7% of October sales — yet fell for a second month from August's record 189,466, while sales at home dropped 10.6% from a year earlier to 319,974. For the first ten months, BYD has sold 3,621,744 vehicles, still 2.2% below the same period of 2025; it needs November and December combined to beat last year's by more than 80,000 vehicles to finish the year ahead.",
+            "The scale is what stands out. BYD's 305,743 battery-electrics in a single month topped the 262,649 EVs sold across all brands in the entire United States in the third quarter, according to Kelley Blue Book estimates — a comparison that flatters BYD, since US sales were hit by the expiry of federal purchase incentives, but still shows the gap. The export engine is also showing up in earnings: third-quarter net profit rose 28% to 10 billion yuan on revenue of 221.5 billion yuan. BYD expects overseas shipments to reach about 2 million vehicles by the end of 2026."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/02/byd-sold-more-evs-last-month-than-the-us-did-all-quarter/" },
+            { ten: "Capital Times (CnEVPost data)", link: "https://capitaltimes.asia/asia/china/china-ev-deliveries-october-byd-xpeng-leapmotor/" },
+            { ten: "TeslAnt", link: "https://teslant.com/en/news/byd-october-2026-record-bev-305743-2026-11" }
+          ],
+          gio: "Morning, Nov 11"
+        },
         {
           tieuDe: "France joins the 40% club: battery-electrics take 41% of October sales as Europe's EV wave spreads",
           baiViet: [
@@ -40,26 +54,26 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 10"
         },
-        {
-          tieuDe: "Electric cars are about to overtake petrol in the UK — and it could happen as soon as December",
-          baiViet: [
-            "Battery-electric cars took 32% of the UK's new-car market in October, while petrol cars fell to just 37.2%, according to data from the Society of Motor Manufacturers and Traders (SMMT) — the closest the two have ever been, separated by only 5.2 percentage points. The UK registered 152,730 new cars in October, up 5.4% year on year; battery-electric registrations jumped 32.7% to 48,858, while petrol registrations dropped 11.6% to 56,876. Plug-in hybrids rose 30.1% to 22,898.",
-            "The trend lines point to a crossover in 2027. An analysis of SMMT monthly data going back to March 2024 — when petrol held 55.9% of the market and battery-electrics just 15.2% — puts the crossing at around August 2027, at roughly 33% each. But December could bring it forward: the UK's battery-electric share spikes every December as carmakers push volume to get closer to their zero-emission vehicle mandate targets, and if recent year-on-year shifts hold, electrics could end December at around 37% against petrol's 32% — the first time battery-electrics beat petrol in SMMT's headline figures, mild hybrids included.",
-            "The milestone would land in the middle of a policy argument. The zero-emission vehicle mandate requires 33% of 2026 sales to be zero-emission, yet battery-electrics are only 26.6% of sales in the first ten months — 503,805 units, up 30.4% — and the SMMT forecasts 27.2% for the full year. The government is expected to soften the 2030 target from 80% to about 60%, a move manufacturers welcome but climate advocates warn would slow progress — even as the showroom data suggests the transition is now being driven as much by buyers as by rules."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/05/uk-ev-sales-october-2026-electric-cars-overtake-petrol/" },
-            { ten: "The Cool Down", link: "https://www.thecooldown.com/green-tech/uk-electric-car-sales-petrol-gap/" },
-            { ten: "AfroEuropa", link: "https://www.afroeuropa.com/article/ev-sales-surge-in-germany-and-uk-as-electric-cars-outsell-combustion-models" }
-          ],
-          gio: "Afternoon, Nov 9"
-        }
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Svolt's semi-solid-state battery enters mass production: 100 kWh, 500 km in 12 minutes",
+          baiViet: [
+            "Svolt Energy has started mass production of its 100-kWh 'Dragon Armor' semi-solid fast-charging battery pack, with the first batch rolling off the production line in Changzhou, Jiangsu province, on October 26. The pack is built for 900-volt architectures and supports 6C charging; Svolt claims it can add 500 km (311 miles) of driving range in 12 minutes, though the company has not disclosed the test conditions behind that figure, the size of the first batch, or which vehicles will use it.",
+            "The design is a hybrid: a semi-solid electrolyte that keeps some liquid, built from three chemical systems Svolt describes as its long-term technology path rather than a mere stepping stone to fully solid-state batteries. First-generation packs deliver 300 Wh/kg, with a second generation targeting 360 Wh/kg in development; Svolt estimates the pack can last at least 1 million kilometres based on 3,000 charging cycles. The company says several carmakers have already nominated the battery for their vehicles, without naming them.",
+            "The milestone lands about a month after Svolt's original September target, and at costs the company says are already on par with conventional liquid-electrolyte lithium-ion cells — a claim that matters more than the headline charging speed if it holds. Svolt holds 2.6% of the global EV battery market, ranking ninth worldwide, with 22.0 GWh installed in January–August 2026, up 39.3% year on year. Fully solid-state batteries remain distant from mass production, but Svolt's bet is that 2026 marks the start of widespread semi-solid adoption — and CATL, the world's largest battery maker, has meanwhile advanced its own solid-state cells to 20 Ah."
+          ],
+          nguon: [
+            { ten: "CnEVPost", link: "https://cnevpost.com/2026/10/26/svolt-begins-mass-production-100-kwh-semi-solid-packs/" },
+            { ten: "Interesting Engineering", link: "https://site-test.interestingengineering.com/energy/china-mass-production-100kwh-ev-battery" },
+            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/10/26/gwms-svolt-began-mass-production-of-100-kwh-semi-solid-batteries/" }
+          ],
+          gio: "Morning, Nov 11"
+        },
         {
           tieuDe: "Tesla's European rebound: registrations triple in Spain and Sweden — but BYD still leads the year",
           baiViet: [
@@ -74,20 +88,6 @@ window.TIN_TUC = {
           ],
           gio: "Evening, Nov 10"
         },
-        {
-          tieuDe: "Tesla's China sales crash to 8,817 in October — the lowest since July 2022 — as exports take a record 87% of output",
-          baiViet: [
-            "Tesla sold just 8,817 cars in China in October, down 66.1% year on year and 86.4% from September — the lowest monthly domestic figure since July 2022, when sales totalled 8,461, and the fifth consecutive month of annual declines. The Shanghai plant still wholesaled 67,829 cars, up 10.3% on the year, but 59,012 of them were exported — a record 87% of wholesale output, beating the previous 76% record set in October 2022.",
-            "October is always Tesla's weakest domestic month in a quarter, since the Shanghai factory front-loads exports, but the scale of the drop — below 10,000 domestic sales for the first time in more than four years — points to intensifying competition. BYD led domestic new-energy retail sales in October with 250,301 units, and Tesla is absent from the China Passenger Car Association's list of 17 brands that each sold more than 20,000 new-energy cars in the month. Tesla has delivered 390,000 cars in China so far this year, down 15% year on year, while exports have risen 21.4% to 811,000, with South Korea taking about a fifth of shipments.",
-            "The wider Chinese market tells a similar two-speed story: new-energy retail sales totalled 1.109 million in October, down 13.7% year on year for a tenth straight annual decline, yet new-energy cars reached a record 67.5% of all passenger-car retail sales, and exports surged 144.7% to 582,000 units. Tesla launched a five-year 0% financing plan with a halved down payment in China on October 30, so November's figures will be the first read on whether it can revive domestic demand — though the CPCA cautions that export strength may fade in early 2027 as tax-rebate and tariff windows narrow."
-          ],
-          nguon: [
-            { ten: "CnEVPost", link: "https://cnevpost.com/2026/11/09/tesla-retail-sales-china-oct-2026/" },
-            { ten: "TeslAnt", link: "https://teslant.com/en/news/tesla-china-october-2026-wholesale-67829-2026-11" },
-            { ten: "DriveTeslaCanada", link: "https://driveteslacanada.ca/?p=127757" }
-          ],
-          gio: "Morning, Nov 10"
-        }
       ]
     }
   ]
