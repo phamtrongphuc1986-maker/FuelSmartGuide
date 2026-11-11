@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Wednesday, November 11, 2026 — morning edition",
+  capNhat: "Wednesday, November 11, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "China's NEVs hit a record 67.5% of October car sales — even as the market shrank",
+          baiViet: [
+            "New-energy vehicles took a record 67.5% of China's passenger-car retail sales in October, according to final data from the China Passenger Car Association (CPCA) — even though NEV retail sales fell 13.7% year on year to 1.109 million units. It was the tenth consecutive month of year-on-year decline for the segment, as Beijing phases out trade-in subsidies and the NEV purchase-tax exemption was halved on January 1.",
+            "The mix is shifting fast: battery-electrics made up 770,000 retail sales, down 5.3% year on year; plug-in hybrids fell 37.2% to 226,000, while extended-range EVs rose 1% to 114,000, helped mainly by Xiaomi and Leapmotor. NEV exports more than doubled to a record 582,000 units, with BYD leading at a 28.3% share of exports, ahead of Chery (14.4%) and Geely (13.8%).",
+            "BYD sold almost twice as many NEVs at retail as second-placed Geely in October — 250,301 units, a 22.4% share — followed by Geely with 131,708 and Leapmotor with 83,573. Tesla dropped out of the top 10 entirely after ranking fourth in September, with just 8,817 retail sales. The CPCA warned that 'short-term support for November exports should not be extrapolated into a sustained uptrend', saying some orders had been brought forward ahead of expected cuts to export tax rebates and tariff changes."
+          ],
+          nguon: [
+            { ten: "Inside China Auto (CPCA data)", link: "https://insidechinaauto.com/2026/11/11/china-nev-share-hits-record-67-5-in-october-as-retail-sales-fall-13-7/" },
+            { ten: "CnEVPost (CPCA data)", link: "https://cnevpost.com/2026/11/10/china-nev-share-oct-2026/" },
+            { ten: "Electrek (via 7788news)", link: "https://www.7788news.com/en/article/auto-5443f434" }
+          ],
+          gio: "Evening, Nov 11"
+        },
         {
           tieuDe: "BYD's October: a record 305,743 EVs in one month — more than the entire US sold all last quarter",
           baiViet: [
@@ -41,25 +55,26 @@ window.TIN_TUC = {
           ],
           gio: "Evening, Nov 10"
         },
-        {
-          tieuDe: "EVs and hybrids pass half of all new-car sales in Australia as battery-electrics triple",
-          baiViet: [
-            "Electric and hybrid vehicles accounted for 51.2% of Australian new-vehicle deliveries in October — the second-highest share of 2026 and of all time, behind only August's 51.8%. Battery-electric sales more than tripled year on year to 24,845, overtaking petrol models, which fell 35.9% to 23,605. The overall market grew 6.8% to 107,493 deliveries, with electrified vehicles at 55,024 against 49,254 for petrol and diesel combined.",
-            "Battery-electrics took 23.1% of the market, up from just 7.3% a year earlier. Over the first ten months of 2026, battery-electric deliveries reached 205,436, up 145.1%, while plug-in hybrids rose 126.7% to 97,023. The Tesla Model Y was October's best-selling EV with 3,105 deliveries and the fourth best-selling vehicle of any type; it remains Australia's best-selling SUV for the year to date with 39,035 deliveries, ahead of the Toyota RAV4 on 35,927. BYD finished second among all brands behind Toyota with 10,025 deliveries, up 153.2%, led by the Sealion 7 (2,524) and joined in the EV top three by the Geely EX5 (1,789).",
-            "The brand race is tightening at the same time. BYD leads year-to-date EV sales with 49,953 units against Tesla's 45,755, and registered 5,271 vehicles in October against Tesla's 4,050. Australia's shift mirrors the records set in Germany and the UK the same month — cheaper Chinese models and intense competition doing much of the work — and with November and December still to come, the open question is whether BYD can stretch its lead and whether Geely can hold its momentum."
-          ],
-          nguon: [
-            { ten: "EV Central (Australia)", link: "https://evcentral.com.au/tesla-and-byd-star-evs-and-hybrids-take-more-than-half-of-october-sales-as-petrol-and-diesel-slide/" },
-            { ten: "Cars24 (The Driven data)", link: "https://www.cars24.com.au/car-news/australian-electric-vehicle-sales-2026/" }
-          ],
-          gio: "Morning, Nov 10"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Tesla's China sales crash 66% to the lowest in over four years",
+          baiViet: [
+            "Only 8,817 of the cars Tesla delivered from Giga Shanghai in October went to Chinese buyers — down 66% from a year ago and Tesla's worst month in China since July 2022, according to CPCA data. Through October, Tesla has sold 389,905 cars in China, down 15% from the same period last year and its lowest January-to-October total in at least four years.",
+            "The wholesale picture looks very different: Tesla China wholesaled 67,829 vehicles in October, up 10.3% year on year — but 59,012 of those were exports, 87% of the total, up from 58% a year earlier. Nearly all domestic sales were Model Ys (7,807), leaving just 1,010 Model 3s.",
+            "Tesla's slide contrasts with a booming Chinese market for local brands: Xiaomi delivered more than 50,000 vehicles in October, Leapmotor delivered 106,127 (up 51%), and BYD delivered 490,168 including exports. Tesla has followed a sawtooth pattern in China for years — last October was also weak before November and December surged — but October's figure is less than half of the previous low this year, and the company now holds only about 0.8% of China's NEV retail market."
+          ],
+          nguon: [
+            { ten: "Electrek (via 7788news)", link: "https://www.7788news.com/en/article/auto-5443f434" },
+            { ten: "CnEVPost (CPCA data)", link: "https://cnevpost.com/2026/11/10/china-nev-share-oct-2026/" },
+            { ten: "Inside China Auto (CPCA data)", link: "https://insidechinaauto.com/2026/11/11/china-nev-share-hits-record-67-5-in-october-as-retail-sales-fall-13-7/" }
+          ],
+          gio: "Evening, Nov 11"
+        },
         {
           tieuDe: "Svolt's semi-solid-state battery enters mass production: 100 kWh, 500 km in 12 minutes",
           baiViet: [
@@ -73,20 +88,6 @@ window.TIN_TUC = {
             { ten: "CarNewsChina", link: "https://carnewschina.com/2026/10/26/gwms-svolt-began-mass-production-of-100-kwh-semi-solid-batteries/" }
           ],
           gio: "Morning, Nov 11"
-        },
-        {
-          tieuDe: "Tesla's European rebound: registrations triple in Spain and Sweden — but BYD still leads the year",
-          baiViet: [
-            "Tesla's October registrations jumped across six European markets, according to national registration data cited by Reuters: Spain up 271%, Sweden up 248%, Portugal up 186%, Norway up 131%, Italy up 94% and Denmark up 34%. In Germany, Tesla registered 2,932 cars in October — up 290.9% year on year — split into 2,534 Model Ys and 397 Model 3s.",
-            "The rebound has not yet repaired the year-to-date picture. ACEA data for January to September shows BYD at 283,997 European sales against Tesla's 260,575 — a lead of 23,422 vehicles — and Chery edged past Tesla by just 75 registrations, 260,650 to 260,575. In Germany, BYD moved back ahead of Tesla for the year, 47,961 to 47,742, although BYD's total includes plug-in hybrids while every Tesla is battery-electric. Chinese brands took a record 22.5% of new passenger-car registrations in Norway in October.",
-            "Tesla's sales figures could get a further lift from its Full Self-Driving system, approved in Latvia — the tenth EU country to approve the technology. The next ACEA monthly release will show whether October's gains carry into the year-to-date share, and November numbers in early December will give a second data point on whether the jump was a spike or a trend."
-          ],
-          nguon: [
-            { ten: "Tech Insider (Reuters data)", link: "https://tech-insider.org/tesla-europe-rebound-spain-271-percent-byd-ahead-chinese-brands-2026/" },
-            { ten: "EuropeSays (Reuters)", link: "https://www.europesays.com/europe/174593/" },
-            { ten: "Gumtree (ACEA data)", link: "https://www.gumtree.com/news/cars/chery-edges-past-tesla-europe-bev-share" }
-          ],
-          gio: "Evening, Nov 10"
         },
       ]
     }
