@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Wednesday, November 11, 2026 — evening edition",
+  capNhat: "Thursday, November 12, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "BYD passes Tesla across Europe — and in Germany — as Chinese brands keep gaining ground",
+          baiViet: [
+            "BYD has overtaken Tesla in Europe. Across the EU, EFTA and the UK, BYD registered 283,997 cars in the first nine months of 2026 against Tesla's 260,575 — a lead of 23,422 vehicles, or about 9% of Tesla's total — according to ACEA data. Chinese groups as a whole registered 1,248,695 cars over the same period, up 69.3% year on year, lifting their share by 4.4 percentage points.",
+            "Germany tells the same story in miniature. BYD registered 5,173 cars there in October and now leads Tesla for the year, 47,961 to 47,742 — a gap of just 219 cars. Tesla's October was still strong in isolation: 2,932 registrations, up 290.9% on a year earlier, with the Model Y accounting for 2,534 of them. Across six European markets, Tesla's October registrations jumped sharply — Spain up 271%, Sweden 248%, Portugal 186%, Norway 131% and Italy 94% — according to national data compiled by Reuters.",
+            "The wider market is moving BYD's way regardless. Battery-electrics took 24.2% of new registrations across the EU, EFTA and the UK in the first nine months of 2026, up from 18.1% a year earlier, and in September alone the BEV share hit 30.5%. One caveat: Germany's KBA brand table does not split powertrains, so BYD's totals include plug-in hybrids and range extenders, while every Tesla is a pure battery-electric. The next test comes in late November, when ACEA publishes October data — showing whether Tesla's rebound is a spike or the start of a fightback."
+          ],
+          nguon: [
+            { ten: "TeslAnt (KBA data)", link: "https://teslant.com/en/news/germany-october-2026-bev-37-percent-byd-back-ahead-of-tesla-2026-11" },
+            { ten: "Tech Insider (Reuters national data, ACEA)", link: "https://tech-insider.org/tesla-europe-rebound-spain-271-percent-byd-ahead-chinese-brands-2026/" },
+            { ten: "CAM AutomotiveCompass (ACEA data)", link: "https://www.linkedin.com/pulse/europe-grows-63-without-bevs-shrinks-chinese-oems-stefan-mnode" }
+          ],
+          gio: "Morning, Nov 12"
+        },
         {
           tieuDe: "China's NEVs hit a record 67.5% of October car sales — even as the market shrank",
           baiViet: [
@@ -41,26 +55,26 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 11"
         },
-        {
-          tieuDe: "France joins the 40% club: battery-electrics take 41% of October sales as Europe's EV wave spreads",
-          baiViet: [
-            "Battery-electric cars took 41% of new-car registrations in France in October 2026 — up from 24% a year earlier — as the country registered 149,341 new passenger cars, 7.0% more than in October 2025, according to PFA and AAA Data. The Tesla Model Y is France's best-selling electric car this year with 39,589 registrations, and the fifth best-selling car overall.",
-            "France is now the third major European market to pass a milestone in the same month: Germany's battery-electrics took a record 37% share in October and the UK's 32% — its highest this year. Spain's battery-electrics rose 81.2% to 16,425 units, and together with plug-in hybrids took 31.5% of the market, almost one sale in three. Norway remains in a league of its own: 98.0% of new cars registered from January to October were electric.",
-            "The pattern is consistent across the continent: purchase incentives, cheaper Chinese models and a wider choice of cars are doing the work, with ACEA data showing battery-electrics at 24.2% of new registrations across the EU, EFTA and the UK in the first nine months of 2026, up from 18.1% a year earlier. The open question now is whether the momentum survives the winter months, when the year-end push to meet mandate targets fades and the market finds its natural level."
-          ],
-          nguon: [
-            { ten: "EuropeSays (PFA/AAA Data, KBA, SMMT, ANFAC, OFV)", link: "https://www.europesays.com/france/107325/" },
-            { ten: "Gumtree (ACEA data)", link: "https://www.gumtree.com/news/cars/chery-edges-past-tesla-europe-bev-share" },
-            { ten: "TeslAnt (KBA data)", link: "https://teslant.com/en/news/germany-october-2026-bev-37-percent-byd-back-ahead-of-tesla-2026-11" }
-          ],
-          gio: "Evening, Nov 10"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Genesis GV90: Korea's $100,000-plus electric flagship with world-first coach doors goes on sale",
+          baiViet: [
+            "Genesis has opened orders in South Korea for the GV90, its first full-size electric flagship SUV, with prices starting at 139.5 million won — about $104,000 — for the seven-seat Standard model. The six-seat Individual Lounge Seat starts at 145.5 million won, while the Neolun version, with its signature coach doors, starts at 189.9 million won (about $141,500) and tops out at 239.5 million won (about $178,500) for the four-seat Executive Suite.",
+            "The headline feature is the Neolun Arch Gate: a set of coach doors with a hidden B-pillar that open in opposite directions and can be opened and closed independently — a world first, according to Genesis. The Neolun adds swivelling front seats, genuine wood floors with radiant heating and a rear refrigerator in the Executive Suite, aiming squarely at the Mercedes-Maybach and Bentley end of the market. Other firsts include a 12-airbag roof airbag system.",
+            "Underneath, the GV90 uses a 123.5 kWh battery — the largest Hyundai Motor has fitted to an EV — giving the seven-seater about 500 km (310 miles) of range and a 10–80% charge in around 22 minutes; the Neolun manages about 460 km. The cabin gets a 23.6-inch OLED display and a 25-speaker Bang & Olufsen sound system. Genesis will launch the GV90 in the US and other global markets in early 2027, with the Standard expected to start at around $100,000 and the Neolun closer to $150,000 or more."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/10/genesis-launches-flagship-gv90-starting-over-100000-korea/" },
+            { ten: "The Korea Times", link: "https://www.koreatimes.co.kr/amp/business/companies/20261110/genesis-gv90-sets-sights-on-bmw-mercedes-benz-in-full-size-luxury-suv-market" },
+            { ten: "Chosun Biz", link: "https://biz.chosun.com/en/en-industry/2026/11/10/YEH7CPEXXBCBTLRYAHY4NX5ANU/" }
+          ],
+          gio: "Morning, Nov 12"
+        },
         {
           tieuDe: "Tesla's China sales crash 66% to the lowest in over four years",
           baiViet: [
@@ -74,20 +88,6 @@ window.TIN_TUC = {
             { ten: "Inside China Auto (CPCA data)", link: "https://insidechinaauto.com/2026/11/11/china-nev-share-hits-record-67-5-in-october-as-retail-sales-fall-13-7/" }
           ],
           gio: "Evening, Nov 11"
-        },
-        {
-          tieuDe: "Svolt's semi-solid-state battery enters mass production: 100 kWh, 500 km in 12 minutes",
-          baiViet: [
-            "Svolt Energy has started mass production of its 100-kWh 'Dragon Armor' semi-solid fast-charging battery pack, with the first batch rolling off the production line in Changzhou, Jiangsu province, on October 26. The pack is built for 900-volt architectures and supports 6C charging; Svolt claims it can add 500 km (311 miles) of driving range in 12 minutes, though the company has not disclosed the test conditions behind that figure, the size of the first batch, or which vehicles will use it.",
-            "The design is a hybrid: a semi-solid electrolyte that keeps some liquid, built from three chemical systems Svolt describes as its long-term technology path rather than a mere stepping stone to fully solid-state batteries. First-generation packs deliver 300 Wh/kg, with a second generation targeting 360 Wh/kg in development; Svolt estimates the pack can last at least 1 million kilometres based on 3,000 charging cycles. The company says several carmakers have already nominated the battery for their vehicles, without naming them.",
-            "The milestone lands about a month after Svolt's original September target, and at costs the company says are already on par with conventional liquid-electrolyte lithium-ion cells — a claim that matters more than the headline charging speed if it holds. Svolt holds 2.6% of the global EV battery market, ranking ninth worldwide, with 22.0 GWh installed in January–August 2026, up 39.3% year on year. Fully solid-state batteries remain distant from mass production, but Svolt's bet is that 2026 marks the start of widespread semi-solid adoption — and CATL, the world's largest battery maker, has meanwhile advanced its own solid-state cells to 20 Ah."
-          ],
-          nguon: [
-            { ten: "CnEVPost", link: "https://cnevpost.com/2026/10/26/svolt-begins-mass-production-100-kwh-semi-solid-packs/" },
-            { ten: "Interesting Engineering", link: "https://site-test.interestingengineering.com/energy/china-mass-production-100kwh-ev-battery" },
-            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/10/26/gwms-svolt-began-mass-production-of-100-kwh-semi-solid-batteries/" }
-          ],
-          gio: "Morning, Nov 11"
         },
       ]
     }
