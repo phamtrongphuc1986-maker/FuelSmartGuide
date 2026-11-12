@@ -7,12 +7,25 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thursday, November 12, 2026 — morning edition",
+  capNhat: "Thursday, November 12, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "India's EV sales cross 300,000 in a year for the first time — up 66% with seven weeks still to go",
+          baiViet: [
+            "India's electric passenger-vehicle market has passed 300,000 retail sales in a calendar year for the first time. According to Vahan registration data, 304,701 zero-emission cars, SUVs and MPVs were delivered to customers between January 1 and November 9, 2026 — up 66% year on year. With 52 days still to go before the year ends, the segment has already beaten all of 2025 (195,571 units) by 56%.",
+            "The fourth quarter has started strongly: 37,516 units in October and 10,031 in the first nine days of November. If the pace holds, India is on course to close 2026 with an estimated 350,000 to 360,000 electric passenger vehicles sold. BYD ranks seventh among 19 brands with 6,755 units so far this year, while Tesla — which sells only the Model Y and Model Y L in India — has delivered 1,153 cars, enough for third place among luxury EV makers, ahead of Volvo, with September its best month to date.",
+            "The milestone underlines how fast the world's third-largest car market is electrifying from a low base: electric cars are still a small slice of total sales, but growth of two-thirds in a year — in a market where charging infrastructure is still catching up — suggests the tipping point is arriving sooner than many expected. The question for 2027 is whether the momentum survives once the festive-season boost that lifted November fades."
+          ],
+          nguon: [
+            { ten: "Autocar India", link: "https://www.autocarindia.com/car-news/annual-ev-sales-cross-3-lakh-mark-for-the-first-time-in-2026-441297" },
+            { ten: "Dailyhunt (Autocar Professional)", link: "https://m.dailyhunt.in/news/india/english/autocarpro-epaper-autocar/annual+electric+car+and+suv+sales+cross+300000+units+for+the+first+time+in+india+autocar+professional-newsid-n733489313" }
+          ],
+          gio: "Evening, Nov 12"
+        },
         {
           tieuDe: "BYD passes Tesla across Europe — and in Germany — as Chinese brands keep gaining ground",
           baiViet: [
@@ -41,26 +54,26 @@ window.TIN_TUC = {
           ],
           gio: "Evening, Nov 11"
         },
-        {
-          tieuDe: "BYD's October: a record 305,743 EVs in one month — more than the entire US sold all last quarter",
-          baiViet: [
-            "BYD sold 490,168 new-energy vehicles in October 2026, up 11% year on year and its strongest month of the year so far — and the sixth consecutive month of growth. Battery-electric passenger cars did almost all of the work: 305,743 units, up 37.4% on a year earlier and the first month BYD has ever sold more than 300,000 pure electrics, a third straight monthly record. Pure electrics are now 63.3% of BYD's passenger sales; plug-in hybrids fell 17.2% to 177,382.",
-            "The headline hides a two-speed story. Exports more than doubled year on year to 170,194 vehicles — 34.7% of October sales — yet fell for a second month from August's record 189,466, while sales at home dropped 10.6% from a year earlier to 319,974. For the first ten months, BYD has sold 3,621,744 vehicles, still 2.2% below the same period of 2025; it needs November and December combined to beat last year's by more than 80,000 vehicles to finish the year ahead.",
-            "The scale is what stands out. BYD's 305,743 battery-electrics in a single month topped the 262,649 EVs sold across all brands in the entire United States in the third quarter, according to Kelley Blue Book estimates — a comparison that flatters BYD, since US sales were hit by the expiry of federal purchase incentives, but still shows the gap. The export engine is also showing up in earnings: third-quarter net profit rose 28% to 10 billion yuan on revenue of 221.5 billion yuan. BYD expects overseas shipments to reach about 2 million vehicles by the end of 2026."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/02/byd-sold-more-evs-last-month-than-the-us-did-all-quarter/" },
-            { ten: "Capital Times (CnEVPost data)", link: "https://capitaltimes.asia/asia/china/china-ev-deliveries-october-byd-xpeng-leapmotor/" },
-            { ten: "TeslAnt", link: "https://teslant.com/en/news/byd-october-2026-record-bev-305743-2026-11" }
-          ],
-          gio: "Morning, Nov 11"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "QuantumScape's Osprey solid-state platform: 1,000 cycles at ~80% capacity, 5-minute charging — in the lab, not yet in a car",
+          baiViet: [
+            "QuantumScape has unveiled Osprey, its next-generation open platform for all-solid-state batteries, the company announced on November 11. Osprey pairs QuantumScape's proprietary ceramic separator and anode-free lithium-metal design with a solid sulfide cathode — replacing the liquid electrolyte still used inside the cathode of its existing QSE platform — and the company says it is the world's first public data showing a sulfide-based cathode cycling 1,000 times under just one atmosphere of pressure.",
+            "The headline numbers come from early lab tests: cells kept about 80% of their capacity after 1,000 full charge-discharge cycles at one atmosphere, charged from 10% to 80% in about five minutes, and kept working below -20°C. QuantumScape projects energy densities of up to about 1,100 watt-hours per litre for future large-format cells. But the caveats matter: the figures come from different tests on small two-layer lab cells, not from a single cell meeting every target at once — independent analysis of the company's data notes the five-minute charge was demonstrated at 80°C — and the 1,100 Wh/L figure is a design projection, not a measurement from a production cell.",
+            "What Osprey changes commercially is the model, not just the chemistry: as an open platform, it lets other sulfide-battery developers and automakers use QuantumScape's ceramic separator with their own cathodes, opening licensing and co-development deals beyond its existing customers. Cells based on the current QSE platform are already shipping to customers, but Osprey manufacturing has only been demonstrated at lab scale, with no timeline for mass production — and no customer names or deal values disclosed. For drivers, solid-state remains a watch-this-space technology, not a showroom one."
+          ],
+          nguon: [
+            { ten: "QuantumScape (press release)", link: "https://www.quantumscape.com/quantumscape-expands-commercial-roadmap-with-osprey-the-open-all-solid-state-platform-for-battery-development/" },
+            { ten: "Electric & Hybrid Vehicle Technology International", link: "https://www.electrichybridvehicletechnology.com/news/quantumscape-osprey-solid-state-platform-shows-5-minute-10-80-charging-and-1000-cycles.html" },
+            { ten: "XenoSpectrum", link: "https://xenospectrum.com/en/quantumscape-osprey-solid-state-platform/" }
+          ],
+          gio: "Evening, Nov 12"
+        },
         {
           tieuDe: "Genesis GV90: Korea's $100,000-plus electric flagship with world-first coach doors goes on sale",
           baiViet: [
@@ -74,20 +87,6 @@ window.TIN_TUC = {
             { ten: "Chosun Biz", link: "https://biz.chosun.com/en/en-industry/2026/11/10/YEH7CPEXXBCBTLRYAHY4NX5ANU/" }
           ],
           gio: "Morning, Nov 12"
-        },
-        {
-          tieuDe: "Tesla's China sales crash 66% to the lowest in over four years",
-          baiViet: [
-            "Only 8,817 of the cars Tesla delivered from Giga Shanghai in October went to Chinese buyers — down 66% from a year ago and Tesla's worst month in China since July 2022, according to CPCA data. Through October, Tesla has sold 389,905 cars in China, down 15% from the same period last year and its lowest January-to-October total in at least four years.",
-            "The wholesale picture looks very different: Tesla China wholesaled 67,829 vehicles in October, up 10.3% year on year — but 59,012 of those were exports, 87% of the total, up from 58% a year earlier. Nearly all domestic sales were Model Ys (7,807), leaving just 1,010 Model 3s.",
-            "Tesla's slide contrasts with a booming Chinese market for local brands: Xiaomi delivered more than 50,000 vehicles in October, Leapmotor delivered 106,127 (up 51%), and BYD delivered 490,168 including exports. Tesla has followed a sawtooth pattern in China for years — last October was also weak before November and December surged — but October's figure is less than half of the previous low this year, and the company now holds only about 0.8% of China's NEV retail market."
-          ],
-          nguon: [
-            { ten: "Electrek (via 7788news)", link: "https://www.7788news.com/en/article/auto-5443f434" },
-            { ten: "CnEVPost (CPCA data)", link: "https://cnevpost.com/2026/11/10/china-nev-share-oct-2026/" },
-            { ten: "Inside China Auto (CPCA data)", link: "https://insidechinaauto.com/2026/11/11/china-nev-share-hits-record-67-5-in-october-as-retail-sales-fall-13-7/" }
-          ],
-          gio: "Evening, Nov 11"
         },
       ]
     }
