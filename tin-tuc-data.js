@@ -7,12 +7,25 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thursday, November 12, 2026 — evening edition",
+  capNhat: "Friday, November 13, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "EU set to delay 10% tariff on UK-built EVs as carmakers warn of a 1.4 billion pound bill",
+          baiViet: [
+            "Brussels is preparing to postpone a 10% tariff on electric cars traded with Britain, just seven weeks before the levy was due to take effect on 1 January 2027. The Financial Times reported on Thursday 12 November that the European Union is consulting carmakers on delaying the duty, citing people close to the matter, and that London supports the move. Any decision is expected to be considered after a joint EU-UK summit on 20 November, leaving manufacturers in limbo as the deadline approaches.",
+            "The tariff stems from post-Brexit rules of origin, which require at least 55% of an electric car's value to come from the EU or Britain, along with 65% of its battery cells and modules and 70% of its battery pack. Vehicles falling short would face the 10% duty from January. The industry argues the thresholds are still out of reach because Europe's battery supply chain has not developed fast enough, and the rules were already postponed once, from 2024 to 2027, for the same reason. The European carmakers' association ACEA warned in September that 82% of the roughly 520,000 EVs expected to be sold in 2027 would be caught by the levy, while Britain's Society of Motor Manufacturers and Traders estimated the bill at 1.4 billion pounds.",
+            "The irony is that a measure designed to protect European industry from Chinese competition could end up helping it. If British-built EVs become more expensive in Europe, Chinese models could look more attractive in Britain, while UK-built cars lose ground on the continent. The two sides are each other's largest export market for electric cars, and both aim to phase out combustion-engine models during the 2030s. A compromise now under discussion would be a one- or two-year arrangement letting carmakers offset non-compliant exports against compliant domestic sales, buying time for local battery production to catch up."
+          ],
+          nguon: [
+            { ten: "Reuters via Business Day", link: "https://www.businessday.co.za/motoring/2026-11-12-eu-may-delay-10-tariff-on-uk-electric-cars/" },
+            { ten: "EV Powered", link: "https://evpowered.co.uk/news/eu-set-to-postpone-10-ev-tariff-on-uk-built-cars/" }
+          ],
+          gio: "Morning, Nov 13"
+        },
         {
           tieuDe: "India's EV sales cross 300,000 in a year for the first time — up 66% with seven weeks still to go",
           baiViet: [
@@ -40,26 +53,25 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 12"
         },
-        {
-          tieuDe: "China's NEVs hit a record 67.5% of October car sales — even as the market shrank",
-          baiViet: [
-            "New-energy vehicles took a record 67.5% of China's passenger-car retail sales in October, according to final data from the China Passenger Car Association (CPCA) — even though NEV retail sales fell 13.7% year on year to 1.109 million units. It was the tenth consecutive month of year-on-year decline for the segment, as Beijing phases out trade-in subsidies and the NEV purchase-tax exemption was halved on January 1.",
-            "The mix is shifting fast: battery-electrics made up 770,000 retail sales, down 5.3% year on year; plug-in hybrids fell 37.2% to 226,000, while extended-range EVs rose 1% to 114,000, helped mainly by Xiaomi and Leapmotor. NEV exports more than doubled to a record 582,000 units, with BYD leading at a 28.3% share of exports, ahead of Chery (14.4%) and Geely (13.8%).",
-            "BYD sold almost twice as many NEVs at retail as second-placed Geely in October — 250,301 units, a 22.4% share — followed by Geely with 131,708 and Leapmotor with 83,573. Tesla dropped out of the top 10 entirely after ranking fourth in September, with just 8,817 retail sales. The CPCA warned that 'short-term support for November exports should not be extrapolated into a sustained uptrend', saying some orders had been brought forward ahead of expected cuts to export tax rebates and tariff changes."
-          ],
-          nguon: [
-            { ten: "Inside China Auto (CPCA data)", link: "https://insidechinaauto.com/2026/11/11/china-nev-share-hits-record-67-5-in-october-as-retail-sales-fall-13-7/" },
-            { ten: "CnEVPost (CPCA data)", link: "https://cnevpost.com/2026/11/10/china-nev-share-oct-2026/" },
-            { ten: "Electrek (via 7788news)", link: "https://www.7788news.com/en/article/auto-5443f434" }
-          ],
-          gio: "Evening, Nov 11"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "BYD launches Denza N8: a 1,003 km luxury electric SUV from about 40,000 dollars",
+          baiViet: [
+            "BYD's premium brand Denza officially launched the all-electric N8 SUV in China on Thursday 12 November, after opening pre-orders on 26 October. The five-seat luxury SUV comes in six variants, including four battery-electric versions and two plug-in hybrids, with the pure-electric models priced from 269,900 to 329,900 yuan, roughly 40,300 to 49,200 dollars. Denza pitches the car as the king of large five-seat pure-electric vehicles, dropping the third row of its larger N8L sibling in favour of extra passenger space and 1,046 litres of boot capacity.",
+            "The headline figure is range. Two second-generation Blade battery packs are offered, at 105.8 kWh and 130.2 kWh, with the larger one certified at up to 1,003 km on China's CLTC test cycle, or about 812 km on the stricter WLTP cycle. Denza calls it the longest range of any mass-produced all-electric SUV, matching the combined petrol-plus-electric range of the plug-in hybrid N8 it replaces. Just as important for long trips is charging speed: with BYD's Flash Charging technology, the battery can go from 10% to 70% in five minutes and from 10% to 97% in nine minutes, though those times depend on access to compatible ultra-fast chargers.",
+            "Performance and cabin technology are equally ambitious. The tri-motor all-wheel-drive version debuts BYD's e3 Evo platform, combining a 270 kW front motor with two 310 kW rear motors for 890 kW, or 1,193 horsepower, while single-motor rear-wheel-drive versions offer 320 kW or 370 kW. Inside, a 30-inch panoramic display stretches across the dashboard, joined by a 1.1-metre-wide head-up display, zero-gravity front and rear seats, a drop-down ceiling screen, and BYD's DiSus-A air suspension and God's Eye 5.0 driver assistance. The launch caps a strong run for the brand, which sold 15,152 vehicles in October, up 49.5% year on year, though Denza has announced no export plans for the N8 yet."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/12/byds-new-luxury-suv-brings-big-screens-big-range-starts-at-40000/" },
+            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/12/byds-denza-n8-ev-launches-in-china-up-to-1003-km-cltc-range-starting-from-40300-usd/" }
+          ],
+          gio: "Morning, Nov 13"
+        },
         {
           tieuDe: "QuantumScape's Osprey solid-state platform: 1,000 cycles at ~80% capacity, 5-minute charging — in the lab, not yet in a car",
           baiViet: [
@@ -73,20 +85,6 @@ window.TIN_TUC = {
             { ten: "XenoSpectrum", link: "https://xenospectrum.com/en/quantumscape-osprey-solid-state-platform/" }
           ],
           gio: "Evening, Nov 12"
-        },
-        {
-          tieuDe: "Genesis GV90: Korea's $100,000-plus electric flagship with world-first coach doors goes on sale",
-          baiViet: [
-            "Genesis has opened orders in South Korea for the GV90, its first full-size electric flagship SUV, with prices starting at 139.5 million won — about $104,000 — for the seven-seat Standard model. The six-seat Individual Lounge Seat starts at 145.5 million won, while the Neolun version, with its signature coach doors, starts at 189.9 million won (about $141,500) and tops out at 239.5 million won (about $178,500) for the four-seat Executive Suite.",
-            "The headline feature is the Neolun Arch Gate: a set of coach doors with a hidden B-pillar that open in opposite directions and can be opened and closed independently — a world first, according to Genesis. The Neolun adds swivelling front seats, genuine wood floors with radiant heating and a rear refrigerator in the Executive Suite, aiming squarely at the Mercedes-Maybach and Bentley end of the market. Other firsts include a 12-airbag roof airbag system.",
-            "Underneath, the GV90 uses a 123.5 kWh battery — the largest Hyundai Motor has fitted to an EV — giving the seven-seater about 500 km (310 miles) of range and a 10–80% charge in around 22 minutes; the Neolun manages about 460 km. The cabin gets a 23.6-inch OLED display and a 25-speaker Bang & Olufsen sound system. Genesis will launch the GV90 in the US and other global markets in early 2027, with the Standard expected to start at around $100,000 and the Neolun closer to $150,000 or more."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/10/genesis-launches-flagship-gv90-starting-over-100000-korea/" },
-            { ten: "The Korea Times", link: "https://www.koreatimes.co.kr/amp/business/companies/20261110/genesis-gv90-sets-sights-on-bmw-mercedes-benz-in-full-size-luxury-suv-market" },
-            { ten: "Chosun Biz", link: "https://biz.chosun.com/en/en-industry/2026/11/10/YEH7CPEXXBCBTLRYAHY4NX5ANU/" }
-          ],
-          gio: "Morning, Nov 12"
         },
       ]
     }
