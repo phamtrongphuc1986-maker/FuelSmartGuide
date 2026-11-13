@@ -7,12 +7,25 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Friday, November 13, 2026 — morning edition",
+  capNhat: "Friday, November 13, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Global EV sales return to growth in October as Europe's electric cars jump 49%",
+          baiViet: [
+            "Global electric vehicle sales returned to growth in October, with 2.09 million battery-electric and plug-in hybrid cars sold worldwide, up 8% on the same month last year. The figures, from research firm Benchmark Mineral Intelligence and published on 12 November, bring sales for the first ten months of 2026 to 17.5 million, up 5% year on year. The rebound ends a run of weaker months, though it was helped by an unusually soft comparison in the United States.",
+            "Europe did most of the heavy lifting. The region sold 510,000 EVs in October, up 36% year on year, with fully electric cars surging 49% and plug-in hybrids rising a more modest 7%. Germany led the charge: electric cars took more than 45% of new car sales, their highest share since December 2022, and battery-electric sales there rose almost 80% to more than 95,000. Britain's EV sales grew 30% even though its Electric Car Grant was already in place a year earlier, and in Portugal EVs accounted for 55% of new cars sold. Reuters noted that subsidies, rising fuel prices, EU emissions rules and a wider choice of models are all pulling buyers in.",
+            "Elsewhere the picture is more mixed. China sold 1.14 million EVs, down 12% year on year, but its carmakers more than made up for the domestic dip abroad: exports of new energy vehicles hit a fresh monthly record of nearly 600,000. North America posted its first year-on-year increase of 2026, up 24% to 130,000, yet the comparison is flattering — October 2025 was the first month after the US federal EV tax credit expired, when sales collapsed. Benchmark's data manager Charles Lester said the US market has stabilised at a lower level rather than recovered. Sales in the rest of the world jumped 85% to 300,000, largely on the back of Chinese exports, but that flow now faces headwinds: the EU has agreed to cap imports of Chinese-built hybrids, and China will cut its EV export VAT rebate from 13% to 9% from 1 April 2027."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/11/europes-electric-car-sales-jump-49-as-global-ev-sales-grow/" },
+            { ten: "Reuters via The Hindu BusinessLine", link: "https://www.thehindubusinessline.com/news/world/global-electric-vehicle-sales-return-to-growth-in-october/article71692211.ece" }
+          ],
+          gio: "Evening, Nov 13"
+        },
         {
           tieuDe: "EU set to delay 10% tariff on UK-built EVs as carmakers warn of a 1.4 billion pound bill",
           baiViet: [
@@ -39,26 +52,25 @@ window.TIN_TUC = {
           ],
           gio: "Evening, Nov 12"
         },
-        {
-          tieuDe: "BYD passes Tesla across Europe — and in Germany — as Chinese brands keep gaining ground",
-          baiViet: [
-            "BYD has overtaken Tesla in Europe. Across the EU, EFTA and the UK, BYD registered 283,997 cars in the first nine months of 2026 against Tesla's 260,575 — a lead of 23,422 vehicles, or about 9% of Tesla's total — according to ACEA data. Chinese groups as a whole registered 1,248,695 cars over the same period, up 69.3% year on year, lifting their share by 4.4 percentage points.",
-            "Germany tells the same story in miniature. BYD registered 5,173 cars there in October and now leads Tesla for the year, 47,961 to 47,742 — a gap of just 219 cars. Tesla's October was still strong in isolation: 2,932 registrations, up 290.9% on a year earlier, with the Model Y accounting for 2,534 of them. Across six European markets, Tesla's October registrations jumped sharply — Spain up 271%, Sweden 248%, Portugal 186%, Norway 131% and Italy 94% — according to national data compiled by Reuters.",
-            "The wider market is moving BYD's way regardless. Battery-electrics took 24.2% of new registrations across the EU, EFTA and the UK in the first nine months of 2026, up from 18.1% a year earlier, and in September alone the BEV share hit 30.5%. One caveat: Germany's KBA brand table does not split powertrains, so BYD's totals include plug-in hybrids and range extenders, while every Tesla is a pure battery-electric. The next test comes in late November, when ACEA publishes October data — showing whether Tesla's rebound is a spike or the start of a fightback."
-          ],
-          nguon: [
-            { ten: "TeslAnt (KBA data)", link: "https://teslant.com/en/news/germany-october-2026-bev-37-percent-byd-back-ahead-of-tesla-2026-11" },
-            { ten: "Tech Insider (Reuters national data, ACEA)", link: "https://tech-insider.org/tesla-europe-rebound-spain-271-percent-byd-ahead-chinese-brands-2026/" },
-            { ten: "CAM AutomotiveCompass (ACEA data)", link: "https://www.linkedin.com/pulse/europe-grows-63-without-bevs-shrinks-chinese-oems-stefan-mnode" }
-          ],
-          gio: "Morning, Nov 12"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "BYD's luxury brand Denza enters India with 1,156 hp Z9 GT and seven-seat D9 MPV",
+          baiViet: [
+            "BYD's luxury brand Denza formally entered India on Friday 13 November, launching two all-electric models at once: the Z9 GT performance shooting brake, priced at 1.57 crore rupees ex-showroom, and the D9 seven-seat luxury MPV at 90 lakh rupees. Bookings opened the same day with a 10 lakh rupee deposit, and the brand will sell through dedicated Denza showrooms in six cities — Mumbai, Gurugram, Ahmedabad, Bengaluru, Chennai and Hyderabad. Both cars arrive as fully built imports, positioning Denza squarely in India's small but fast-growing ultra-luxury EV segment.",
+            "The Z9 GT is the headline act. Three electric motors drive all four wheels with a combined 1,156 hp and 1,210 Nm of torque, launching the car from 0 to 100 km/h in 2.7 seconds and on to a 270 km/h top speed. Its 122.49 kWh second-generation Blade battery is rated at up to 670 km on the NEDC cycle, and independent wheel control allows party tricks such as a diagonal crab walk and a spot turn. The D9 takes the opposite approach: a single front motor making 462 hp, a 115.07 kWh battery good for up to 730 km NEDC, and DC fast charging from 10% to 97% in nine minutes, wrapped in a 2+2+3 cabin with reclining second-row captain seats aimed at chauffeur-driven buyers.",
+            "The launch marks a deliberate step upmarket for BYD in India, where it has so far sold more than 20,000 cars through 50 showrooms in 40 cities. Denza began in 2010 as a joint venture between BYD and Mercedes-Benz and now operates in more than 100 countries, but India is a new test: the D9 must win over buyers of the Toyota Vellfire and MG M9, while the Z9 GT has no direct rival at all as India's only shooting brake. Buyers get a home charger with installation, six years of roadside assistance, and a warranty of six years or 150,000 km, with the battery covered for eight years or 160,000 km. The debut comes a day after Denza launched its N8 luxury SUV in China, underlining how quickly BYD is pushing its premium brand into new markets."
+          ],
+          nguon: [
+            { ten: "The Hindu", link: "https://www.thehindu.com/life-and-style/motoring/byd-brings-its-luxury-electric-brand-denza-into-india-introduces-two-models/article71697207.ece" },
+            { ten: "The Times of India", link: "https://timesofindia.indiatimes.com/auto/cars/denza-enters-india-with-z9-gt-and-d9-priced-from-rs-90-lakh/articleshow/135797465.cms" }
+          ],
+          gio: "Evening, Nov 13"
+        },
         {
           tieuDe: "BYD launches Denza N8: a 1,003 km luxury electric SUV from about 40,000 dollars",
           baiViet: [
@@ -71,20 +83,6 @@ window.TIN_TUC = {
             { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/12/byds-denza-n8-ev-launches-in-china-up-to-1003-km-cltc-range-starting-from-40300-usd/" }
           ],
           gio: "Morning, Nov 13"
-        },
-        {
-          tieuDe: "QuantumScape's Osprey solid-state platform: 1,000 cycles at ~80% capacity, 5-minute charging — in the lab, not yet in a car",
-          baiViet: [
-            "QuantumScape has unveiled Osprey, its next-generation open platform for all-solid-state batteries, the company announced on November 11. Osprey pairs QuantumScape's proprietary ceramic separator and anode-free lithium-metal design with a solid sulfide cathode — replacing the liquid electrolyte still used inside the cathode of its existing QSE platform — and the company says it is the world's first public data showing a sulfide-based cathode cycling 1,000 times under just one atmosphere of pressure.",
-            "The headline numbers come from early lab tests: cells kept about 80% of their capacity after 1,000 full charge-discharge cycles at one atmosphere, charged from 10% to 80% in about five minutes, and kept working below -20°C. QuantumScape projects energy densities of up to about 1,100 watt-hours per litre for future large-format cells. But the caveats matter: the figures come from different tests on small two-layer lab cells, not from a single cell meeting every target at once — independent analysis of the company's data notes the five-minute charge was demonstrated at 80°C — and the 1,100 Wh/L figure is a design projection, not a measurement from a production cell.",
-            "What Osprey changes commercially is the model, not just the chemistry: as an open platform, it lets other sulfide-battery developers and automakers use QuantumScape's ceramic separator with their own cathodes, opening licensing and co-development deals beyond its existing customers. Cells based on the current QSE platform are already shipping to customers, but Osprey manufacturing has only been demonstrated at lab scale, with no timeline for mass production — and no customer names or deal values disclosed. For drivers, solid-state remains a watch-this-space technology, not a showroom one."
-          ],
-          nguon: [
-            { ten: "QuantumScape (press release)", link: "https://www.quantumscape.com/quantumscape-expands-commercial-roadmap-with-osprey-the-open-all-solid-state-platform-for-battery-development/" },
-            { ten: "Electric & Hybrid Vehicle Technology International", link: "https://www.electrichybridvehicletechnology.com/news/quantumscape-osprey-solid-state-platform-shows-5-minute-10-80-charging-and-1000-cycles.html" },
-            { ten: "XenoSpectrum", link: "https://xenospectrum.com/en/quantumscape-osprey-solid-state-platform/" }
-          ],
-          gio: "Evening, Nov 12"
         },
       ]
     }
