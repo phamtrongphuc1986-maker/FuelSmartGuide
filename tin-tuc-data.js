@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Friday, November 13, 2026 — evening edition",
+  capNhat: "Saturday, November 14, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Canada raises EV luxury-tax threshold to 150,000 dollars in a break for premium electric cars",
+          baiViet: [
+            "Canada is lifting the price threshold at which its federal luxury tax kicks in for zero-emission vehicles, from 100,000 to 150,000 Canadian dollars. Finance Minister Francois-Philippe Champagne announced the proposal in Ottawa on Thursday 12 November, and the government says the higher threshold is intended to apply from Friday 13 November, subject to subsequent parliamentary approval. The change covers fully electric and hydrogen-powered vehicles only; every other vehicle stays under the existing 100,000-dollar threshold.",
+            "The saving for buyers in the newly exempt band is substantial. Under the existing levy, the tax is the lesser of 10% of a vehicle's full value or 20% of the amount above the threshold, so a qualifying electric car valued at 120,000 dollars would see its luxury-tax bill fall from 4,000 dollars to zero, and one priced at exactly 150,000 dollars would save 10,000 dollars. Even cars above the new line benefit: a 160,000-dollar EV would owe 2,000 dollars instead of 12,000. Plug-in hybrids do not qualify, and the tax still applies to sales, imports, leases and certain improvements, with GST, HST and provincial sales taxes untouched.",
+            "In practice, the winners are mostly premium brands other than Tesla. The automaker discontinued the Model S and Model X earlier this year, and the Cybertruck largely falls outside the tax anyway because its gross vehicle weight rating exceeds the 3,856 kg limit for covered vehicles. Rivian's R1T and R1S, and Lucid's Air Touring from 112,800 dollars and Gravity from 113,500 dollars, sit below the new threshold and could escape the levy entirely at their starting prices. Ottawa framed the move as recognition that zero-emission vehicles still cost more up front, alongside Budget 2026's commitment of 587 million dollars over five years to install more than 55,000 additional chargers, roughly doubling the federally supported network."
+          ],
+          nguon: [
+            { ten: "Government of Canada", link: "https://www.canada.ca/en/department-finance/news/2026/11/government-of-canada-adjusts-the-taxable-value-threshold-for-zero-emission-vehicles.html" },
+            { ten: "Tesla North", link: "https://teslanorth.com/2026/11/13/canada-ev-luxury-tax-threshold-150000/" },
+            { ten: "Drive Tesla Canada", link: "https://driveteslacanada.ca/news/luxury-tax-ev-threshold-150000/" }
+          ],
+          gio: "Morning, Nov 14"
+        },
         {
           tieuDe: "Global EV sales return to growth in October as Europe's electric cars jump 49%",
           baiViet: [
@@ -39,25 +53,26 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 13"
         },
-        {
-          tieuDe: "India's EV sales cross 300,000 in a year for the first time — up 66% with seven weeks still to go",
-          baiViet: [
-            "India's electric passenger-vehicle market has passed 300,000 retail sales in a calendar year for the first time. According to Vahan registration data, 304,701 zero-emission cars, SUVs and MPVs were delivered to customers between January 1 and November 9, 2026 — up 66% year on year. With 52 days still to go before the year ends, the segment has already beaten all of 2025 (195,571 units) by 56%.",
-            "The fourth quarter has started strongly: 37,516 units in October and 10,031 in the first nine days of November. If the pace holds, India is on course to close 2026 with an estimated 350,000 to 360,000 electric passenger vehicles sold. BYD ranks seventh among 19 brands with 6,755 units so far this year, while Tesla — which sells only the Model Y and Model Y L in India — has delivered 1,153 cars, enough for third place among luxury EV makers, ahead of Volvo, with September its best month to date.",
-            "The milestone underlines how fast the world's third-largest car market is electrifying from a low base: electric cars are still a small slice of total sales, but growth of two-thirds in a year — in a market where charging infrastructure is still catching up — suggests the tipping point is arriving sooner than many expected. The question for 2027 is whether the momentum survives once the festive-season boost that lifted November fades."
-          ],
-          nguon: [
-            { ten: "Autocar India", link: "https://www.autocarindia.com/car-news/annual-ev-sales-cross-3-lakh-mark-for-the-first-time-in-2026-441297" },
-            { ten: "Dailyhunt (Autocar Professional)", link: "https://m.dailyhunt.in/news/india/english/autocarpro-epaper-autocar/annual+electric+car+and+suv+sales+cross+300000+units+for+the+first+time+in+india+autocar+professional-newsid-n733489313" }
-          ],
-          gio: "Evening, Nov 12"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "BMW opens 700 million dollar Woodruff battery plant to power its first US-built electric SUV",
+          baiViet: [
+            "BMW officially opened its new Plant Woodruff in South Carolina on Friday 13 November, starting series production of sixth-generation high-voltage batteries and marking the beginning of fully electric vehicle production in the United States. The 700 million dollar, one-million-square-foot facility was first announced in October 2022 and now employs more than 300 people working alongside 250 robots, assembling battery packs that are trucked about 15 miles to BMW's Plant Spartanburg for installation in the new iX5, the first fully electric BMW ever assembled in America.",
+            "Woodruff is the fourth site in BMW's global Gen6 battery network to reach series production, after Debrecen in Hungary, Irlbach-Strasskirchen in Germany and Shenyang in China, with a fifth plant in San Luis Potosi, Mexico, due to follow in 2027. The plant uses AI-supported production, digital twins and virtual reality training, and every battery is checked against more than 90 characteristics before end-of-line testing under BMW's zero-defect approach. The packs are built from cells shipped in from China by supplier AESC, while BMW has also signed LG Energy Solution to supply US-made Gen6 cells later in the decade.",
+            "The opening is the centrepiece of a much larger bet on American-made electric cars. BMW has spent 1.7 billion dollars expanding its Upstate operations for EV production since 2022, bringing its total investment in South Carolina since 1992 to nearly 16 billion dollars, and it plans to assemble at least six fully electric models at Spartanburg by 2030, starting with the iX5, which goes on sale early next year. Spartanburg is already BMW's largest plant in the world, producing more than 412,800 vehicles last year, around 200,000 of them exported at a value of 9 billion dollars, and generating 36.1 billion dollars of annual economic output in the state."
+          ],
+          nguon: [
+            { ten: "BMW Group Newsroom", link: "https://newsroom.bmwgroup.com/global/bmw-group-opens-plant-woodruff/" },
+            { ten: "Greenville News", link: "https://www.greenvilleonline.com/story/money/business/2026/11/13/bmw-opens-700m-woodruff-plant-to-power-its-first-us-made-ev/92756511007/" },
+            { ten: "SC Daily Gazette", link: "https://www.gofountaininn.com/news/bmw-opens-sc-battery-plant-with-plans-to-build-6-all-electric-vehicles-by-2030/article_aa2a637f-4e3e-5ff1-a2f0-3641a70f9b6f.html" }
+          ],
+          gio: "Morning, Nov 14"
+        },
         {
           tieuDe: "BYD's luxury brand Denza enters India with 1,156 hp Z9 GT and seven-seat D9 MPV",
           baiViet: [
@@ -70,19 +85,6 @@ window.TIN_TUC = {
             { ten: "The Times of India", link: "https://timesofindia.indiatimes.com/auto/cars/denza-enters-india-with-z9-gt-and-d9-priced-from-rs-90-lakh/articleshow/135797465.cms" }
           ],
           gio: "Evening, Nov 13"
-        },
-        {
-          tieuDe: "BYD launches Denza N8: a 1,003 km luxury electric SUV from about 40,000 dollars",
-          baiViet: [
-            "BYD's premium brand Denza officially launched the all-electric N8 SUV in China on Thursday 12 November, after opening pre-orders on 26 October. The five-seat luxury SUV comes in six variants, including four battery-electric versions and two plug-in hybrids, with the pure-electric models priced from 269,900 to 329,900 yuan, roughly 40,300 to 49,200 dollars. Denza pitches the car as the king of large five-seat pure-electric vehicles, dropping the third row of its larger N8L sibling in favour of extra passenger space and 1,046 litres of boot capacity.",
-            "The headline figure is range. Two second-generation Blade battery packs are offered, at 105.8 kWh and 130.2 kWh, with the larger one certified at up to 1,003 km on China's CLTC test cycle, or about 812 km on the stricter WLTP cycle. Denza calls it the longest range of any mass-produced all-electric SUV, matching the combined petrol-plus-electric range of the plug-in hybrid N8 it replaces. Just as important for long trips is charging speed: with BYD's Flash Charging technology, the battery can go from 10% to 70% in five minutes and from 10% to 97% in nine minutes, though those times depend on access to compatible ultra-fast chargers.",
-            "Performance and cabin technology are equally ambitious. The tri-motor all-wheel-drive version debuts BYD's e3 Evo platform, combining a 270 kW front motor with two 310 kW rear motors for 890 kW, or 1,193 horsepower, while single-motor rear-wheel-drive versions offer 320 kW or 370 kW. Inside, a 30-inch panoramic display stretches across the dashboard, joined by a 1.1-metre-wide head-up display, zero-gravity front and rear seats, a drop-down ceiling screen, and BYD's DiSus-A air suspension and God's Eye 5.0 driver assistance. The launch caps a strong run for the brand, which sold 15,152 vehicles in October, up 49.5% year on year, though Denza has announced no export plans for the N8 yet."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/12/byds-new-luxury-suv-brings-big-screens-big-range-starts-at-40000/" },
-            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/12/byds-denza-n8-ev-launches-in-china-up-to-1003-km-cltc-range-starting-from-40300-usd/" }
-          ],
-          gio: "Morning, Nov 13"
         },
       ]
     }
