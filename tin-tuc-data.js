@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Saturday, November 14, 2026 — morning edition",
+  capNhat: "Saturday, November 14, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Tata Motors posts record quarter as EV sales jump 90% and pass 47,000 units",
+          baiViet: [
+            "Tata Motors Passenger Vehicles has reported its highest-ever quarterly revenue, with electric vehicle volumes surging about 90% year on year in the July-September 2026 quarter (Q2 FY27). Revenue rose 51% to Rs 20,423 crore while overall passenger vehicle volumes grew 40% to more than 200,000 units. EV sales crossed 47,000 units in the quarter, giving Tata an estimated 43% share of India's electric vehicle market based on Vahan registrations — up 380 basis points sequentially — with EVs accounting for 23% of the company's sales mix and CNG for 28%. Combined, alternative powertrains topped half of all Tata passenger vehicle sales in the quarter.",
+            "The quarter also brought a wave of new products. Tata launched the all-new Tata Aeris and reported a strong initial market response, alongside the Curvv Series X, the Sierra Legend Series and the Sierra Dark Edition. The company also launched the Osprey SUV — known internationally as the Tata Nexon — in South Africa, and extended its Battery-as-a-Service programme across its entire electric vehicle portfolio, a move designed to lower upfront costs for buyers by separating the battery from the purchase price.",
+            "Growth is now bumping into supply limits. Tata's management said the company is serving only 60 to 65% of EV demand and is working to lift monthly EV supplies from around 16,000 units at present to nearly 20,000 within the next two to three months, up from about 9,000 a month in March-April. Momentum carried into October, when Tata recorded its highest-ever monthly sales of about 75,400 units. Looking ahead, the company has begun production of the Range Rover Electric and Range Rover Sport Electric, with deliveries expected to start early next year, while the Range Rover GT is scheduled for production in 2027 at JLR's Halewood plant in northern England and the Jaguar Type 01 follows in FY28."
+          ],
+          nguon: [
+            { ten: "Times Now News", link: "https://www.timesnownews.com/auto/car-news/tata-motors-q2-results-revenue-jumps-51-per-cent-ev-sales-surge-90-per-cent-check-key-highlights-article-156508012" },
+            { ten: "The Economic Times Auto", link: "https://auto.economictimes.indiatimes.com/news/passenger-vehicle/tata-motors-to-ramp-up-monthly-ev-supplies-to-20000-in-2-3-months-amid-demand-surge/135820855" },
+            { ten: "Particle News", link: "https://particle.news/story/tata-motors-posts-record-q2-revenue-as-ev-sales-accelerate" }
+          ],
+          gio: "Evening, Nov 14"
+        },
         {
           tieuDe: "Canada raises EV luxury-tax threshold to 150,000 dollars in a break for premium electric cars",
           baiViet: [
@@ -27,38 +41,25 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 14"
         },
-        {
-          tieuDe: "Global EV sales return to growth in October as Europe's electric cars jump 49%",
-          baiViet: [
-            "Global electric vehicle sales returned to growth in October, with 2.09 million battery-electric and plug-in hybrid cars sold worldwide, up 8% on the same month last year. The figures, from research firm Benchmark Mineral Intelligence and published on 12 November, bring sales for the first ten months of 2026 to 17.5 million, up 5% year on year. The rebound ends a run of weaker months, though it was helped by an unusually soft comparison in the United States.",
-            "Europe did most of the heavy lifting. The region sold 510,000 EVs in October, up 36% year on year, with fully electric cars surging 49% and plug-in hybrids rising a more modest 7%. Germany led the charge: electric cars took more than 45% of new car sales, their highest share since December 2022, and battery-electric sales there rose almost 80% to more than 95,000. Britain's EV sales grew 30% even though its Electric Car Grant was already in place a year earlier, and in Portugal EVs accounted for 55% of new cars sold. Reuters noted that subsidies, rising fuel prices, EU emissions rules and a wider choice of models are all pulling buyers in.",
-            "Elsewhere the picture is more mixed. China sold 1.14 million EVs, down 12% year on year, but its carmakers more than made up for the domestic dip abroad: exports of new energy vehicles hit a fresh monthly record of nearly 600,000. North America posted its first year-on-year increase of 2026, up 24% to 130,000, yet the comparison is flattering — October 2025 was the first month after the US federal EV tax credit expired, when sales collapsed. Benchmark's data manager Charles Lester said the US market has stabilised at a lower level rather than recovered. Sales in the rest of the world jumped 85% to 300,000, largely on the back of Chinese exports, but that flow now faces headwinds: the EU has agreed to cap imports of Chinese-built hybrids, and China will cut its EV export VAT rebate from 13% to 9% from 1 April 2027."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/11/europes-electric-car-sales-jump-49-as-global-ev-sales-grow/" },
-            { ten: "Reuters via The Hindu BusinessLine", link: "https://www.thehindubusinessline.com/news/world/global-electric-vehicle-sales-return-to-growth-in-october/article71692211.ece" }
-          ],
-          gio: "Evening, Nov 13"
-        },
-        {
-          tieuDe: "EU set to delay 10% tariff on UK-built EVs as carmakers warn of a 1.4 billion pound bill",
-          baiViet: [
-            "Brussels is preparing to postpone a 10% tariff on electric cars traded with Britain, just seven weeks before the levy was due to take effect on 1 January 2027. The Financial Times reported on Thursday 12 November that the European Union is consulting carmakers on delaying the duty, citing people close to the matter, and that London supports the move. Any decision is expected to be considered after a joint EU-UK summit on 20 November, leaving manufacturers in limbo as the deadline approaches.",
-            "The tariff stems from post-Brexit rules of origin, which require at least 55% of an electric car's value to come from the EU or Britain, along with 65% of its battery cells and modules and 70% of its battery pack. Vehicles falling short would face the 10% duty from January. The industry argues the thresholds are still out of reach because Europe's battery supply chain has not developed fast enough, and the rules were already postponed once, from 2024 to 2027, for the same reason. The European carmakers' association ACEA warned in September that 82% of the roughly 520,000 EVs expected to be sold in 2027 would be caught by the levy, while Britain's Society of Motor Manufacturers and Traders estimated the bill at 1.4 billion pounds.",
-            "The irony is that a measure designed to protect European industry from Chinese competition could end up helping it. If British-built EVs become more expensive in Europe, Chinese models could look more attractive in Britain, while UK-built cars lose ground on the continent. The two sides are each other's largest export market for electric cars, and both aim to phase out combustion-engine models during the 2030s. A compromise now under discussion would be a one- or two-year arrangement letting carmakers offset non-compliant exports against compliant domestic sales, buying time for local battery production to catch up."
-          ],
-          nguon: [
-            { ten: "Reuters via Business Day", link: "https://www.businessday.co.za/motoring/2026-11-12-eu-may-delay-10-tariff-on-uk-electric-cars/" },
-            { ten: "EV Powered", link: "https://evpowered.co.uk/news/eu-set-to-postpone-10-ev-tariff-on-uk-built-cars/" }
-          ],
-          gio: "Morning, Nov 13"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "China's EV makers race ahead on lidar and 800V charging as Geely's EX2 outsells BYD's Seagull ten months running",
+          baiViet: [
+            "Chinese carmakers unleashed a concentrated wave of new electric models on Friday, November 13, with BYD debuting the third-generation Tang at 225,000 to 260,000 yuan and Voyah, AITO, Li Auto and others publishing new prices or availability. Battery and charging claims were central to the announcements: several models cite CLTC ranges of up to 850 km, multiple vehicles use CATL cells, and several are built on 800V platforms or fast-charge architectures designed to shorten charging times. The burst of launches signals a market shifting decisively toward sensor-rich, software-driven electric cars, where range, safety and cabin software are the key selling points.",
+            "Advanced driver assistance is now the main battleground. Several of the new releases highlighted high-line lidar hardware and software stacks, with Voyah and multiple GAC/Huawei models advertising Huawei 896-line lidar and ADS 5-series software, while over-the-air updates pushed ADS 5.0.2 to existing cars. The focus on lidar and assisted driving could accelerate adoption of higher-level driver assistance in China, though the CLTC range figures and some lidar details remain manufacturer claims that will need real-world verification.",
+            "Behind the launches, a sales upset is reshaping the budget EV segment. Geely's EX2 — sold domestically as the Xingyuan — has outsold BYD's redesigned Seagull in every month of 2026, recording 50,190 domestic sales in October against 10,134 for the Seagull, and 360,581 against 93,738 across January to October. The EX2 reached one million cumulative production units on October 20. BYD chairman Wang Chuanfu made an unannounced visit to an Ocean Series dealership in Shangqiu, Henan province, on November 13, personally handing over a second-generation Seagull to retail buyers and signing copies of his book 'The Soul of Engineers' — a hands-on show of confidence as the Seagull fights to close a gap that has widened to nearly four to one over ten months."
+          ],
+          nguon: [
+            { ten: "Particle News", link: "https://particle.news/story/chinas-automakers-unveil-new-ev-models-lidar-powered-driver-assist-and-major-ota-upgrades" },
+            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/14/byd-chairman-hands-over-new-seagull-as-geely-ex2-outsells-it-every-month-in-2026/" }
+          ],
+          gio: "Evening, Nov 14"
+        },
         {
           tieuDe: "BMW opens 700 million dollar Woodruff battery plant to power its first US-built electric SUV",
           baiViet: [
