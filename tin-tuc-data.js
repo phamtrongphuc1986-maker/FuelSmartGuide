@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Saturday, November 14, 2026 — evening edition",
+  capNhat: "Sunday, November 15, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Europe's electric cars outsell petrol in 2026 as BYD passes Tesla",
+          baiViet: [
+            "Battery-electric cars outsold petrol cars across Europe in the first nine months of 2026, according to ACEA registration data analysed by the Center of Automotive Management (CAM). BEV registrations rose 41.9% to 2.55 million units, a 24.2% share of the market, against 2.21 million petrol cars — down 18% to a 20.9% share. September alone brought 416,433 BEVs, up 59.9% year on year, for a record monthly share of 30.5%.",
+            "The growth is strikingly narrow: the overall market (EU plus EFTA and the UK) rose 6.3% to 10.56 million registrations, but BEVs added 752,752 units while all other powertrains combined shrank 1.5%. Chinese groups registered 1.25 million cars, up 69.3%, lifting their share by 4.4 percentage points in a year. BYD reached 283,997 units, up 134.6%, passing Tesla (260,575, up 50%) by 23,422 units — and in Germany, the continent's biggest market, October brought a record 37% BEV share, with BYD moving back ahead of Tesla for the year, 47,961 registrations to 47,742.",
+            "BYD is now raising its ambitions abroad. General manager Li Yunfei told media the company expects 1.8 million overseas sales in 2026, up from an original target of 1.3 million, while its German chief is targeting at least 55,000 deliveries and up to 300 sales locations by the end of the year. CAM cautions that the trend's durability will show in ACEA's October data, due in late November: a monthly BEV share near September's 30.5% would point to a full-year share of roughly 25–26%, with the gap between BEVs and petrol widening further."
+          ],
+          nguon: [
+            { ten: "Center of Automotive Management (CAM)", link: "https://www.linkedin.com/pulse/europe-grows-63-without-bevs-shrinks-chinese-oems-stefan-mnode" },
+            { ten: "TeslAnt", link: "https://teslant.com/en/news/germany-october-2026-bev-37-percent-byd-back-ahead-of-tesla-2026-11" },
+            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/unternehmensnachrichten/byd-refutes-digital-energy-takeover-chatter-as-1-8-million-overseas-goal-sets-the-bar/70513687" }
+          ],
+          gio: "Morning, Nov 15"
+        },
         {
           tieuDe: "Tata Motors posts record quarter as EV sales jump 90% and pass 47,000 units",
           baiViet: [
@@ -27,26 +41,26 @@ window.TIN_TUC = {
           ],
           gio: "Evening, Nov 14"
         },
-        {
-          tieuDe: "Canada raises EV luxury-tax threshold to 150,000 dollars in a break for premium electric cars",
-          baiViet: [
-            "Canada is lifting the price threshold at which its federal luxury tax kicks in for zero-emission vehicles, from 100,000 to 150,000 Canadian dollars. Finance Minister Francois-Philippe Champagne announced the proposal in Ottawa on Thursday 12 November, and the government says the higher threshold is intended to apply from Friday 13 November, subject to subsequent parliamentary approval. The change covers fully electric and hydrogen-powered vehicles only; every other vehicle stays under the existing 100,000-dollar threshold.",
-            "The saving for buyers in the newly exempt band is substantial. Under the existing levy, the tax is the lesser of 10% of a vehicle's full value or 20% of the amount above the threshold, so a qualifying electric car valued at 120,000 dollars would see its luxury-tax bill fall from 4,000 dollars to zero, and one priced at exactly 150,000 dollars would save 10,000 dollars. Even cars above the new line benefit: a 160,000-dollar EV would owe 2,000 dollars instead of 12,000. Plug-in hybrids do not qualify, and the tax still applies to sales, imports, leases and certain improvements, with GST, HST and provincial sales taxes untouched.",
-            "In practice, the winners are mostly premium brands other than Tesla. The automaker discontinued the Model S and Model X earlier this year, and the Cybertruck largely falls outside the tax anyway because its gross vehicle weight rating exceeds the 3,856 kg limit for covered vehicles. Rivian's R1T and R1S, and Lucid's Air Touring from 112,800 dollars and Gravity from 113,500 dollars, sit below the new threshold and could escape the levy entirely at their starting prices. Ottawa framed the move as recognition that zero-emission vehicles still cost more up front, alongside Budget 2026's commitment of 587 million dollars over five years to install more than 55,000 additional chargers, roughly doubling the federally supported network."
-          ],
-          nguon: [
-            { ten: "Government of Canada", link: "https://www.canada.ca/en/department-finance/news/2026/11/government-of-canada-adjusts-the-taxable-value-threshold-for-zero-emission-vehicles.html" },
-            { ten: "Tesla North", link: "https://teslanorth.com/2026/11/13/canada-ev-luxury-tax-threshold-150000/" },
-            { ten: "Drive Tesla Canada", link: "https://driveteslacanada.ca/news/luxury-tax-ev-threshold-150000/" }
-          ],
-          gio: "Morning, Nov 14"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "BYD's Fang Cheng Bao Ti 9 targets nine-minute charging ahead of November 19 launch",
+          baiViet: [
+            "BYD's Fang Cheng Bao brand will launch the Ti 9, a full-size six-seat plug-in hybrid SUV, in China on November 19, ahead of its public appearance at the Guangzhou Auto Show. The model pairs a 1.5-litre turbocharged petrol engine with two 200 kW permanent magnet electric motors for 400 kW combined, fed by a 66.48 kWh second-generation Blade Battery with a claimed 310 km of electric range under WLTC testing. It is the first Fang Cheng Bao model built on BYD's DMS hybrid platform with unibody construction.",
+            "The headline is charging speed: BYD claims its flash-charging system takes the battery from 10% to 70% in five minutes and to 97% in nine minutes — a figure that, if it holds up on public infrastructure, would make a charging stop nearly as quick as a petrol fill-up. The company has not disclosed the peak charging power, the infrastructure required to achieve the advertised times, or the conditions under which the figures were recorded, so independent verification will matter once the first cars reach customers.",
+            "The launch doubles as a production milestone: a Ti 9 rolled off BYD's Xi'an production line on November 9 as the company's 19-millionth new energy vehicle, and display cars have already reached 21 dealerships in 12 cities, with shipments to another 20 cities underway. BYD positions the Ti 9 in the 400,000-yuan class (about $55,300) but has yet to confirm its official price; pre-registration opened on September 29, followed by nationwide reservations on November 9."
+          ],
+          nguon: [
+            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/14/byd-fang-cheng-bao-ti-9-launches-nov-19-with-10-97-flash-charging-in-9-minutes/" },
+            { ten: "Interesting Engineering", link: "https://interestingengineering.com/transportation/chinas-hybrid-9-minute-charge-1000-mile-range" },
+            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/unternehmensnachrichten/byd-refutes-digital-energy-takeover-chatter-as-1-8-million-overseas-goal-sets-the-bar/70513687" }
+          ],
+          gio: "Morning, Nov 15"
+        },
         {
           tieuDe: "China's EV makers race ahead on lidar and 800V charging as Geely's EX2 outsells BYD's Seagull ten months running",
           baiViet: [
@@ -73,19 +87,6 @@ window.TIN_TUC = {
             { ten: "SC Daily Gazette", link: "https://www.gofountaininn.com/news/bmw-opens-sc-battery-plant-with-plans-to-build-6-all-electric-vehicles-by-2030/article_aa2a637f-4e3e-5ff1-a2f0-3641a70f9b6f.html" }
           ],
           gio: "Morning, Nov 14"
-        },
-        {
-          tieuDe: "BYD's luxury brand Denza enters India with 1,156 hp Z9 GT and seven-seat D9 MPV",
-          baiViet: [
-            "BYD's luxury brand Denza formally entered India on Friday 13 November, launching two all-electric models at once: the Z9 GT performance shooting brake, priced at 1.57 crore rupees ex-showroom, and the D9 seven-seat luxury MPV at 90 lakh rupees. Bookings opened the same day with a 10 lakh rupee deposit, and the brand will sell through dedicated Denza showrooms in six cities — Mumbai, Gurugram, Ahmedabad, Bengaluru, Chennai and Hyderabad. Both cars arrive as fully built imports, positioning Denza squarely in India's small but fast-growing ultra-luxury EV segment.",
-            "The Z9 GT is the headline act. Three electric motors drive all four wheels with a combined 1,156 hp and 1,210 Nm of torque, launching the car from 0 to 100 km/h in 2.7 seconds and on to a 270 km/h top speed. Its 122.49 kWh second-generation Blade battery is rated at up to 670 km on the NEDC cycle, and independent wheel control allows party tricks such as a diagonal crab walk and a spot turn. The D9 takes the opposite approach: a single front motor making 462 hp, a 115.07 kWh battery good for up to 730 km NEDC, and DC fast charging from 10% to 97% in nine minutes, wrapped in a 2+2+3 cabin with reclining second-row captain seats aimed at chauffeur-driven buyers.",
-            "The launch marks a deliberate step upmarket for BYD in India, where it has so far sold more than 20,000 cars through 50 showrooms in 40 cities. Denza began in 2010 as a joint venture between BYD and Mercedes-Benz and now operates in more than 100 countries, but India is a new test: the D9 must win over buyers of the Toyota Vellfire and MG M9, while the Z9 GT has no direct rival at all as India's only shooting brake. Buyers get a home charger with installation, six years of roadside assistance, and a warranty of six years or 150,000 km, with the battery covered for eight years or 160,000 km. The debut comes a day after Denza launched its N8 luxury SUV in China, underlining how quickly BYD is pushing its premium brand into new markets."
-          ],
-          nguon: [
-            { ten: "The Hindu", link: "https://www.thehindu.com/life-and-style/motoring/byd-brings-its-luxury-electric-brand-denza-into-india-introduces-two-models/article71697207.ece" },
-            { ten: "The Times of India", link: "https://timesofindia.indiatimes.com/auto/cars/denza-enters-india-with-z9-gt-and-d9-priced-from-rs-90-lakh/articleshow/135797465.cms" }
-          ],
-          gio: "Evening, Nov 13"
         },
       ]
     }
