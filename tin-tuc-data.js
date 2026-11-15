@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Sunday, November 15, 2026 — morning edition",
+  capNhat: "Sunday, November 15, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Canada opens the door wider to affordable Chinese EVs in 2027 as quota sits two-thirds unused",
+          baiViet: [
+            "Canadians should expect to see more affordable Chinese electric vehicles on the streets in early 2027, International Trade Minister Maninder Sidhu said in Manila on November 15, as Chinese automakers work through Canada's federal certification process. Under a deal struck this year, Prime Minister Mark Carney's government broke with the United States by allowing up to 49,000 Chinese-made EVs into Canada at a reduced 6.1% tariff, replacing the 100% surtax both countries imposed in 2024. Sidhu said most manufacturers should finish certification in the latter half of 2026, telling reporters: 'By the first quarter of 2027, you'll see more cars in terms of affordable vehicles coming from China into our market.'",
+            "So far the quota has been slow to fill: Global Affairs Canada data shows roughly 16,200 Chinese-built EVs entered under the quota as of September 30, about a third of the allowance, with the first quota period running through February 28 next year. Most of the vehicles counted so far are Tesla models built in China and high-end Lotus cars from Geely, rather than Chinese-brand cars, because few Chinese brands have completed certification. The quota rises each year, reaching 67,000 vehicles by 2031, and from March the annual figure steps up to 52,185.",
+            "The opening has split Canada's auto sector. Industry Minister Melanie Joly met BYD, Chery, Geely and Shanghai Launch Automotive Technology in June to discuss domestic manufacturing, and Sidhu visited Chery's plant in Wuhu during a November 3–6 trip to China, where he co-chaired the Canada-China Joint Economic and Trade Commission. Chery's Omoda & Jaecoo brand has said it will arrive in late 2026, and a Chery executive told Reuters the launch would come early next year, with the company also considering building cars in Canada. But the country's automaker lobby and its largest auto union have pushed back against the influx, and no final plant investments have materialised. For now, BYD has announced no Canadian launch date, price, model list or dealer network."
+          ],
+          nguon: [
+            { ten: "The Globe and Mail (via EuropeSays)", link: "https://www.europesays.com/canada/293238/" },
+            { ten: "Newsy Today", link: "https://www.newsy-today.com/more-chinese-evs-to-arrive-in-canada-by-2027-says-trade-minister/" },
+            { ten: "Electric Vehicles", link: "https://eletric-vehicles.com/canada/chery-hosts-canadas-trade-minister-as-automakers-and-union-push-back/" }
+          ],
+          gio: "Evening, Nov 15"
+        },
         {
           tieuDe: "Europe's electric cars outsell petrol in 2026 as BYD passes Tesla",
           baiViet: [
@@ -48,6 +62,20 @@ window.TIN_TUC = {
       ten: "🔋 Technology & New Models",
       tin: [
         {
+          tieuDe: "BYD's robot charger plugs itself in: solar-powered Flash Charging hits 10–70% in five minutes",
+          baiViet: [
+            "BYD has demonstrated a charging system in the Abu Dhabi desert that plugs the car in by itself, combining solar power generation, battery storage and its Flash Charging technology with a robotic arm. The demonstration came a day after BYD unveiled the Yangwang Altior, its ultra-luxury electric sedan, in the United Arab Emirates. The robotic arm automatically locates the charging port, opens the cover, plugs in and removes the connector when the session ends, using camera-based recognition and force sensing — and paired with automated valet parking, the car can drive itself to a charging spot and be charged without the driver touching a cable.",
+            "BYD says compatible vehicles can charge from 10% to 70% in five minutes, or from 10% to 97% in nine minutes — roughly the time of a petrol fill-up. The company calls the setup the world's first to integrate solar power, energy storage, Flash Charging and robotic charging in one solution, built around its Solar-Storage-Charging system so the station can run at least partly independent of the grid. CarNewsChina reported about 1,000 kW of charging power during the demonstration, according to electrive, while BYD rates its Flash Charging points at up to 1,500 kW. The project reflects founder Wang Chuanfu's 'Three Green Dreams' idea of solar power, battery storage and electric vehicles.",
+            "For now the Abu Dhabi station is a showcase, not a public service: electrive reports the robotic arm is not yet commercially available, and BYD has given no price, availability date or count of sites that will receive one. The wider rollout is moving separately, with BYD planning 6,000 Flash Charging stations worldwide by the end of 2027, including around 100 in Europe. The demonstration also underlines how fast charging has become a competitive front: rivals including Huawei have shown similar robotic charging ideas, and BYD is betting that removing both the wait and the cable will matter as much as range in winning over buyers."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/10/byds-robot-charger-plugs-itself-in-charges-evs-5-mins-video/" },
+            { ten: "CarBikeInsight (electrive)", link: "https://carbikeinsight.com/byd-robotic-charging-abu-dhabi/" },
+            { ten: "dlmag", link: "https://dlmag.com/byd-robotic-flash-charger-uae/" }
+          ],
+          gio: "Evening, Nov 15"
+        },
+        {
           tieuDe: "BYD's Fang Cheng Bao Ti 9 targets nine-minute charging ahead of November 19 launch",
           baiViet: [
             "BYD's Fang Cheng Bao brand will launch the Ti 9, a full-size six-seat plug-in hybrid SUV, in China on November 19, ahead of its public appearance at the Guangzhou Auto Show. The model pairs a 1.5-litre turbocharged petrol engine with two 200 kW permanent magnet electric motors for 400 kW combined, fed by a 66.48 kWh second-generation Blade Battery with a claimed 310 km of electric range under WLTC testing. It is the first Fang Cheng Bao model built on BYD's DMS hybrid platform with unibody construction.",
@@ -60,33 +88,6 @@ window.TIN_TUC = {
             { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/unternehmensnachrichten/byd-refutes-digital-energy-takeover-chatter-as-1-8-million-overseas-goal-sets-the-bar/70513687" }
           ],
           gio: "Morning, Nov 15"
-        },
-        {
-          tieuDe: "China's EV makers race ahead on lidar and 800V charging as Geely's EX2 outsells BYD's Seagull ten months running",
-          baiViet: [
-            "Chinese carmakers unleashed a concentrated wave of new electric models on Friday, November 13, with BYD debuting the third-generation Tang at 225,000 to 260,000 yuan and Voyah, AITO, Li Auto and others publishing new prices or availability. Battery and charging claims were central to the announcements: several models cite CLTC ranges of up to 850 km, multiple vehicles use CATL cells, and several are built on 800V platforms or fast-charge architectures designed to shorten charging times. The burst of launches signals a market shifting decisively toward sensor-rich, software-driven electric cars, where range, safety and cabin software are the key selling points.",
-            "Advanced driver assistance is now the main battleground. Several of the new releases highlighted high-line lidar hardware and software stacks, with Voyah and multiple GAC/Huawei models advertising Huawei 896-line lidar and ADS 5-series software, while over-the-air updates pushed ADS 5.0.2 to existing cars. The focus on lidar and assisted driving could accelerate adoption of higher-level driver assistance in China, though the CLTC range figures and some lidar details remain manufacturer claims that will need real-world verification.",
-            "Behind the launches, a sales upset is reshaping the budget EV segment. Geely's EX2 — sold domestically as the Xingyuan — has outsold BYD's redesigned Seagull in every month of 2026, recording 50,190 domestic sales in October against 10,134 for the Seagull, and 360,581 against 93,738 across January to October. The EX2 reached one million cumulative production units on October 20. BYD chairman Wang Chuanfu made an unannounced visit to an Ocean Series dealership in Shangqiu, Henan province, on November 13, personally handing over a second-generation Seagull to retail buyers and signing copies of his book 'The Soul of Engineers' — a hands-on show of confidence as the Seagull fights to close a gap that has widened to nearly four to one over ten months."
-          ],
-          nguon: [
-            { ten: "Particle News", link: "https://particle.news/story/chinas-automakers-unveil-new-ev-models-lidar-powered-driver-assist-and-major-ota-upgrades" },
-            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/14/byd-chairman-hands-over-new-seagull-as-geely-ex2-outsells-it-every-month-in-2026/" }
-          ],
-          gio: "Evening, Nov 14"
-        },
-        {
-          tieuDe: "BMW opens 700 million dollar Woodruff battery plant to power its first US-built electric SUV",
-          baiViet: [
-            "BMW officially opened its new Plant Woodruff in South Carolina on Friday 13 November, starting series production of sixth-generation high-voltage batteries and marking the beginning of fully electric vehicle production in the United States. The 700 million dollar, one-million-square-foot facility was first announced in October 2022 and now employs more than 300 people working alongside 250 robots, assembling battery packs that are trucked about 15 miles to BMW's Plant Spartanburg for installation in the new iX5, the first fully electric BMW ever assembled in America.",
-            "Woodruff is the fourth site in BMW's global Gen6 battery network to reach series production, after Debrecen in Hungary, Irlbach-Strasskirchen in Germany and Shenyang in China, with a fifth plant in San Luis Potosi, Mexico, due to follow in 2027. The plant uses AI-supported production, digital twins and virtual reality training, and every battery is checked against more than 90 characteristics before end-of-line testing under BMW's zero-defect approach. The packs are built from cells shipped in from China by supplier AESC, while BMW has also signed LG Energy Solution to supply US-made Gen6 cells later in the decade.",
-            "The opening is the centrepiece of a much larger bet on American-made electric cars. BMW has spent 1.7 billion dollars expanding its Upstate operations for EV production since 2022, bringing its total investment in South Carolina since 1992 to nearly 16 billion dollars, and it plans to assemble at least six fully electric models at Spartanburg by 2030, starting with the iX5, which goes on sale early next year. Spartanburg is already BMW's largest plant in the world, producing more than 412,800 vehicles last year, around 200,000 of them exported at a value of 9 billion dollars, and generating 36.1 billion dollars of annual economic output in the state."
-          ],
-          nguon: [
-            { ten: "BMW Group Newsroom", link: "https://newsroom.bmwgroup.com/global/bmw-group-opens-plant-woodruff/" },
-            { ten: "Greenville News", link: "https://www.greenvilleonline.com/story/money/business/2026/11/13/bmw-opens-700m-woodruff-plant-to-power-its-first-us-made-ev/92756511007/" },
-            { ten: "SC Daily Gazette", link: "https://www.gofountaininn.com/news/bmw-opens-sc-battery-plant-with-plans-to-build-6-all-electric-vehicles-by-2030/article_aa2a637f-4e3e-5ff1-a2f0-3641a70f9b6f.html" }
-          ],
-          gio: "Morning, Nov 14"
         },
       ]
     }
