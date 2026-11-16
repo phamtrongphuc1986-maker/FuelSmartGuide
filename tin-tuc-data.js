@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Monday, November 16, 2026 — morning edition",
+  capNhat: "Monday, November 16, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Tesla falls out of China's top 10 NEV brands as October retail sales crash 66% to 8,817",
+          baiViet: [
+            "Tesla dropped out of China's top 10 new-energy vehicle brands in October, selling just 8,817 cars to domestic buyers — down 66% year on year and its worst month in the country since July 2022, according to China Passenger Car Association data. The figure stands in sharp contrast to the wholesale number: Giga Shanghai shipped 67,829 vehicles in October, up 10.3% year on year, but 59,012 of them — 87% — were exports.",
+            "BYD kept its grip on the market with 250,301 NEV retail sales in October and a 22.4% share, even as its own sales fell 15.4% year on year. Xiaomi returned to the top 10 with 336,613 sales over the first ten months, while Leapmotor delivered 106,127 vehicles in October, up 51%. Tesla's January-to-October retail total of 389,905 is down 15% from a year earlier and its lowest for the period in at least four years; its cumulative ranking slipped from fifth to seventh.",
+            "The wider market also cooled: China's NEV retail sales fell about 10% year on year in October to roughly 1.11 million units as Beijing phases out trade-in subsidies and the NEV purchase-tax exemption was halved on January 1. Tesla also slipped from sixth to 11th in a long-term EV innovation ranking. For a company that once defined China's EV boom, October's numbers underline how quickly the centre of gravity has shifted to domestic brands."
+          ],
+          nguon: [
+            { ten: "ARY News", link: "https://arynews.tv/tesla-falls-out-of-top-10-electric-vehicle-brands-in-china-byd-dominates" },
+            { ten: "The Electric Viking", link: "https://theelectricviking.com/byd-retains-chinas-october-nev-crown-despite-154-annual-sales-decline/" },
+            { ten: "Tesla News Wire (Electrek)", link: "https://www.teslanewswire.com/articles/tesla-china-domestic-sales-8817-october-worst-since-2022-nov-13-2026" }
+          ],
+          gio: "Evening, Nov 16"
+        },
         {
           tieuDe: "BYD's electric sales jump 40.6% as hybrids slip — October deliveries top 490,000",
           baiViet: [
@@ -40,26 +54,25 @@ window.TIN_TUC = {
           ],
           gio: "Evening, Nov 15"
         },
-        {
-          tieuDe: "Europe's electric cars outsell petrol in 2026 as BYD passes Tesla",
-          baiViet: [
-            "Battery-electric cars outsold petrol cars across Europe in the first nine months of 2026, according to ACEA registration data analysed by the Center of Automotive Management (CAM). BEV registrations rose 41.9% to 2.55 million units, a 24.2% share of the market, against 2.21 million petrol cars — down 18% to a 20.9% share. September alone brought 416,433 BEVs, up 59.9% year on year, for a record monthly share of 30.5%.",
-            "The growth is strikingly narrow: the overall market (EU plus EFTA and the UK) rose 6.3% to 10.56 million registrations, but BEVs added 752,752 units while all other powertrains combined shrank 1.5%. Chinese groups registered 1.25 million cars, up 69.3%, lifting their share by 4.4 percentage points in a year. BYD reached 283,997 units, up 134.6%, passing Tesla (260,575, up 50%) by 23,422 units — and in Germany, the continent's biggest market, October brought a record 37% BEV share, with BYD moving back ahead of Tesla for the year, 47,961 registrations to 47,742.",
-            "BYD is now raising its ambitions abroad. General manager Li Yunfei told media the company expects 1.8 million overseas sales in 2026, up from an original target of 1.3 million, while its German chief is targeting at least 55,000 deliveries and up to 300 sales locations by the end of the year. CAM cautions that the trend's durability will show in ACEA's October data, due in late November: a monthly BEV share near September's 30.5% would point to a full-year share of roughly 25–26%, with the gap between BEVs and petrol widening further."
-          ],
-          nguon: [
-            { ten: "Center of Automotive Management (CAM)", link: "https://www.linkedin.com/pulse/europe-grows-63-without-bevs-shrinks-chinese-oems-stefan-mnode" },
-            { ten: "TeslAnt", link: "https://teslant.com/en/news/germany-october-2026-bev-37-percent-byd-back-ahead-of-tesla-2026-11" },
-            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/unternehmensnachrichten/byd-refutes-digital-energy-takeover-chatter-as-1-8-million-overseas-goal-sets-the-bar/70513687" }
-          ],
-          gio: "Morning, Nov 15"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "BYD lifts 2026 overseas target to 1.8 million as exports near 170,000 in October",
+          baiViet: [
+            "BYD now expects to sell 1.8 million new-energy vehicles outside China in 2026, a sharp upgrade from its earlier guidance of 1.3 million, brand and public relations general manager Li Yunfei said. The new figure covers overseas business only and remains a company forecast — but October gave it ballast: passenger cars and pickups sold abroad came close to 170,000 units, a 103% jump year on year, and January-to-October sales passed 3.62 million vehicles in total.",
+            "The export engine is increasingly carrying the company while the home market cools. Overseas shipments made up about 42% of BYD's third-quarter NEV sales and rose roughly 130% year on year, cushioning domestic deliveries that fell almost 11% in October and 28% over the first ten months. BYD also marked a production milestone on November 9, when its 19-millionth new-energy vehicle rolled off the line at the Xi'an plant, and cumulative sales of vehicles fitted with its driver-assistance systems passed 4.19 million through the end of October.",
+            "Not all the news ran BYD's way. ARK Investment Management sold about 219,000 BYD depositary receipts through its ARKQ ETF on Friday, and police detained three people over online smears against the company. Investors also weighed a stock that has slipped 23% this year — a wider fall than Tesla's 14% — even as BYD's third-quarter revenue rebounded 13.6% to RMB 221.5 billion. The raised overseas target is a bet that foreign showrooms, now numbering about 2,000 dealers, can keep offsetting a softening home market."
+          ],
+          nguon: [
+            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/byd-lifts-overseas-target-to-1-8-million-as-ark-trims-stake-and-police-detain-three-over-online/70518637" },
+            { ten: "Zacks", link: "https://www.zacks.com/stock/news/3023984/tesla-vs-byd-which-ev-giant-is-better-charged-right-now?art_rec=blog-analyst_blog-up_next-ID01-img-3023984" }
+          ],
+          gio: "Evening, Nov 16"
+        },
         {
           tieuDe: "BYD opens pre-sales for third-generation Tang EV with 850 km range as Denza debuts in India — and a Dutch court backs it against JLR",
           baiViet: [
@@ -73,20 +86,6 @@ window.TIN_TUC = {
             { ten: "CleanTechnica (via VestiBG)", link: "https://vestibg.com/2026/11/15/byd-electric-car-sales-jump-40-6-as-hybrids-slip/" }
           ],
           gio: "Morning, Nov 16"
-        },
-        {
-          tieuDe: "BYD's robot charger plugs itself in: solar-powered Flash Charging hits 10–70% in five minutes",
-          baiViet: [
-            "BYD has demonstrated a charging system in the Abu Dhabi desert that plugs the car in by itself, combining solar power generation, battery storage and its Flash Charging technology with a robotic arm. The demonstration came a day after BYD unveiled the Yangwang Altior, its ultra-luxury electric sedan, in the United Arab Emirates. The robotic arm automatically locates the charging port, opens the cover, plugs in and removes the connector when the session ends, using camera-based recognition and force sensing — and paired with automated valet parking, the car can drive itself to a charging spot and be charged without the driver touching a cable.",
-            "BYD says compatible vehicles can charge from 10% to 70% in five minutes, or from 10% to 97% in nine minutes — roughly the time of a petrol fill-up. The company calls the setup the world's first to integrate solar power, energy storage, Flash Charging and robotic charging in one solution, built around its Solar-Storage-Charging system so the station can run at least partly independent of the grid. CarNewsChina reported about 1,000 kW of charging power during the demonstration, according to electrive, while BYD rates its Flash Charging points at up to 1,500 kW. The project reflects founder Wang Chuanfu's 'Three Green Dreams' idea of solar power, battery storage and electric vehicles.",
-            "For now the Abu Dhabi station is a showcase, not a public service: electrive reports the robotic arm is not yet commercially available, and BYD has given no price, availability date or count of sites that will receive one. The wider rollout is moving separately, with BYD planning 6,000 Flash Charging stations worldwide by the end of 2027, including around 100 in Europe. The demonstration also underlines how fast charging has become a competitive front: rivals including Huawei have shown similar robotic charging ideas, and BYD is betting that removing both the wait and the cable will matter as much as range in winning over buyers."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/10/byds-robot-charger-plugs-itself-in-charges-evs-5-mins-video/" },
-            { ten: "CarBikeInsight (electrive)", link: "https://carbikeinsight.com/byd-robotic-charging-abu-dhabi/" },
-            { ten: "dlmag", link: "https://dlmag.com/byd-robotic-flash-charger-uae/" }
-          ],
-          gio: "Evening, Nov 15"
         },
       ]
     }
