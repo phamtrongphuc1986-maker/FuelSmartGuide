@@ -7,12 +7,25 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Sunday, November 15, 2026 — evening edition",
+  capNhat: "Monday, November 16, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "BYD's electric sales jump 40.6% as hybrids slip — October deliveries top 490,000",
+          baiViet: [
+            "BYD's October sales underlined a decisive shift inside China's biggest new-energy vehicle maker: battery-electric sales climbed 40.6% year on year to 305,743 units, while plug-in hybrid sales fell 19.6% to 177,382. Total passenger vehicle sales reached 483,125 in the month, up 11.8% from a year earlier and 5.8% from September, according to figures reported by CleanTechnica. The company told investors it sold more than 490,000 vehicles in total in October, with overseas passenger car and pickup deliveries of almost 170,000 units — a jump of 103% year on year.",
+            "The monthly strength did not erase a softer year-to-date picture: for January through October, BYD moved roughly 3.62 million new-energy vehicles, down 2.16% from the same period last year. Third-quarter net profit attributable to shareholders came in at RMB 10.02 billion, released on 29 October, and the Hong Kong-listed shares slipped 2.1% on Friday to EUR 7.60 amid broad weakness across Chinese EV makers. CLSA cut its price target for the H-shares to HKD 100 from HKD 109, warning export margins could fall 20–30%.",
+            "The split between the two powertrains matters for the global market: pure electrics are now carrying BYD's growth while hybrids fade, just as the company's overseas push accelerates — Denza launched in India last week and the 19-millionth new-energy vehicle rolled off the line on 9 November. If the October pace holds, BYD's full-electric volumes will set the tone for price competition in Europe in 2027, where the brand has already overtaken Tesla in monthly registrations."
+          ],
+          nguon: [
+            { ten: "CleanTechnica (via VestiBG)", link: "https://vestibg.com/2026/11/15/byd-electric-car-sales-jump-40-6-as-hybrids-slip/" },
+            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/byd-s-record-october-output-meets-a-dutch-setback-and-european-scrutiny/70517149" }
+          ],
+          gio: "Morning, Nov 16"
+        },
         {
           tieuDe: "Canada opens the door wider to affordable Chinese EVs in 2027 as quota sits two-thirds unused",
           baiViet: [
@@ -41,26 +54,26 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 15"
         },
-        {
-          tieuDe: "Tata Motors posts record quarter as EV sales jump 90% and pass 47,000 units",
-          baiViet: [
-            "Tata Motors Passenger Vehicles has reported its highest-ever quarterly revenue, with electric vehicle volumes surging about 90% year on year in the July-September 2026 quarter (Q2 FY27). Revenue rose 51% to Rs 20,423 crore while overall passenger vehicle volumes grew 40% to more than 200,000 units. EV sales crossed 47,000 units in the quarter, giving Tata an estimated 43% share of India's electric vehicle market based on Vahan registrations — up 380 basis points sequentially — with EVs accounting for 23% of the company's sales mix and CNG for 28%. Combined, alternative powertrains topped half of all Tata passenger vehicle sales in the quarter.",
-            "The quarter also brought a wave of new products. Tata launched the all-new Tata Aeris and reported a strong initial market response, alongside the Curvv Series X, the Sierra Legend Series and the Sierra Dark Edition. The company also launched the Osprey SUV — known internationally as the Tata Nexon — in South Africa, and extended its Battery-as-a-Service programme across its entire electric vehicle portfolio, a move designed to lower upfront costs for buyers by separating the battery from the purchase price.",
-            "Growth is now bumping into supply limits. Tata's management said the company is serving only 60 to 65% of EV demand and is working to lift monthly EV supplies from around 16,000 units at present to nearly 20,000 within the next two to three months, up from about 9,000 a month in March-April. Momentum carried into October, when Tata recorded its highest-ever monthly sales of about 75,400 units. Looking ahead, the company has begun production of the Range Rover Electric and Range Rover Sport Electric, with deliveries expected to start early next year, while the Range Rover GT is scheduled for production in 2027 at JLR's Halewood plant in northern England and the Jaguar Type 01 follows in FY28."
-          ],
-          nguon: [
-            { ten: "Times Now News", link: "https://www.timesnownews.com/auto/car-news/tata-motors-q2-results-revenue-jumps-51-per-cent-ev-sales-surge-90-per-cent-check-key-highlights-article-156508012" },
-            { ten: "The Economic Times Auto", link: "https://auto.economictimes.indiatimes.com/news/passenger-vehicle/tata-motors-to-ramp-up-monthly-ev-supplies-to-20000-in-2-3-months-amid-demand-surge/135820855" },
-            { ten: "Particle News", link: "https://particle.news/story/tata-motors-posts-record-q2-revenue-as-ev-sales-accelerate" }
-          ],
-          gio: "Evening, Nov 14"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "BYD opens pre-sales for third-generation Tang EV with 850 km range as Denza debuts in India — and a Dutch court backs it against JLR",
+          baiViet: [
+            "BYD opened pre-sales in China on Friday for the third generation of its Tang EV, priced from 225,000 yuan with a claimed CLTC range of up to 850 kilometres, the latest step in a product offensive that now spans its home market, India and Europe. The same day, the automaker introduced its premium Denza brand to India with the D9 and Z9 GT models, part of a broader push to lift overseas volumes that already reached almost 170,000 units in October.",
+            "The launch week also brought a legal win in Europe: a Dutch court on Wednesday ordered Jaguar Land Rover to destroy files seized from BYD, the latest twist in an intellectual-property dispute between the two carmakers over the Ti7 and Defender models. But regulatory pressure is building in Brussels, where fourteen members of the European Parliament asked the European Commission on 4 November to assess cybersecurity risks posed by BYD vehicles and consider possible restrictions. BYD responded that European vehicle and cloud data cannot be accessed remotely from China.",
+            "The company also apologised after some delivered Great Tang electric SUVs were fitted with front and rear wheels mounted incorrectly, a reminder that rapid scale-up carries quality risks. Taken together, the week captures BYD's current position: record volumes and an expanding model range on one side, and legal, political and quality scrutiny on the other — the same tension investors weighed as the stock slipped 2.1% on Friday."
+          ],
+          nguon: [
+            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/unternehmensnachrichten/byd-s-product-offensive-meets-legal-and-regulatory-headwinds/70517354" },
+            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/byd-s-record-october-output-meets-a-dutch-setback-and-european-scrutiny/70517149" },
+            { ten: "CleanTechnica (via VestiBG)", link: "https://vestibg.com/2026/11/15/byd-electric-car-sales-jump-40-6-as-hybrids-slip/" }
+          ],
+          gio: "Morning, Nov 16"
+        },
         {
           tieuDe: "BYD's robot charger plugs itself in: solar-powered Flash Charging hits 10–70% in five minutes",
           baiViet: [
@@ -74,20 +87,6 @@ window.TIN_TUC = {
             { ten: "dlmag", link: "https://dlmag.com/byd-robotic-flash-charger-uae/" }
           ],
           gio: "Evening, Nov 15"
-        },
-        {
-          tieuDe: "BYD's Fang Cheng Bao Ti 9 targets nine-minute charging ahead of November 19 launch",
-          baiViet: [
-            "BYD's Fang Cheng Bao brand will launch the Ti 9, a full-size six-seat plug-in hybrid SUV, in China on November 19, ahead of its public appearance at the Guangzhou Auto Show. The model pairs a 1.5-litre turbocharged petrol engine with two 200 kW permanent magnet electric motors for 400 kW combined, fed by a 66.48 kWh second-generation Blade Battery with a claimed 310 km of electric range under WLTC testing. It is the first Fang Cheng Bao model built on BYD's DMS hybrid platform with unibody construction.",
-            "The headline is charging speed: BYD claims its flash-charging system takes the battery from 10% to 70% in five minutes and to 97% in nine minutes — a figure that, if it holds up on public infrastructure, would make a charging stop nearly as quick as a petrol fill-up. The company has not disclosed the peak charging power, the infrastructure required to achieve the advertised times, or the conditions under which the figures were recorded, so independent verification will matter once the first cars reach customers.",
-            "The launch doubles as a production milestone: a Ti 9 rolled off BYD's Xi'an production line on November 9 as the company's 19-millionth new energy vehicle, and display cars have already reached 21 dealerships in 12 cities, with shipments to another 20 cities underway. BYD positions the Ti 9 in the 400,000-yuan class (about $55,300) but has yet to confirm its official price; pre-registration opened on September 29, followed by nationwide reservations on November 9."
-          ],
-          nguon: [
-            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/14/byd-fang-cheng-bao-ti-9-launches-nov-19-with-10-97-flash-charging-in-9-minutes/" },
-            { ten: "Interesting Engineering", link: "https://interestingengineering.com/transportation/chinas-hybrid-9-minute-charge-1000-mile-range" },
-            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/unternehmensnachrichten/byd-refutes-digital-energy-takeover-chatter-as-1-8-million-overseas-goal-sets-the-bar/70513687" }
-          ],
-          gio: "Morning, Nov 15"
         },
       ]
     }
