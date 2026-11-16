@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Monday, November 16, 2026 — evening edition",
+  capNhat: "Tuesday, November 17, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "BYD outsells Tesla in Europe for the first time as October registrations flip the old order",
+          baiViet: [
+            "BYD sold more fully electric cars in Europe than Tesla for the first time in October, registering 7,231 battery-electric vehicles against 7,165 for Tesla. The gap widens on a like-for-like panel: across nine countries that split out battery-electric sales, BYD led 6,440 to 5,718, and counting every powertrain in eleven countries that publish full brand tables, BYD registered 20,753 cars to Tesla's 6,481. The milestone is striking given that BYD only began selling beyond Norway and the Netherlands in late 2022, while Tesla has led the European battery-electric market for years.",
+            "Germany told the same story in sharper relief. The Federal Motor Transport Authority (KBA) counted 5,173 BYD registrations in October against 2,932 for Tesla, moving BYD back ahead for the year, 47,961 to 47,742. Tesla's October figure was up 290.9% year on year, but from a tiny base of about 750 cars a year earlier, and MG and Leapmotor also outsold it. Germany registered 94,086 new battery-electric cars in October, a record 37.0% share of a 254,492-car market.",
+            "The pattern repeated elsewhere: in Spain the Model 3 was the best-selling electric car with about 1,150 registrations, yet BYD out-registered Tesla as a brand, 2,260 to 1,558; in Switzerland BYD registered 835 cars to Tesla's 124, cutting the year-to-date gap to just 38. One caveat matters: BYD's totals include plug-in hybrids, while every Tesla is battery-electric. Tesla's deliveries also usually peak in the final month of each quarter, so December will decide who ends the year on top."
+          ],
+          nguon: [
+            { ten: "evstats.org", link: "https://evstats.org/europe-ev-registrations" },
+            { ten: "Teslant (KBA data)", link: "https://teslant.com/en/news/germany-october-2026-bev-37-percent-byd-back-ahead-of-tesla-2026-11" },
+            { ten: "Beautiful Virgin Islands", link: "https://bvi.org/tbepmn-byd-surpasses-tesla-in-european-electric-vehicle-sales" }
+          ],
+          gio: "Morning, Nov 17"
+        },
         {
           tieuDe: "Tesla falls out of China's top 10 NEV brands as October retail sales crash 66% to 8,817",
           baiViet: [
@@ -40,26 +54,26 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 16"
         },
-        {
-          tieuDe: "Canada opens the door wider to affordable Chinese EVs in 2027 as quota sits two-thirds unused",
-          baiViet: [
-            "Canadians should expect to see more affordable Chinese electric vehicles on the streets in early 2027, International Trade Minister Maninder Sidhu said in Manila on November 15, as Chinese automakers work through Canada's federal certification process. Under a deal struck this year, Prime Minister Mark Carney's government broke with the United States by allowing up to 49,000 Chinese-made EVs into Canada at a reduced 6.1% tariff, replacing the 100% surtax both countries imposed in 2024. Sidhu said most manufacturers should finish certification in the latter half of 2026, telling reporters: 'By the first quarter of 2027, you'll see more cars in terms of affordable vehicles coming from China into our market.'",
-            "So far the quota has been slow to fill: Global Affairs Canada data shows roughly 16,200 Chinese-built EVs entered under the quota as of September 30, about a third of the allowance, with the first quota period running through February 28 next year. Most of the vehicles counted so far are Tesla models built in China and high-end Lotus cars from Geely, rather than Chinese-brand cars, because few Chinese brands have completed certification. The quota rises each year, reaching 67,000 vehicles by 2031, and from March the annual figure steps up to 52,185.",
-            "The opening has split Canada's auto sector. Industry Minister Melanie Joly met BYD, Chery, Geely and Shanghai Launch Automotive Technology in June to discuss domestic manufacturing, and Sidhu visited Chery's plant in Wuhu during a November 3–6 trip to China, where he co-chaired the Canada-China Joint Economic and Trade Commission. Chery's Omoda & Jaecoo brand has said it will arrive in late 2026, and a Chery executive told Reuters the launch would come early next year, with the company also considering building cars in Canada. But the country's automaker lobby and its largest auto union have pushed back against the influx, and no final plant investments have materialised. For now, BYD has announced no Canadian launch date, price, model list or dealer network."
-          ],
-          nguon: [
-            { ten: "The Globe and Mail (via EuropeSays)", link: "https://www.europesays.com/canada/293238/" },
-            { ten: "Newsy Today", link: "https://www.newsy-today.com/more-chinese-evs-to-arrive-in-canada-by-2027-says-trade-minister/" },
-            { ten: "Electric Vehicles", link: "https://eletric-vehicles.com/canada/chery-hosts-canadas-trade-minister-as-automakers-and-union-push-back/" }
-          ],
-          gio: "Evening, Nov 15"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Tesla bets €3 billion on the Cybercab in Berlin as the Cybertruck's days are numbered",
+          baiViet: [
+            "Tesla announced on Monday it will spend €3 billion ($3.3 billion) to expand its Berlin gigafactory with a new building in Grünheide designed to produce up to one million Cybercabs a year, with production planned for 2029 and construction expected to begin in the first half of 2027. The bet comes just two months after the first purpose-built, two-seat Cybercabs went into service, and it makes the robotaxi — not any passenger car — the centre of Tesla's manufacturing strategy in Europe.",
+            "The Berlin announcement lands days after Elon Musk confirmed the Cybertruck will be wound down at Gigafactory Texas around the middle of 2027, roughly June or July, to make room for increased Cybercab production. The pickup never came close to its plan: Kelley Blue Book estimates only about 11,586 Cybertrucks were sold in the United States in the first nine months of 2026, against installed annual capacity above 125,000, and Tesla has not named another plant for the truck — Giga Texas is the only factory tooled for its stainless-steel body. Musk insists the Cybertruck is profitable and that its order rate exceeds production, warning that deposits will have to be refunded for orders the factory cannot fill before the line closes.",
+            "The Cybercab is already carrying the strategy: production began at Giga Texas in April, paid robotaxi rides started in Austin on September 3, and Tesla has now opened invite-only sales of the car itself at $29,990 plus a $299-a-month autonomy subscription, with deliveries promised from December. Between converting its Austin lines and building a million-a-year plant in Germany, Tesla is trading the pickup that defined its last product cycle for a driverless car that has yet to prove it can sell at volume."
+          ],
+          nguon: [
+            { ten: "TechCrunch", link: "https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/" },
+            { ten: "Electrek (via Flipboard)", link: "https://flipboard.com/@electrek/tesla-to-end-cybertruck-production-as-sales-stall-at-10-of-plan/a-dc7JQNuRS4OLhZt_KWZYTw%3Aa%3A1624258554-409d6bd2a8%2Felectrek.co" },
+            { ten: "Paul Tan", link: "https://paultan.org/2026/11/06/tesla-cybertruck-production-wind-down-mid-2027-cybercab/" }
+          ],
+          gio: "Morning, Nov 17"
+        },
         {
           tieuDe: "BYD lifts 2026 overseas target to 1.8 million as exports near 170,000 in October",
           baiViet: [
@@ -72,20 +86,6 @@ window.TIN_TUC = {
             { ten: "Zacks", link: "https://www.zacks.com/stock/news/3023984/tesla-vs-byd-which-ev-giant-is-better-charged-right-now?art_rec=blog-analyst_blog-up_next-ID01-img-3023984" }
           ],
           gio: "Evening, Nov 16"
-        },
-        {
-          tieuDe: "BYD opens pre-sales for third-generation Tang EV with 850 km range as Denza debuts in India — and a Dutch court backs it against JLR",
-          baiViet: [
-            "BYD opened pre-sales in China on Friday for the third generation of its Tang EV, priced from 225,000 yuan with a claimed CLTC range of up to 850 kilometres, the latest step in a product offensive that now spans its home market, India and Europe. The same day, the automaker introduced its premium Denza brand to India with the D9 and Z9 GT models, part of a broader push to lift overseas volumes that already reached almost 170,000 units in October.",
-            "The launch week also brought a legal win in Europe: a Dutch court on Wednesday ordered Jaguar Land Rover to destroy files seized from BYD, the latest twist in an intellectual-property dispute between the two carmakers over the Ti7 and Defender models. But regulatory pressure is building in Brussels, where fourteen members of the European Parliament asked the European Commission on 4 November to assess cybersecurity risks posed by BYD vehicles and consider possible restrictions. BYD responded that European vehicle and cloud data cannot be accessed remotely from China.",
-            "The company also apologised after some delivered Great Tang electric SUVs were fitted with front and rear wheels mounted incorrectly, a reminder that rapid scale-up carries quality risks. Taken together, the week captures BYD's current position: record volumes and an expanding model range on one side, and legal, political and quality scrutiny on the other — the same tension investors weighed as the stock slipped 2.1% on Friday."
-          ],
-          nguon: [
-            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/unternehmensnachrichten/byd-s-product-offensive-meets-legal-and-regulatory-headwinds/70517354" },
-            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/byd-s-record-october-output-meets-a-dutch-setback-and-european-scrutiny/70517149" },
-            { ten: "CleanTechnica (via VestiBG)", link: "https://vestibg.com/2026/11/15/byd-electric-car-sales-jump-40-6-as-hybrids-slip/" }
-          ],
-          gio: "Morning, Nov 16"
         },
       ]
     }
