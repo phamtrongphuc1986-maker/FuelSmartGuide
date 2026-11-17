@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Tuesday, November 17, 2026 — afternoon edition",
+  capNhat: "Wednesday, November 18, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Europe's car market now grows on batteries alone — BEVs pass petrol and diesel combined",
+          baiViet: [
+            "Europe's car market grew 6.3% to 10.56 million registrations in January–September 2026, but the growth belongs to a single powertrain. Battery-electric vehicles added 752,752 units while every other powertrain combined shrank 1.5%, according to ACEA data analysed by the Center of Automotive Management. BEVs reached 2.55 million registrations, up 41.9% year on year for a 24.2% share, against 2.21 million petrol cars, down 18.0% for a 20.9% share — a gap of about 341,000 units. In the third quarter alone, battery electrics took 27% of EU new-car sales, passing petrol and diesel combined for the first time.",
+            "The second half of the story is who is supplying those cars. Chinese groups captured about 82% of the market's additional volume, registering 1.25 million cars, up 69.3%, for an 11.8% share — up from about 7.4% a year earlier. BYD reached 283,997 units, up 134.6%, and now leads Tesla, at 260,575 and up 50%, by 23,422 units, as well as Ford, at 277,269 and down 15.2%. The spread between countries remains extreme: BEV share runs from 98% in Norway to 5.2% in Poland, where BEV registrations actually fell 5.5%.",
+            "Forecasts for what comes next already disagree. BloombergNEF's 2026 Electric Vehicle Outlook puts global EV sales at 27% of the market for the year, up from just 9% five years earlier, while EV Volumes, part of J.D. Power, forecasts a slightly more conservative 25.7% for 2026, climbing to 27.4% in 2027 and 31.8% by 2028. The regional split is wide: Europe's individual EV share sits at 31.4%, China's at 38.7%, and the United States trails at 18.6% as adoption there stalls under shifting policy. Europe was the fastest-growing major EV market in the first half of 2026, up 27% year on year, and a revised EU Automotive Package could push EVs toward 57% of all light-vehicle sales in Europe by 2030 if implemented in full — a far steeper trajectory than anything the US market is on."
+          ],
+          nguon: [
+            { ten: "Center of Automotive Management (ACEA data)", link: "https://www.linkedin.com/pulse/europe-grows-63-without-bevs-shrinks-chinese-oems-stefan-mnode" },
+            { ten: "Medium (BloombergNEF, EV Volumes)", link: "https://medium.com/@ayvataskenan/the-real-coin-flip-of-2027-will-one-in-three-cars-sold-worldwide-actually-be-electric-3f0ac4d2b497" },
+            { ten: "The Code W (Reuters, registration data)", link: "https://www.thecodew.com/2026/11/electric-vehicle-watch-november-3.html" }
+          ],
+          gio: "Morning, Nov 18"
+        },
         {
           tieuDe: "BYD's bigger $10,000 Seagull heads overseas as the Dolphin — and the naming shuffle tells the real story",
           baiViet: [
@@ -41,25 +55,26 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 17"
         },
-        {
-          tieuDe: "BYD's electric sales jump 40.6% as hybrids slip — October deliveries top 490,000",
-          baiViet: [
-            "BYD's October sales underlined a decisive shift inside China's biggest new-energy vehicle maker: battery-electric sales climbed 40.6% year on year to 305,743 units, while plug-in hybrid sales fell 19.6% to 177,382. Total passenger vehicle sales reached 483,125 in the month, up 11.8% from a year earlier and 5.8% from September, according to figures reported by CleanTechnica. The company told investors it sold more than 490,000 vehicles in total in October, with overseas passenger car and pickup deliveries of almost 170,000 units — a jump of 103% year on year.",
-            "The monthly strength did not erase a softer year-to-date picture: for January through October, BYD moved roughly 3.62 million new-energy vehicles, down 2.16% from the same period last year. Third-quarter net profit attributable to shareholders came in at RMB 10.02 billion, released on 29 October, and the Hong Kong-listed shares slipped 2.1% on Friday to EUR 7.60 amid broad weakness across Chinese EV makers. CLSA cut its price target for the H-shares to HKD 100 from HKD 109, warning export margins could fall 20–30%.",
-            "The split between the two powertrains matters for the global market: pure electrics are now carrying BYD's growth while hybrids fade, just as the company's overseas push accelerates — Denza launched in India last week and the 19-millionth new-energy vehicle rolled off the line on 9 November. If the October pace holds, BYD's full-electric volumes will set the tone for price competition in Europe in 2027, where the brand has already overtaken Tesla in monthly registrations."
-          ],
-          nguon: [
-            { ten: "CleanTechnica (via VestiBG)", link: "https://vestibg.com/2026/11/15/byd-electric-car-sales-jump-40-6-as-hybrids-slip/" },
-            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/byd-s-record-october-output-meets-a-dutch-setback-and-european-scrutiny/70517149" }
-          ],
-          gio: "Morning, Nov 16"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Norway's October paradox: Tesla's best month ever — and Chinese brands' record 22.5% of the market",
+          baiViet: [
+            "Norway produced the most contradictory registration figures in Europe in October. Tesla had its best-ever October in the country, with registrations up 131% year on year, a 9.8% market share and the position of top single brand for the month. Sweden told a similar story, up 248%, Spain up 271%, Portugal up 186% and Italy up 94%. Yet in the same month, Chinese brands collectively captured a record 22.5% of Norway's new passenger-car registrations — the clearest sign yet that Tesla's rebound and China's advance are happening at the same time, in the same market.",
+            "The split is sharpest in the smaller markets. In Denmark, Tesla's share was just 0.73%, and in Italy 0.38%, trailing BYD, Leapmotor, XPeng and MG, whose shares ranged from 1.6% to 5.5%. The pattern matches the wider European picture: Chinese groups reached 1.25 million registrations in the first nine months of 2026, up 69.3%, for an 11.8% share of the EU, EFTA and UK market, while Tesla's October rebound came off a low base almost everywhere — its German registrations, for example, rose 290.9% but from only about 750 cars a year earlier.",
+            "Norway remains the extreme case of the transition: battery electrics account for 98% of new-car registrations there, against 5.2% in Poland, where BEV registrations actually fell 5.5%. The question for the final two months of the year is whether Tesla's October surge holds into November and December — Tesla deliveries usually peak in the final month of each quarter — or whether the Chinese brands' record Norwegian share is the leading indicator for 2027. Either way, the old picture of a single dominant brand in Europe's most electric market is gone."
+          ],
+          nguon: [
+            { ten: "The Code W (Reuters, registration data)", link: "https://www.thecodew.com/2026/11/electric-vehicle-watch-november-3.html" },
+            { ten: "EVXL (KBA, Nordic registration data)", link: "https://evxl.co/2026/11/04/tesla-germany-registrations-quadruple-october-trail-byd/" },
+            { ten: "Center of Automotive Management (ACEA data)", link: "https://www.linkedin.com/pulse/europe-grows-63-without-bevs-shrinks-chinese-oems-stefan-mnode" }
+          ],
+          gio: "Morning, Nov 18"
+        },
         {
           tieuDe: "Tesla's Cybercab has 8 crashes on file — and the data points to a speed problem",
           baiViet: [
@@ -73,20 +88,6 @@ window.TIN_TUC = {
             { ten: "UA.news (Electrek)", link: "https://ua.news/en/dovkolo-svitu/u-ssha-tesla-cybercab-potrapiv-u-visim-dtp-za-dva-misiatsi-electrek" }
           ],
           gio: "Afternoon, Nov 17"
-        },
-        {
-          tieuDe: "Tesla bets €3 billion on the Cybercab in Berlin as the Cybertruck's days are numbered",
-          baiViet: [
-            "Tesla announced on Monday it will spend €3 billion ($3.3 billion) to expand its Berlin gigafactory with a new building in Grünheide designed to produce up to one million Cybercabs a year, with production planned for 2029 and construction expected to begin in the first half of 2027. The bet comes just two months after the first purpose-built, two-seat Cybercabs went into service, and it makes the robotaxi — not any passenger car — the centre of Tesla's manufacturing strategy in Europe.",
-            "The Berlin announcement lands days after Elon Musk confirmed the Cybertruck will be wound down at Gigafactory Texas around the middle of 2027, roughly June or July, to make room for increased Cybercab production. The pickup never came close to its plan: Kelley Blue Book estimates only about 11,586 Cybertrucks were sold in the United States in the first nine months of 2026, against installed annual capacity above 125,000, and Tesla has not named another plant for the truck — Giga Texas is the only factory tooled for its stainless-steel body. Musk insists the Cybertruck is profitable and that its order rate exceeds production, warning that deposits will have to be refunded for orders the factory cannot fill before the line closes.",
-            "The Cybercab is already carrying the strategy: production began at Giga Texas in April, paid robotaxi rides started in Austin on September 3, and Tesla has now opened invite-only sales of the car itself at $29,990 plus a $299-a-month autonomy subscription, with deliveries promised from December. Between converting its Austin lines and building a million-a-year plant in Germany, Tesla is trading the pickup that defined its last product cycle for a driverless car that has yet to prove it can sell at volume."
-          ],
-          nguon: [
-            { ten: "TechCrunch", link: "https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/" },
-            { ten: "Electrek (via Flipboard)", link: "https://flipboard.com/@electrek/tesla-to-end-cybertruck-production-as-sales-stall-at-10-of-plan/a-dc7JQNuRS4OLhZt_KWZYTw%3Aa%3A1624258554-409d6bd2a8%2Felectrek.co" },
-            { ten: "Paul Tan", link: "https://paultan.org/2026/11/06/tesla-cybertruck-production-wind-down-mid-2027-cybercab/" }
-          ],
-          gio: "Morning, Nov 17"
         },
       ]
     }
