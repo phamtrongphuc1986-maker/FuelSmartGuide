@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Tuesday, November 17, 2026 — morning edition",
+  capNhat: "Tuesday, November 17, 2026 — afternoon edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "BYD's bigger $10,000 Seagull heads overseas as the Dolphin — and the naming shuffle tells the real story",
+          baiViet: [
+            "BYD is bringing its second-generation Seagull overseas, and the naming is where it gets interesting. The little hatchback that starts at about $10,000 in China — 65,900 to 99,900 yuan across five trims — is already sold abroad as the Dolphin Surf in Europe and the UK and the Dolphin Mini elsewhere. But the new, larger car will not simply slot in under the same badge: according to Spanish outlet TestCoches, cited by Electrek, it will launch in Europe as the Dolphin, effectively replacing the larger Dolphin hatchback rather than the Dolphin Surf, which stays on sale. The confusion is understandable — the current Surf measures 3,990 mm long against the Dolphin's 4,290 mm, and the enlarged Seagull sits closer to the latter.",
+            "The reshuffle matters because the Seagull is BYD's volume engine. Cumulative production passed one million units in June 2025 at the Xi'an plant, making it the fastest electric car ever to reach that milestone, and BYD logged 245,000 subcompact deliveries globally in the first nine months of 2026. In Europe the arithmetic is stark: the Dolphin Surf starts at about €22,990 while the larger Dolphin begins near €33,990, so a bigger Seagull wearing the Dolphin name would land in the gap between them — likely still under €30,000 — with five seats and the updated cabin. Chinese-built BYDs still face an extra 17% EU countervailing duty on top of the standard 10% auto levy, which is why the company's Szeged plant in Hungary, due to start mass production by the end of 2026, matters as much as the badge.",
+            "Timing is now concrete: European type-approval reviews are expected to conclude in December 2026, first export shipments leave Shanghai by late January, and showroom deliveries across 15 continental markets are scheduled for February 2027. The move also shows how BYD is segmenting its export push — the Surf keeps fighting in the city-car class against the likes of the Dacia Spring and the coming Volkswagen ID.2all, while the enlarged car steps up a class to take on the mainstream compact hatchbacks. For European buyers, the practical question is no longer whether a $10,000 Chinese EV arrives, but which BYD badge it wears and what it costs once tariffs and local assembly are factored in."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/16/byd-bringing-10000-great-seagull-ev-overseas/" },
+            { ten: "East Asia Brief", link: "https://eastasiabrief.com/batteries-ev/byd-replaces-dolphin-hatchback-abroad-larger-seagull-ev-1496" },
+            { ten: "UA.news (Electrek)", link: "https://ua.news/en/dovkolo-svitu/byd-vivede-do-evropi-novii-seagull-pid-nazvoiu-dolphin-electrek" }
+          ],
+          gio: "Afternoon, Nov 17"
+        },
         {
           tieuDe: "BYD outsells Tesla in Europe for the first time as October registrations flip the old order",
           baiViet: [
@@ -26,20 +40,6 @@ window.TIN_TUC = {
             { ten: "Beautiful Virgin Islands", link: "https://bvi.org/tbepmn-byd-surpasses-tesla-in-european-electric-vehicle-sales" }
           ],
           gio: "Morning, Nov 17"
-        },
-        {
-          tieuDe: "Tesla falls out of China's top 10 NEV brands as October retail sales crash 66% to 8,817",
-          baiViet: [
-            "Tesla dropped out of China's top 10 new-energy vehicle brands in October, selling just 8,817 cars to domestic buyers — down 66% year on year and its worst month in the country since July 2022, according to China Passenger Car Association data. The figure stands in sharp contrast to the wholesale number: Giga Shanghai shipped 67,829 vehicles in October, up 10.3% year on year, but 59,012 of them — 87% — were exports.",
-            "BYD kept its grip on the market with 250,301 NEV retail sales in October and a 22.4% share, even as its own sales fell 15.4% year on year. Xiaomi returned to the top 10 with 336,613 sales over the first ten months, while Leapmotor delivered 106,127 vehicles in October, up 51%. Tesla's January-to-October retail total of 389,905 is down 15% from a year earlier and its lowest for the period in at least four years; its cumulative ranking slipped from fifth to seventh.",
-            "The wider market also cooled: China's NEV retail sales fell about 10% year on year in October to roughly 1.11 million units as Beijing phases out trade-in subsidies and the NEV purchase-tax exemption was halved on January 1. Tesla also slipped from sixth to 11th in a long-term EV innovation ranking. For a company that once defined China's EV boom, October's numbers underline how quickly the centre of gravity has shifted to domestic brands."
-          ],
-          nguon: [
-            { ten: "ARY News", link: "https://arynews.tv/tesla-falls-out-of-top-10-electric-vehicle-brands-in-china-byd-dominates" },
-            { ten: "The Electric Viking", link: "https://theelectricviking.com/byd-retains-chinas-october-nev-crown-despite-154-annual-sales-decline/" },
-            { ten: "Tesla News Wire (Electrek)", link: "https://www.teslanewswire.com/articles/tesla-china-domestic-sales-8817-october-worst-since-2022-nov-13-2026" }
-          ],
-          gio: "Evening, Nov 16"
         },
         {
           tieuDe: "BYD's electric sales jump 40.6% as hybrids slip — October deliveries top 490,000",
@@ -61,6 +61,20 @@ window.TIN_TUC = {
       ten: "🔋 Technology & New Models",
       tin: [
         {
+          tieuDe: "Tesla's Cybercab has 8 crashes on file — and the data points to a speed problem",
+          baiViet: [
+            "Tesla's purpose-built Cybercab now has eight crashes on file with America's National Highway Traffic Safety Administration, barely two months after the two-seater started carrying public passengers in Austin. The split is what makes the data interesting: four crashes happened in driverless Robotaxi service, none of them above 5 mph, while the other four happened with a test driver on board and Tesla's driver-assist engaged — including one where a Cybercab hit a passenger car at 53 mph on a highway in Philadelphia. Tesla's driverless rides mostly stay inside limited areas at low speed and off highways, and the numbers show it.",
+            "The two buckets come from NHTSA's Standing General Order, which splits reports into Level 4 automated driving (ADS) and Level 2 driver-assist (ADAS). The November ADS release holds 43 unique Tesla reports, up from 22 in July, and four involve Cybercabs — all minor, two of them not Tesla's fault, none with injuries. One drove into a large water-filled pothole in a parking lot at up to 5 mph; another climbed a raised concrete edge, a sidewalk and a curb at up to 3 mph. Across all 43 driverless reports the highest pre-crash speed was 29 mph, the median was 1 mph, and not one happened on a highway. The four ADAS cases, all from September 2026, are a different story: Tesla redacted their narratives as confidential business information, so the public record cannot say who was at fault, and two of the eight crashes involved injuries — both in this file. Tesla holds no permit to run automated vehicles in Pennsylvania and does not run Robotaxi in Utah.",
+            "The context cuts both ways. Tesla's own Robotaxi Safety Report, published October 21, claims zero people injured by Robotaxi over 3,112,541 driverless miles between January 22 and October 18 — and the driverless crash record so far supports a low-speed, low-severity picture. But the ADAS file shows what happens when the same vehicle meets real-road speeds: across Electrek's master dataset of Tesla driver-assist reports, 69 fatal crashes are recorded, and among the 52 with a recorded speed the median was 53 mph — exactly the speed of the Philadelphia Cybercab collision — with 29 at 50 mph or more. That is the tension Tesla now carries into its next step: a confirmed €3 billion Cybercab factory at Giga Berlin, designed for up to one million cars a year from 2029, in a Europe where driverless models are currently capped at 1,500 registrations a year."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/16/tesla-cybercab-crashes-speed-problem/" },
+            { ten: "Mezha (Electrek)", link: "https://mezha.net/eng/news/mezha-3ef6c702776a4c77dc812d07_tesla_cybercab_has/" },
+            { ten: "UA.news (Electrek)", link: "https://ua.news/en/dovkolo-svitu/u-ssha-tesla-cybercab-potrapiv-u-visim-dtp-za-dva-misiatsi-electrek" }
+          ],
+          gio: "Afternoon, Nov 17"
+        },
+        {
           tieuDe: "Tesla bets €3 billion on the Cybercab in Berlin as the Cybertruck's days are numbered",
           baiViet: [
             "Tesla announced on Monday it will spend €3 billion ($3.3 billion) to expand its Berlin gigafactory with a new building in Grünheide designed to produce up to one million Cybercabs a year, with production planned for 2029 and construction expected to begin in the first half of 2027. The bet comes just two months after the first purpose-built, two-seat Cybercabs went into service, and it makes the robotaxi — not any passenger car — the centre of Tesla's manufacturing strategy in Europe.",
@@ -73,19 +87,6 @@ window.TIN_TUC = {
             { ten: "Paul Tan", link: "https://paultan.org/2026/11/06/tesla-cybertruck-production-wind-down-mid-2027-cybercab/" }
           ],
           gio: "Morning, Nov 17"
-        },
-        {
-          tieuDe: "BYD lifts 2026 overseas target to 1.8 million as exports near 170,000 in October",
-          baiViet: [
-            "BYD now expects to sell 1.8 million new-energy vehicles outside China in 2026, a sharp upgrade from its earlier guidance of 1.3 million, brand and public relations general manager Li Yunfei said. The new figure covers overseas business only and remains a company forecast — but October gave it ballast: passenger cars and pickups sold abroad came close to 170,000 units, a 103% jump year on year, and January-to-October sales passed 3.62 million vehicles in total.",
-            "The export engine is increasingly carrying the company while the home market cools. Overseas shipments made up about 42% of BYD's third-quarter NEV sales and rose roughly 130% year on year, cushioning domestic deliveries that fell almost 11% in October and 28% over the first ten months. BYD also marked a production milestone on November 9, when its 19-millionth new-energy vehicle rolled off the line at the Xi'an plant, and cumulative sales of vehicles fitted with its driver-assistance systems passed 4.19 million through the end of October.",
-            "Not all the news ran BYD's way. ARK Investment Management sold about 219,000 BYD depositary receipts through its ARKQ ETF on Friday, and police detained three people over online smears against the company. Investors also weighed a stock that has slipped 23% this year — a wider fall than Tesla's 14% — even as BYD's third-quarter revenue rebounded 13.6% to RMB 221.5 billion. The raised overseas target is a bet that foreign showrooms, now numbering about 2,000 dealers, can keep offsetting a softening home market."
-          ],
-          nguon: [
-            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/byd-lifts-overseas-target-to-1-8-million-as-ark-trims-stake-and-police-detain-three-over-online/70518637" },
-            { ten: "Zacks", link: "https://www.zacks.com/stock/news/3023984/tesla-vs-byd-which-ev-giant-is-better-charged-right-now?art_rec=blog-analyst_blog-up_next-ID01-img-3023984" }
-          ],
-          gio: "Evening, Nov 16"
         },
       ]
     }
