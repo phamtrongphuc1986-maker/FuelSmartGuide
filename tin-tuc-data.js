@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Wednesday, November 18, 2026 — morning edition",
+  capNhat: "Wednesday, November 18, 2026 — afternoon edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "October's EV scoreboard: 2.09 million sold worldwide, Europe's BEV sales jump 49% as Germany passes 45%",
+          baiViet: [
+            "Drivers bought 2.09 million electric vehicles worldwide in October, up 8% year on year but down 3% from September, taking sales for the first ten months of 2026 to 17.5 million, up 5%, according to Benchmark Mineral Intelligence. Europe was the engine of the month: the region sold 510,000 EVs — battery-electric and plug-in hybrid combined — in October, up 36% year on year, with pure battery electrics up 49% and plug-in hybrids up 7%. Europe has now sold 4.5 million EVs in 2026, up 31% for the year so far.",
+            "Germany set the pace inside Europe. Its EV share topped 45% of new car sales, with battery-electric sales up almost 80% to more than 95,000 cars, while UK EV sales rose 30%. North America also posted its first year-on-year increase of 2026, a tentative turn after a year in which adoption there stalled under shifting policy. The October figures extend the pattern from the first nine months of the year, when battery electrics took 24.2% of the European market and passed petrol and diesel combined in the third quarter.",
+            "The open question for the final two months is whether the October acceleration holds. Tesla's European rebound and the Chinese brands' record shares were both October stories, and the year-end quarter usually decides the annual ranking. What October already settles is the direction of travel: even with global growth moderating to single digits, Europe's battery-electric surge — nearly half again as many BEVs as a year earlier — is now the fastest-moving part of the world's car market."
+          ],
+          nguon: [
+            { ten: "Electrek (Benchmark Mineral Intelligence)", link: "https://electrek.co/2026/11/11/europes-electric-car-sales-jump-49-as-global-ev-sales-grow/" },
+            { ten: "EV News (Electrek)", link: "https://evnews.ai/news/europe-s-electric-car-sales-jump-49-as-global-ev-sales-grow" },
+            { ten: "The Code W (Reuters, registration data)", link: "https://www.thecodew.com/2026/11/electric-vehicle-watch-november-3.html" }
+          ],
+          gio: "Afternoon, Nov 18"
+        },
         {
           tieuDe: "Europe's car market now grows on batteries alone — BEVs pass petrol and diesel combined",
           baiViet: [
@@ -41,26 +55,26 @@ window.TIN_TUC = {
           ],
           gio: "Afternoon, Nov 17"
         },
-        {
-          tieuDe: "BYD outsells Tesla in Europe for the first time as October registrations flip the old order",
-          baiViet: [
-            "BYD sold more fully electric cars in Europe than Tesla for the first time in October, registering 7,231 battery-electric vehicles against 7,165 for Tesla. The gap widens on a like-for-like panel: across nine countries that split out battery-electric sales, BYD led 6,440 to 5,718, and counting every powertrain in eleven countries that publish full brand tables, BYD registered 20,753 cars to Tesla's 6,481. The milestone is striking given that BYD only began selling beyond Norway and the Netherlands in late 2022, while Tesla has led the European battery-electric market for years.",
-            "Germany told the same story in sharper relief. The Federal Motor Transport Authority (KBA) counted 5,173 BYD registrations in October against 2,932 for Tesla, moving BYD back ahead for the year, 47,961 to 47,742. Tesla's October figure was up 290.9% year on year, but from a tiny base of about 750 cars a year earlier, and MG and Leapmotor also outsold it. Germany registered 94,086 new battery-electric cars in October, a record 37.0% share of a 254,492-car market.",
-            "The pattern repeated elsewhere: in Spain the Model 3 was the best-selling electric car with about 1,150 registrations, yet BYD out-registered Tesla as a brand, 2,260 to 1,558; in Switzerland BYD registered 835 cars to Tesla's 124, cutting the year-to-date gap to just 38. One caveat matters: BYD's totals include plug-in hybrids, while every Tesla is battery-electric. Tesla's deliveries also usually peak in the final month of each quarter, so December will decide who ends the year on top."
-          ],
-          nguon: [
-            { ten: "evstats.org", link: "https://evstats.org/europe-ev-registrations" },
-            { ten: "Teslant (KBA data)", link: "https://teslant.com/en/news/germany-october-2026-bev-37-percent-byd-back-ahead-of-tesla-2026-11" },
-            { ten: "Beautiful Virgin Islands", link: "https://bvi.org/tbepmn-byd-surpasses-tesla-in-european-electric-vehicle-sales" }
-          ],
-          gio: "Morning, Nov 17"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "XPeng's record quarter: revenue up 19% on a richer model mix as overseas sales jump 153% — but profit is still the homework",
+          baiViet: [
+            "XPeng reported record third-quarter results on November 16: revenue of RMB 24.28 billion, up 19.1% year on year and 23% on the previous quarter, beating the top of its own August guidance of RMB 23.4 billion by about 3.8%. Deliveries reached 118,390 vehicles, also a record, but up only 2.1% on a year earlier — so the growth came from price and mix rather than volume. Vehicle sales generated RMB 21.63 billion, up 19.8%, and dividing that by deliveries gives roughly RMB 182,700 per vehicle, against about RMB 155,600 a year earlier. The GX SUV, which delivered more than 20,000 units in the quarter, did much of the heavy lifting.",
+            "Overseas sales are now the growth engine. Deliveries outside China reached 27,882 units in the quarter, up 153.4% year on year and equal to 23.6% of the total, taking international deliveries for the first nine months to 59,481 — double the level of a year earlier. October alone brought 50,237 deliveries, the first month above 50,000, including more than 13,000 overseas, up 166%. The company has set a 2026 overseas target above 100,000 units and expects fourth-quarter overseas sales above 40,000. Its new MONA L05 large SUV, on sale from October 29 at a limited-time entry price of RMB 139,800, sold out its first batch in three minutes, according to the company.",
+            "The homework is profitability. XPeng still posted a net loss of RMB 870 million for the quarter — wider than the RMB 380 million of a year earlier, though narrower than the RMB 1.34 billion of the second quarter — and overall gross margin slipped to 18.9% from 20.1% a year earlier, even as vehicle margin rose to 13.1%. Cash stood at RMB 45.41 billion at the end of September. Guidance for the fourth quarter is ambitious: 169,000 to 174,000 deliveries, up 45% to 50% year on year, and revenue of RMB 30.4 billion to RMB 31.8 billion. Getting there means averaging about 59,400 to 61,900 cars a month in November and December; management expects November alone to pass 60,000 for the first time. Shares climbed 3.2% to about $9.67 on the results."
+          ],
+          nguon: [
+            { ten: "GlobeNewswire via WCIA (XPeng Q3 results)", link: "https://www.wcia.com/business/press-releases/globenewswire/9878979/xpeng-reports-q3-2026-results-both-deliveries-and-revenue-reach-record-highs-overseas-market-2026-full-year-sales-target-exceeds-100000-units/" },
+            { ten: "Asia Daily", link: "https://asiadaily.org/news/18981/" },
+            { ten: "DigitalToday (CleanTechnica)", link: "https://www.digitaltoday.co.kr/en/view/127320/xpeng-sees-q4-deliveries-up-to-174000-profitability-turnaround-remains-task" }
+          ],
+          gio: "Afternoon, Nov 18"
+        },
         {
           tieuDe: "Norway's October paradox: Tesla's best month ever — and Chinese brands' record 22.5% of the market",
           baiViet: [
@@ -74,20 +88,6 @@ window.TIN_TUC = {
             { ten: "Center of Automotive Management (ACEA data)", link: "https://www.linkedin.com/pulse/europe-grows-63-without-bevs-shrinks-chinese-oems-stefan-mnode" }
           ],
           gio: "Morning, Nov 18"
-        },
-        {
-          tieuDe: "Tesla's Cybercab has 8 crashes on file — and the data points to a speed problem",
-          baiViet: [
-            "Tesla's purpose-built Cybercab now has eight crashes on file with America's National Highway Traffic Safety Administration, barely two months after the two-seater started carrying public passengers in Austin. The split is what makes the data interesting: four crashes happened in driverless Robotaxi service, none of them above 5 mph, while the other four happened with a test driver on board and Tesla's driver-assist engaged — including one where a Cybercab hit a passenger car at 53 mph on a highway in Philadelphia. Tesla's driverless rides mostly stay inside limited areas at low speed and off highways, and the numbers show it.",
-            "The two buckets come from NHTSA's Standing General Order, which splits reports into Level 4 automated driving (ADS) and Level 2 driver-assist (ADAS). The November ADS release holds 43 unique Tesla reports, up from 22 in July, and four involve Cybercabs — all minor, two of them not Tesla's fault, none with injuries. One drove into a large water-filled pothole in a parking lot at up to 5 mph; another climbed a raised concrete edge, a sidewalk and a curb at up to 3 mph. Across all 43 driverless reports the highest pre-crash speed was 29 mph, the median was 1 mph, and not one happened on a highway. The four ADAS cases, all from September 2026, are a different story: Tesla redacted their narratives as confidential business information, so the public record cannot say who was at fault, and two of the eight crashes involved injuries — both in this file. Tesla holds no permit to run automated vehicles in Pennsylvania and does not run Robotaxi in Utah.",
-            "The context cuts both ways. Tesla's own Robotaxi Safety Report, published October 21, claims zero people injured by Robotaxi over 3,112,541 driverless miles between January 22 and October 18 — and the driverless crash record so far supports a low-speed, low-severity picture. But the ADAS file shows what happens when the same vehicle meets real-road speeds: across Electrek's master dataset of Tesla driver-assist reports, 69 fatal crashes are recorded, and among the 52 with a recorded speed the median was 53 mph — exactly the speed of the Philadelphia Cybercab collision — with 29 at 50 mph or more. That is the tension Tesla now carries into its next step: a confirmed €3 billion Cybercab factory at Giga Berlin, designed for up to one million cars a year from 2029, in a Europe where driverless models are currently capped at 1,500 registrations a year."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/16/tesla-cybercab-crashes-speed-problem/" },
-            { ten: "Mezha (Electrek)", link: "https://mezha.net/eng/news/mezha-3ef6c702776a4c77dc812d07_tesla_cybercab_has/" },
-            { ten: "UA.news (Electrek)", link: "https://ua.news/en/dovkolo-svitu/u-ssha-tesla-cybercab-potrapiv-u-visim-dtp-za-dva-misiatsi-electrek" }
-          ],
-          gio: "Afternoon, Nov 17"
         },
       ]
     }
