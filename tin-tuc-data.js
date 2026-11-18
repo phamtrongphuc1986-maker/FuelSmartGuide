@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Wednesday, November 18, 2026 — afternoon edition",
+  capNhat: "Thursday, November 19, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Germany's BEV boom: 698,230 electric cars in ten months, up 61% — Tesla triples as Chinese brands double",
+          baiViet: [
+            "Germany's electric car market is no longer recovering — it is surging. Between January and October 2026, 698,230 battery-electric cars were registered, up 60.7% year on year, lifting the BEV share of all new-car registrations to 28.2%, according to the latest data from the Federal Motor Transport Authority (KBA), analysed by the Center of Automotive Management (CAM). October alone kept the momentum going, and the growth is broad-based: domestic brands, American brands and Chinese brands are all expanding at once, which is why the German market now looks less like a subsidy story and more like a structural shift in what buyers actually choose.",
+            "Tesla is the most striking rebound. US brands registered 70,366 BEVs in the first ten months, up 126.5%, driven by Tesla with 47,742 registrations — up 206.1% on a year earlier. BEVs now make up 54.1% of all US-brand registrations in Germany. The surge fits the wider European picture from October, when Tesla registrations jumped 248% in Sweden, 131% in Norway and 271% in Spain, helped by easier year-ago comparisons, higher fuel prices, government incentives and continued EV demand. But the recovery is uneven: in Denmark Tesla held only 0.73% of the market, trailing BYD, Leapmotor, XPeng and SAIC-owned MG.",
+            "The Chinese challenge is the other half of the story. Chinese manufacturers registered 82,692 BEVs in Germany over the same ten months, up 110.2%, taking 11.8% of the country's BEV market — and BEVs now account for 48.9% of everything Chinese brands sell there. BYD (18,716 units, up 140.9%) and Leapmotor (18,677, up 304.4%) are running almost neck and neck. Stellantis nearly doubled its BEV registrations to 63,774, up 95.3%. The message for the rest of Europe is that Germany's boom is being fought on two fronts at once: a resurgent Tesla and a Chinese wave that is no longer a niche."
+          ],
+          nguon: [
+            { ten: "CAM / Prof. Stefan Bratzel (KBA data)", link: "https://www.linkedin.com/posts/stefan-bratzel-prof-dr-2b9336_electromobility-bev-germany-activity-7525444738888679424-YfQj" },
+            { ten: "Global Business Outlook (OFV, Mobility Sweden, bilstatistik.dk)", link: "https://globalbusinessoutlook.com/technology/tesla-sees-surging-vehicle-registrations-in-europe-gets-beaten-by-chinese-in-denmark/" },
+            { ten: "EuropeSays (Benzinga, ACEA)", link: "https://www.europesays.com/europe/174593/" }
+          ],
+          gio: "Morning, Nov 19"
+        },
         {
           tieuDe: "October's EV scoreboard: 2.09 million sold worldwide, Europe's BEV sales jump 49% as Germany passes 45%",
           baiViet: [
@@ -27,40 +41,26 @@ window.TIN_TUC = {
           ],
           gio: "Afternoon, Nov 18"
         },
-        {
-          tieuDe: "Europe's car market now grows on batteries alone — BEVs pass petrol and diesel combined",
-          baiViet: [
-            "Europe's car market grew 6.3% to 10.56 million registrations in January–September 2026, but the growth belongs to a single powertrain. Battery-electric vehicles added 752,752 units while every other powertrain combined shrank 1.5%, according to ACEA data analysed by the Center of Automotive Management. BEVs reached 2.55 million registrations, up 41.9% year on year for a 24.2% share, against 2.21 million petrol cars, down 18.0% for a 20.9% share — a gap of about 341,000 units. In the third quarter alone, battery electrics took 27% of EU new-car sales, passing petrol and diesel combined for the first time.",
-            "The second half of the story is who is supplying those cars. Chinese groups captured about 82% of the market's additional volume, registering 1.25 million cars, up 69.3%, for an 11.8% share — up from about 7.4% a year earlier. BYD reached 283,997 units, up 134.6%, and now leads Tesla, at 260,575 and up 50%, by 23,422 units, as well as Ford, at 277,269 and down 15.2%. The spread between countries remains extreme: BEV share runs from 98% in Norway to 5.2% in Poland, where BEV registrations actually fell 5.5%.",
-            "Forecasts for what comes next already disagree. BloombergNEF's 2026 Electric Vehicle Outlook puts global EV sales at 27% of the market for the year, up from just 9% five years earlier, while EV Volumes, part of J.D. Power, forecasts a slightly more conservative 25.7% for 2026, climbing to 27.4% in 2027 and 31.8% by 2028. The regional split is wide: Europe's individual EV share sits at 31.4%, China's at 38.7%, and the United States trails at 18.6% as adoption there stalls under shifting policy. Europe was the fastest-growing major EV market in the first half of 2026, up 27% year on year, and a revised EU Automotive Package could push EVs toward 57% of all light-vehicle sales in Europe by 2030 if implemented in full — a far steeper trajectory than anything the US market is on."
-          ],
-          nguon: [
-            { ten: "Center of Automotive Management (ACEA data)", link: "https://www.linkedin.com/pulse/europe-grows-63-without-bevs-shrinks-chinese-oems-stefan-mnode" },
-            { ten: "Medium (BloombergNEF, EV Volumes)", link: "https://medium.com/@ayvataskenan/the-real-coin-flip-of-2027-will-one-in-three-cars-sold-worldwide-actually-be-electric-3f0ac4d2b497" },
-            { ten: "The Code W (Reuters, registration data)", link: "https://www.thecodew.com/2026/11/electric-vehicle-watch-november-3.html" }
-          ],
-          gio: "Morning, Nov 18"
-        },
-        {
-          tieuDe: "BYD's bigger $10,000 Seagull heads overseas as the Dolphin — and the naming shuffle tells the real story",
-          baiViet: [
-            "BYD is bringing its second-generation Seagull overseas, and the naming is where it gets interesting. The little hatchback that starts at about $10,000 in China — 65,900 to 99,900 yuan across five trims — is already sold abroad as the Dolphin Surf in Europe and the UK and the Dolphin Mini elsewhere. But the new, larger car will not simply slot in under the same badge: according to Spanish outlet TestCoches, cited by Electrek, it will launch in Europe as the Dolphin, effectively replacing the larger Dolphin hatchback rather than the Dolphin Surf, which stays on sale. The confusion is understandable — the current Surf measures 3,990 mm long against the Dolphin's 4,290 mm, and the enlarged Seagull sits closer to the latter.",
-            "The reshuffle matters because the Seagull is BYD's volume engine. Cumulative production passed one million units in June 2025 at the Xi'an plant, making it the fastest electric car ever to reach that milestone, and BYD logged 245,000 subcompact deliveries globally in the first nine months of 2026. In Europe the arithmetic is stark: the Dolphin Surf starts at about €22,990 while the larger Dolphin begins near €33,990, so a bigger Seagull wearing the Dolphin name would land in the gap between them — likely still under €30,000 — with five seats and the updated cabin. Chinese-built BYDs still face an extra 17% EU countervailing duty on top of the standard 10% auto levy, which is why the company's Szeged plant in Hungary, due to start mass production by the end of 2026, matters as much as the badge.",
-            "Timing is now concrete: European type-approval reviews are expected to conclude in December 2026, first export shipments leave Shanghai by late January, and showroom deliveries across 15 continental markets are scheduled for February 2027. The move also shows how BYD is segmenting its export push — the Surf keeps fighting in the city-car class against the likes of the Dacia Spring and the coming Volkswagen ID.2all, while the enlarged car steps up a class to take on the mainstream compact hatchbacks. For European buyers, the practical question is no longer whether a $10,000 Chinese EV arrives, but which BYD badge it wears and what it costs once tariffs and local assembly are factored in."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/16/byd-bringing-10000-great-seagull-ev-overseas/" },
-            { ten: "East Asia Brief", link: "https://eastasiabrief.com/batteries-ev/byd-replaces-dolphin-hatchback-abroad-larger-seagull-ev-1496" },
-            { ten: "UA.news (Electrek)", link: "https://ua.news/en/dovkolo-svitu/byd-vivede-do-evropi-novii-seagull-pid-nazvoiu-dolphin-electrek" }
-          ],
-          gio: "Afternoon, Nov 17"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Mercedes builds its 711 km GLC Electric in India as November's launch rush peaks — Mini and Denza follow",
+          baiViet: [
+            "Mercedes-Benz has started local production of the all-new Electric GLC 400 4MATIC at its Chakan plant in Pune, India, with the first car rolling off the line on 4 November in the presence of Maharashtra chief minister Devendra Fadnavis and Mercedes-Benz Group chairman Ola Källenius. The single-variant SUV is priced at Rs 78.50 lakh (ex-showroom, pan-India), uses a 94 kWh battery on an 800-volt architecture, and claims up to 711 km of WLTP range, with customer deliveries starting in mid-November. Its dual-motor all-wheel-drive setup produces 360 kW (489 hp) and 800 Nm of torque, and Mercedes-Benz claims it can add up to 303 km of range in 10 minutes under ideal conditions. It is the first locally made Mercedes-Benz built on the company's next-generation MB.EA-M electric architecture — a bet that building in India, rather than importing, is the way to price a premium electric SUV into the country's fastest-growing segment.",
+            "The GLC Electric is only the first of three November launches in India. The Denza Z9 GT, the India debut of BYD's luxury brand, arrived on 13 November with a 122.5 kWh battery, three motors producing 1,156 hp, a claimed 0–100 kph time of 2.7 seconds and 600 km of WLTP range — but its headline number is charging: up to 1,500 kW of DC power, with a 10–97% charge reported in nine minutes. The second-generation Mini Cooper SE follows on 27 November, with a much larger 54.2 kWh battery than its predecessor's 32.6 kWh, a claimed WLTP range of 402 km against the old car's 270 km, a 218 hp motor and 10–80% DC charging in just under 30 minutes at 95 kW.",
+            "The three cars sketch the shape of the market's next phase. Divide claimed WLTP range by battery size and the GLC Electric manages about 7.6 km per kWh and the Mini about 7.4 km, while the Denza manages only about 4.9 km — it carries more than twice the Mini's battery but goes less than 1.5 times as far, because it is hauling far more weight and power. All three figures are laboratory claims and real-world range will be lower, but the direction is clear: premium buyers are being offered long range, very fast charging and local production in the same month, and the competition is no longer about whether an electric car can match a petrol one on paper — it is about which one does it most efficiently."
+          ],
+          nguon: [
+            { ten: "DailyScope (Mercedes-Benz India)", link: "https://dailyscope-one.vercel.app/blog/mercedes-electric-glc-india-production-2026/" },
+            { ten: "Business Today (Autocar India, Gaadiwaadi)", link: "https://www.businesstoday.in/latest/trends/photo/3-car-launches-left-in-november-from-a-mini-ev-to-a-rs1-2-crore-denza-566555-2026-11-10" },
+            { ten: "Autocar India", link: "https://www.autocarindia.com/car-news/second-gen-mini-cooper-electric-to-launch-on-november-27-441233" }
+          ],
+          gio: "Morning, Nov 19"
+        },
         {
           tieuDe: "XPeng's record quarter: revenue up 19% on a richer model mix as overseas sales jump 153% — but profit is still the homework",
           baiViet: [
