@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thursday, November 19, 2026 — morning edition",
+  capNhat: "Thursday, November 19, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "BYD passes Tesla in Europe for the first time — 7,231 electric cars to 7,165 in October",
+          baiViet: [
+            "October 2026 is the month the European electric crown changed hands. BYD registered 7,231 fully electric cars across Europe last month, against 7,165 for Tesla — the first time the Chinese maker has outsold Tesla in Europe on battery electrics, ending a dominance that dates back to the Model 3's arrival on the continent. The margin is just 66 cars, but the direction of travel is unmistakable: BYD's year-to-date European total is up 56% on 2025, and it has now passed 10,000 cumulative passenger-car sales in Japan too, reaching its second 5,000 far faster than its first.",
+            "The country picture shows how broad the shift has become. In Germany, Europe's biggest car market, BYD registered 5,173 cars in October against 2,932 for Tesla, while Tesla's registrations in the country have nearly quadrupled year on year. In Switzerland BYD registered 835 cars to Tesla's 124 — nearly seven to one — leaving it just 38 cars behind Tesla for the whole year. Across the 11 European countries that publish every brand, BYD registered 6,440 pure EVs against Tesla's 5,718, and was ahead in 10 of the 11. In Spain, Tesla's Model 3 was the month's best-selling single EV, yet BYD still registered more electric cars overall.",
+            "The result needs one big caveat: Tesla's sales swing violently with its quarterly delivery cycle — it registered 12,552 cars in Germany in September, the last month of the quarter, against 2,932 in October — so December's quarter-end surge will decide the year's final order. The longer trend, though, is clear from the third quarter: BYD sold 762,478 battery-electric passenger cars worldwide against Tesla's 486,532, and battery electrics took 27% of the EU market in Q3, passing petrol and diesel combined for the first time. October's 66-car gap may be small, but it is the first time the gap has pointed the other way."
+          ],
+          nguon: [
+            { ten: "BVI News", link: "https://bvi.org/tbepmn-byd-surpasses-tesla-in-european-electric-vehicle-sales" },
+            { ten: "Kurahan (JATO Dynamics, evstats.org, Electrek)", link: "https://kurahan.com/byd-overtakes-tesla-europe-ev-sales/" },
+            { ten: "The EV Report", link: "https://theevreport.com/ev-sales-monitor-q3-2026" }
+          ],
+          gio: "Afternoon, Nov 19"
+        },
         {
           tieuDe: "Germany's BEV boom: 698,230 electric cars in ten months, up 61% — Tesla triples as Chinese brands double",
           baiViet: [
@@ -27,26 +41,26 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 19"
         },
-        {
-          tieuDe: "October's EV scoreboard: 2.09 million sold worldwide, Europe's BEV sales jump 49% as Germany passes 45%",
-          baiViet: [
-            "Drivers bought 2.09 million electric vehicles worldwide in October, up 8% year on year but down 3% from September, taking sales for the first ten months of 2026 to 17.5 million, up 5%, according to Benchmark Mineral Intelligence. Europe was the engine of the month: the region sold 510,000 EVs — battery-electric and plug-in hybrid combined — in October, up 36% year on year, with pure battery electrics up 49% and plug-in hybrids up 7%. Europe has now sold 4.5 million EVs in 2026, up 31% for the year so far.",
-            "Germany set the pace inside Europe. Its EV share topped 45% of new car sales, with battery-electric sales up almost 80% to more than 95,000 cars, while UK EV sales rose 30%. North America also posted its first year-on-year increase of 2026, a tentative turn after a year in which adoption there stalled under shifting policy. The October figures extend the pattern from the first nine months of the year, when battery electrics took 24.2% of the European market and passed petrol and diesel combined in the third quarter.",
-            "The open question for the final two months is whether the October acceleration holds. Tesla's European rebound and the Chinese brands' record shares were both October stories, and the year-end quarter usually decides the annual ranking. What October already settles is the direction of travel: even with global growth moderating to single digits, Europe's battery-electric surge — nearly half again as many BEVs as a year earlier — is now the fastest-moving part of the world's car market."
-          ],
-          nguon: [
-            { ten: "Electrek (Benchmark Mineral Intelligence)", link: "https://electrek.co/2026/11/11/europes-electric-car-sales-jump-49-as-global-ev-sales-grow/" },
-            { ten: "EV News (Electrek)", link: "https://evnews.ai/news/europe-s-electric-car-sales-jump-49-as-global-ev-sales-grow" },
-            { ten: "The Code W (Reuters, registration data)", link: "https://www.thecodew.com/2026/11/electric-vehicle-watch-november-3.html" }
-          ],
-          gio: "Afternoon, Nov 18"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "BYD's Fang Cheng Bao Ti 9 goes on sale today — a six-seat plug-in hybrid that charges 10–97% in nine minutes",
+          baiViet: [
+            "BYD's premium off-road brand Fang Cheng Bao launches its new flagship, the Ti 9 (also written Tai 9), in China this evening at 7pm Beijing time. The six-seat SUV is the first model on BYD's new DMS hybrid platform, which swaps the separate ladder frame of the Bao 5 and Bao 8 for unibody construction — a deliberate move toward road manners and family comfort over rock-crawling. Pre-orders opened on 9 November, the same day a Ti 9 rolled off the line at the Xi'an factory as BYD's 19-millionth new-energy vehicle, and showroom cars have already reached 21 dealerships across 12 cities ahead of the model's public appearance at the Guangzhou Auto Show.",
+            "The headline number is the charging time. A 66.48 kWh second-generation Blade Battery gives the Ti 9 a WLTC pure-electric range of 310 km, and BYD's Flash Charging system claims to take the battery from 10% to 70% in five minutes and from 10% to 97% in just nine — figures that would make a plug-in hybrid charge almost like a pure EV. The powertrain pairs a 1.5-litre turbocharged petrol engine (115 kW) with two electric motors for 400 kW (536 hp) combined, and the full tank plus full charge stretches the combined range past 1,600 km. At 5,270 mm long with a 3,130 mm wheelbase, it is the biggest SUV the brand has built, with active air suspension as standard.",
+            "Pricing is the one detail BYD has held back until tonight: the company pitches the Ti 9 in the 400,000-yuan bracket, while dealership guidance points to a sticker between 350,000 and 400,000 yuan (about $48,400 to $55,300). Buyers who reserved before launch get an extra six months of free Flash charging. The launch lands as Fang Cheng Bao is outpacing its parent — the brand sold 43,872 cars in October, up 41.3% year on year, while BYD's China sales fell 10.6% to 319,974. With the third-generation Tang already on pre-sale and the Ti 9 arriving tonight, BYD is betting that flagship hybrids with EV-grade charging can carry growth while its home market cools."
+          ],
+          nguon: [
+            { ten: "ArenaEV", link: "https://www.arenaev.com/byds_fang_cheng_bao_ti_9__suv_with_unibody_manners_and_nineminute_charging-news-6369.php" },
+            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/unternehmensnachrichten/byd-s-product-offensive-gathers-pace-as-han-sales-slump-tests-the-turnaround/70532643" },
+            { ten: "The Electric Viking", link: "https://theelectricviking.com/tai-9s-november-19-launch-will-introduce-byds-new-flash-charging/" }
+          ],
+          gio: "Afternoon, Nov 19"
+        },
         {
           tieuDe: "Mercedes builds its 711 km GLC Electric in India as November's launch rush peaks — Mini and Denza follow",
           baiViet: [
@@ -74,20 +88,6 @@ window.TIN_TUC = {
             { ten: "DigitalToday (CleanTechnica)", link: "https://www.digitaltoday.co.kr/en/view/127320/xpeng-sees-q4-deliveries-up-to-174000-profitability-turnaround-remains-task" }
           ],
           gio: "Afternoon, Nov 18"
-        },
-        {
-          tieuDe: "Norway's October paradox: Tesla's best month ever — and Chinese brands' record 22.5% of the market",
-          baiViet: [
-            "Norway produced the most contradictory registration figures in Europe in October. Tesla had its best-ever October in the country, with registrations up 131% year on year, a 9.8% market share and the position of top single brand for the month. Sweden told a similar story, up 248%, Spain up 271%, Portugal up 186% and Italy up 94%. Yet in the same month, Chinese brands collectively captured a record 22.5% of Norway's new passenger-car registrations — the clearest sign yet that Tesla's rebound and China's advance are happening at the same time, in the same market.",
-            "The split is sharpest in the smaller markets. In Denmark, Tesla's share was just 0.73%, and in Italy 0.38%, trailing BYD, Leapmotor, XPeng and MG, whose shares ranged from 1.6% to 5.5%. The pattern matches the wider European picture: Chinese groups reached 1.25 million registrations in the first nine months of 2026, up 69.3%, for an 11.8% share of the EU, EFTA and UK market, while Tesla's October rebound came off a low base almost everywhere — its German registrations, for example, rose 290.9% but from only about 750 cars a year earlier.",
-            "Norway remains the extreme case of the transition: battery electrics account for 98% of new-car registrations there, against 5.2% in Poland, where BEV registrations actually fell 5.5%. The question for the final two months of the year is whether Tesla's October surge holds into November and December — Tesla deliveries usually peak in the final month of each quarter — or whether the Chinese brands' record Norwegian share is the leading indicator for 2027. Either way, the old picture of a single dominant brand in Europe's most electric market is gone."
-          ],
-          nguon: [
-            { ten: "The Code W (Reuters, registration data)", link: "https://www.thecodew.com/2026/11/electric-vehicle-watch-november-3.html" },
-            { ten: "EVXL (KBA, Nordic registration data)", link: "https://evxl.co/2026/11/04/tesla-germany-registrations-quadruple-october-trail-byd/" },
-            { ten: "Center of Automotive Management (ACEA data)", link: "https://www.linkedin.com/pulse/europe-grows-63-without-bevs-shrinks-chinese-oems-stefan-mnode" }
-          ],
-          gio: "Morning, Nov 18"
         },
       ]
     }
