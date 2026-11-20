@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Friday, November 20, 2026 — evening edition",
+  capNhat: "Saturday, November 21, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Dutch court bars BYD's Ti7 from the EU — a win for JLR's Defender, and a warning shot for Chinese design",
+          baiViet: [
+            "A Dutch district court in The Hague ruled on Friday that BYD's seven-seat Ti7 SUV infringes the EU design rights of Jaguar Land Rover's Defender, and imposed a temporary injunction barring the Chinese automaker from selling the vehicle in the European Union. The injunction takes effect a week after the ruling and lasts one week, because the court found BYD currently has no concrete plans to put the Ti7 on the EU market. Until the intellectual property case is resolved, the court also banned BYD from producing the vehicle at its new factory in Hungary, which is due to start mass production early next year. The judge ruled, however, that the court has no jurisdiction over BYD's affiliate in the United Kingdom.",
+            "The case has already swung both ways. JLR, a unit of India's Tata Motors, sued earlier this year after BYD opened UK orders for the Ti7, with customer deliveries due from January 2027 at £47,995 — more than £20,000 less than the plug-in Defender 110. In August, JLR had BYD's offices in the Netherlands raided and digital records seized. But on November 11 the same court handed BYD an early win, ordering JLR to destroy the seized files within 24 hours or pay €50,000 for every hour of delay, up to €500,000. Friday's ruling is the second round — and it is provisional, made in summary proceedings, with BYD saying the Ti7 is the result of its own independent design work and that it will appeal.",
+            "The stakes go well beyond one SUV. The Defender is JLR's best-selling model, with more than 100,000 sold globally in 2025, while BYD's European sales have more than doubled to over 280,000 vehicles through September — and BYD passed Tesla in European EV registrations for the first time in October. The Ti7 itself is a 402 hp plug-in hybrid with three electric motors and a 1.5-litre turbo engine, reaching 62 mph in 4.8 seconds. As the first major design-rights clash of China's European expansion wave, the case will be watched by every Chinese brand now sketching boxy, rugged SUVs for European buyers."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/world/china/chinas-byd-has-suv-that-infringes-jlr-defender-design-dutch-court-rules-2026-11-20/" },
+            { ten: "Electrek", link: "https://electrek.co/2026/11/12/byd-wins-round-one-defender-copycat-battle-jlr-told-to-destroy-documents/" },
+            { ten: "TradersUnion", link: "https://tradersunion.com/news/companies/show/4351514-byd-eu-ban-ti7-defender/" }
+          ],
+          gio: "Morning, Nov 21"
+        },
         {
           tieuDe: "EU's 350,000 hybrid cap pushes Chinese carmakers toward range-extender EVs — a loophole that could halve hybrid exports",
           baiViet: [
@@ -40,26 +54,26 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 20"
         },
-        {
-          tieuDe: "BYD passes Tesla in Europe for the first time — 7,231 electric cars to 7,165 in October",
-          baiViet: [
-            "October 2026 is the month the European electric crown changed hands. BYD registered 7,231 fully electric cars across Europe last month, against 7,165 for Tesla — the first time the Chinese maker has outsold Tesla in Europe on battery electrics, ending a dominance that dates back to the Model 3's arrival on the continent. The margin is just 66 cars, but the direction of travel is unmistakable: BYD's year-to-date European total is up 56% on 2025, and it has now passed 10,000 cumulative passenger-car sales in Japan too, reaching its second 5,000 far faster than its first.",
-            "The country picture shows how broad the shift has become. In Germany, Europe's biggest car market, BYD registered 5,173 cars in October against 2,932 for Tesla, while Tesla's registrations in the country have nearly quadrupled year on year. In Switzerland BYD registered 835 cars to Tesla's 124 — nearly seven to one — leaving it just 38 cars behind Tesla for the whole year. Across the 11 European countries that publish every brand, BYD registered 6,440 pure EVs against Tesla's 5,718, and was ahead in 10 of the 11. In Spain, Tesla's Model 3 was the month's best-selling single EV, yet BYD still registered more electric cars overall.",
-            "The result needs one big caveat: Tesla's sales swing violently with its quarterly delivery cycle — it registered 12,552 cars in Germany in September, the last month of the quarter, against 2,932 in October — so December's quarter-end surge will decide the year's final order. The longer trend, though, is clear from the third quarter: BYD sold 762,478 battery-electric passenger cars worldwide against Tesla's 486,532, and battery electrics took 27% of the EU market in Q3, passing petrol and diesel combined for the first time. October's 66-car gap may be small, but it is the first time the gap has pointed the other way."
-          ],
-          nguon: [
-            { ten: "BVI News", link: "https://bvi.org/tbepmn-byd-surpasses-tesla-in-european-electric-vehicle-sales" },
-            { ten: "Kurahan (JATO Dynamics, evstats.org, Electrek)", link: "https://kurahan.com/byd-overtakes-tesla-europe-ev-sales/" },
-            { ten: "The EV Report", link: "https://theevreport.com/ev-sales-monitor-q3-2026" }
-          ],
-          gio: "Afternoon, Nov 19"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Tesla bets €3 billion on Cybercab in Berlin — a 1-million-a-year factory for a car it can't yet sell in Europe",
+          baiViet: [
+            "Tesla confirmed on Monday that it will invest around €3 billion ($3.3 billion) in a new production building at its Giga Berlin plant in Grünheide, designed to build up to 1 million Cybercabs a year, with production planned for 2029. The money pays for a new hall north of the existing plant, plus ancillary buildings and a second wastewater treatment plant. Plant manager André Thierig announced the decision on X after telling employees that afternoon, saying Tesla would file the building application before the end of the year and break ground in the first half of 2027. Elon Musk personally signed off on the project the week before, according to an automation engineer at the plant.",
+            "The scale is striking: the new hall will have roughly 500,000 square metres of floor space, about twice the size of the current main hall, and the expansion could make Giga Berlin Germany's largest car plant by capacity, overtaking Volkswagen's Wolfsburg headquarters. It comes just days after Tesla opened invite-only orders for personally owned Cybercabs in the United States — $29,990 plus a required $299-a-month subscription. Yet the Cybercab has not been sold at scale anywhere commercially, and as Electrek noted, Tesla is committing €3 billion to a vehicle it cannot yet sell in volume in Europe.",
+            "The bet cuts against the grain of Germany's auto industry, where rivals have been downsizing. Giga Berlin, which opened in March 2022 and builds the Model Y alongside battery cells, is also bringing 4680 cell production in-house, targeting 18 GWh a year by mid-2027 and aiming for nearly 90% European content in its Model Y. But the Cybercab's European future will be decided by regulators, not factory capacity: a steering-wheel-free, pedal-free car still needs approval to operate on European roads, and no date has been given for reaching the 1-million-a-year goal."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/16/tesla-cybercab-giga-berlin-3-billion-1-million/" },
+            { ten: "Channel News Asia (Reuters)", link: "https://www.channelnewsasia.com/business/tesla-plans-33-billion-cybercab-boost-germanys-troubled-auto-sector-6556736?cid=cna_flip_070214" },
+            { ten: "TechCrunch", link: "https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/" }
+          ],
+          gio: "Morning, Nov 21"
+        },
         {
           tieuDe: "Leapmotor builds its 2 millionth EV — and is now making more than 100,000 cars a month",
           baiViet: [
@@ -72,20 +86,6 @@ window.TIN_TUC = {
             { ten: "PAVE Insight", link: "https://www.paveinsight.com/news/electric-vehicles" }
           ],
           gio: "Evening, Nov 20"
-        },
-        {
-          tieuDe: "BYD's next Han sheds its camouflage — a 697 hp fastback with up to 875 km of range, due at Guangzhou on November 27",
-          baiViet: [
-            "BYD's next-generation Han sedan has been photographed in public completely undisguised, giving the clearest look yet at the flagship's replacement ahead of its expected debut at the Guangzhou Auto Show on November 27. The car trades the current Han's formal three-box shape for a sleeker fastback silhouette, with slimmer headlights, a full-width light bar and the Chinese character badge moved onto the bonnet. Inside, spy shots show BYD's latest cabin layout — a floating centre touchscreen, a separate digital instrument cluster behind a three-spoke steering wheel, and physical buttons kept alongside the displays.",
-            "The hardware underneath is a major step up. Regulatory filings published by China's Ministry of Industry and Information Technology list three battery-electric versions: two rear-wheel-drive cars with 245 kW (329 hp) and 300 kW (402 hp), and a dual-motor all-wheel-drive flagship combining a 200 kW front motor with a 320 kW rear motor for 520 kW (697 hp) and a 270 km/h top speed. All three use second-generation Blade lithium-iron-phosphate batteries — 76.744 kWh or 88.682 kWh — with the long-range rear-drive version rated at up to 875 km on China's CLTC cycle, while the performance model manages 730 km. A plug-in hybrid joins the range with a 1.5-litre turbo engine, a 200 kW motor and a 45.36 kWh battery good for 400 km of electric driving.",
-            "At 5,156 mm long with a 3,030 mm wheelbase, the new Han is 161 mm longer than the car it replaces and sits between the Han L and the larger Da Han flagship launched on October 13. A roof-mounted LiDAR unit signals BYD's God's Eye B driver-assistance system, and reports point to the same flash-charging hardware that lets the Ti 9 SUV add most of its charge in about nine minutes. Pricing has not been announced, but with the Da Han starting at 235,900 yuan (about $35,000), analysts expect the new Han to land near or below 200,000 yuan (about $30,000) — positioning BYD's best-known sedan as a cut-price rival to premium electric saloons from Europe and the US."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/19/byds-new-han-ev-spotted-without-camo-showing-off-fastback-design/" },
-            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/10/16/next-gen-byd-han-listed-with-520-kw-awd-and-270-km-h-top-speed/" },
-            { ten: "The Electric Viking", link: "https://theelectricviking.com/new-byd-han-ev-revealed-697-hp-all-wheel-drive-option/" }
-          ],
-          gio: "Morning, Nov 20"
         },
       ]
     }
