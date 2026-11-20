@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Thursday, November 19, 2026 — evening edition",
+  capNhat: "Friday, November 20, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "China's electric cars are about to cross 70% of all new-car sales for the first time — but volumes are still falling",
+          baiViet: [
+            "New-energy vehicles are on course to make up more than 70% of China's passenger-car retail sales in a single month for the first time, the China Passenger Car Association (CPCA) estimated on Thursday, November 19. The industry body forecasts about 1.15 million NEV retail sales in November against roughly 1.63 million passenger cars of all kinds, which would put the NEV share at 70.6% — comfortably above October's previous record of 67.5%. It would be a symbolic line crossed in the world's largest car market, where plug-in cars have gone from a niche to the default choice in barely half a decade.",
+            "The milestone comes with an awkward footnote: the share is rising mainly because petrol cars are disappearing faster than electric cars are growing. Actual sales for November 1–15 reached 447,000 NEVs, down 13% year on year, while total passenger-car retail fell 25% to 611,000 over the same period — leaving NEVs at 73.2% of the half-month market. The full-month forecast of 1.15 million NEVs would still be about 13% below the 1.321 million sold in November 2025, and October's 1.109 million marked the tenth straight month of year-on-year decline for NEV retail. CPCA secretary-general Cui Dongshu described the market as entering a survival-of-the-fittest phase, with showroom traffic down 14.5% month on month and new orders down 36.6% despite the November 11 shopping festival.",
+            "The squeeze is reshaping the industry rather than slowing electrification itself. Automakers are leaning on year-end discounts and the Guangzhou Auto Show, which opens on November 27, to lift demand in the final stretch, while the CPCA is calling for longer-term stimulus such as purchase-tax relief and rural NEV promotion. Export pressure is also building: China plans to cut the export VAT rebate from 13% to 9% next year, tightening margins for brands that have relied on overseas sales to offset weak domestic demand. For now, the headline is clear — seven in ten new cars sold in China this month will plug in — even as the market underneath that headline keeps shrinking."
+          ],
+          nguon: [
+            { ten: "CnEVPost", link: "https://cnevpost.com/2026/11/19/cpca-estimates-china-nov-nev-retail-1-15-million/" },
+            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/19/nev-market-share-reached-73-2-in-china-as-the-industry-entered-survival-phase/" },
+            { ten: "MLQ.ai", link: "https://mlq.ai/news/chinas-nevs-set-to-top-70-of-november-car-retail-sales-for-the-first-time-cpca-estimates/" }
+          ],
+          gio: "Morning, Nov 20"
+        },
         {
           tieuDe: "BYD passes Tesla in Europe for the first time — 7,231 electric cars to 7,165 in October",
           baiViet: [
@@ -48,6 +62,20 @@ window.TIN_TUC = {
       ten: "🔋 Technology & New Models",
       tin: [
         {
+          tieuDe: "BYD's next Han sheds its camouflage — a 697 hp fastback with up to 875 km of range, due at Guangzhou on November 27",
+          baiViet: [
+            "BYD's next-generation Han sedan has been photographed in public completely undisguised, giving the clearest look yet at the flagship's replacement ahead of its expected debut at the Guangzhou Auto Show on November 27. The car trades the current Han's formal three-box shape for a sleeker fastback silhouette, with slimmer headlights, a full-width light bar and the Chinese character badge moved onto the bonnet. Inside, spy shots show BYD's latest cabin layout — a floating centre touchscreen, a separate digital instrument cluster behind a three-spoke steering wheel, and physical buttons kept alongside the displays.",
+            "The hardware underneath is a major step up. Regulatory filings published by China's Ministry of Industry and Information Technology list three battery-electric versions: two rear-wheel-drive cars with 245 kW (329 hp) and 300 kW (402 hp), and a dual-motor all-wheel-drive flagship combining a 200 kW front motor with a 320 kW rear motor for 520 kW (697 hp) and a 270 km/h top speed. All three use second-generation Blade lithium-iron-phosphate batteries — 76.744 kWh or 88.682 kWh — with the long-range rear-drive version rated at up to 875 km on China's CLTC cycle, while the performance model manages 730 km. A plug-in hybrid joins the range with a 1.5-litre turbo engine, a 200 kW motor and a 45.36 kWh battery good for 400 km of electric driving.",
+            "At 5,156 mm long with a 3,030 mm wheelbase, the new Han is 161 mm longer than the car it replaces and sits between the Han L and the larger Da Han flagship launched on October 13. A roof-mounted LiDAR unit signals BYD's God's Eye B driver-assistance system, and reports point to the same flash-charging hardware that lets the Ti 9 SUV add most of its charge in about nine minutes. Pricing has not been announced, but with the Da Han starting at 235,900 yuan (about $35,000), analysts expect the new Han to land near or below 200,000 yuan (about $30,000) — positioning BYD's best-known sedan as a cut-price rival to premium electric saloons from Europe and the US."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/19/byds-new-han-ev-spotted-without-camo-showing-off-fastback-design/" },
+            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/10/16/next-gen-byd-han-listed-with-520-kw-awd-and-270-km-h-top-speed/" },
+            { ten: "The Electric Viking", link: "https://theelectricviking.com/new-byd-han-ev-revealed-697-hp-all-wheel-drive-option/" }
+          ],
+          gio: "Morning, Nov 20"
+        },
+        {
           tieuDe: "BYD's Fang Cheng Bao Ti 9 goes on sale today — a six-seat plug-in hybrid that charges 10–97% in nine minutes",
           baiViet: [
             "BYD's premium off-road brand Fang Cheng Bao launches its new flagship, the Ti 9 (also written Tai 9), in China this evening at 7pm Beijing time. The six-seat SUV is the first model on BYD's new DMS hybrid platform, which swaps the separate ladder frame of the Bao 5 and Bao 8 for unibody construction — a deliberate move toward road manners and family comfort over rock-crawling. Pre-orders opened on 9 November, the same day a Ti 9 rolled off the line at the Xi'an factory as BYD's 19-millionth new-energy vehicle, and showroom cars have already reached 21 dealerships across 12 cities ahead of the model's public appearance at the Guangzhou Auto Show.",
@@ -60,34 +88,6 @@ window.TIN_TUC = {
             { ten: "The Electric Viking", link: "https://theelectricviking.com/tai-9s-november-19-launch-will-introduce-byds-new-flash-charging/" }
           ],
           gio: "Afternoon, Nov 19"
-        },
-        {
-          tieuDe: "Mercedes builds its 711 km GLC Electric in India as November's launch rush peaks — Mini and Denza follow",
-          baiViet: [
-            "Mercedes-Benz has started local production of the all-new Electric GLC 400 4MATIC at its Chakan plant in Pune, India, with the first car rolling off the line on 4 November in the presence of Maharashtra chief minister Devendra Fadnavis and Mercedes-Benz Group chairman Ola Källenius. The single-variant SUV is priced at Rs 78.50 lakh (ex-showroom, pan-India), uses a 94 kWh battery on an 800-volt architecture, and claims up to 711 km of WLTP range, with customer deliveries starting in mid-November. Its dual-motor all-wheel-drive setup produces 360 kW (489 hp) and 800 Nm of torque, and Mercedes-Benz claims it can add up to 303 km of range in 10 minutes under ideal conditions. It is the first locally made Mercedes-Benz built on the company's next-generation MB.EA-M electric architecture — a bet that building in India, rather than importing, is the way to price a premium electric SUV into the country's fastest-growing segment.",
-            "The GLC Electric is only the first of three November launches in India. The Denza Z9 GT, the India debut of BYD's luxury brand, arrived on 13 November with a 122.5 kWh battery, three motors producing 1,156 hp, a claimed 0–100 kph time of 2.7 seconds and 600 km of WLTP range — but its headline number is charging: up to 1,500 kW of DC power, with a 10–97% charge reported in nine minutes. The second-generation Mini Cooper SE follows on 27 November, with a much larger 54.2 kWh battery than its predecessor's 32.6 kWh, a claimed WLTP range of 402 km against the old car's 270 km, a 218 hp motor and 10–80% DC charging in just under 30 minutes at 95 kW.",
-            "The three cars sketch the shape of the market's next phase. Divide claimed WLTP range by battery size and the GLC Electric manages about 7.6 km per kWh and the Mini about 7.4 km, while the Denza manages only about 4.9 km — it carries more than twice the Mini's battery but goes less than 1.5 times as far, because it is hauling far more weight and power. All three figures are laboratory claims and real-world range will be lower, but the direction is clear: premium buyers are being offered long range, very fast charging and local production in the same month, and the competition is no longer about whether an electric car can match a petrol one on paper — it is about which one does it most efficiently."
-          ],
-          nguon: [
-            { ten: "DailyScope (Mercedes-Benz India)", link: "https://dailyscope-one.vercel.app/blog/mercedes-electric-glc-india-production-2026/" },
-            { ten: "Business Today (Autocar India, Gaadiwaadi)", link: "https://www.businesstoday.in/latest/trends/photo/3-car-launches-left-in-november-from-a-mini-ev-to-a-rs1-2-crore-denza-566555-2026-11-10" },
-            { ten: "Autocar India", link: "https://www.autocarindia.com/car-news/second-gen-mini-cooper-electric-to-launch-on-november-27-441233" }
-          ],
-          gio: "Morning, Nov 19"
-        },
-        {
-          tieuDe: "XPeng's record quarter: revenue up 19% on a richer model mix as overseas sales jump 153% — but profit is still the homework",
-          baiViet: [
-            "XPeng reported record third-quarter results on November 16: revenue of RMB 24.28 billion, up 19.1% year on year and 23% on the previous quarter, beating the top of its own August guidance of RMB 23.4 billion by about 3.8%. Deliveries reached 118,390 vehicles, also a record, but up only 2.1% on a year earlier — so the growth came from price and mix rather than volume. Vehicle sales generated RMB 21.63 billion, up 19.8%, and dividing that by deliveries gives roughly RMB 182,700 per vehicle, against about RMB 155,600 a year earlier. The GX SUV, which delivered more than 20,000 units in the quarter, did much of the heavy lifting.",
-            "Overseas sales are now the growth engine. Deliveries outside China reached 27,882 units in the quarter, up 153.4% year on year and equal to 23.6% of the total, taking international deliveries for the first nine months to 59,481 — double the level of a year earlier. October alone brought 50,237 deliveries, the first month above 50,000, including more than 13,000 overseas, up 166%. The company has set a 2026 overseas target above 100,000 units and expects fourth-quarter overseas sales above 40,000. Its new MONA L05 large SUV, on sale from October 29 at a limited-time entry price of RMB 139,800, sold out its first batch in three minutes, according to the company.",
-            "The homework is profitability. XPeng still posted a net loss of RMB 870 million for the quarter — wider than the RMB 380 million of a year earlier, though narrower than the RMB 1.34 billion of the second quarter — and overall gross margin slipped to 18.9% from 20.1% a year earlier, even as vehicle margin rose to 13.1%. Cash stood at RMB 45.41 billion at the end of September. Guidance for the fourth quarter is ambitious: 169,000 to 174,000 deliveries, up 45% to 50% year on year, and revenue of RMB 30.4 billion to RMB 31.8 billion. Getting there means averaging about 59,400 to 61,900 cars a month in November and December; management expects November alone to pass 60,000 for the first time. Shares climbed 3.2% to about $9.67 on the results."
-          ],
-          nguon: [
-            { ten: "GlobeNewswire via WCIA (XPeng Q3 results)", link: "https://www.wcia.com/business/press-releases/globenewswire/9878979/xpeng-reports-q3-2026-results-both-deliveries-and-revenue-reach-record-highs-overseas-market-2026-full-year-sales-target-exceeds-100000-units/" },
-            { ten: "Asia Daily", link: "https://asiadaily.org/news/18981/" },
-            { ten: "DigitalToday (CleanTechnica)", link: "https://www.digitaltoday.co.kr/en/view/127320/xpeng-sees-q4-deliveries-up-to-174000-profitability-turnaround-remains-task" }
-          ],
-          gio: "Afternoon, Nov 18"
         },
       ]
     }
