@@ -7,12 +7,25 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Friday, November 20, 2026 — morning edition",
+  capNhat: "Friday, November 20, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "EU's 350,000 hybrid cap pushes Chinese carmakers toward range-extender EVs — a loophole that could halve hybrid exports",
+          baiViet: [
+            "A new European Union cap on imports of China-made hybrid vehicles is pushing Chinese automakers toward a niche powertrain that escapes the quota entirely. Under a deal agreed by Brussels and Beijing in October, annual imports of China-built hybrids will be limited to 350,000 units, taking effect as early as December 1 pending approval from EU member states. Crucially, the quota does not cover range-extended electric vehicles (EREVs) — cars that drive on electric power while a small petrol engine acts only as a generator to recharge the battery — giving Chinese brands a legal route around the limit.",
+            "The shift is already reshaping product plans. Li Auto, which pioneered EREVs in China and held roughly a quarter of the domestic market last year, announced at last month's Paris Motor Show that it will enter Europe with its Li 6 SUV in both range-extender and pure-electric form. XPeng, whose line-up includes eight EREV models, launched its first range-extended car in Europe earlier this year with a combined driving range of 1,000 kilometres on a full charge and a full tank. In October, EREVs already accounted for 4.6% of China's total vehicle exports, and analysts expect the share to climb fast as more brands follow the same playbook.",
+            "For Brussels, the quota was meant to slow the flood of Chinese hybrids into Europe; for Beijing's carmakers, it may simply reroute it. The EU-China deal is projected to halve exports of China-made hybrids over the next four years — but every hybrid sale that converts into an EREV sale blunts that effect. The test will come in the first months of 2027, when the first full quarter of quota data shows whether European buyers embrace range-extenders or whether the cap genuinely bites."
+          ],
+          nguon: [
+            { ten: "Nikkei Asia", link: "https://asia.nikkei.com/business/automobiles/electric-vehicles/eu-curb-on-chinese-hybrid-cars-drives-shift-to-niche-powertrain" },
+            { ten: "PAVE Insight", link: "https://www.paveinsight.com/news/electric-vehicles" }
+          ],
+          gio: "Evening, Nov 20"
+        },
         {
           tieuDe: "China's electric cars are about to cross 70% of all new-car sales for the first time — but volumes are still falling",
           baiViet: [
@@ -41,26 +54,25 @@ window.TIN_TUC = {
           ],
           gio: "Afternoon, Nov 19"
         },
-        {
-          tieuDe: "Germany's BEV boom: 698,230 electric cars in ten months, up 61% — Tesla triples as Chinese brands double",
-          baiViet: [
-            "Germany's electric car market is no longer recovering — it is surging. Between January and October 2026, 698,230 battery-electric cars were registered, up 60.7% year on year, lifting the BEV share of all new-car registrations to 28.2%, according to the latest data from the Federal Motor Transport Authority (KBA), analysed by the Center of Automotive Management (CAM). October alone kept the momentum going, and the growth is broad-based: domestic brands, American brands and Chinese brands are all expanding at once, which is why the German market now looks less like a subsidy story and more like a structural shift in what buyers actually choose.",
-            "Tesla is the most striking rebound. US brands registered 70,366 BEVs in the first ten months, up 126.5%, driven by Tesla with 47,742 registrations — up 206.1% on a year earlier. BEVs now make up 54.1% of all US-brand registrations in Germany. The surge fits the wider European picture from October, when Tesla registrations jumped 248% in Sweden, 131% in Norway and 271% in Spain, helped by easier year-ago comparisons, higher fuel prices, government incentives and continued EV demand. But the recovery is uneven: in Denmark Tesla held only 0.73% of the market, trailing BYD, Leapmotor, XPeng and SAIC-owned MG.",
-            "The Chinese challenge is the other half of the story. Chinese manufacturers registered 82,692 BEVs in Germany over the same ten months, up 110.2%, taking 11.8% of the country's BEV market — and BEVs now account for 48.9% of everything Chinese brands sell there. BYD (18,716 units, up 140.9%) and Leapmotor (18,677, up 304.4%) are running almost neck and neck. Stellantis nearly doubled its BEV registrations to 63,774, up 95.3%. The message for the rest of Europe is that Germany's boom is being fought on two fronts at once: a resurgent Tesla and a Chinese wave that is no longer a niche."
-          ],
-          nguon: [
-            { ten: "CAM / Prof. Stefan Bratzel (KBA data)", link: "https://www.linkedin.com/posts/stefan-bratzel-prof-dr-2b9336_electromobility-bev-germany-activity-7525444738888679424-YfQj" },
-            { ten: "Global Business Outlook (OFV, Mobility Sweden, bilstatistik.dk)", link: "https://globalbusinessoutlook.com/technology/tesla-sees-surging-vehicle-registrations-in-europe-gets-beaten-by-chinese-in-denmark/" },
-            { ten: "EuropeSays (Benzinga, ACEA)", link: "https://www.europesays.com/europe/174593/" }
-          ],
-          gio: "Morning, Nov 19"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Leapmotor builds its 2 millionth EV — and is now making more than 100,000 cars a month",
+          baiViet: [
+            "Chinese electric carmaker Leapmotor has produced its two millionth vehicle, a milestone that underlines how quickly the country's younger EV brands are scaling. The company says it plans to build one million vehicles in 2026 alone — as many as half its entire cumulative output to date — and is on track to do so. Production has now topped 100,000 vehicles a month for four consecutive months, putting Leapmotor on course to reach three million cumulative EVs sometime in the middle of next year.",
+            "The growth is being driven by a rapid product cadence rather than a single hit model. Leapmotor has just opened pre-sales for the updated Lafa 5 compact hatchback, priced from 105,800 yuan and built on an 800-volt platform, while its D19 SUV has already reached 50,000 units produced. The brand's pitch — well-equipped electric cars at prices far below the established premium marques — has found a ready audience at home, and the company is now looking to carry the same formula abroad as Chinese EV exports keep climbing.",
+            "Leapmotor's trajectory also says something about the wider Chinese EV market: scale is concentrating fast. As the industry enters what the China Passenger Car Association calls a survival-of-the-fittest phase, brands that can sustain six-figure monthly volumes gain a cost advantage that smaller rivals cannot match. Two million cars is still a fraction of BYD's output, but for a company founded barely a decade ago, the pace — a million cars this year, a million more expected within about eighteen months — marks it as one of the challengers to watch."
+          ],
+          nguon: [
+            { ten: "CleanTechnica", link: "https://cleantechnica.com/2026/11/19/leapmotor-produces-its-2-millionth-ev/" },
+            { ten: "PAVE Insight", link: "https://www.paveinsight.com/news/electric-vehicles" }
+          ],
+          gio: "Evening, Nov 20"
+        },
         {
           tieuDe: "BYD's next Han sheds its camouflage — a 697 hp fastback with up to 875 km of range, due at Guangzhou on November 27",
           baiViet: [
@@ -74,20 +86,6 @@ window.TIN_TUC = {
             { ten: "The Electric Viking", link: "https://theelectricviking.com/new-byd-han-ev-revealed-697-hp-all-wheel-drive-option/" }
           ],
           gio: "Morning, Nov 20"
-        },
-        {
-          tieuDe: "BYD's Fang Cheng Bao Ti 9 goes on sale today — a six-seat plug-in hybrid that charges 10–97% in nine minutes",
-          baiViet: [
-            "BYD's premium off-road brand Fang Cheng Bao launches its new flagship, the Ti 9 (also written Tai 9), in China this evening at 7pm Beijing time. The six-seat SUV is the first model on BYD's new DMS hybrid platform, which swaps the separate ladder frame of the Bao 5 and Bao 8 for unibody construction — a deliberate move toward road manners and family comfort over rock-crawling. Pre-orders opened on 9 November, the same day a Ti 9 rolled off the line at the Xi'an factory as BYD's 19-millionth new-energy vehicle, and showroom cars have already reached 21 dealerships across 12 cities ahead of the model's public appearance at the Guangzhou Auto Show.",
-            "The headline number is the charging time. A 66.48 kWh second-generation Blade Battery gives the Ti 9 a WLTC pure-electric range of 310 km, and BYD's Flash Charging system claims to take the battery from 10% to 70% in five minutes and from 10% to 97% in just nine — figures that would make a plug-in hybrid charge almost like a pure EV. The powertrain pairs a 1.5-litre turbocharged petrol engine (115 kW) with two electric motors for 400 kW (536 hp) combined, and the full tank plus full charge stretches the combined range past 1,600 km. At 5,270 mm long with a 3,130 mm wheelbase, it is the biggest SUV the brand has built, with active air suspension as standard.",
-            "Pricing is the one detail BYD has held back until tonight: the company pitches the Ti 9 in the 400,000-yuan bracket, while dealership guidance points to a sticker between 350,000 and 400,000 yuan (about $48,400 to $55,300). Buyers who reserved before launch get an extra six months of free Flash charging. The launch lands as Fang Cheng Bao is outpacing its parent — the brand sold 43,872 cars in October, up 41.3% year on year, while BYD's China sales fell 10.6% to 319,974. With the third-generation Tang already on pre-sale and the Ti 9 arriving tonight, BYD is betting that flagship hybrids with EV-grade charging can carry growth while its home market cools."
-          ],
-          nguon: [
-            { ten: "ArenaEV", link: "https://www.arenaev.com/byds_fang_cheng_bao_ti_9__suv_with_unibody_manners_and_nineminute_charging-news-6369.php" },
-            { ten: "ad-hoc-news", link: "https://www.ad-hoc-news.de/boerse/unternehmensnachrichten/byd-s-product-offensive-gathers-pace-as-han-sales-slump-tests-the-turnaround/70532643" },
-            { ten: "The Electric Viking", link: "https://theelectricviking.com/tai-9s-november-19-launch-will-introduce-byds-new-flash-charging/" }
-          ],
-          gio: "Afternoon, Nov 19"
         },
       ]
     }
