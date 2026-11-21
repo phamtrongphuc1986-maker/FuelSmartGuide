@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Saturday, November 21, 2026 — morning edition",
+  capNhat: "Saturday, November 21, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Italy gives Tesla's assisted driving its first big EU green light",
+          baiViet: [
+            "Italy has become the first large European Union country to approve Tesla's assisted-driving system, giving the technology its biggest EU endorsement yet. Transport Minister Matteo Salvini announced the provisional approval on Friday, November 20, for Tesla Assisted Driving (TAD) — the new European name for Full Self-Driving (Supervised). Italy is the 12th country in Europe to allow the system, following an initial approval by the Dutch authority RDW in April 2026 and recognition by ten more countries since: Belgium, Croatia, Czechia, Denmark, Estonia, Finland, Latvia, Lithuania, Slovakia and Slovenia.",
+            "The system is 'hands-off, eyes-on': the car steers itself, but the driver must supervise continuously and remains fully responsible at all times. It is still a Level 2 driver-assistance system, not a self-driving car. Italy's decision follows what the ministry called a thorough technical feasibility assessment, and it moves ahead of the EU-wide process — the EU's Technical Committee on Motor Vehicles has yet to vote, with the earliest vote expected in December 2026. For full EU-wide approval, a qualified majority is needed: at least 15 of 27 member states representing at least 65 percent of the EU population. With about 59 million people, Italy nearly doubles the share of EU citizens covered, to almost 30 percent, according to Electrek. Tesla Europe posted on X the same day: 'Now approved in Italy, rollout begins soon', alongside a video of a car driving itself through Rome — though no launch date has been given.",
+            "The approval caps a year of rebranding and compromise for Tesla in Europe. The company renamed FSD as Tesla Assisted Driving after Germany's transport ministry said the old name was misleading, and cut the system's speed leeway above posted limits from 50 percent to 10 percent. On November 16, the RDW approved stricter driver monitoring, including a hands-on-the-wheel requirement above 130 km/h — the version Italy has now approved. Germany said in October it would support approval, while France refused a national approval in July and Spain has not yet recognised the system. If the EU committee votes yes in December, Tesla's assisted driving could go from a patchwork of national approvals to a single market of 450 million people in one step."
+          ],
+          nguon: [
+            { ten: "Reuters", link: "https://www.reuters.com/world/italy-gives-green-light-tesla-self-driving-system-ahead-eu-approval-2026-11-20/" },
+            { ten: "Electrek", link: "https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/" },
+            { ten: "Channel News Asia (Reuters)", link: "https://www.channelnewsasia.com/business/italy-gives-green-light-tesla-self-driving-system-ahead-eu-approval-6570321?cid=cna_flip_070214" }
+          ],
+          gio: "Evening, Nov 21"
+        },
         {
           tieuDe: "Dutch court bars BYD's Ti7 from the EU — a win for JLR's Defender, and a warning shot for Chinese design",
           baiViet: [
@@ -40,26 +54,26 @@ window.TIN_TUC = {
           ],
           gio: "Evening, Nov 20"
         },
-        {
-          tieuDe: "China's electric cars are about to cross 70% of all new-car sales for the first time — but volumes are still falling",
-          baiViet: [
-            "New-energy vehicles are on course to make up more than 70% of China's passenger-car retail sales in a single month for the first time, the China Passenger Car Association (CPCA) estimated on Thursday, November 19. The industry body forecasts about 1.15 million NEV retail sales in November against roughly 1.63 million passenger cars of all kinds, which would put the NEV share at 70.6% — comfortably above October's previous record of 67.5%. It would be a symbolic line crossed in the world's largest car market, where plug-in cars have gone from a niche to the default choice in barely half a decade.",
-            "The milestone comes with an awkward footnote: the share is rising mainly because petrol cars are disappearing faster than electric cars are growing. Actual sales for November 1–15 reached 447,000 NEVs, down 13% year on year, while total passenger-car retail fell 25% to 611,000 over the same period — leaving NEVs at 73.2% of the half-month market. The full-month forecast of 1.15 million NEVs would still be about 13% below the 1.321 million sold in November 2025, and October's 1.109 million marked the tenth straight month of year-on-year decline for NEV retail. CPCA secretary-general Cui Dongshu described the market as entering a survival-of-the-fittest phase, with showroom traffic down 14.5% month on month and new orders down 36.6% despite the November 11 shopping festival.",
-            "The squeeze is reshaping the industry rather than slowing electrification itself. Automakers are leaning on year-end discounts and the Guangzhou Auto Show, which opens on November 27, to lift demand in the final stretch, while the CPCA is calling for longer-term stimulus such as purchase-tax relief and rural NEV promotion. Export pressure is also building: China plans to cut the export VAT rebate from 13% to 9% next year, tightening margins for brands that have relied on overseas sales to offset weak domestic demand. For now, the headline is clear — seven in ten new cars sold in China this month will plug in — even as the market underneath that headline keeps shrinking."
-          ],
-          nguon: [
-            { ten: "CnEVPost", link: "https://cnevpost.com/2026/11/19/cpca-estimates-china-nov-nev-retail-1-15-million/" },
-            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/19/nev-market-share-reached-73-2-in-china-as-the-industry-entered-survival-phase/" },
-            { ten: "MLQ.ai", link: "https://mlq.ai/news/chinas-nevs-set-to-top-70-of-november-car-retail-sales-for-the-first-time-cpca-estimates/" }
-          ],
-          gio: "Morning, Nov 20"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Volkswagen unveils 367-hp ID. Polo GTI Clubsport — its most powerful electric Polo yet, and a track-only one-off",
+          baiViet: [
+            "Volkswagen has unveiled the ID. Polo GTI Clubsport Concept, a track-ready electric hot hatch marking 50 years of the GTI badge. Revealed on November 20, it is the brand's first electric Clubsport model and will make its public debut at the Essen Motor Show, running November 27 to December 6, 2026. The concept takes the APP550 motor — designed for the rear axle of larger models such as the ID.7 — and mounts it on the front axle, producing 270 kW (367 PS, 362 hp) and 550 Nm (406 lb-ft) of torque. That is 104 kW (141 PS) more than the production ID. Polo GTI, and it cuts the 0–100 km/h sprint to 4.7 seconds with launch control, versus 6.8 seconds for the road car, on the way to a 240 km/h (149 mph) top speed.",
+            "The hardware is unmistakably track-focused. The 52 kWh battery is the same size as the production car's, but new management software allows short bursts of up to 290 kW, and DC fast charging peaks at 105 kW for a 10–80 percent top-up in 24 minutes. Power reaches the road through an electronic front differential lock (VAQ) and adaptive DCC suspension tuned for the circuit, with ceramic brakes — a first for the Polo line. The concept is strictly a two-door, two-seat machine: Recaro race seats with five-point red harnesses and a Tornado Red roll bar replace the rear bench, there is no infotainment system at all, and the central screen serves only driving settings. The body is 100 mm wider and 30 mm lower than the production car, with flared arches, a carbon-fibre rear wing and a large front splitter and diffuser.",
+            "For now, the Clubsport is a one-off concept, and Volkswagen says only that a production version remains a 'theoretical option'. It is the fourth GTI of the anniversary year, after the Golf GTI EDITION 50, the ID.3 GTI (on sale from early 2027) and the ID. Polo GTI itself, open for orders since October 2026. The ID. Polo line is sold in Europe only, not in the United States — so American enthusiasts will have to admire this 149-mph electric GTI from afar. What the concept does show, though, is how far Volkswagen is willing to push its MEB+ platform: a front-wheel-drive electric hatch with supercar-baiting pace, built to celebrate half a century of the three letters that defined the hot hatch."
+          ],
+          nguon: [
+            { ten: "Volkswagen Newsroom", link: "https://www.volkswagen-newsroom.com/en/press-releases/new-id-polo-gti-clubsport-concept-this-electric-gti-is-ready-for-the-racetrack-20873" },
+            { ten: "InsideEVs", link: "https://insideevs.com/news/815684/vw-id-polo-gti-clubsport-concept-specs-power-charging/" },
+            { ten: "USA Today", link: "https://www.usatoday.com/story/cars/shopping/evs/2026/11/20/volkswagen-id-polo-gti-clubsport-concept/92863414007/" }
+          ],
+          gio: "Evening, Nov 21"
+        },
         {
           tieuDe: "Tesla bets €3 billion on Cybercab in Berlin — a 1-million-a-year factory for a car it can't yet sell in Europe",
           baiViet: [
@@ -73,19 +87,6 @@ window.TIN_TUC = {
             { ten: "TechCrunch", link: "https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/" }
           ],
           gio: "Morning, Nov 21"
-        },
-        {
-          tieuDe: "Leapmotor builds its 2 millionth EV — and is now making more than 100,000 cars a month",
-          baiViet: [
-            "Chinese electric carmaker Leapmotor has produced its two millionth vehicle, a milestone that underlines how quickly the country's younger EV brands are scaling. The company says it plans to build one million vehicles in 2026 alone — as many as half its entire cumulative output to date — and is on track to do so. Production has now topped 100,000 vehicles a month for four consecutive months, putting Leapmotor on course to reach three million cumulative EVs sometime in the middle of next year.",
-            "The growth is being driven by a rapid product cadence rather than a single hit model. Leapmotor has just opened pre-sales for the updated Lafa 5 compact hatchback, priced from 105,800 yuan and built on an 800-volt platform, while its D19 SUV has already reached 50,000 units produced. The brand's pitch — well-equipped electric cars at prices far below the established premium marques — has found a ready audience at home, and the company is now looking to carry the same formula abroad as Chinese EV exports keep climbing.",
-            "Leapmotor's trajectory also says something about the wider Chinese EV market: scale is concentrating fast. As the industry enters what the China Passenger Car Association calls a survival-of-the-fittest phase, brands that can sustain six-figure monthly volumes gain a cost advantage that smaller rivals cannot match. Two million cars is still a fraction of BYD's output, but for a company founded barely a decade ago, the pace — a million cars this year, a million more expected within about eighteen months — marks it as one of the challengers to watch."
-          ],
-          nguon: [
-            { ten: "CleanTechnica", link: "https://cleantechnica.com/2026/11/19/leapmotor-produces-its-2-millionth-ev/" },
-            { ten: "PAVE Insight", link: "https://www.paveinsight.com/news/electric-vehicles" }
-          ],
-          gio: "Evening, Nov 20"
         },
       ]
     }
