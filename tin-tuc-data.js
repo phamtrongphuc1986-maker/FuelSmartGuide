@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Sunday, November 22, 2026 — morning edition",
+  capNhat: "Sunday, November 22, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Global EV sales hit 2.09 million in October — Europe surges 49% while China slips",
+          baiViet: [
+            "Drivers bought 2.09 million electric vehicles worldwide in October 2026, according to Benchmark Mineral Intelligence — up 8% on a year earlier, though 3% below September. That takes sales for the first ten months of the year to 17.5 million, 5% ahead of the same period in 2025. Europe did the heavy lifting: the region sold 510,000 EVs in October, up 36% year on year, with fully electric cars rising 49% and plug-in hybrids just 7%. Germany recorded its highest EV share since December 2022, with EVs taking more than 45% of the new-car market and battery-electric sales above 95,000 — up almost 80% on a year earlier. The UK grew 30% despite comparing against a period when its Electric Car Grant was already in place, and Portugal's EV penetration reached 55%.",
+            "China, still the world's biggest EV market, moved the other way: 1.14 million sales in October, down 12% year on year. But the softness at home is pushing Chinese makers abroad — exports hit a monthly record of 600,000 units. North America posted its first year-on-year increase of 2026, up 24% to 130,000 units, yet the rebound comes with a large caveat: it is measured against October 2025, the month after the US federal EV tax credit expired on 30 September 2025 and sales collapsed. Year to date, North America is still down 21%. The rest of the world grew fastest of all, up 85% in October and 93% for the year so far, albeit from a smaller base.",
+            "The picture, then, is a market splitting in two directions. Europe's growth keeps building month after month — its 36% October gain ran ahead of its 31% pace for the year — while the American recovery is mostly a base effect and China is exporting its way out of a domestic slowdown. With 9.1 million of the 17.5 million EVs sold this year going to Chinese buyers, the centre of gravity has not moved; but the export wave now reshaping showrooms in Europe and beyond is the story to watch into 2027."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/11/europes-electric-car-sales-jump-49-as-global-ev-sales-grow/" },
+            { ten: "Benchmark Mineral Intelligence", link: "https://source.benchmarkminerals.com/article/global-ev-sales-reach-2-09-million-units-in-october-2026" },
+            { ten: "Fleet News", link: "https://www.fleetnews.co.uk/news/global-electric-vehicle-sales-reach-175-million" }
+          ],
+          gio: "Evening, Nov 22"
+        },
         {
           tieuDe: "BYD passes Tesla in Europe for the first time — October registrations flip the EV order",
           baiViet: [
@@ -41,26 +55,26 @@ window.TIN_TUC = {
           ],
           gio: "Evening, Nov 21"
         },
-        {
-          tieuDe: "Dutch court bars BYD's Ti7 from the EU — a win for JLR's Defender, and a warning shot for Chinese design",
-          baiViet: [
-            "A Dutch district court in The Hague ruled on Friday that BYD's seven-seat Ti7 SUV infringes the EU design rights of Jaguar Land Rover's Defender, and imposed a temporary injunction barring the Chinese automaker from selling the vehicle in the European Union. The injunction takes effect a week after the ruling and lasts one week, because the court found BYD currently has no concrete plans to put the Ti7 on the EU market. Until the intellectual property case is resolved, the court also banned BYD from producing the vehicle at its new factory in Hungary, which is due to start mass production early next year. The judge ruled, however, that the court has no jurisdiction over BYD's affiliate in the United Kingdom.",
-            "The case has already swung both ways. JLR, a unit of India's Tata Motors, sued earlier this year after BYD opened UK orders for the Ti7, with customer deliveries due from January 2027 at £47,995 — more than £20,000 less than the plug-in Defender 110. In August, JLR had BYD's offices in the Netherlands raided and digital records seized. But on November 11 the same court handed BYD an early win, ordering JLR to destroy the seized files within 24 hours or pay €50,000 for every hour of delay, up to €500,000. Friday's ruling is the second round — and it is provisional, made in summary proceedings, with BYD saying the Ti7 is the result of its own independent design work and that it will appeal.",
-            "The stakes go well beyond one SUV. The Defender is JLR's best-selling model, with more than 100,000 sold globally in 2025, while BYD's European sales have more than doubled to over 280,000 vehicles through September — and BYD passed Tesla in European EV registrations for the first time in October. The Ti7 itself is a 402 hp plug-in hybrid with three electric motors and a 1.5-litre turbo engine, reaching 62 mph in 4.8 seconds. As the first major design-rights clash of China's European expansion wave, the case will be watched by every Chinese brand now sketching boxy, rugged SUVs for European buyers."
-          ],
-          nguon: [
-            { ten: "Reuters", link: "https://www.reuters.com/world/china/chinas-byd-has-suv-that-infringes-jlr-defender-design-dutch-court-rules-2026-11-20/" },
-            { ten: "Electrek", link: "https://electrek.co/2026/11/12/byd-wins-round-one-defender-copycat-battle-jlr-told-to-destroy-documents/" },
-            { ten: "TradersUnion", link: "https://tradersunion.com/news/companies/show/4351514-byd-eu-ban-ti7-defender/" }
-          ],
-          gio: "Morning, Nov 21"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Samsung and Hyundai take solid-state batteries from lab to factory floor — nine joint patents, 2027 target",
+          baiViet: [
+            "Samsung and Hyundai Motor Group are turning their battery partnership from a supply deal into joint engineering. A patent jointly filed by Hyundai Motor, Kia and Samsung SDI — titled 'Battery Pack and Vehicle Including the Same' and published by Korea's patent office on 22 October — describes a pack that vents high-temperature gases from beneath the cells through a passage in the lower cover, merging the space needed for impact protection with the space needed for gas release to raise energy density. A heat-resistant member limits heat transfer between cells, and a cooling plate regulates temperature. Five Hyundai and Kia researchers and two from Samsung SDI are named as inventors — a sign the cooperation now runs to pack design tailored to specific vehicles, not just cell procurement.",
+            "The two groups signed their first EV battery supply contract in October 2023: prismatic cells made at Samsung SDI's plant in Hungary for Hyundai and Kia electric cars sold in Europe from 2026 through 2032, now fitted to three models including the Kia EV2, the Hyundai Ioniq 3 and the Genesis GV90. On next-generation technology they have jointly filed nine all-solid-state battery patents between 2022 and 2025, Samsung SDI as lead applicant on seven, with two already granted. Since 2023 the research has shifted from protecting moisture-sensitive sulfide electrolytes to lifespan and mass-production processes — including temperature measurement for the warm isostatic pressing step and devices for preheating and transferring cells.",
+            "Samsung SDI is targeting commercialisation of all-solid-state batteries in the second half of 2027 and has begun sampling cells to carmakers, claiming an energy density of 900 watt-hours per litre — about 40% better than its lithium-ion cells. Hyundai plans to put solid-state packs into production EVs starting with its Genesis luxury line between 2027 and 2030, and Toyota is targeting 2027–28. Solid-state cells replace the liquid electrolyte with a solid one, promising safer, denser batteries with uses beyond cars — including humanoid robots. The technology has been a 'next five years' story for a decade; this time, the jointly owned patents and factory tooling are what make the 2027 date worth taking seriously."
+          ],
+          nguon: [
+            { ten: "The Korea Herald", link: "https://www.koreaherald.com/article/10933858" },
+            { ten: "Financial News (EN)", link: "https://en.fnnews.com/news/202611110730123893" },
+            { ten: "SBS News", link: "https://news.sbs.co.kr/english/article.do?news_id=N1008840652" }
+          ],
+          gio: "Evening, Nov 22"
+        },
         {
           tieuDe: "Ford ships its first home-grown LFP battery cells — the $28,350 Fathom truck is one step closer",
           baiViet: [
@@ -74,20 +88,6 @@ window.TIN_TUC = {
             { ten: "Holland Sentinel (Detroit News)", link: "https://www.hollandsentinel.com/story/news/2026/11/19/ford-marshall-plant-lfp-battery-fathom-e-v-launch-production/92861036007/" }
           ],
           gio: "Morning, Nov 22"
-        },
-        {
-          tieuDe: "Volkswagen unveils 367-hp ID. Polo GTI Clubsport — its most powerful electric Polo yet, and a track-only one-off",
-          baiViet: [
-            "Volkswagen has unveiled the ID. Polo GTI Clubsport Concept, a track-ready electric hot hatch marking 50 years of the GTI badge. Revealed on November 20, it is the brand's first electric Clubsport model and will make its public debut at the Essen Motor Show, running November 27 to December 6, 2026. The concept takes the APP550 motor — designed for the rear axle of larger models such as the ID.7 — and mounts it on the front axle, producing 270 kW (367 PS, 362 hp) and 550 Nm (406 lb-ft) of torque. That is 104 kW (141 PS) more than the production ID. Polo GTI, and it cuts the 0–100 km/h sprint to 4.7 seconds with launch control, versus 6.8 seconds for the road car, on the way to a 240 km/h (149 mph) top speed.",
-            "The hardware is unmistakably track-focused. The 52 kWh battery is the same size as the production car's, but new management software allows short bursts of up to 290 kW, and DC fast charging peaks at 105 kW for a 10–80 percent top-up in 24 minutes. Power reaches the road through an electronic front differential lock (VAQ) and adaptive DCC suspension tuned for the circuit, with ceramic brakes — a first for the Polo line. The concept is strictly a two-door, two-seat machine: Recaro race seats with five-point red harnesses and a Tornado Red roll bar replace the rear bench, there is no infotainment system at all, and the central screen serves only driving settings. The body is 100 mm wider and 30 mm lower than the production car, with flared arches, a carbon-fibre rear wing and a large front splitter and diffuser.",
-            "For now, the Clubsport is a one-off concept, and Volkswagen says only that a production version remains a 'theoretical option'. It is the fourth GTI of the anniversary year, after the Golf GTI EDITION 50, the ID.3 GTI (on sale from early 2027) and the ID. Polo GTI itself, open for orders since October 2026. The ID. Polo line is sold in Europe only, not in the United States — so American enthusiasts will have to admire this 149-mph electric GTI from afar. What the concept does show, though, is how far Volkswagen is willing to push its MEB+ platform: a front-wheel-drive electric hatch with supercar-baiting pace, built to celebrate half a century of the three letters that defined the hot hatch."
-          ],
-          nguon: [
-            { ten: "Volkswagen Newsroom", link: "https://www.volkswagen-newsroom.com/en/press-releases/new-id-polo-gti-clubsport-concept-this-electric-gti-is-ready-for-the-racetrack-20873" },
-            { ten: "InsideEVs", link: "https://insideevs.com/news/815684/vw-id-polo-gti-clubsport-concept-specs-power-charging/" },
-            { ten: "USA Today", link: "https://www.usatoday.com/story/cars/shopping/evs/2026/11/20/volkswagen-id-polo-gti-clubsport-concept/92863414007/" }
-          ],
-          gio: "Evening, Nov 21"
         },
       ]
     }
