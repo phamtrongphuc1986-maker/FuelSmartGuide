@@ -7,12 +7,26 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Saturday, November 21, 2026 — evening edition",
+  capNhat: "Sunday, November 22, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "BYD passes Tesla in Europe for the first time — October registrations flip the EV order",
+          baiViet: [
+            "BYD registered more cars than Tesla in Europe in October 2026 — the first time the Chinese carmaker has outsold its American rival on the continent. Independent tracker evstats.org puts BYD at 20,753 registrations across the 11 European countries that publish every brand, against 6,481 for Tesla, with BYD ahead in 10 of those 11 markets. On a like-for-like battery-electric-only basis across nine countries, BYD still led, 6,440 to 5,718. Widely cited registration figures reported by BVI News put the headline battery-electric gap at 7,231 to 7,165.",
+            "Germany tells the story in miniature. Europe's biggest car market registered a record 94,086 battery-electric cars in October — a 37% share, and the second month in a row that EVs outsold petrol and diesel combined, according to KBA data reported by Electrek. Tesla registered 2,932 cars there, up almost 291% on a year earlier — and still lost its year-to-date lead: BYD's 5,173 October registrations put it ahead for 2026 so far, 47,961 to 47,742. In Switzerland the gap was starker still: BYD registered 835 cars to Tesla's 124, leaving it just 38 behind for the year.",
+            "The flip is narrow enough to reverse: Tesla's registrations swing violently with its quarterly delivery cycle — it registered 12,552 cars in Germany in September, the last month of the quarter, against 2,932 in October — and December, the next quarter-end, will decide the year's final order. But the direction is unmistakable: Chinese brands took 12.8% of new-car registrations in the 11 reporting countries in October, and BYD's European sales had already more than doubled through September. For a decade Tesla defined the European EV market; October was the month a rival finally outsold it."
+          ],
+          nguon: [
+            { ten: "BVI News", link: "https://bvi.org/tbepmn-byd-surpasses-tesla-in-european-electric-vehicle-sales" },
+            { ten: "evstats.org", link: "https://evstats.org/europe-ev-registrations/2026-10" },
+            { ten: "Teslant", link: "https://teslant.com/en/news/germany-october-2026-bev-37-percent-byd-back-ahead-of-tesla-2026-11" }
+          ],
+          gio: "Morning, Nov 22"
+        },
         {
           tieuDe: "Italy gives Tesla's assisted driving its first big EU green light",
           baiViet: [
@@ -41,25 +55,26 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 21"
         },
-        {
-          tieuDe: "EU's 350,000 hybrid cap pushes Chinese carmakers toward range-extender EVs — a loophole that could halve hybrid exports",
-          baiViet: [
-            "A new European Union cap on imports of China-made hybrid vehicles is pushing Chinese automakers toward a niche powertrain that escapes the quota entirely. Under a deal agreed by Brussels and Beijing in October, annual imports of China-built hybrids will be limited to 350,000 units, taking effect as early as December 1 pending approval from EU member states. Crucially, the quota does not cover range-extended electric vehicles (EREVs) — cars that drive on electric power while a small petrol engine acts only as a generator to recharge the battery — giving Chinese brands a legal route around the limit.",
-            "The shift is already reshaping product plans. Li Auto, which pioneered EREVs in China and held roughly a quarter of the domestic market last year, announced at last month's Paris Motor Show that it will enter Europe with its Li 6 SUV in both range-extender and pure-electric form. XPeng, whose line-up includes eight EREV models, launched its first range-extended car in Europe earlier this year with a combined driving range of 1,000 kilometres on a full charge and a full tank. In October, EREVs already accounted for 4.6% of China's total vehicle exports, and analysts expect the share to climb fast as more brands follow the same playbook.",
-            "For Brussels, the quota was meant to slow the flood of Chinese hybrids into Europe; for Beijing's carmakers, it may simply reroute it. The EU-China deal is projected to halve exports of China-made hybrids over the next four years — but every hybrid sale that converts into an EREV sale blunts that effect. The test will come in the first months of 2027, when the first full quarter of quota data shows whether European buyers embrace range-extenders or whether the cap genuinely bites."
-          ],
-          nguon: [
-            { ten: "Nikkei Asia", link: "https://asia.nikkei.com/business/automobiles/electric-vehicles/eu-curb-on-chinese-hybrid-cars-drives-shift-to-niche-powertrain" },
-            { ten: "PAVE Insight", link: "https://www.paveinsight.com/news/electric-vehicles" }
-          ],
-          gio: "Evening, Nov 20"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Ford ships its first home-grown LFP battery cells — the $28,350 Fathom truck is one step closer",
+          baiViet: [
+            "Ford has shipped its first lithium iron phosphate (LFP) battery cells from BlueOval Battery Park Michigan, the new $3 billion plant in Marshall, Michigan — marking the automaker's entry into making its own battery cells. The first prismatic cells are headed to the Louisville Assembly Plant in Kentucky, where they will power pre-production prototypes of the Fathom, Ford's upcoming midsize electric pickup. Ford says it is the first automaker to produce and deliver LFP batteries in the US for mainstream consumer vehicles.",
+            "The chemistry is the point. LFP uses no nickel or cobalt, which keeps costs down — the key to Ford's targeted $28,350 starting price for the Fathom — and tolerates years of daily charging to 100% without the degradation that punishes other chemistries. Ford designed the rectangular prismatic cells to double as a structural floor of the chassis rather than sitting in a bolted-on box, and the Marshall lines can produce 40 cells a minute, among the fastest LFP prismatic lines outside China. The cell technology is licensed from CATL, the world's largest battery maker — an arrangement that has drawn scrutiny from some US lawmakers.",
+            "The cells now shipping will be fitted to Fathom prototypes ahead of production-qualified builds in the first quarter of 2027; a separate battery-pack facility in Marshall is due online in 2027, with customer deliveries starting later that year. Around 170 Fathom prototypes are already being tested on the road. If Ford hits its price, the Fathom would be the cheapest new electric pickup in America by a wide margin — and proof that a legacy automaker can build affordable EVs on batteries it makes itself, rather than buying them from Asia."
+          ],
+          nguon: [
+            { ten: "Autoblog", link: "https://www.autoblog.com/news/fords-30000-fathom-electric-truck-is-one-step-closer-to-reality" },
+            { ten: "The Manila Times", link: "https://beta.manilatimes.net/2026/11/20/business/foreign-business/ford-to-make-batteries-with-catl-technology/2474409/amp" },
+            { ten: "Holland Sentinel (Detroit News)", link: "https://www.hollandsentinel.com/story/news/2026/11/19/ford-marshall-plant-lfp-battery-fathom-e-v-launch-production/92861036007/" }
+          ],
+          gio: "Morning, Nov 22"
+        },
         {
           tieuDe: "Volkswagen unveils 367-hp ID. Polo GTI Clubsport — its most powerful electric Polo yet, and a track-only one-off",
           baiViet: [
@@ -73,20 +88,6 @@ window.TIN_TUC = {
             { ten: "USA Today", link: "https://www.usatoday.com/story/cars/shopping/evs/2026/11/20/volkswagen-id-polo-gti-clubsport-concept/92863414007/" }
           ],
           gio: "Evening, Nov 21"
-        },
-        {
-          tieuDe: "Tesla bets €3 billion on Cybercab in Berlin — a 1-million-a-year factory for a car it can't yet sell in Europe",
-          baiViet: [
-            "Tesla confirmed on Monday that it will invest around €3 billion ($3.3 billion) in a new production building at its Giga Berlin plant in Grünheide, designed to build up to 1 million Cybercabs a year, with production planned for 2029. The money pays for a new hall north of the existing plant, plus ancillary buildings and a second wastewater treatment plant. Plant manager André Thierig announced the decision on X after telling employees that afternoon, saying Tesla would file the building application before the end of the year and break ground in the first half of 2027. Elon Musk personally signed off on the project the week before, according to an automation engineer at the plant.",
-            "The scale is striking: the new hall will have roughly 500,000 square metres of floor space, about twice the size of the current main hall, and the expansion could make Giga Berlin Germany's largest car plant by capacity, overtaking Volkswagen's Wolfsburg headquarters. It comes just days after Tesla opened invite-only orders for personally owned Cybercabs in the United States — $29,990 plus a required $299-a-month subscription. Yet the Cybercab has not been sold at scale anywhere commercially, and as Electrek noted, Tesla is committing €3 billion to a vehicle it cannot yet sell in volume in Europe.",
-            "The bet cuts against the grain of Germany's auto industry, where rivals have been downsizing. Giga Berlin, which opened in March 2022 and builds the Model Y alongside battery cells, is also bringing 4680 cell production in-house, targeting 18 GWh a year by mid-2027 and aiming for nearly 90% European content in its Model Y. But the Cybercab's European future will be decided by regulators, not factory capacity: a steering-wheel-free, pedal-free car still needs approval to operate on European roads, and no date has been given for reaching the 1-million-a-year goal."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/16/tesla-cybercab-giga-berlin-3-billion-1-million/" },
-            { ten: "Channel News Asia (Reuters)", link: "https://www.channelnewsasia.com/business/tesla-plans-33-billion-cybercab-boost-germanys-troubled-auto-sector-6556736?cid=cna_flip_070214" },
-            { ten: "TechCrunch", link: "https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/" }
-          ],
-          gio: "Morning, Nov 21"
         },
       ]
     }
