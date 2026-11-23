@@ -17,12 +17,30 @@
 // turns those lines into H2 subheadings. Articles missing anh still
 // render (placeholder cover), but new articles must not omit it.
 window.TIN_TUC = {
-  capNhat: "Monday, November 23, 2026 — morning edition",
+  capNhat: "Monday, November 23, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "China's EV challengers keep climbing: Xpeng's Mona L05 tops 10,000 deliveries in three weeks as Nio's ES8 nears 170,000",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/XPeng_Mona_M03_002.jpg/960px-XPeng_Mona_M03_002.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Nio_ES8_III_001.jpg/960px-Nio_ES8_III_001.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Nio_ES8_III_002.jpg/960px-Nio_ES8_III_002.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/NIO_ET5_Touring_Motorworld_Munich_1X7A0042.jpg/960px-NIO_ET5_Touring_Motorworld_Munich_1X7A0042.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/XPeng_Mona_M03_003.jpg/960px-XPeng_Mona_M03_003.jpg"],
+          baiViet: [
+            "## A record month takes shape at Xpeng",
+            "Deliveries of Xpeng's new Mona L05 SUV have passed 10,000 units in the first three weeks of November, hitting the model's first-month target ahead of schedule, the company said on Weibo on Monday. The mid-size SUV launched in China on October 29 with a limited-time starting price of 139,800 yuan ($20,830), offered as both a battery-electric and an extended-range model. The Mona lineup — the M03 sedan, the L03 compact SUV launched in July and the L05 — is set to pass 400,000 owners in November, and global shipments of the L05 began on October 26 with plans to sell in 65 countries and regions. The ramp comes as Xpeng pushes toward fourth-quarter deliveries of 169,000 to 174,000 vehicles, after a record 50,237 in October, with management expecting monthly deliveries to top 60,000 for the first time in November.",
+            "## Nio leans on its big SUVs while the mid-size range waits",
+            "Nio will deliver the 170,000th unit of its third-generation ES8 this week, roughly a month after passing 160,000 on October 23. The large SUV delivered 8,738 units in October — up 30% year on year but down 17% from September, its lowest monthly total this year — yet it remained Nio's best-selling model, accounting for 48% of the main brand's 18,125 deliveries. In the first ten months of the year the ES8 lineup delivered 119,232 units, up 763% year on year. Together the ES8 and the flagship ES9 supplied 85% of the main brand's October volume, a concentration founder William Li acknowledged while unveiling the product roadmap: refreshed ET5 Touring and ES6 models arrive in the first half of 2027 on the NT 3.0 platform with 900-volt architecture and 5C ultra-fast charging, while the ET5 sedan and EC6 get no update next year. The mid-size slump explains the urgency — ET5 Touring sales fell 74% year on year to 1,182 in October and ES6 sales fell 77% to 696.",
+            "## What to watch next",
+            "The calendar is crowded: Xpeng holds its 2026 AI Day in Guangzhou on November 25, Nio stages its Nio IN tech day the same day — where it will unveil its NWM 3.0 assisted-driving world model — and the Guangzhou Auto Show opens on November 27, where Nio plans a special edition of the ES8. Nio reports third-quarter results on December 1 and holds Nio Day in Wuhan later that month, a likely stage for the refreshed ET5 Touring and ES6. Across its three brands, Nio delivered 334,547 vehicles in the first ten months of 2026, up 38.5% year on year — growth now carried almost entirely by two large SUVs while the rest of the range waits for its refresh."
+          ],
+          nguon: [
+            { ten: "CnEVPost", link: "https://cnevpost.com/2026/11/23/xpeng-mona-l05-nov-deliveries-exceed-10000/" },
+            { ten: "CnEVPost", link: "https://cnevpost.com/2026/11/23/nio-to-deliver-170000th-3rd-gen-es8-this-week/" },
+            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/23/new-nio-et5-touring-spied-in-china-as-ceo-confirms-2027-rollout-amid-europe-delays/" }
+          ],
+          gio: "Evening, Nov 23"
+        },
         {
           tieuDe: "Nearly one in three new cars sold worldwide now plugs in — Europe surges 37% as China cools and US dealers run low",
           baiViet: [
@@ -35,20 +53,6 @@ window.TIN_TUC = {
             { ten: "BusinessMirror (Bloomberg)", link: "https://businessmirror.com.ph/2026/11/22/us-car-dealerships-are-low-on-ev-models/" }
           ],
           gio: "Morning, Nov 23"
-        },
-        {
-          tieuDe: "Global EV sales hit 2.09 million in October — Europe surges 49% while China slips",
-          baiViet: [
-            "Drivers bought 2.09 million electric vehicles worldwide in October 2026, according to Benchmark Mineral Intelligence — up 8% on a year earlier, though 3% below September. That takes sales for the first ten months of the year to 17.5 million, 5% ahead of the same period in 2025. Europe did the heavy lifting: the region sold 510,000 EVs in October, up 36% year on year, with fully electric cars rising 49% and plug-in hybrids just 7%. Germany recorded its highest EV share since December 2022, with EVs taking more than 45% of the new-car market and battery-electric sales above 95,000 — up almost 80% on a year earlier. The UK grew 30% despite comparing against a period when its Electric Car Grant was already in place, and Portugal's EV penetration reached 55%.",
-            "China, still the world's biggest EV market, moved the other way: 1.14 million sales in October, down 12% year on year. But the softness at home is pushing Chinese makers abroad — exports hit a monthly record of 600,000 units. North America posted its first year-on-year increase of 2026, up 24% to 130,000 units, yet the rebound comes with a large caveat: it is measured against October 2025, the month after the US federal EV tax credit expired on 30 September 2025 and sales collapsed. Year to date, North America is still down 21%. The rest of the world grew fastest of all, up 85% in October and 93% for the year so far, albeit from a smaller base.",
-            "The picture, then, is a market splitting in two directions. Europe's growth keeps building month after month — its 36% October gain ran ahead of its 31% pace for the year — while the American recovery is mostly a base effect and China is exporting its way out of a domestic slowdown. With 9.1 million of the 17.5 million EVs sold this year going to Chinese buyers, the centre of gravity has not moved; but the export wave now reshaping showrooms in Europe and beyond is the story to watch into 2027."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/11/europes-electric-car-sales-jump-49-as-global-ev-sales-grow/" },
-            { ten: "Benchmark Mineral Intelligence", link: "https://source.benchmarkminerals.com/article/global-ev-sales-reach-2-09-million-units-in-october-2026" },
-            { ten: "Fleet News", link: "https://www.fleetnews.co.uk/news/global-electric-vehicle-sales-reach-175-million" }
-          ],
-          gio: "Evening, Nov 22"
         },
         {
           tieuDe: "BYD passes Tesla in Europe for the first time — October registrations flip the EV order",
@@ -71,6 +75,24 @@ window.TIN_TUC = {
       ten: "🔋 Technology & New Models",
       tin: [
         {
+          tieuDe: "The robotaxi race splits in two: Tesla starts selling the $29,990 Cybercab while Waymo pulls its cars off the freeway",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Tesla_Cybercab_-_San_Francisco_-_June_2026.jpg/960px-Tesla_Cybercab_-_San_Francisco_-_June_2026.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Inside_the_Tesla_Cybercab.jpg/960px-Inside_the_Tesla_Cybercab.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Rear_of_the_Tesla_Cybercab.jpg/960px-Rear_of_the_Tesla_Cybercab.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Tesla_Cybercab_002.jpg/960px-Tesla_Cybercab_002.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Waymo_Jaguar_I-Pace_-_Side_Sensor_Closeup.jpg/960px-Waymo_Jaguar_I-Pace_-_Side_Sensor_Closeup.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Waymo_One_Jaguar_I-Pace_-_03.jpg/960px-Waymo_One_Jaguar_I-Pace_-_03.jpg"],
+          baiViet: [
+            "## Tesla turns the Cybercab into a product you can buy",
+            "Tesla has begun inviting select customers to buy the Cybercab for $29,990 before taxes, plus a mandatory $299-per-month Autonomy Subscription, with deliveries estimated for December 2026 in five Texas cities — Austin, Dallas, Houston, San Antonio and Fort Worth. The two-seat vehicle has no steering wheel or pedals, and ownership comes with strict terms: personal use only, no fleet use or renting out, and Tesla can shrink the service area. Public Cybercab rides reached Dallas this week, the second US city after Austin, and the Robotaxi service now runs 24 hours a day in every city it serves. Tesla also plans a €3 billion ($3.3 billion) expansion of its Berlin gigafactory to build up to one million Cybercabs, and Elon Musk said at the DealBook Summit that a driverless Model Y variant without a steering wheel or pedals, aimed at groups of six or seven, is on the way. Regulators have not yet said publicly whether the Cybercab is road legal.",
+            "## Waymo's freeway retreat — and the school-bus file",
+            "Waymo, meanwhile, has again pulled its robotaxis off freeways — this time in all US markets — after California's Department of Motor Vehicles barred the company from state freeways, citing an 'imminent hazard' from multiple incidents in which vehicles entered active construction zones. Waymo has filed two safety recalls with the National Highway Traffic Safety Administration to strengthen how its system navigates closed freeway lanes and intersections with manual traffic control. Separately, NHTSA has opened an investigation into Waymo robotaxis passing stopped school buses, with at least 26 incidents counted in Austin, after a recall on the same issue in December 2025. The setback lands just as Amazon's Zoox began offering driverless rides through the Uber app in Las Vegas.",
+            "## The scoreboard: registrations vs. real miles",
+            "On paper, Tesla has taken the lead in Texas: 1,507 robotaxis registered with state authorities against Waymo's 1,345, after Tesla overtook its rival on November 10 and widened the gap with a batch of 200 Cybercabs registered on November 17. But registrations measure fleet paperwork, not service delivered. Waymo runs about 4,000 robotaxis across roughly 15 to 20 US cities, delivers around 500,000 paid rides a week and averages 3.90 million driverless miles a week in the US, against Tesla's peak of 558,000 — though Tesla logged 438,000 driverless miles in a single Austin week, past Waymo's 406,000 average there. The cost gap is just as stark: Waymo spends about $200,000 per robotaxi, while the camera-only Cybercab targets about $30,000, backed by driving-assistance data from roughly 8 million Tesla vehicles worldwide. The race has shifted from who has more cars to whose economics survive contact with regulators and real streets."
+          ],
+          nguon: [
+            { ten: "TradingView (Stocktwits)", link: "https://www.tradingview.com/news/stocktwits:86463dd9e094b:0-zero-to-sixty-tesla-expands-cybercab-to-dallas-as-waymo-pauses-freeway-operations-this-week/" },
+            { ten: "EVwire — Robotaxi Report #10", link: "https://evwire.com/p/robotaxi-newsletter-report-10" },
+            { ten: "BigGo Finance (TechCrunch)", link: "https://finance.biggo.com/news/cda2b982-e81e-4e6c-a7d4-3a8619b672bb" }
+          ],
+          gio: "Evening, Nov 23"
+        },
+        {
           tieuDe: "Tesla starts rolling out FSD v15 — 'Reality View', a 25x safety claim and better pothole spotting, still supervised",
           baiViet: [
             "Tesla began rolling out Full Self-Driving v15 on 21 November, calling it an upgrade to 'every part of the end-to-end driving network'. The headline number is a claimed 25-times improvement in handling safety-critical cases — the release notes tie the figure to the critical intervention rate, how often a driver has to step in. The update brings a new vision encoder trained on millions of internet videos, shared across FSD, Robotaxi and the Optimus robot, and a new live visualisation, Tesla Reality View, which renders the road ahead from a virtual camera above the car so drivers can see — and control — what FSD plans to do next.",
@@ -83,20 +105,6 @@ window.TIN_TUC = {
             { ten: "AutoPilot Review", link: "https://www.autopilotreview.com/full-self-driving-update/" }
           ],
           gio: "Morning, Nov 23"
-        },
-        {
-          tieuDe: "Samsung and Hyundai take solid-state batteries from lab to factory floor — nine joint patents, 2027 target",
-          baiViet: [
-            "Samsung and Hyundai Motor Group are turning their battery partnership from a supply deal into joint engineering. A patent jointly filed by Hyundai Motor, Kia and Samsung SDI — titled 'Battery Pack and Vehicle Including the Same' and published by Korea's patent office on 22 October — describes a pack that vents high-temperature gases from beneath the cells through a passage in the lower cover, merging the space needed for impact protection with the space needed for gas release to raise energy density. A heat-resistant member limits heat transfer between cells, and a cooling plate regulates temperature. Five Hyundai and Kia researchers and two from Samsung SDI are named as inventors — a sign the cooperation now runs to pack design tailored to specific vehicles, not just cell procurement.",
-            "The two groups signed their first EV battery supply contract in October 2023: prismatic cells made at Samsung SDI's plant in Hungary for Hyundai and Kia electric cars sold in Europe from 2026 through 2032, now fitted to three models including the Kia EV2, the Hyundai Ioniq 3 and the Genesis GV90. On next-generation technology they have jointly filed nine all-solid-state battery patents between 2022 and 2025, Samsung SDI as lead applicant on seven, with two already granted. Since 2023 the research has shifted from protecting moisture-sensitive sulfide electrolytes to lifespan and mass-production processes — including temperature measurement for the warm isostatic pressing step and devices for preheating and transferring cells.",
-            "Samsung SDI is targeting commercialisation of all-solid-state batteries in the second half of 2027 and has begun sampling cells to carmakers, claiming an energy density of 900 watt-hours per litre — about 40% better than its lithium-ion cells. Hyundai plans to put solid-state packs into production EVs starting with its Genesis luxury line between 2027 and 2030, and Toyota is targeting 2027–28. Solid-state cells replace the liquid electrolyte with a solid one, promising safer, denser batteries with uses beyond cars — including humanoid robots. The technology has been a 'next five years' story for a decade; this time, the jointly owned patents and factory tooling are what make the 2027 date worth taking seriously."
-          ],
-          nguon: [
-            { ten: "The Korea Herald", link: "https://www.koreaherald.com/article/10933858" },
-            { ten: "Financial News (EN)", link: "https://en.fnnews.com/news/202611110730123893" },
-            { ten: "SBS News", link: "https://news.sbs.co.kr/english/article.do?news_id=N1008840652" }
-          ],
-          gio: "Evening, Nov 22"
         },
       ]
     }
