@@ -15,51 +15,173 @@ header .row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;max-width:11
 .logo{font-size:26px;background:#123c38;border-radius:50%;width:46px;height:46px;display:flex;align-items:center;justify-content:center}
 .ttl{font-weight:800;font-size:23px;line-height:1.15}.ttl small{display:block;font-family:'Roboto',sans-serif;font-weight:400;font-size:12.5px;color:#9aa3ad;margin-top:2px}
 .ttl a{color:#43c6b4;text-decoration:none}
+.hbtn{background:#123c38;border:1px solid rgba(127,227,208,.35);color:#eafaf6;border-radius:10px;min-width:42px;height:42px;padding:0 10px;font-size:17px;cursor:pointer;margin-left:auto}
+.hbtn:active{border-color:#43c6b4;color:#43c6b4}
 nav.menu{max-width:1140px;margin:10px auto 0;display:flex;gap:4px;flex-wrap:wrap;border-top:1px solid #23262d;padding-top:9px}
 nav.menu a{color:#cfd6dd;text-decoration:none;font-size:13.5px;font-weight:500;padding:5px 10px;border-radius:4px;text-transform:uppercase;letter-spacing:.4px}
 nav.menu a:hover,nav.menu a.on{background:#123c38;color:#7fe3d0}
 main{max-width:860px;margin:0 auto;padding:18px 14px 30px}
 h1{font-size:27px;margin:6px 0 4px}
 .meta{color:#9aa3ad;font-size:13.5px;margin:0 0 8px}
-h2.sec{font-size:21px;margin:26px 0 10px;border-bottom:2px solid #009688;padding-bottom:7px}
-.card{background:#14161a;border:1px solid #26292f;border-radius:6px;padding:15px 17px;margin:12px 0}
-.card h3{font-family:'Playfair Display',Georgia,serif;margin:0 0 7px;font-size:19px;line-height:1.35}
-.card h3 a{color:#eef6f4;text-decoration:none}
-.card h3 a:hover{color:#43c6b4}
-.card p{margin:0 0 9px;color:#d5dbe1;font-size:14.5px;line-height:1.6}
-.card .src{font-size:12.5px;color:#8b939c}
-.card .src a{font-weight:700;text-decoration:none}
+.pgbar{display:flex;flex-wrap:wrap;gap:7px;align-items:center;justify-content:center;padding:10px 0}
+.pgbar button{background:#123c38;border:1px solid rgba(127,227,208,.35);color:#eafaf6;border-radius:10px;min-width:40px;height:40px;padding:0 12px;font-size:15.5px;cursor:pointer}
+.pgbar button.on{background:#43c6b4;border-color:#43c6b4;color:#06231e;font-weight:800}
+.pgbar button:disabled{opacity:.35;cursor:default}
+.pgbar .pinfo{color:#8b939c;font-size:14px;margin:0 4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(225px,1fr));gap:14px}
+.ncard{background:#14161a;border:1px solid #26292f;border-radius:18px;overflow:hidden;display:flex;flex-direction:column;color:#f5f7f9;text-decoration:none}
+.ncard .thumb{position:relative;height:118px;background:linear-gradient(135deg,#16423c,#0d5c50);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.ncard .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.ncard .thumb .emo{font-size:44px}
+.ncard .thumb .grp{position:absolute;left:10px;bottom:10px;background:rgba(5,12,10,.88);color:#7fe3d0;font-weight:700;font-size:12px;padding:5px 11px;border-radius:999px;border:1px solid rgba(127,227,208,.45);max-width:calc(100% - 20px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ncard .pad{padding:12px 13px 14px;display:flex;flex-direction:column;gap:5px;flex:1}
+.ncard h3{font-family:'Playfair Display',Georgia,serif;margin:0;font-size:16.5px;color:#fff;line-height:1.3;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.ncard .sub{margin:0;color:#9aa3ad;font-size:13.5px;line-height:1.45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;flex:1}
+.ncard .meta2{font-size:13px;color:#8b939c}
+.topwrap{max-width:860px;margin:auto;padding:4px 14px 20px;text-align:center}
+.topbtn2{background:#123c38;border:1px solid rgba(127,227,208,.4);color:#eafaf6;border-radius:12px;padding:13px 34px;font-size:16.5px;font-weight:700;cursor:pointer}
+.topbtn2:active{border-color:#43c6b4;color:#43c6b4}
+article.full{background:#14161a;border:1px solid #26292f;border-radius:6px;padding:17px 19px;margin:12px 0}
+article.full h1{font-size:24px;line-height:1.3;margin:2px 0 8px}
+article.full h2{font-size:19px;margin:18px 0 7px}
+article.full p{margin:0 0 10px;color:#d5dbe1;font-size:15px;line-height:1.65}
+article.full img{max-width:100%;height:auto;border-radius:10px;margin:8px 0 12px;display:block}
+article.full .src{font-size:12.5px;color:#8b939c;margin-top:12px}
+article.full .src a{font-weight:700;text-decoration:none}
+.backlink{display:inline-block;margin:4px 0 10px;font-weight:700;text-decoration:none}
 footer{color:#8b939c;font-size:12.5px;text-align:center;padding:24px 14px;line-height:1.6;max-width:1140px;margin:0 auto}
 footer a{color:#43c6b4;text-decoration:none;font-weight:600}
+@media (max-width:720px){
+.grid{grid-template-columns:repeat(3,1fr);gap:9px}
+.ncard .thumb{height:74px}.ncard .thumb .emo{font-size:26px}
+.ncard .thumb .grp{display:none}
+.ncard .pad{padding:8px 9px 10px}
+.ncard h3{font-size:12.5px;-webkit-line-clamp:4}
+.ncard .sub{display:none}
+.ncard .meta2{font-size:11px}
+}
 </style></head><body>
-<header><div class="row"><div class="logo">⛽</div><div class="ttl"><a href="index.html">FuelSmartGuide</a><small>Compare fuel-efficient petrol, diesel &amp; electric vehicles</small></div></div>
+<header><div class="row"><div class="logo">⛽</div><div class="ttl"><a href="index.html">FuelSmartGuide</a><small>Compare fuel-efficient petrol, diesel &amp; electric vehicles</small></div><button class="hbtn" id="btnDown" title="Go to bottom">⬇️</button></div>
 <nav class="menu"><a href="index.html">Home</a><a href="index.html#gas">⛽ Gasoline (Petrol) Vehicles</a><a href="index.html#diesel">🛢️ Diesel Vehicles</a><a href="index.html#ev">⚡ Electric Vehicles</a><a href="index.html#pedal">🚲 Pedal Electric Two-Wheelers</a><a href="tin-tuc.html" class="on">📰 News</a></nav></header>
 <main>
 <h1>📰 Vehicle News</h1>
 <p class="meta">Global news on cars, electric vehicles, batteries, e-motorbikes and e-bikes — updated daily at 06:00 and 17:00. Every article below is an original piece written by FuelSmartGuide, synthesized from 2–3 reputable foreign outlets (Reuters, Electrek, CarNewsChina…), with reference sources listed at the end of each article. Last updated: <b id="gioCapNhat">loading…</b></p>
-<div id="danhSachTin"><p>Loading news…</p></div>
+<div id="khuDanhSach">
+<nav class="pgbar" id="pgTop" aria-label="Pages"></nav>
+<div class="grid" id="luoiTin"><p>Loading news…</p></div>
+<nav class="pgbar" id="pgBottom" aria-label="Pages"></nav>
+</div>
+<div id="khuBaiDayDu" style="display:none"></div>
 </main>
+<div class="topwrap"><button class="topbtn2" id="btnTop" title="Back to top">⬆️ Top</button></div>
 <footer>© 2026 <b>fuelsmartguide.io.vn</b> — All rights reserved. &nbsp;•&nbsp; <a href="tin-tuc.html">News</a> &nbsp;•&nbsp; <a href="terms-of-use.html">Terms of Use</a> &nbsp;•&nbsp; <a href="privacy-policy.html">Privacy Policy</a><br><span>Every news article is written originally by FuelSmartGuide from 2–3 foreign press sources, listed at the end of each article with links to the originals.</span></footer>
 <script src="tin-tuc-data.js"></script>
 <script>
 (function(){
-  var hop = document.getElementById('danhSachTin');
+  var MOI_TRANG = 20;
+  var khuDS = document.getElementById('khuDanhSach');
+  var khuBai = document.getElementById('khuBaiDayDu');
+  var luoi = document.getElementById('luoiTin');
+  var pgTop = document.getElementById('pgTop'), pgBottom = document.getElementById('pgBottom');
   var duLieu = window.TIN_TUC;
-  if(!duLieu || !duLieu.nhom){ hop.innerHTML = '<p>News data could not be loaded. Please try again later.</p>'; return; }
+  document.getElementById('btnTop').onclick = function(){ window.scrollTo({top:0,behavior:'smooth'}); };
+  document.getElementById('btnDown').onclick = function(){ window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'}); };
+  if(!duLieu || !duLieu.nhom){ luoi.innerHTML = '<p>News data could not be loaded. Please try again later.</p>'; return; }
   document.getElementById('gioCapNhat').textContent = duLieu.capNhat || '';
   function thoat(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-  var html = '';
+  // Flatten all articles across groups, keeping display order.
+  var bai = [];
   duLieu.nhom.forEach(function(nhom){
-    html += '<h2 class="sec">' + thoat(nhom.ten) + '</h2>';
-    (nhom.tin||[]).forEach(function(t){
-      var doan = (t.baiViet||[]).map(function(d){ return '<p>' + thoat(d) + '</p>'; }).join('');
-      var nguon = (t.nguon||[]).map(function(n){ return '<a href="' + thoat(n.link) + '" target="_blank" rel="noopener">' + thoat(n.ten) + '</a>'; }).join(' · ');
-      html += '<article class="card"><h3>' + thoat(t.tieuDe) + '</h3>'
-        + doan
-        + '<div class="src">🕐 ' + thoat(t.gio) + '<br>📚 Sources: ' + nguon + '</div></article>';
-    });
+    (nhom.tin||[]).forEach(function(t){ bai.push({nhom:nhom, tin:t}); });
   });
-  hop.innerHTML = html;
+  function anhCua(t){ if(!t.anh) return []; return Array.isArray(t.anh) ? t.anh : [t.anh]; }
+  function emojiNhom(nhom){ var ten = String(nhom.ten||'📰'); return ten.split(' ')[0] || '📰'; }
+  function tenNhomSach(nhom){ return String(nhom.ten||'').replace(/^\S+\s+/, ''); }
+  function trichDoan(t){
+    var ds = t.baiViet||[];
+    for(var i=0;i<ds.length;i++){ if(ds[i].indexOf('## ')!==0){ var s=ds[i]; return s.length>170 ? s.slice(0,170)+'…' : s; } }
+    return '';
+  }
+  function tongTrang(){ return Math.max(1, Math.ceil(bai.length / MOI_TRANG)); }
+  function trangTuHash(){
+    var m = /#trang=(\d+)/.exec(location.hash||'');
+    var tr = m ? parseInt(m[1],10) : 1;
+    if(isNaN(tr) || tr<1) tr = 1;
+    if(tr>tongTrang()) tr = tongTrang();
+    return tr;
+  }
+  function veThanhTrang(bar, trang){
+    var tt = tongTrang(), h = '';
+    h += '<button data-trang="'+(trang-1)+'" '+(trang<=1?'disabled':'')+'>‹</button>';
+    for(var i=1;i<=tt;i++){ h += '<button data-trang="'+i+'" class="'+(i===trang?'on':'')+'">'+i+'</button>'; }
+    h += '<button data-trang="'+(trang+1)+'" '+(trang>=tt?'disabled':'')+'>›</button>';
+    h += '<span class="pinfo">Page '+trang+' of '+tt+'</span>';
+    bar.innerHTML = h;
+    var nuts = bar.querySelectorAll('button');
+    for(var k=0;k<nuts.length;k++){ (function(nut){
+      nut.addEventListener('click', function(){
+        var d = parseInt(nut.getAttribute('data-trang'),10);
+        if(d>=1 && d<=tongTrang()){ location.hash = 'trang='+d; }
+      });
+    })(nuts[k]); }
+  }
+  function veDanhSach(){
+    var trang = trangTuHash();
+    khuBai.style.display = 'none'; khuDS.style.display = '';
+    var batDau = (trang-1)*MOI_TRANG, ketThuc = Math.min(bai.length, batDau+MOI_TRANG), h = '';
+    for(var i=batDau;i<ketThuc;i++){
+      var muc = bai[i], t = muc.tin, anh = anhCua(t);
+      var thumb = anh.length
+        ? '<img src="'+thoat(anh[0])+'" alt="" loading="lazy">'
+        : '<span class="emo">'+thoat(emojiNhom(muc.nhom))+'</span>';
+      h += '<a class="ncard" href="#bai-'+i+'"><div class="thumb">'+thumb
+        + '<span class="grp">'+thoat(tenNhomSach(muc.nhom))+'</span></div>'
+        + '<div class="pad"><h3>'+thoat(t.tieuDe)+'</h3>'
+        + '<p class="sub">'+thoat(trichDoan(t))+'</p>'
+        + '<div class="meta2">🕐 '+thoat(t.gio)+'</div></div></a>';
+    }
+    luoi.innerHTML = h || '<p>No news yet.</p>';
+    veThanhTrang(pgTop, trang); veThanhTrang(pgBottom, trang);
+  }
+  function veBaiDayDu(i){
+    var muc = bai[i]; if(!muc){ veDanhSach(); return; }
+    var t = muc.tin, anh = anhCua(t);
+    khuDS.style.display = 'none'; khuBai.style.display = '';
+    var trangCuaBai = Math.floor(i / MOI_TRANG) + 1;
+    // Build body blocks; distribute images evenly through the text.
+    var khoi = [];
+    (t.baiViet||[]).forEach(function(d){
+      if(d.indexOf('## ')===0) khoi.push('<h2>'+thoat(d.slice(3))+'</h2>');
+      else khoi.push('<p>'+thoat(d)+'</p>');
+    });
+    if(anh.length && khoi.length){
+      var buoc = Math.max(1, Math.floor(khoi.length / (anh.length+1)));
+      var chen = [];
+      for(var a=0;a<anh.length;a++){
+        var viTri = Math.min(khoi.length, buoc*(a+1)+a);
+        chen.push({at:viTri, html:'<img src="'+thoat(anh[a])+'" alt="" loading="lazy">'});
+      }
+      chen.sort(function(x,y){ return y.at-x.at; });
+      chen.forEach(function(c){ khoi.splice(c.at,0,c.html); });
+    } else if(anh.length){
+      khoi = anh.map(function(u){ return '<img src="'+thoat(u)+'" alt="" loading="lazy">'; });
+    }
+    var nguon = (t.nguon||[]).map(function(n){ return '<a href="'+thoat(n.link)+'" target="_blank" rel="noopener">'+thoat(n.ten)+'</a>'; }).join(' · ');
+    khuBai.innerHTML = '<a class="backlink" href="#trang='+trangCuaBai+'">← All news</a>'
+      + '<article class="full"><h1>'+thoat(t.tieuDe)+'</h1>'
+      + '<div class="src" style="margin:0 0 10px">🕐 '+thoat(t.gio)+' · '+thoat(tenNhomSach(muc.nhom))+'</div>'
+      + khoi.join('')
+      + '<div class="src">📚 Sources: '+nguon+'</div></article>'
+      + '<a class="backlink" href="#trang='+trangCuaBai+'">← All news</a>';
+    window.scrollTo(0,0);
+  }
+  function dinhTuyen(){
+    var m = /#bai-(\d+)/.exec(location.hash||'');
+    if(m){ veBaiDayDu(parseInt(m[1],10)); }
+    else { veDanhSach(); if(/#trang=\d+/.test(location.hash||'')){ var y = khuDS.offsetTop - 10; window.scrollTo(0, Math.max(0,y)); } }
+  }
+  window.addEventListener('hashchange', dinhTuyen);
+  dinhTuyen();
 })();
 </script>
 <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});}</script>

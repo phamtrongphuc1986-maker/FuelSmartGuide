@@ -6,6 +6,16 @@
 // original links are listed at the end of each article. Daily updates
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
+// ARTICLE STANDARD (owner, Nov 23, 2026 — MANDATORY for every new article):
+// each article MUST include field anh: an array of 4–6 image URLs — real,
+// directly related images with stable direct links (official manufacturer
+// media, Wikimedia Commons, or the source outlets' own images). anh[0] is
+// the cover shown as the grid thumbnail on the news page; the renderer
+// distributes the rest through the article body. SEO structure: the
+// article title renders as the page H1; split baiViet into 2–4 sections
+// and start each section with a paragraph beginning "## " — the renderer
+// turns those lines into H2 subheadings. Articles missing anh still
+// render (placeholder cover), but new articles must not omit it.
 window.TIN_TUC = {
   capNhat: "Monday, November 23, 2026 — morning edition",
   nhom: [
