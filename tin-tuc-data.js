@@ -7,12 +7,25 @@
 // (06:00 & 17:00) ONLY rewrite this file, keeping the window.TIN_TUC
 // structure. baiViet = array of paragraphs; nguon = array of {ten, link}.
 window.TIN_TUC = {
-  capNhat: "Sunday, November 22, 2026 — evening edition",
+  capNhat: "Monday, November 23, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Nearly one in three new cars sold worldwide now plugs in — Europe surges 37% as China cools and US dealers run low",
+          baiViet: [
+            "Electric vehicles — battery-electric plus plug-in hybrid — now account for a record 31% of global passenger-car sales, roughly one in three new cars changing hands, according to CommBank analysis reported by Autoblog on 22 November. Europe supplied most of the momentum: EV sales there rose 37% year on year, helped by a wave of relatively affordable models such as the Volkswagen ID. Polo, which starts at €24,995 in Germany. China still holds a record 67% EV share of its own market, reached in September, but its EV sales fell 13% over the first nine months of 2026 as Beijing phases out trade-in subsidies and halves the purchase-tax exemption.",
+            "The growth map is broadening well beyond the two giants. Brazil's EV sales jumped 164% year on year, Japan's 80% and India's 76%. In the United States the picture is mixed: battery-electric sales rose 3% in October to an estimated 83,262 units, according to Cox Automotive — the first year-on-year increase of 2026 — but the comparison is against October 2025, the depressed month right after the $7,500 federal tax credit expired. Dealers are running short: about 65,000 EVs sat on US lots in October, 38% fewer than a year earlier, according to S&P Global data cited by Bloomberg, and in some cities a popular model such as the Chevrolet Blazer EV is down to a handful of cars — five in Salt Lake City, three in Kansas City, none in Nashville.",
+            "The squeeze is partly self-inflicted. General Motors has cut EV production to stem losses — its CFO calls the pullback 'rightsizing' — and Ford no longer stocks electric pickups after axing the F-150 Lightning, wiping out about 70% of its EV inventory in a year. Tesla, which sells direct and is not captured in the dealer data, now holds 58% of the US EV market, up from 54% a year ago, while Rivian, Subaru and Toyota have all gained share with new models. Europe's momentum could slow in 2027 under the EU's proposed annual cap of 350,000 Chinese-made hybrid imports, though sales may jump first if the cap lands in December 2026. The direction of travel is clear; the pace now depends as much on policy and production choices as on demand."
+          ],
+          nguon: [
+            { ten: "Autoblog", link: "https://www.autoblog.com/news/nearly-one-in-three-new-cars-sold-globally-can-drive-without-gas" },
+            { ten: "BusinessMirror (Bloomberg)", link: "https://businessmirror.com.ph/2026/11/22/us-car-dealerships-are-low-on-ev-models/" }
+          ],
+          gio: "Morning, Nov 23"
+        },
         {
           tieuDe: "Global EV sales hit 2.09 million in October — Europe surges 49% while China slips",
           baiViet: [
@@ -41,26 +54,26 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 22"
         },
-        {
-          tieuDe: "Italy gives Tesla's assisted driving its first big EU green light",
-          baiViet: [
-            "Italy has become the first large European Union country to approve Tesla's assisted-driving system, giving the technology its biggest EU endorsement yet. Transport Minister Matteo Salvini announced the provisional approval on Friday, November 20, for Tesla Assisted Driving (TAD) — the new European name for Full Self-Driving (Supervised). Italy is the 12th country in Europe to allow the system, following an initial approval by the Dutch authority RDW in April 2026 and recognition by ten more countries since: Belgium, Croatia, Czechia, Denmark, Estonia, Finland, Latvia, Lithuania, Slovakia and Slovenia.",
-            "The system is 'hands-off, eyes-on': the car steers itself, but the driver must supervise continuously and remains fully responsible at all times. It is still a Level 2 driver-assistance system, not a self-driving car. Italy's decision follows what the ministry called a thorough technical feasibility assessment, and it moves ahead of the EU-wide process — the EU's Technical Committee on Motor Vehicles has yet to vote, with the earliest vote expected in December 2026. For full EU-wide approval, a qualified majority is needed: at least 15 of 27 member states representing at least 65 percent of the EU population. With about 59 million people, Italy nearly doubles the share of EU citizens covered, to almost 30 percent, according to Electrek. Tesla Europe posted on X the same day: 'Now approved in Italy, rollout begins soon', alongside a video of a car driving itself through Rome — though no launch date has been given.",
-            "The approval caps a year of rebranding and compromise for Tesla in Europe. The company renamed FSD as Tesla Assisted Driving after Germany's transport ministry said the old name was misleading, and cut the system's speed leeway above posted limits from 50 percent to 10 percent. On November 16, the RDW approved stricter driver monitoring, including a hands-on-the-wheel requirement above 130 km/h — the version Italy has now approved. Germany said in October it would support approval, while France refused a national approval in July and Spain has not yet recognised the system. If the EU committee votes yes in December, Tesla's assisted driving could go from a patchwork of national approvals to a single market of 450 million people in one step."
-          ],
-          nguon: [
-            { ten: "Reuters", link: "https://www.reuters.com/world/italy-gives-green-light-tesla-self-driving-system-ahead-eu-approval-2026-11-20/" },
-            { ten: "Electrek", link: "https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/" },
-            { ten: "Channel News Asia (Reuters)", link: "https://www.channelnewsasia.com/business/italy-gives-green-light-tesla-self-driving-system-ahead-eu-approval-6570321?cid=cna_flip_070214" }
-          ],
-          gio: "Evening, Nov 21"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Tesla starts rolling out FSD v15 — 'Reality View', a 25x safety claim and better pothole spotting, still supervised",
+          baiViet: [
+            "Tesla began rolling out Full Self-Driving v15 on 21 November, calling it an upgrade to 'every part of the end-to-end driving network'. The headline number is a claimed 25-times improvement in handling safety-critical cases — the release notes tie the figure to the critical intervention rate, how often a driver has to step in. The update brings a new vision encoder trained on millions of internet videos, shared across FSD, Robotaxi and the Optimus robot, and a new live visualisation, Tesla Reality View, which renders the road ahead from a virtual camera above the car so drivers can see — and control — what FSD plans to do next.",
+            "The release targets some of FSD's best-known weak spots: better detection of road signs, small animals, road debris and chains; potholes, road details and deep standing water; plus the ability to slow down for speed cameras, learned navigation for the start and end of trips, and a Bike Rack Mode that allows supervised FSD with a hitch accessory fitted. The first wave is limited — Tesla has not said which models, regions or hardware get it first, though the build is aimed at AI4 (HW4) cars, starting with the redesigned Model Y. Elon Musk said the wide release comes next month, with this year's holiday update.",
+            "The caveat matters: v15 remains FSD (Supervised), an SAE Level 2 driver-assistance system — the driver must stay attentive and ready to take over at any moment. It is not the unsupervised software that powers the driverless Robotaxi fleet, though Tesla says that fleet has already been running early versions of the v15 software for months. The 25x claim also comes without the underlying data needed to check it, so the first independent verdicts will come from owners in the first wave — and from December's wider rollout."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/" },
+            { ten: "Silicon Report", link: "https://www.siliconreport.com/tesla-begins-rolling-out-full-self-driving-v15" },
+            { ten: "AutoPilot Review", link: "https://www.autopilotreview.com/full-self-driving-update/" }
+          ],
+          gio: "Morning, Nov 23"
+        },
         {
           tieuDe: "Samsung and Hyundai take solid-state batteries from lab to factory floor — nine joint patents, 2027 target",
           baiViet: [
@@ -74,20 +87,6 @@ window.TIN_TUC = {
             { ten: "SBS News", link: "https://news.sbs.co.kr/english/article.do?news_id=N1008840652" }
           ],
           gio: "Evening, Nov 22"
-        },
-        {
-          tieuDe: "Ford ships its first home-grown LFP battery cells — the $28,350 Fathom truck is one step closer",
-          baiViet: [
-            "Ford has shipped its first lithium iron phosphate (LFP) battery cells from BlueOval Battery Park Michigan, the new $3 billion plant in Marshall, Michigan — marking the automaker's entry into making its own battery cells. The first prismatic cells are headed to the Louisville Assembly Plant in Kentucky, where they will power pre-production prototypes of the Fathom, Ford's upcoming midsize electric pickup. Ford says it is the first automaker to produce and deliver LFP batteries in the US for mainstream consumer vehicles.",
-            "The chemistry is the point. LFP uses no nickel or cobalt, which keeps costs down — the key to Ford's targeted $28,350 starting price for the Fathom — and tolerates years of daily charging to 100% without the degradation that punishes other chemistries. Ford designed the rectangular prismatic cells to double as a structural floor of the chassis rather than sitting in a bolted-on box, and the Marshall lines can produce 40 cells a minute, among the fastest LFP prismatic lines outside China. The cell technology is licensed from CATL, the world's largest battery maker — an arrangement that has drawn scrutiny from some US lawmakers.",
-            "The cells now shipping will be fitted to Fathom prototypes ahead of production-qualified builds in the first quarter of 2027; a separate battery-pack facility in Marshall is due online in 2027, with customer deliveries starting later that year. Around 170 Fathom prototypes are already being tested on the road. If Ford hits its price, the Fathom would be the cheapest new electric pickup in America by a wide margin — and proof that a legacy automaker can build affordable EVs on batteries it makes itself, rather than buying them from Asia."
-          ],
-          nguon: [
-            { ten: "Autoblog", link: "https://www.autoblog.com/news/fords-30000-fathom-electric-truck-is-one-step-closer-to-reality" },
-            { ten: "The Manila Times", link: "https://beta.manilatimes.net/2026/11/20/business/foreign-business/ford-to-make-batteries-with-catl-technology/2474409/amp" },
-            { ten: "Holland Sentinel (Detroit News)", link: "https://www.hollandsentinel.com/story/news/2026/11/19/ford-marshall-plant-lfp-battery-fathom-e-v-launch-production/92861036007/" }
-          ],
-          gio: "Morning, Nov 22"
         },
       ]
     }
