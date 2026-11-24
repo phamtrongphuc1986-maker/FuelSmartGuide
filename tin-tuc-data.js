@@ -17,12 +17,30 @@
 // turns those lines into H2 subheadings. Articles missing anh still
 // render (placeholder cover), but new articles must not omit it.
 window.TIN_TUC = {
-  capNhat: "Tuesday, November 24, 2026 — morning edition",
+  capNhat: "Tuesday, November 24, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Toyota gives the Corolla its first EV — 60 years on, the world's best-selling car goes electric",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2023_Toyota_Corolla_Hybrid_%28E210%29_hatchback_IMG_9877.jpg/960px-2023_Toyota_Corolla_Hybrid_%28E210%29_hatchback_IMG_9877.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2023_Toyota_Corolla_Hybrid_%28E210%29_hatchback_IMG_9884.jpg/960px-2023_Toyota_Corolla_Hybrid_%28E210%29_hatchback_IMG_9884.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/2023_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_7679.jpg/960px-2023_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_7679.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/2023_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_8123.jpg/960px-2023_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_8123.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/2024_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_9874.jpg/960px-2024_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_9874.jpg"],
+          baiViet: [
+            "## The best-selling nameplate in history goes electric",
+            "Toyota is giving the Corolla — the best-selling car of all time, with more than 57 million sold since its debut in 1966 — its first fully electric version. For the 13th generation, the world's most familiar sedan is being rebuilt on a new multipathway platform that supports petrol, hybrid, plug-in hybrid and, for the first time, battery-electric powertrains. The car was previewed as the Corolla Concept at the Japan Mobility Show in October 2025, and Toyota chief executive Koji Sato summed up the brief in one line: whatever the power source, make good-looking cars that everyone will want to drive. The next-generation Corolla is expected to debut sometime in 2027 as a 2028 model, in sedan, hatchback, crossover and GR performance body styles.",
+            "## What we know — and what Toyota is not saying yet",
+            "Toyota has kept most of the specifications secret, but the shape of the car is now clear: a sleeker, lower-slung design close to the concept, with minimal physical controls, haptic feedback on the steering wheel, an optional passenger-side touchscreen and a floating centre console where the transmission tunnel used to be. The battery-electric version is expected to come in single- and dual-motor configurations with at least 250 miles of range, while the hybrid will reportedly use a new 1.5-litre four-cylinder engine and electric motor delivering around 134 horsepower. Early price expectations put the petrol version near $25,000, the hybrid near $27,000 and the EV and plug-in hybrids in the $30,000 range — squarely in the heart of the mass market where the Corolla has always lived.",
+            "## Why now: the chairman's warning",
+            "The move comes with an unusually candid admission from the top. In an NHK documentary filmed inside Toyota's confidential development facility for the next-generation Corolla, chairman Akio Toyoda warned that the biggest threat to the world's largest carmaker was not new technology or new competitors, but complacency: if that happens, it is over. Engineers in the programme reportedly admitted the company was falling behind Chinese manufacturers in some areas of vehicle development, as brands such as BYD shorten development cycles and expand their line-ups. The Corolla EV is Toyota's answer — not a niche halo car, but electrification applied to the nameplate that defines the company. If it lands at the expected price with the expected range, it will be one of the most consequential EV launches of the decade."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/23/toyota-corolla-radical-makeover-first-ev/" },
+            { ten: "WhichCar", link: "https://www.whichcar.com.au/news/toyota-head-warns-it-cannot-survive-corolla-ev-option" },
+            { ten: "Move Electric", link: "https://www.moveelectric.com/en-ie/gallery/new-concept-reveals-toyota-corollas-electric-future" }
+          ],
+          gio: "Evening, Nov 24"
+        },
         {
           tieuDe: "Dutch court bars BYD's Ti7 from the EU in a design win for Jaguar Land Rover — €100,000 a day at stake, UK launch untouched",
           anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Fangchengbao_Ti7_001.jpg/960px-Fangchengbao_Ti7_001.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Fangchengbao_Ti7_002.jpg/960px-Fangchengbao_Ti7_002.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Fangchengbao_Ti7_003.jpg/960px-Fangchengbao_Ti7_003.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Fangchengbao_Ti7_rear_view.png/960px-Fangchengbao_Ti7_rear_view.png", "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Land_Rover_Defender_%28L663%29_DSC_9062.jpg/960px-Land_Rover_Defender_%28L663%29_DSC_9062.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Land_Rover_Defender_%28L663%29_DSC_9063.jpg/960px-Land_Rover_Defender_%28L663%29_DSC_9063.jpg"],
@@ -59,25 +77,30 @@ window.TIN_TUC = {
           ],
           gio: "Evening, Nov 23"
         },
-        {
-          tieuDe: "Nearly one in three new cars sold worldwide now plugs in — Europe surges 37% as China cools and US dealers run low",
-          baiViet: [
-            "Electric vehicles — battery-electric plus plug-in hybrid — now account for a record 31% of global passenger-car sales, roughly one in three new cars changing hands, according to CommBank analysis reported by Autoblog on 22 November. Europe supplied most of the momentum: EV sales there rose 37% year on year, helped by a wave of relatively affordable models such as the Volkswagen ID. Polo, which starts at €24,995 in Germany. China still holds a record 67% EV share of its own market, reached in September, but its EV sales fell 13% over the first nine months of 2026 as Beijing phases out trade-in subsidies and halves the purchase-tax exemption.",
-            "The growth map is broadening well beyond the two giants. Brazil's EV sales jumped 164% year on year, Japan's 80% and India's 76%. In the United States the picture is mixed: battery-electric sales rose 3% in October to an estimated 83,262 units, according to Cox Automotive — the first year-on-year increase of 2026 — but the comparison is against October 2025, the depressed month right after the $7,500 federal tax credit expired. Dealers are running short: about 65,000 EVs sat on US lots in October, 38% fewer than a year earlier, according to S&P Global data cited by Bloomberg, and in some cities a popular model such as the Chevrolet Blazer EV is down to a handful of cars — five in Salt Lake City, three in Kansas City, none in Nashville.",
-            "The squeeze is partly self-inflicted. General Motors has cut EV production to stem losses — its CFO calls the pullback 'rightsizing' — and Ford no longer stocks electric pickups after axing the F-150 Lightning, wiping out about 70% of its EV inventory in a year. Tesla, which sells direct and is not captured in the dealer data, now holds 58% of the US EV market, up from 54% a year ago, while Rivian, Subaru and Toyota have all gained share with new models. Europe's momentum could slow in 2027 under the EU's proposed annual cap of 350,000 Chinese-made hybrid imports, though sales may jump first if the cap lands in December 2026. The direction of travel is clear; the pace now depends as much on policy and production choices as on demand."
-          ],
-          nguon: [
-            { ten: "Autoblog", link: "https://www.autoblog.com/news/nearly-one-in-three-new-cars-sold-globally-can-drive-without-gas" },
-            { ten: "BusinessMirror (Bloomberg)", link: "https://businessmirror.com.ph/2026/11/22/us-car-dealerships-are-low-on-ev-models/" }
-          ],
-          gio: "Morning, Nov 23"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "BMW's iX4 enters production in Hungary: 428 miles of range, 400 kW charging, from $66,300",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/BMW_iX3%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049823%29.jpg/960px-BMW_iX3%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049823%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/BMW_iX3%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049824-2%29.jpg/960px-BMW_iX3%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049824-2%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/BMW_iX3_50%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049825%29.jpg/960px-BMW_iX3_50%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049825%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/BMW_iX3_50%2C_IAA_Summit_2025%2C_Munich_%28P1049826%29.jpg/960px-BMW_iX3_50%2C_IAA_Summit_2025%2C_Munich_%28P1049826%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/BMW_X4_M_Competition_%28G02%29_FL_IMG_6824.jpg/960px-BMW_X4_M_Competition_%28G02%29_FL_IMG_6824.jpg"],
+          baiViet: [
+            "## Production starts in Debrecen",
+            "Series production of the new BMW iX4 is officially underway at BMW Group's plant in Debrecen, Hungary — the second fully electric BMW built at the facility after the iX3, and the third model on the company's Neue Klasse platform. BMW said the plant began building an entirely new model less than two months after introducing a 24-hour, three-shift schedule to ramp up output for higher-than-expected demand. The iX4 is the coupe-SUV sibling of the iX3 and the all-electric replacement for the petrol X4, which BMW discontinued last year. It goes on sale in March 2027, with the iX4 50 xDrive first and a 603-horsepower M60 xDrive following later in the year.",
+            "## 428 miles and 10-minute top-ups",
+            "The headline number is range: the iX4 50 xDrive carries a 112.2 kWh usable battery and BMW estimates up to 428 miles on a single charge under its own EPA-procedure testing — a figure that is not yet a finalised EPA rating — and up to 514 miles (828 km) on the WLTP cycle. Its 800-volt architecture supports DC charging at up to 400 kW, adding as much as 184 miles of range in 10 minutes and taking the battery from 10% to 80% in about 21 minutes. The dual-motor 50 xDrive produces 463 horsepower and 475 lb-ft of torque, reaching 60 mph in 4.7 seconds, while a drag coefficient of just 0.23 — helped by the rakish coupe roofline, active air flaps and standard M Sport aero kit — does much of the work behind the range figure. At 188.3 inches long with a 114.1-inch wheelbase, it is about the same size as the iX3, trading a little rear headroom for the sloping roof.",
+            "## The price of the coupe roof",
+            "The iX4 50 xDrive starts at $66,300 in the United States — $4,800 more than the equivalent iX3 50 xDrive — and BMW has already opened its online configurator ahead of the March launch. The M60 xDrive, with 603 horsepower, arrives later in 2027. The iX4 lands in a segment that is suddenly crowded: Audi's Q6 Sportback e-tron and the electric Mercedes-Benz GLC are chasing the same coupe-SUV buyer, and Chinese rivals are pressing from below on price. BMW's bet is that range is still the argument that ends showroom debates — and 428 miles, if the final EPA number holds anywhere near it, is a strong opening line."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/23/bmws-ix4-promises-428-miles-range-and-ultra-fast-charging/" },
+            { ten: "AutoGuide", link: "https://www.autoguide.com/auto/manufacturers/bmw/2027-bmw-ix4-5-things-you-need-to-know-44641597" },
+            { ten: "BMW USA", link: "https://www.bmwusa.com/vehicles/x-series/suv/bmw-ix4.html" }
+          ],
+          gio: "Evening, Nov 24"
+        },
         {
           tieuDe: "BYD's 1,500 kW Flash Charging goes live in Malaysia: nine minutes to near-full — but only two models can use it yet",
           anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Denza_D9_IAA_2023_1X7A0031.jpg/960px-Denza_D9_IAA_2023_1X7A0031.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Denza_D9_DM-i_IAA_2025_DSC_2043.jpg/960px-Denza_D9_DM-i_IAA_2025_DSC_2043.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Denza_D9_DM-i_IAA_2025_DSC_2042.jpg/960px-Denza_D9_DM-i_IAA_2025_DSC_2042.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/2024_Denza_D9.jpg/960px-2024_Denza_D9.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/2024_Denza_D9_%28front%29.jpg/960px-2024_Denza_D9_%28front%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Denza_D9_DM-i%2C_IAA_Mobility_2025%2C_Munich_%2820250909-P1050375%29.jpg/960px-Denza_D9_DM-i%2C_IAA_Mobility_2025%2C_Munich_%2820250909-P1050375%29.jpg"],
@@ -95,24 +118,6 @@ window.TIN_TUC = {
             { ten: "DSF", link: "https://www.dsf.my/2026/11/new-denza-d9-prestige-awd-launched-in-malaysia-at-rm345800-with-flash-charging/" }
           ],
           gio: "Morning, Nov 24"
-        },
-        {
-          tieuDe: "The robotaxi race splits in two: Tesla starts selling the $29,990 Cybercab while Waymo pulls its cars off the freeway",
-          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Tesla_Cybercab_-_San_Francisco_-_June_2026.jpg/960px-Tesla_Cybercab_-_San_Francisco_-_June_2026.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Inside_the_Tesla_Cybercab.jpg/960px-Inside_the_Tesla_Cybercab.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Rear_of_the_Tesla_Cybercab.jpg/960px-Rear_of_the_Tesla_Cybercab.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Tesla_Cybercab_002.jpg/960px-Tesla_Cybercab_002.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Waymo_Jaguar_I-Pace_-_Side_Sensor_Closeup.jpg/960px-Waymo_Jaguar_I-Pace_-_Side_Sensor_Closeup.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Waymo_One_Jaguar_I-Pace_-_03.jpg/960px-Waymo_One_Jaguar_I-Pace_-_03.jpg"],
-          baiViet: [
-            "## Tesla turns the Cybercab into a product you can buy",
-            "Tesla has begun inviting select customers to buy the Cybercab for $29,990 before taxes, plus a mandatory $299-per-month Autonomy Subscription, with deliveries estimated for December 2026 in five Texas cities — Austin, Dallas, Houston, San Antonio and Fort Worth. The two-seat vehicle has no steering wheel or pedals, and ownership comes with strict terms: personal use only, no fleet use or renting out, and Tesla can shrink the service area. Public Cybercab rides reached Dallas this week, the second US city after Austin, and the Robotaxi service now runs 24 hours a day in every city it serves. Tesla also plans a €3 billion ($3.3 billion) expansion of its Berlin gigafactory to build up to one million Cybercabs, and Elon Musk said at the DealBook Summit that a driverless Model Y variant without a steering wheel or pedals, aimed at groups of six or seven, is on the way. Regulators have not yet said publicly whether the Cybercab is road legal.",
-            "## Waymo's freeway retreat — and the school-bus file",
-            "Waymo, meanwhile, has again pulled its robotaxis off freeways — this time in all US markets — after California's Department of Motor Vehicles barred the company from state freeways, citing an 'imminent hazard' from multiple incidents in which vehicles entered active construction zones. Waymo has filed two safety recalls with the National Highway Traffic Safety Administration to strengthen how its system navigates closed freeway lanes and intersections with manual traffic control. Separately, NHTSA has opened an investigation into Waymo robotaxis passing stopped school buses, with at least 26 incidents counted in Austin, after a recall on the same issue in December 2025. The setback lands just as Amazon's Zoox began offering driverless rides through the Uber app in Las Vegas.",
-            "## The scoreboard: registrations vs. real miles",
-            "On paper, Tesla has taken the lead in Texas: 1,507 robotaxis registered with state authorities against Waymo's 1,345, after Tesla overtook its rival on November 10 and widened the gap with a batch of 200 Cybercabs registered on November 17. But registrations measure fleet paperwork, not service delivered. Waymo runs about 4,000 robotaxis across roughly 15 to 20 US cities, delivers around 500,000 paid rides a week and averages 3.90 million driverless miles a week in the US, against Tesla's peak of 558,000 — though Tesla logged 438,000 driverless miles in a single Austin week, past Waymo's 406,000 average there. The cost gap is just as stark: Waymo spends about $200,000 per robotaxi, while the camera-only Cybercab targets about $30,000, backed by driving-assistance data from roughly 8 million Tesla vehicles worldwide. The race has shifted from who has more cars to whose economics survive contact with regulators and real streets."
-          ],
-          nguon: [
-            { ten: "TradingView (Stocktwits)", link: "https://www.tradingview.com/news/stocktwits:86463dd9e094b:0-zero-to-sixty-tesla-expands-cybercab-to-dallas-as-waymo-pauses-freeway-operations-this-week/" },
-            { ten: "EVwire — Robotaxi Report #10", link: "https://evwire.com/p/robotaxi-newsletter-report-10" },
-            { ten: "BigGo Finance (TechCrunch)", link: "https://finance.biggo.com/news/cda2b982-e81e-4e6c-a7d4-3a8619b672bb" }
-          ],
-          gio: "Evening, Nov 23"
         },
       ]
     }
