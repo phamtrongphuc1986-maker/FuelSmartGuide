@@ -17,12 +17,32 @@
 // turns those lines into H2 subheadings. Articles missing anh still
 // render (placeholder cover), but new articles must not omit it.
 window.TIN_TUC = {
-  capNhat: "Tuesday, November 24, 2026 — evening edition",
+  capNhat: "Wednesday, November 25, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "EU slams the brakes on Chinese hybrids: 191,780-car cap from December 1 as Brussels shields its carmakers",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/BYD_Seal_U_IAA_2023_1X7A0045.jpg/960px-BYD_Seal_U_IAA_2023_1X7A0045.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Toyota_Prius_%28XW60%29_Plug-in_Hybrid_Automesse_Ludwigsburg_2023_1X7A0004.jpg/960px-Toyota_Prius_%28XW60%29_Plug-in_Hybrid_Automesse_Ludwigsburg_2023_1X7A0004.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Toyota_RAV4_Plug-in_Hybrid_GR_Sport_IMG_9896.jpg/960px-Toyota_RAV4_Plug-in_Hybrid_GR_Sport_IMG_9896.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Kia_Sportage_Plug-in-Hybrid_%28NQ5%29_1X7A0317.jpg/960px-Kia_Sportage_Plug-in-Hybrid_%28NQ5%29_1X7A0317.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/BYD_Seal%2C_IAA_Open_Space_2023%2C_Munich_%28P1120203%29.jpg/960px-BYD_Seal%2C_IAA_Open_Space_2023%2C_Munich_%28P1120203%29.jpg"],
+          baiViet: [
+            "## A quota that starts in a week",
+            "From December 1, 2026, the European Union will cap imports of hybrid cars from China at 191,780 vehicles for 200 days, running until June 18, 2027. The European Commission published the provisional safeguard measure in the Official Journal on Tuesday, November 24, turning an October deal between Brussels and Beijing into enforceable law. The cap covers plug-in hybrids, conventional hybrids and mild hybrids alike, and it applies to cars built in China regardless of brand. Once a period's quota is exhausted, EU customs simply cannot clear further imports under it. The 200-day window is split into three tranches: 86,301 cars for December through February, 88,219 for March through May, and 17,260 for the first 18 days of June, with unused quota rolling over into the next period.",
+            "## Why Brussels acted now",
+            "The trigger was speed. In the first eight months of 2026 alone, EU imports of hybrid cars reached 474,475 units — already 64% above the whole of 2025 and up 175% year on year, according to Eurostat figures cited by trade press. Brussels had forecast Chinese hybrid shipments could approach 800,000 in 2026, so the annualised cap of 350,000 — the 191,780 figure is simply that annual number pro-rated over 200 days — cuts the expected flow by more than half. The Commission launched its safeguard investigation on October 30, arguing the import surge threatened serious injury to European carmakers, and the provisional measure buys time while that inquiry runs. A permanent arrangement is already sketched out: the 350,000 annual ceiling would rise by 6% a year for four years.",
+            "## Not just China — and one big loophole",
+            "Because World Trade Organization safeguard rules require measures to apply to all major exporters, the quotas reach well beyond China. Japan, Turkey, the UK and South Korea all received their own country-specific ceilings — roughly 310,000, 230,000, 190,000 and 105,000 a year respectively — set at about 15% above their 2025 import levels, so for most of them the limits sit comfortably above current shipments and China bears almost all of the pain. There is also a deliberate carve-out: range-extended EVs, whose combustion engine only generates electricity, fall outside the quota entirely. That exemption is already reshaping strategy — Chinese makers are expected to push more range-extender models into Europe, even though those cars still face the same countervailing duties as pure battery EVs, up to 45.3% in some cases. Hybrids assembled inside the EU do not count against the quota either, which hands another advantage to Chinese brands building European plants, such as BYD in Hungary and Turkey.",
+            "## What happens next",
+            "China's Ministry of Commerce said on November 24 that it reserved the right to challenge the measure at the WTO and seek trade compensation, setting up a fresh front in the EU-China auto trade war that began with tariffs on Chinese-made battery EVs. For European buyers, the practical effect is narrower choice and possibly firmer prices on Chinese plug-in hybrids such as the BYD Seal U DM-i, while dealers can keep selling cars that cleared customs before December 1. For the industry, the next milestone is the end of the investigation in mid-2027, when Brussels must decide whether the temporary brake becomes a lasting wall — and whether the range-extender detour becomes the next battleground."
+          ],
+          nguon: [
+            { ten: "electrive", link: "https://www.electrive.com/2026/11/24/eu-introduces-import-quotas-for-hybrids-from-china-and-other-countries/" },
+            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/24/eu-to-cap-hybrid-car-imports-from-china-at-191780-from-december-2026-to-june-2027/" },
+            { ten: "Nikkei Asia", link: "https://asia.nikkei.com/business/automobiles/electric-vehicles/eu-curb-on-chinese-hybrid-cars-drives-shift-to-niche-powertrain" }
+          ],
+          gio: "Morning, Nov 25"
+        },
         {
           tieuDe: "Toyota gives the Corolla its first EV — 60 years on, the world's best-selling car goes electric",
           anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2023_Toyota_Corolla_Hybrid_%28E210%29_hatchback_IMG_9877.jpg/960px-2023_Toyota_Corolla_Hybrid_%28E210%29_hatchback_IMG_9877.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2023_Toyota_Corolla_Hybrid_%28E210%29_hatchback_IMG_9884.jpg/960px-2023_Toyota_Corolla_Hybrid_%28E210%29_hatchback_IMG_9884.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/2023_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_7679.jpg/960px-2023_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_7679.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/2023_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_8123.jpg/960px-2023_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_8123.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/2024_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_9874.jpg/960px-2024_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_9874.jpg"],
@@ -59,30 +79,32 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 24"
         },
-        {
-          tieuDe: "China's EV challengers keep climbing: Xpeng's Mona L05 tops 10,000 deliveries in three weeks as Nio's ES8 nears 170,000",
-          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/XPeng_Mona_M03_002.jpg/960px-XPeng_Mona_M03_002.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Nio_ES8_III_001.jpg/960px-Nio_ES8_III_001.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Nio_ES8_III_002.jpg/960px-Nio_ES8_III_002.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/NIO_ET5_Touring_Motorworld_Munich_1X7A0042.jpg/960px-NIO_ET5_Touring_Motorworld_Munich_1X7A0042.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/XPeng_Mona_M03_003.jpg/960px-XPeng_Mona_M03_003.jpg"],
-          baiViet: [
-            "## A record month takes shape at Xpeng",
-            "Deliveries of Xpeng's new Mona L05 SUV have passed 10,000 units in the first three weeks of November, hitting the model's first-month target ahead of schedule, the company said on Weibo on Monday. The mid-size SUV launched in China on October 29 with a limited-time starting price of 139,800 yuan ($20,830), offered as both a battery-electric and an extended-range model. The Mona lineup — the M03 sedan, the L03 compact SUV launched in July and the L05 — is set to pass 400,000 owners in November, and global shipments of the L05 began on October 26 with plans to sell in 65 countries and regions. The ramp comes as Xpeng pushes toward fourth-quarter deliveries of 169,000 to 174,000 vehicles, after a record 50,237 in October, with management expecting monthly deliveries to top 60,000 for the first time in November.",
-            "## Nio leans on its big SUVs while the mid-size range waits",
-            "Nio will deliver the 170,000th unit of its third-generation ES8 this week, roughly a month after passing 160,000 on October 23. The large SUV delivered 8,738 units in October — up 30% year on year but down 17% from September, its lowest monthly total this year — yet it remained Nio's best-selling model, accounting for 48% of the main brand's 18,125 deliveries. In the first ten months of the year the ES8 lineup delivered 119,232 units, up 763% year on year. Together the ES8 and the flagship ES9 supplied 85% of the main brand's October volume, a concentration founder William Li acknowledged while unveiling the product roadmap: refreshed ET5 Touring and ES6 models arrive in the first half of 2027 on the NT 3.0 platform with 900-volt architecture and 5C ultra-fast charging, while the ET5 sedan and EC6 get no update next year. The mid-size slump explains the urgency — ET5 Touring sales fell 74% year on year to 1,182 in October and ES6 sales fell 77% to 696.",
-            "## What to watch next",
-            "The calendar is crowded: Xpeng holds its 2026 AI Day in Guangzhou on November 25, Nio stages its Nio IN tech day the same day — where it will unveil its NWM 3.0 assisted-driving world model — and the Guangzhou Auto Show opens on November 27, where Nio plans a special edition of the ES8. Nio reports third-quarter results on December 1 and holds Nio Day in Wuhan later that month, a likely stage for the refreshed ET5 Touring and ES6. Across its three brands, Nio delivered 334,547 vehicles in the first ten months of 2026, up 38.5% year on year — growth now carried almost entirely by two large SUVs while the rest of the range waits for its refresh."
-          ],
-          nguon: [
-            { ten: "CnEVPost", link: "https://cnevpost.com/2026/11/23/xpeng-mona-l05-nov-deliveries-exceed-10000/" },
-            { ten: "CnEVPost", link: "https://cnevpost.com/2026/11/23/nio-to-deliver-170000th-3rd-gen-es8-this-week/" },
-            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/23/new-nio-et5-touring-spied-in-china-as-ceo-confirms-2027-rollout-amid-europe-delays/" }
-          ],
-          gio: "Evening, Nov 23"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Porsche's electric 718 Boxster is real and nearly here: mid-engine soul, 800-volt E-Core, debut in early 2027",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Porsche_718_Boxster_GTS_4.0_1X7A0320.jpg/960px-Porsche_718_Boxster_GTS_4.0_1X7A0320.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Porsche_718_Boxster_Spyder_RS_IAA_2023_1X7A0535.jpg/960px-Porsche_718_Boxster_Spyder_RS_IAA_2023_1X7A0535.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Porsche_718_Boxster_T_Genf_2019_1Y7A5425.jpg/960px-Porsche_718_Boxster_T_Genf_2019_1Y7A5425.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/2018_Porsche_718_Cayman.jpg/960px-2018_Porsche_718_Cayman.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Porsche_718_Boxster_GTS_4.0_25_Years_Edition_in_the_Porsche-Museum_%282009%29_IMG_7436.jpg/960px-Porsche_718_Boxster_GTS_4.0_25_Years_Edition_in_the_Porsche-Museum_%282009%29_IMG_7436.jpg"],
+          baiViet: [
+            "## The rumours are over",
+            "Porsche ended months of speculation on November 24, confirming that its first all-electric two-door sports car — the new 718 Boxster — has reached the final stretch of development and will celebrate its world premiere in the first quarter of 2027. The announcement, made as journalists drove late-stage prototypes in Mallorca and at Porsche's Weissach development centre, puts to rest reports that the electric Boxster had been cancelled or delayed. The car will be built at Porsche's main plant in Stuttgart-Zuffenhausen, and a four-part documentary following its development began airing daily from November 24 on Porsche's YouTube channel and in the Porsche Newsroom. Porsche chief executive Michael Leiters framed it as an entry point into the brand's two-door world: from next year, he said, the electric Boxster will offer customers a compelling way into Porsche sports cars.",
+            "## E-Core: the battery where the engine used to be",
+            "The engineering headline is a layout Porsche calls E-Core, designed specifically for the 718 rather than borrowed from another model. Instead of the flat battery pack under the floor that defines almost every other EV — and raises the driver's seat — the 800-volt battery sits directly behind the seats, exactly where the mid-mounted combustion engine lived in petrol Boxsters. That single decision preserves the low seating position a roadster demands and concentrates mass in the middle of the car, giving a 40/60 front-to-rear weight distribution that mirrors a traditional mid-engined sports car. The battery even works as a partially stressed chassis component, helping make this the stiffest convertible road car Porsche has ever built. Prototypes have covered about four million kilometres of testing in more than 20 countries, from minus 30 degrees in Sweden to 51 degrees in Death Valley, with charging tested against five different standards.",
+            "## The most powerful 718 ever — with a virtual gearbox",
+            "Porsche is keeping battery capacity, range and pricing under wraps until the premiere, but it has confirmed the headline performance: the electric Boxster will be the most powerful 718 ever built, with the range-topping model sprinting from 0 to 100 km/h in under three seconds and reaching more than 250 km/h. Every version will be rear-wheel drive, and every one gets E-Shift as standard — a virtual seven-speed PDK transmission, operated by steering-wheel paddles, that reproduces gear changes and a faithfully recreated Boxster sound, alongside a selectable sci-fi E-Sound with Sport and Sport Plus modes. The chassis borrows heavily from the 911, including steering based on the 911 Carrera GTS, and rear-axle steering arrives on a 718 for the first time. Early prototype drives by the British press came away impressed, with one reviewer noting the car feels as close as possible to the old petrol Boxster's handling balance.",
+            "## Why it matters",
+            "The Boxster EV is more than a new model: it is the test of whether Porsche can translate its core sports-car DNA — balance, a low driving position, tactile feedback — into an electric architecture without compromise, something no volume maker has yet cracked in a true two-seat roadster. If the E-Core formula works, it could underpin future electric sports cars well beyond the Boxster, and it lands in a segment that will be almost empty when it arrives, with Alpine's electric A110 still to come. The remaining questions — range, charging speed, weight and, above all, price — will be answered at the world premiere in early 2027."
+          ],
+          nguon: [
+            { ten: "Porsche Newsroom", link: "https://newsroom.porsche.com/en/2026/products/porsche-all-electric-718-boxster-development-43799.html" },
+            { ten: "Electrek", link: "https://electrek.co/2026/11/24/porsche-boxster-ev-coming-most-powerful-718-ever-images/" },
+            { ten: "evo", link: "https://www.evo.co.uk/porsche/718-boxster/209308/new-porsche-boxster-ev-prototype-review-impressive-but-will-it-sell" }
+          ],
+          gio: "Morning, Nov 25"
+        },
         {
           tieuDe: "BMW's iX4 enters production in Hungary: 428 miles of range, 400 kW charging, from $66,300",
           anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/BMW_iX3%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049823%29.jpg/960px-BMW_iX3%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049823%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/BMW_iX3%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049824-2%29.jpg/960px-BMW_iX3%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049824-2%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/BMW_iX3_50%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049825%29.jpg/960px-BMW_iX3_50%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049825%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/BMW_iX3_50%2C_IAA_Summit_2025%2C_Munich_%28P1049826%29.jpg/960px-BMW_iX3_50%2C_IAA_Summit_2025%2C_Munich_%28P1049826%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/BMW_X4_M_Competition_%28G02%29_FL_IMG_6824.jpg/960px-BMW_X4_M_Competition_%28G02%29_FL_IMG_6824.jpg"],
@@ -100,24 +122,6 @@ window.TIN_TUC = {
             { ten: "BMW USA", link: "https://www.bmwusa.com/vehicles/x-series/suv/bmw-ix4.html" }
           ],
           gio: "Evening, Nov 24"
-        },
-        {
-          tieuDe: "BYD's 1,500 kW Flash Charging goes live in Malaysia: nine minutes to near-full — but only two models can use it yet",
-          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Denza_D9_IAA_2023_1X7A0031.jpg/960px-Denza_D9_IAA_2023_1X7A0031.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Denza_D9_DM-i_IAA_2025_DSC_2043.jpg/960px-Denza_D9_DM-i_IAA_2025_DSC_2043.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Denza_D9_DM-i_IAA_2025_DSC_2042.jpg/960px-Denza_D9_DM-i_IAA_2025_DSC_2042.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/2024_Denza_D9.jpg/960px-2024_Denza_D9.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/2024_Denza_D9_%28front%29.jpg/960px-2024_Denza_D9_%28front%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Denza_D9_DM-i%2C_IAA_Mobility_2025%2C_Munich_%2820250909-P1050375%29.jpg/960px-Denza_D9_DM-i%2C_IAA_Mobility_2025%2C_Munich_%2820250909-P1050375%29.jpg"],
-          baiViet: [
-            "## Megawatt charging, live at three showrooms",
-            "BYD Malaysia has switched on its 1,500 kW Megawatt Flash Charging network, delivering up to 1.5 MW through a single connector — enough to take a compatible EV from 10% to 70% in five minutes and from 10% to 97% in nine minutes under optimal conditions. Announced in Kuala Lumpur on November 19 alongside the launch of the refreshed DENZA D9 Prestige AWD, the system is now operational at three DENZA showrooms in the Klang Valley — Balakong, Glenmarie and Old Klang Road. The chargers are recognisable by their turquoise T-shaped structures with suspended cables on a sliding overhead rail and a lightweight, so-called zero-gravity connector that keeps the cable off the ground. An integrated energy-storage system backs each site so the local grid does not have to absorb the full surge. BYD says the nine-minute fill is the equivalent of fuelling a petrol car — and that a five-minute top-up adds roughly 400 km of range.",
-            "## The car it launched with",
-            "The updated D9 is the flagship the network was built for. The luxury electric MPV now comes only as the Prestige AWD, priced at RM345,800, with a new 115 kWh second-generation Blade Battery, an 800-volt architecture and dual motors producing 410 kW (557 PS) and 445 Nm. DC fast charging jumps from the previous maximum of 166 kW to the full 1,500 kW, and BYD quotes up to 650 km of NEDC range. The refresh also brings a revised interior, while the exterior and the 5,250 mm length, 1,960 mm width and 3,110 mm wheelbase are virtually unchanged. Only two Malaysian-market models can use the full Flash Charging speed today — the new D9 and the DENZA Z9 GT, both fitted with the second-generation Blade Battery. Other EVs can plug in at the same stations, but at their own, lower charging rates. AC charging on the D9 remains at 11 kW.",
-            "## How fast the network will grow",
-            "BYD Malaysia plans 12 Flash Charging points by the end of 2026 and 130 nationwide by the end of 2027, expanding from DENZA showrooms to selected BYD outlets and dedicated solar-powered Flash Charging hubs. New D9 and Z9 GT owners get one year of complimentary Flash Charging, and until December 8, 2026 they can simply drive in and plug in with no app, registration or setup; from December 9 the free access moves to the BYD Flash Charging App and runs until December 31, 2027. The launch matters beyond Malaysia: it is the first time BYD's megawatt charging — first shown in China earlier this year — has gone live in Southeast Asia, and it sets a new benchmark that rival networks in the region will now be measured against. The open question is how quickly BYD can put second-generation Blade Battery cars, and enough megawatt chargers, in front of ordinary buyers."
-          ],
-          nguon: [
-            { ten: "Paul Tan", link: "https://paultan.org/2026/11/19/2027-denza-d9-ev-launched-in-malaysia-prestige-awd-557-ps-flash-charging-upgraded-interior-rm345800/?utm_content=buffer2b28e&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer&trk=organization_guest_main-feed-card-text" },
-            { ten: "AutoBuzz", link: "https://autobuzz.my/2026/11/19/byds-1500-kw-flash-chargers-are-now-live-in-malaysia/" },
-            { ten: "DSF", link: "https://www.dsf.my/2026/11/new-denza-d9-prestige-awd-launched-in-malaysia-at-rm345800-with-flash-charging/" }
-          ],
-          gio: "Morning, Nov 24"
         },
       ]
     }
