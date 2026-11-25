@@ -17,12 +17,31 @@
 // turns those lines into H2 subheadings. Articles missing anh still
 // render (placeholder cover), but new articles must not omit it.
 window.TIN_TUC = {
-  capNhat: "Wednesday, November 25, 2026 — evening edition",
+  capNhat: "Thursday, November 26, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Europe's EV surge: battery-electric registrations jump 56.1% in October as Chinese brands grab 14.8% of the market",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Toyota_bZ4X%2C_Auto_2024%2C_Zurich_%28PANA0765%29.jpg/960px-Toyota_bZ4X%2C_Auto_2024%2C_Zurich_%28PANA0765%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Hyundai_Ioniq_5.jpg/960px-Hyundai_Ioniq_5.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/2025_Kia_EV6_GT_IAA_2025_DSC_2508.jpg/960px-2025_Kia_EV6_GT_IAA_2025_DSC_2508.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Toyota_bZ4X_Automesse_Ludwigsburg_2022_1X7A5895.jpg/960px-Toyota_bZ4X_Automesse_Ludwigsburg_2022_1X7A5895.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Hyundai_Ioniq_5_IAA_2021_1X7A0189.jpg/960px-Hyundai_Ioniq_5_IAA_2021_1X7A0189.jpg"],
+          baiViet: [
+            "## Battery-electrics carry the whole market",
+            "Battery-electric vehicle registrations across Europe rose 56.1% year on year in October, according to European Automobile Manufacturers' Association (ACEA) data reported by Reuters on November 24. The total new-car market grew only 3.4% to 1.13 million vehicles across the European Union, Britain and the European Free Trade Association — so electric cars did almost all of the growing. Electrified cars — battery-electric, plug-in hybrid and hybrid combined — accounted for 75.5% of all new registrations, while petrol registrations fell 28.3% and diesel fell 30.2%; combustion-engine cars now make up just 21.8% of the market. Battery-electrics alone took 31.2% of registrations in the EU, and across the first ten months of 2026 the EU has registered 2,211,071 electric cars — roughly 7,300 a day.",
+            "## Chinese brands take nearly 15% — and European giants lose ground",
+            "The fastest growth came from Chinese carmakers. Registrations of Chery rose 150.8%, BYD 118.9%, Geely 15.4% and SAIC 36.2%, while Leapmotor surged 246.4% and Xpeng 165.3%. The six Chinese makers together now hold 14.8% of the European new-car market, up from 9% a year earlier. At the same time, the old guard slipped: registrations of Volkswagen fell 7.6%, Renault 9.8% and Stellantis 8%, and their combined share dropped to 47.2% from 53.2% a year ago. The shift is not only about brands but about where cars are built — about one in six new electric cars registered in the EU arrives by ship from China, and Beijing's export machine is the other half of the story: Chinese new-energy vehicle exports hit a record of nearly 600,000 units in October, according to Benchmark Mineral Intelligence, which put total global EV sales at 2.09 million for the month, up 8% year on year.",
+            "## Germany leads the charge — but policy headwinds are building",
+            "Germany was the engine of Europe's October surge: battery-electric sales there rose nearly 80% to more than 95,000 units, pushing electrics above 45% of all new car sales — the highest share since December 2022. Europe as a whole sold 510,000 EVs in October, up 36% year on year, while North America sold 130,000, up 24%. Yet the boom is running into politics on both sides. From December 1 the EU caps Chinese-built hybrid imports at 191,780 cars, and from April 1, 2027 Beijing will cut the VAT refund on exported new-energy vehicles from 13% to 9%. The October numbers show demand is real and accelerating; the question for 2027 is whether Europe's factories — and its trade rules — can keep up with the cars its own buyers now want."
+          ],
+          nguon: [
+            { ten: "NextMSC (Reuters/ACEA)", link: "https://www.nextmsc.com/news/electric-vehicle-market-gains-as-europe-bev-sales-surge" },
+            { ten: "NordiskBil (Reuters/ACEA)", link: "https://www.nordiskbil.com/electric-cars-surge-in-europe-while-chinese-brands-take-market-share/" },
+            { ten: "China Vehicles News (Benchmark Mineral Intelligence)", link: "https://www.chinavehicle.org/news/52574.html" }
+          ],
+          gio: "Morning, Nov 26"
+        },
+
         {
           tieuDe: "EU keeps Japan- and Korea-made EVs out of incentives in amended Industrial Acceleration Act",
           anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Toyota_bZ4X%2C_Auto_2024%2C_Zurich_%28PANA0765%29.jpg/960px-Toyota_bZ4X%2C_Auto_2024%2C_Zurich_%28PANA0765%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Hyundai_Ioniq_5.jpg/960px-Hyundai_Ioniq_5.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/2025_Kia_EV6_GT_IAA_2025_DSC_2508.jpg/960px-2025_Kia_EV6_GT_IAA_2025_DSC_2508.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Toyota_bZ4X_Automesse_Ludwigsburg_2022_1X7A5895.jpg/960px-Toyota_bZ4X_Automesse_Ludwigsburg_2022_1X7A5895.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Hyundai_Ioniq_5_IAA_2021_1X7A0189.jpg/960px-Hyundai_Ioniq_5_IAA_2021_1X7A0189.jpg"],
@@ -62,30 +81,31 @@ window.TIN_TUC = {
           ],
           gio: "Morning, Nov 25"
         },
-        {
-          tieuDe: "Toyota gives the Corolla its first EV — 60 years on, the world's best-selling car goes electric",
-          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2023_Toyota_Corolla_Hybrid_%28E210%29_hatchback_IMG_9877.jpg/960px-2023_Toyota_Corolla_Hybrid_%28E210%29_hatchback_IMG_9877.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/2023_Toyota_Corolla_Hybrid_%28E210%29_hatchback_IMG_9884.jpg/960px-2023_Toyota_Corolla_Hybrid_%28E210%29_hatchback_IMG_9884.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/2023_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_7679.jpg/960px-2023_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_7679.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/2023_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_8123.jpg/960px-2023_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_8123.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/2024_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_9874.jpg/960px-2024_Toyota_Corolla_Touring_Sports_Hybrid_%28E210%29_IMG_9874.jpg"],
-          baiViet: [
-            "## The best-selling nameplate in history goes electric",
-            "Toyota is giving the Corolla — the best-selling car of all time, with more than 57 million sold since its debut in 1966 — its first fully electric version. For the 13th generation, the world's most familiar sedan is being rebuilt on a new multipathway platform that supports petrol, hybrid, plug-in hybrid and, for the first time, battery-electric powertrains. The car was previewed as the Corolla Concept at the Japan Mobility Show in October 2025, and Toyota chief executive Koji Sato summed up the brief in one line: whatever the power source, make good-looking cars that everyone will want to drive. The next-generation Corolla is expected to debut sometime in 2027 as a 2028 model, in sedan, hatchback, crossover and GR performance body styles.",
-            "## What we know — and what Toyota is not saying yet",
-            "Toyota has kept most of the specifications secret, but the shape of the car is now clear: a sleeker, lower-slung design close to the concept, with minimal physical controls, haptic feedback on the steering wheel, an optional passenger-side touchscreen and a floating centre console where the transmission tunnel used to be. The battery-electric version is expected to come in single- and dual-motor configurations with at least 250 miles of range, while the hybrid will reportedly use a new 1.5-litre four-cylinder engine and electric motor delivering around 134 horsepower. Early price expectations put the petrol version near $25,000, the hybrid near $27,000 and the EV and plug-in hybrids in the $30,000 range — squarely in the heart of the mass market where the Corolla has always lived.",
-            "## Why now: the chairman's warning",
-            "The move comes with an unusually candid admission from the top. In an NHK documentary filmed inside Toyota's confidential development facility for the next-generation Corolla, chairman Akio Toyoda warned that the biggest threat to the world's largest carmaker was not new technology or new competitors, but complacency: if that happens, it is over. Engineers in the programme reportedly admitted the company was falling behind Chinese manufacturers in some areas of vehicle development, as brands such as BYD shorten development cycles and expand their line-ups. The Corolla EV is Toyota's answer — not a niche halo car, but electrification applied to the nameplate that defines the company. If it lands at the expected price with the expected range, it will be one of the most consequential EV launches of the decade."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/23/toyota-corolla-radical-makeover-first-ev/" },
-            { ten: "WhichCar", link: "https://www.whichcar.com.au/news/toyota-head-warns-it-cannot-survive-corolla-ev-option" },
-            { ten: "Move Electric", link: "https://www.moveelectric.com/en-ie/gallery/new-concept-reveals-toyota-corollas-electric-future" }
-          ],
-          gio: "Evening, Nov 24"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "BMW's long-wheelbase iX3 goes on sale in China from $40,300 with up to 919 km of range — one fixed price nationwide",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/BMW_iX3_NA5_IAA_2025_DSC_1682.jpg/960px-BMW_iX3_NA5_IAA_2025_DSC_1682.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/BMW_iX3_NA5_IAA_2025_DSC_1685.jpg/960px-BMW_iX3_NA5_IAA_2025_DSC_1685.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/BMW_iX3_50_xDrive_M_Sportpaket_Pro_%28NA5%29_%E2%80%93_h_17052026.jpg/960px-BMW_iX3_50_xDrive_M_Sportpaket_Pro_%28NA5%29_%E2%80%93_h_17052026.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/BMW_iX3_50L_003.jpg/960px-BMW_iX3_50L_003.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/BMW_Panoramic_iDrive_IAA_2025_DSC_1335.jpg/960px-BMW_Panoramic_iDrive_IAA_2025_DSC_1335.jpg"],
+          baiViet: [
+            "## Three trims, one price everywhere in China",
+            "BMW put its China-built, long-wheelbase iX3 on sale on November 25, 2026, with test drives and customer deliveries starting the same day. The first Neue Klasse model BMW builds in China comes in three versions at one fixed national price — 269,900 yuan (about $40,300) for the 30L, 299,900 yuan for the 40L xDrive and 339,900 yuan (about $50,700) for the 50L xDrive — the same prices BMW set when pre-sales opened at the Chengdu show in August, and the same at every dealer in the country. Buyers can order through BMW China's website, its WeChat mini program or the My BMW App, with launch offers for orders placed by January 31, 2027. Full production started at BMW's Shenyang plant on November 16, and the car is 108 mm longer in wheelbase than the standard global version, with all of the extra room going to the second row.",
+            "## 919 km on paper — and what it really means",
+            "The headline number belongs to the flagship 50L xDrive: a 113.4 kWh battery, 469 hp, 0–100 km/h in 4.9 seconds and a 919 km rating on China's CLTC cycle. The entry 30L uses a 77 kWh CATL lithium-iron-phosphate battery with 630 km of CLTC range and a 6.8-second sprint, while the mid-range 40L xDrive pairs an 86.9 kWh pack with 702 km and 5.6 seconds. Both all-wheel-drive versions use BMW's sixth-generation cylindrical cells, and all three charge from 10% to 80% in about 21 minutes — the 50L can add up to 418 km of range in just 10 minutes. The CLTC figures flatter the car: the same 50 xDrive sold outside China is rated at up to 805 km on the European WLTP cycle and 383 to 434 miles by the US EPA, so real-world range will sit well below the 919 km headline. Even so, the value ladder is clear — each extra CLTC kilometre costs roughly 184 yuan stepping from the 40L to the 50L, against about 417 yuan from the 30L to the 40L.",
+            "## Why China gets the long wheelbase first",
+            "The iX3 is the opening move of BMW's Neue Klasse era in its biggest market, and the stakes are high: BMW said in October that its brand's decline in China mirrored the market as a whole, and it plans to bring close to 20 new models carrying Neue Klasse technology to China by 2027 — the all-new i3 follows at the Guangzhou Auto Show on November 27. The long-wheelbase formula, the fixed nationwide pricing and the CATL-supplied LFP battery in the base car all show a German maker adapting to Chinese rules: rear-seat space matters, price transparency matters, and cost control matters against local rivals. Whether the iX3 can win back buyers from BYD, Xpeng and the rest will depend less on the 919 km figure than on the driving experience and the Panoramic iDrive cabin — but as a statement of intent, launching the Neue Klasse in China with deliveries on day one is about as clear as it gets."
+          ],
+          nguon: [
+            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/25/all-new-bmw-ix3-launches-in-china-starting-at-40300-usd-featuring-up-to-919-km-cltc-range/" },
+            { ten: "GlobalChinaEV", link: "https://www.globalchinaev.com/post/bmw-ix3-launches-in-china-at-269900-cny-with-one-fixed-price-nationwide" },
+            { ten: "Charjin", link: "https://charjin.com/stories/bmw-ix3-long-wheelbase-china-launch-cltc-range-lfp-nmc" }
+          ],
+          gio: "Morning, Nov 26"
+        },
+
         {
           tieuDe: "BYD launches third-generation Tang EV from $28,000 with up to 850 km of range and steer-by-wire",
           anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/BYD_Tang_L_EV_IAA_2025_DSC_2306.jpg/960px-BYD_Tang_L_EV_IAA_2025_DSC_2306.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/2024_BYD_Tang_GIMS_2024_1X7A2258.jpg/960px-2024_BYD_Tang_GIMS_2024_1X7A2258.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/2024_BYD_Tang_GIMS_2024_1X7A2306.jpg/960px-2024_BYD_Tang_GIMS_2024_1X7A2306.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/2024_BYD_Tang_GIMS_2024_1X7A2342.jpg/960px-2024_BYD_Tang_GIMS_2024_1X7A2342.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/BYD_Tang_DM-p_IMG003.jpg/960px-BYD_Tang_DM-p_IMG003.jpg"],
@@ -105,26 +125,6 @@ window.TIN_TUC = {
           gio: "Evening, Nov 25"
         },
 
-        {
-          tieuDe: "Porsche's electric 718 Boxster is real and nearly here: mid-engine soul, 800-volt E-Core, debut in early 2027",
-          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Porsche_718_Boxster_GTS_4.0_1X7A0320.jpg/960px-Porsche_718_Boxster_GTS_4.0_1X7A0320.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Porsche_718_Boxster_Spyder_RS_IAA_2023_1X7A0535.jpg/960px-Porsche_718_Boxster_Spyder_RS_IAA_2023_1X7A0535.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Porsche_718_Boxster_T_Genf_2019_1Y7A5425.jpg/960px-Porsche_718_Boxster_T_Genf_2019_1Y7A5425.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/2018_Porsche_718_Cayman.jpg/960px-2018_Porsche_718_Cayman.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Porsche_718_Boxster_GTS_4.0_25_Years_Edition_in_the_Porsche-Museum_%282009%29_IMG_7436.jpg/960px-Porsche_718_Boxster_GTS_4.0_25_Years_Edition_in_the_Porsche-Museum_%282009%29_IMG_7436.jpg"],
-          baiViet: [
-            "## The rumours are over",
-            "Porsche ended months of speculation on November 24, confirming that its first all-electric two-door sports car — the new 718 Boxster — has reached the final stretch of development and will celebrate its world premiere in the first quarter of 2027. The announcement, made as journalists drove late-stage prototypes in Mallorca and at Porsche's Weissach development centre, puts to rest reports that the electric Boxster had been cancelled or delayed. The car will be built at Porsche's main plant in Stuttgart-Zuffenhausen, and a four-part documentary following its development began airing daily from November 24 on Porsche's YouTube channel and in the Porsche Newsroom. Porsche chief executive Michael Leiters framed it as an entry point into the brand's two-door world: from next year, he said, the electric Boxster will offer customers a compelling way into Porsche sports cars.",
-            "## E-Core: the battery where the engine used to be",
-            "The engineering headline is a layout Porsche calls E-Core, designed specifically for the 718 rather than borrowed from another model. Instead of the flat battery pack under the floor that defines almost every other EV — and raises the driver's seat — the 800-volt battery sits directly behind the seats, exactly where the mid-mounted combustion engine lived in petrol Boxsters. That single decision preserves the low seating position a roadster demands and concentrates mass in the middle of the car, giving a 40/60 front-to-rear weight distribution that mirrors a traditional mid-engined sports car. The battery even works as a partially stressed chassis component, helping make this the stiffest convertible road car Porsche has ever built. Prototypes have covered about four million kilometres of testing in more than 20 countries, from minus 30 degrees in Sweden to 51 degrees in Death Valley, with charging tested against five different standards.",
-            "## The most powerful 718 ever — with a virtual gearbox",
-            "Porsche is keeping battery capacity, range and pricing under wraps until the premiere, but it has confirmed the headline performance: the electric Boxster will be the most powerful 718 ever built, with the range-topping model sprinting from 0 to 100 km/h in under three seconds and reaching more than 250 km/h. Every version will be rear-wheel drive, and every one gets E-Shift as standard — a virtual seven-speed PDK transmission, operated by steering-wheel paddles, that reproduces gear changes and a faithfully recreated Boxster sound, alongside a selectable sci-fi E-Sound with Sport and Sport Plus modes. The chassis borrows heavily from the 911, including steering based on the 911 Carrera GTS, and rear-axle steering arrives on a 718 for the first time. Early prototype drives by the British press came away impressed, with one reviewer noting the car feels as close as possible to the old petrol Boxster's handling balance.",
-            "## Why it matters",
-            "The Boxster EV is more than a new model: it is the test of whether Porsche can translate its core sports-car DNA — balance, a low driving position, tactile feedback — into an electric architecture without compromise, something no volume maker has yet cracked in a true two-seat roadster. If the E-Core formula works, it could underpin future electric sports cars well beyond the Boxster, and it lands in a segment that will be almost empty when it arrives, with Alpine's electric A110 still to come. The remaining questions — range, charging speed, weight and, above all, price — will be answered at the world premiere in early 2027."
-          ],
-          nguon: [
-            { ten: "Porsche Newsroom", link: "https://newsroom.porsche.com/en/2026/products/porsche-all-electric-718-boxster-development-43799.html" },
-            { ten: "Electrek", link: "https://electrek.co/2026/11/24/porsche-boxster-ev-coming-most-powerful-718-ever-images/" },
-            { ten: "evo", link: "https://www.evo.co.uk/porsche/718-boxster/209308/new-porsche-boxster-ev-prototype-review-impressive-but-will-it-sell" }
-          ],
-          gio: "Morning, Nov 25"
-        },
       ]
     }
   ]
