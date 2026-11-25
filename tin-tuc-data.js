@@ -17,12 +17,31 @@
 // turns those lines into H2 subheadings. Articles missing anh still
 // render (placeholder cover), but new articles must not omit it.
 window.TIN_TUC = {
-  capNhat: "Wednesday, November 25, 2026 — morning edition",
+  capNhat: "Wednesday, November 25, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "EU keeps Japan- and Korea-made EVs out of incentives in amended Industrial Acceleration Act",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Toyota_bZ4X%2C_Auto_2024%2C_Zurich_%28PANA0765%29.jpg/960px-Toyota_bZ4X%2C_Auto_2024%2C_Zurich_%28PANA0765%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Hyundai_Ioniq_5.jpg/960px-Hyundai_Ioniq_5.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/2025_Kia_EV6_GT_IAA_2025_DSC_2508.jpg/960px-2025_Kia_EV6_GT_IAA_2025_DSC_2508.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Toyota_bZ4X_Automesse_Ludwigsburg_2022_1X7A5895.jpg/960px-Toyota_bZ4X_Automesse_Ludwigsburg_2022_1X7A5895.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Hyundai_Ioniq_5_IAA_2021_1X7A0189.jpg/960px-Hyundai_Ioniq_5_IAA_2021_1X7A0189.jpg"],
+          baiViet: [
+            "## The exclusion survives the rewrite",
+            "The European Union still plans to exclude electric vehicles made in Japan from preferential treatment even in an amended version of its Industrial Acceleration Act (IAA), Nikkei learned on Monday, November 24. The revised draft, presented to member states by Ireland — which currently holds the EU's rotating presidency — keeps eligibility for EV subsidies and tax benefits limited to vehicles assembled inside the bloc, plus the European Economic Area's Norway, Switzerland and the United Kingdom. Japan and South Korea, two of the world's biggest car exporters, remain outside. The Commission published the original IAA draft in March 2026, and in mid-October Germany and France — the two member states that matter most on this file — agreed to keep vehicles built outside the EU out of the incentive scheme. The amended text was presented to member states on November 23, and the EU aims to finalise it with the European Parliament within the year.",
+            "## Tokyo and Seoul lobbied — and lost",
+            "The exclusion is a direct blow to Japanese and Korean carmakers, and both governments fought it. Japanese Prime Minister Sanae Takaichi raised the issue directly with the leaders of Germany and France, and Tokyo lobbied the Commission and member states publicly and privately to include Japan-assembled EVs — but the request was not reflected in the amended proposal. Chief Cabinet Secretary Minoru Kihara warned at a press conference on November 24 that the assembly requirement 'could create significant disadvantages for the Japanese automotive industry.' Companies such as Toyota, which sells Japan-built EVs into Europe, now face competing against European-made cars without subsidies or tax breaks. South Korea is in the same position: EVs built in South Korea for export to Europe are also unlikely to qualify, even though Korean brands are deeply exposed — Chinese-made EVs already took 43.5% of new passenger EV registrations in South Korea in the first nine months of 2026.",
+            "## One small concession — and Seoul's answer",
+            "The draft does leave one door ajar: vehicles assembled inside the EU using Japanese or Korean parts could qualify for preferential treatment under certain conditions. A Japanese government negotiator dismissed that as 'insufficient,' noting that finished cars produced in Japan would still get nothing. For Europe's own industry, the logic is the point — the IAA is designed to concentrate public support on European-made products and revive manufacturing inside the bloc. For the affected exporters, the response is now national: South Korea's Finance Ministry told Reuters on November 25 that Seoul will announce its own EV competitiveness package on Friday, including a possible tax credit for EVs produced and sold domestically, as Chinese competition eats into its home market. The two tracks point the same way: the EV trade war is fragmenting into rival subsidy blocs, and assembly location — not brand — is becoming the decisive factor."
+          ],
+          nguon: [
+            { ten: "Nikkei Asia", link: "https://asia.nikkei.com/business/automobiles/electric-vehicles/eu-s-ev-incentives-to-exclude-japan-made-cars-even-in-amended-proposal" },
+            { ten: "Aju Press", link: "https://www.ajupress.com/view/20261125142870509" },
+            { ten: "Seoul Economic Daily", link: "https://en.sedaily.com/world/2026/11/24/eu-keeps-korean-japanese-evs-out-of-subsidy-perks" }
+          ],
+          gio: "Evening, Nov 25"
+        },
+
         {
           tieuDe: "EU slams the brakes on Chinese hybrids: 191,780-car cap from December 1 as Brussels shields its carmakers",
           anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/BYD_Seal_U_IAA_2023_1X7A0045.jpg/960px-BYD_Seal_U_IAA_2023_1X7A0045.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Toyota_Prius_%28XW60%29_Plug-in_Hybrid_Automesse_Ludwigsburg_2023_1X7A0004.jpg/960px-Toyota_Prius_%28XW60%29_Plug-in_Hybrid_Automesse_Ludwigsburg_2023_1X7A0004.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Toyota_RAV4_Plug-in_Hybrid_GR_Sport_IMG_9896.jpg/960px-Toyota_RAV4_Plug-in_Hybrid_GR_Sport_IMG_9896.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Kia_Sportage_Plug-in-Hybrid_%28NQ5%29_1X7A0317.jpg/960px-Kia_Sportage_Plug-in-Hybrid_%28NQ5%29_1X7A0317.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/BYD_Seal%2C_IAA_Open_Space_2023%2C_Munich_%28P1120203%29.jpg/960px-BYD_Seal%2C_IAA_Open_Space_2023%2C_Munich_%28P1120203%29.jpg"],
@@ -61,30 +80,31 @@ window.TIN_TUC = {
           ],
           gio: "Evening, Nov 24"
         },
-        {
-          tieuDe: "Dutch court bars BYD's Ti7 from the EU in a design win for Jaguar Land Rover — €100,000 a day at stake, UK launch untouched",
-          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Fangchengbao_Ti7_001.jpg/960px-Fangchengbao_Ti7_001.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Fangchengbao_Ti7_002.jpg/960px-Fangchengbao_Ti7_002.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Fangchengbao_Ti7_003.jpg/960px-Fangchengbao_Ti7_003.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Fangchengbao_Ti7_rear_view.png/960px-Fangchengbao_Ti7_rear_view.png", "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Land_Rover_Defender_%28L663%29_DSC_9062.jpg/960px-Land_Rover_Defender_%28L663%29_DSC_9062.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Land_Rover_Defender_%28L663%29_DSC_9063.jpg/960px-Land_Rover_Defender_%28L663%29_DSC_9063.jpg"],
-          baiViet: [
-            "## A The Hague judge sides with the Defender",
-            "A Dutch court has barred BYD from selling or building its Ti7 SUV anywhere in the European Union after ruling that it infringes Jaguar Land Rover's registered design for the Land Rover Defender. The preliminary relief judge at the District Court of The Hague issued the ruling on Friday, November 20, in summary proceedings JLR brought against 11 BYD companies. JLR put six registered EU designs before the court; the judge needed only one — design 005248580-0004, registered in April 2018 and covering the current Defender 110, known internally as the L663. The ruling found that the design's dominant elements — the rounded shoulders, rounded corners, signature panel on the C-pillar, rounded wheel-arch cutouts, continuous window line and overall silhouette — are all reflected in the Ti7. BYD argued that its headlights, grille, bumpers, hood and side profile were all different, but the judge ruled those differences, on their own or combined, do not give an informed user a different overall impression. The court also found the Ti7 sits closer to the Defender than to older boxy SUVs such as the Ford Flex, Jeep Wrangler and Mercedes G-Class.",
-            "## What the ban covers — and what it does not",
-            "Under the injunction, BYD's EU entities can no longer import, produce, offer, sell, store or supply the Ti7, and the order takes effect one week after it is formally served. Breaking it costs €100,000 per day, up to €10 million. The ban even reaches BYD's new Hungarian plant in Szeged, since the judge considered it conceivable the Ti7 could be built there — although the factory had yet to begin assembling the model. The UK is a different story: the court said it has no jurisdiction over BYD UK and threw out JLR's UK design claims, so British deliveries are still on for January 2027. The Ti7, sold in China as the Fang Cheng Bao Tai 7 since 2025, is a three-row hybrid with a 1.5-litre engine making 402 horsepower, and costs roughly £20,000 less than the Defender it was judged to resemble. BYD said it 'strongly disagrees' with the judgment and will appeal, insisting the Ti7 'is the result of BYD's own independent design work and infringes none of JLR's rights'. JLR, a unit of India's Tata Motors, told AFP it protects its intellectual property and takes legal action when necessary. BYD's shares fell after the ruling.",
-            "## A reversal — and a warning to every Chinese brand",
-            "The ruling is a sharp turnaround from ten days earlier, when the same court handed BYD an early win in the same fight. In August 2026, bailiffs acting for JLR seized digital records from BYD offices in Schiedam and Hoofddorp in the Netherlands, amid allegations that BYD had dismantled a Defender to reverse-engineer its technology. On November 11, the court lifted the seizure and ordered JLR to destroy the seized records, finding JLR did not need them because BYD had not sold the Ti7 in the EU. That ruling did not address infringement, and JLR's separate claims over design rights and copyright remain pending in summary proceedings in The Hague and Rotterdam. The injunction is provisional: BYD has four weeks to appeal, but it stays in force while the appeal runs, and JLR has six months to file a full case on the merits or BYD can get it lifted. Industry watchers say the dispute will be closely monitored by every other Chinese carmaker pushing into Europe, since all of them are launching new models abroad to grow overseas sales — and the message from The Hague is that a familiar silhouette can now cost a launch."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/23/byd-ti7-banned-eu-land-rover-defender-design/" },
-            { ten: "The Wall Street Journal", link: "https://www.wsj.com/business/autos/byds-shares-fall-after-dutch-court-bars-sales-of-ti7-suv-model-in-eu-f18ff808" },
-            { ten: "South China Morning Post", link: "https://www.scmp.com/business/china-business/article/3375437/byd-pledges-fight-eu-sales-ban-infringement-battle-jaguar-land-rover" }
-          ],
-          gio: "Morning, Nov 24"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "BYD launches third-generation Tang EV from $28,000 with up to 850 km of range and steer-by-wire",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/BYD_Tang_L_EV_IAA_2025_DSC_2306.jpg/960px-BYD_Tang_L_EV_IAA_2025_DSC_2306.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/2024_BYD_Tang_GIMS_2024_1X7A2258.jpg/960px-2024_BYD_Tang_GIMS_2024_1X7A2258.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/2024_BYD_Tang_GIMS_2024_1X7A2306.jpg/960px-2024_BYD_Tang_GIMS_2024_1X7A2306.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/2024_BYD_Tang_GIMS_2024_1X7A2342.jpg/960px-2024_BYD_Tang_GIMS_2024_1X7A2342.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/BYD_Tang_DM-p_IMG003.jpg/960px-BYD_Tang_DM-p_IMG003.jpg"],
+          baiViet: [
+            "## A flagship SUV, priced like a mid-size one",
+            "BYD officially launched the third-generation Tang electric SUV in China on Tuesday, November 24, and the pricing is the story. The large five-seat flagship comes in three rear-wheel-drive trims — Premium at 187,900 yuan (about $28,000), Laser Premium at 207,900 yuan and Laser Flagship at 219,900 yuan — a starting price 16.49% below the 225,000 yuan pre-sale figure announced on November 13. Buyers of the top trim can add a 20,000 yuan (about $3,000) all-wheel-drive drive-by-wire package. The Tang sits in BYD's Dynasty lineup as a five-seat flagship alongside the seven-seat Da Tang, and at under $30,000 it undercuts electric SUVs such as the Tesla Model Y and XPeng G6 by a wide margin. Deliveries have already begun across all variants.",
+            "## Range, charging and the new chassis",
+            "Every rear-wheel-drive version uses a single 300 kW (402 hp) electric motor. The base Premium pairs an 88.7 kWh second-generation Blade LFP battery with 730 km of CLTC range, while the two Laser trims use a 105.8 kWh pack for up to 850 km. The optional dual-motor all-wheel-drive system lifts combined output to 515 kW (690 hp), cuts the 0–100 km/h sprint to 4.3 seconds and is rated at 770 km. Flash charging is standard, and the car rides on BYD's new-generation drive-by-wire digital chassis with steer-by-wire and brake-by-wire, plus DiSus-A dual-chamber air suspension and rear-wheel steering for a minimum turning radius of 5.6 metres. At 5,045 mm long with a 2,950 mm wheelbase, it is a genuinely large SUV — and the cabin leans into that, with two screens over 30 inches. The usual caveat applies to the range figures: CLTC is China's domestic cycle and runs roughly 30% above EPA numbers, so real-world range will be lower.",
+            "## What it means beyond China",
+            "The Tang's launch lands in the same week Brussels moved to cap Chinese hybrid imports and to keep Japan- and Korea-built EVs out of its subsidy scheme — a reminder that price is now the sharpest weapon in the EV trade war. BYD has not announced overseas timing for the new Tang, and the car is China-only for now. But the formula is clear: flagship size, 850 km of claimed range, steer-by-wire hardware and a price that starts where rivals' mid-size models begin. If BYD exports it at anything like the domestic price, European and Southeast Asian rivals will face the same pressure Chinese brands are already applying in the hybrid segment — and the EU's new quotas will look less like a wall than a speed bump."
+          ],
+          nguon: [
+            { ten: "Electrek", link: "https://electrek.co/2026/11/24/byd-launches-new-luxury-5-seat-ev-suv-two-30-screens-under-30000/" },
+            { ten: "CnEVPost", link: "https://cnevpost.com/2026/11/24/byd-launches-3rd-gen-tang-electric-suv/" },
+            { ten: "TechNode", link: "https://technode.com/2026/11/25/byd-launches-third-generation-tang-ev-with-850km-range-and-steer-by-wire-technology/" }
+          ],
+          gio: "Evening, Nov 25"
+        },
+
         {
           tieuDe: "Porsche's electric 718 Boxster is real and nearly here: mid-engine soul, 800-volt E-Core, debut in early 2027",
           anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Porsche_718_Boxster_GTS_4.0_1X7A0320.jpg/960px-Porsche_718_Boxster_GTS_4.0_1X7A0320.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Porsche_718_Boxster_Spyder_RS_IAA_2023_1X7A0535.jpg/960px-Porsche_718_Boxster_Spyder_RS_IAA_2023_1X7A0535.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Porsche_718_Boxster_T_Genf_2019_1Y7A5425.jpg/960px-Porsche_718_Boxster_T_Genf_2019_1Y7A5425.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/2018_Porsche_718_Cayman.jpg/960px-2018_Porsche_718_Cayman.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Porsche_718_Boxster_GTS_4.0_25_Years_Edition_in_the_Porsche-Museum_%282009%29_IMG_7436.jpg/960px-Porsche_718_Boxster_GTS_4.0_25_Years_Edition_in_the_Porsche-Museum_%282009%29_IMG_7436.jpg"],
@@ -104,24 +124,6 @@ window.TIN_TUC = {
             { ten: "evo", link: "https://www.evo.co.uk/porsche/718-boxster/209308/new-porsche-boxster-ev-prototype-review-impressive-but-will-it-sell" }
           ],
           gio: "Morning, Nov 25"
-        },
-        {
-          tieuDe: "BMW's iX4 enters production in Hungary: 428 miles of range, 400 kW charging, from $66,300",
-          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/BMW_iX3%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049823%29.jpg/960px-BMW_iX3%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049823%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/BMW_iX3%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049824-2%29.jpg/960px-BMW_iX3%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049824-2%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/BMW_iX3_50%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049825%29.jpg/960px-BMW_iX3_50%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1049825%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/BMW_iX3_50%2C_IAA_Summit_2025%2C_Munich_%28P1049826%29.jpg/960px-BMW_iX3_50%2C_IAA_Summit_2025%2C_Munich_%28P1049826%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/BMW_X4_M_Competition_%28G02%29_FL_IMG_6824.jpg/960px-BMW_X4_M_Competition_%28G02%29_FL_IMG_6824.jpg"],
-          baiViet: [
-            "## Production starts in Debrecen",
-            "Series production of the new BMW iX4 is officially underway at BMW Group's plant in Debrecen, Hungary — the second fully electric BMW built at the facility after the iX3, and the third model on the company's Neue Klasse platform. BMW said the plant began building an entirely new model less than two months after introducing a 24-hour, three-shift schedule to ramp up output for higher-than-expected demand. The iX4 is the coupe-SUV sibling of the iX3 and the all-electric replacement for the petrol X4, which BMW discontinued last year. It goes on sale in March 2027, with the iX4 50 xDrive first and a 603-horsepower M60 xDrive following later in the year.",
-            "## 428 miles and 10-minute top-ups",
-            "The headline number is range: the iX4 50 xDrive carries a 112.2 kWh usable battery and BMW estimates up to 428 miles on a single charge under its own EPA-procedure testing — a figure that is not yet a finalised EPA rating — and up to 514 miles (828 km) on the WLTP cycle. Its 800-volt architecture supports DC charging at up to 400 kW, adding as much as 184 miles of range in 10 minutes and taking the battery from 10% to 80% in about 21 minutes. The dual-motor 50 xDrive produces 463 horsepower and 475 lb-ft of torque, reaching 60 mph in 4.7 seconds, while a drag coefficient of just 0.23 — helped by the rakish coupe roofline, active air flaps and standard M Sport aero kit — does much of the work behind the range figure. At 188.3 inches long with a 114.1-inch wheelbase, it is about the same size as the iX3, trading a little rear headroom for the sloping roof.",
-            "## The price of the coupe roof",
-            "The iX4 50 xDrive starts at $66,300 in the United States — $4,800 more than the equivalent iX3 50 xDrive — and BMW has already opened its online configurator ahead of the March launch. The M60 xDrive, with 603 horsepower, arrives later in 2027. The iX4 lands in a segment that is suddenly crowded: Audi's Q6 Sportback e-tron and the electric Mercedes-Benz GLC are chasing the same coupe-SUV buyer, and Chinese rivals are pressing from below on price. BMW's bet is that range is still the argument that ends showroom debates — and 428 miles, if the final EPA number holds anywhere near it, is a strong opening line."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/23/bmws-ix4-promises-428-miles-range-and-ultra-fast-charging/" },
-            { ten: "AutoGuide", link: "https://www.autoguide.com/auto/manufacturers/bmw/2027-bmw-ix4-5-things-you-need-to-know-44641597" },
-            { ten: "BMW USA", link: "https://www.bmwusa.com/vehicles/x-series/suv/bmw-ix4.html" }
-          ],
-          gio: "Evening, Nov 24"
         },
       ]
     }
