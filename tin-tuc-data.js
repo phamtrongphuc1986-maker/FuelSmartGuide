@@ -17,12 +17,31 @@
 // turns those lines into H2 subheadings. Articles missing anh still
 // render (placeholder cover), but new articles must not omit it.
 window.TIN_TUC = {
-  capNhat: "Thursday, November 26, 2026 — morning edition",
+  capNhat: "Thursday, November 26, 2026 — evening edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Chinese brands double their European sales as hybrids lead the charge — 151,112 cars in October, 13.6% of the market",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/BYD_Atto_3_1X7A6494.jpg/960px-BYD_Atto_3_1X7A6494.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/MG4_EV%2C_Worms_%28P1180575%29.jpg/960px-MG4_EV%2C_Worms_%28P1180575%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Chery_Tiggo_7_Back_IMG_0391.jpg/960px-Chery_Tiggo_7_Back_IMG_0391.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Geely_Xingyue_001.jpg/960px-Geely_Xingyue_001.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/XPeng_P7%2B_IAA_2025_DSC_2059.jpg/960px-XPeng_P7%2B_IAA_2025_DSC_2059.jpg"],
+          baiViet: [
+            "## Registrations more than double — and Chinese brands outsell Japan in Q3",
+            "Chinese carmakers kept up their rapid advance across Europe in October, with registrations rising 103% year on year to 151,112 vehicles — 13.6% of all new cars sold in the region, according to market researcher Dataforce, reported by The Business Times on November 26. The October moderation from September's pace looks largely seasonal: September is boosted by quarter-end sales pushes and Britain's twice-yearly number-plate change. The longer trend is stark. In the third quarter, Chinese brands outsold Japanese manufacturers in Europe for the first time, and brands that barely existed on the continent five years ago are now squeezing Europe's carmakers from both directions — eroding their profits in China while sending faster-developed, lower-cost electric and hybrid models into Europe.",
+            "## Hybrids, not pure EVs, are doing the heavy lifting",
+            "The growth is no longer confined to fully electric cars. Much of the recent advance has come from hybrids, with plug-in hybrids accounting for an outsized share of Chinese brands' October gains — one of their strongest routes into the European market. Chinese models took the top three positions in Europe's plug-in hybrid market over the first ten months of 2026, led by the BYD Seal U, followed by the BYD Atto 2 and Chery's Jaecoo 7. That category is now coming under greater scrutiny in Brussels. The European Commission's Implementing Regulation (EU) 2026/2614, published on November 24, imposes a 200-day provisional safeguard on imported hybrid passenger cars from December 1: China receives a quota of 191,780 units, about 350,000 annualised, split into tranches of 86,301 for December–February, 88,219 for March–May and 17,260 for the first 18 days of June. Against the second quarter of 2026's annualised run-rate of 682,800 units, the quota cuts China-origin hybrid supply by roughly half — and analysts at Shanghai Metals Market estimate a 2027 shortfall of about 315,000 units in the base case.",
+            "## The answer is factories — in Europe, not in China",
+            "Chinese carmakers are responding by building where they sell. Xpeng told Nikkei Asia on November 26 that it plans to sell around 45,000 vehicles in Europe this year and aims to double that number next year, with local production expanding as annual sales approach 100,000 — Magna already assembles Xpeng vehicles in Austria. BYD is in exclusive talks to buy Ineos Automotive's factory in Hambach, France, adding a French base to a new plant nearing completion in Hungary. Chery is preparing production in Barcelona, while Leapmotor has begun making its B10 SUV at Stellantis' plant in Zaragoza, Spain. The pressure is already reshaping Europe's auto industry: Volkswagen is pushing through a major cost-cutting programme, Mercedes-Benz is holding back new investment at German plants and Stellantis is overhauling its European manufacturing footprint. The October numbers show the shift is no longer a forecast — Chinese brands are now a structural part of the European market, and the fight has moved from tariffs at the border to factories on the ground."
+          ],
+          nguon: [
+            { ten: "The Business Times (Dataforce)", link: "https://www.businesstimes.com.sg/companies-markets/transport-logistics/chinese-carmakers-double-sales-europe-hybrid-demand" },
+            { ten: "Nikkei Asia", link: "https://asia.nikkei.com/spotlight/electric-cars-in-china/xpeng-aims-to-double-europe-sales-and-expand-local-output" },
+            { ten: "Shanghai Metals Market", link: "https://news.metal.com/newscontent/WYL63KVO7CRSMYH3GRRRIDID4JPXITMDFWD534I-from-tariffs-to-quotas-eu-hybrid-safeguard-reshapes-battery-supply-chains-not-global-lithium-demandsmm-analysis" }
+          ],
+          gio: "Evening, Nov 26"
+        },
+
         {
           tieuDe: "Europe's EV surge: battery-electric registrations jump 56.1% in October as Chinese brands grab 14.8% of the market",
           anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Toyota_bZ4X%2C_Auto_2024%2C_Zurich_%28PANA0765%29.jpg/960px-Toyota_bZ4X%2C_Auto_2024%2C_Zurich_%28PANA0765%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Hyundai_Ioniq_5.jpg/960px-Hyundai_Ioniq_5.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/2025_Kia_EV6_GT_IAA_2025_DSC_2508.jpg/960px-2025_Kia_EV6_GT_IAA_2025_DSC_2508.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Toyota_bZ4X_Automesse_Ludwigsburg_2022_1X7A5895.jpg/960px-Toyota_bZ4X_Automesse_Ludwigsburg_2022_1X7A5895.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Hyundai_Ioniq_5_IAA_2021_1X7A0189.jpg/960px-Hyundai_Ioniq_5_IAA_2021_1X7A0189.jpg"],
@@ -61,32 +80,31 @@ window.TIN_TUC = {
           gio: "Evening, Nov 25"
         },
 
-        {
-          tieuDe: "EU slams the brakes on Chinese hybrids: 191,780-car cap from December 1 as Brussels shields its carmakers",
-          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/BYD_Seal_U_IAA_2023_1X7A0045.jpg/960px-BYD_Seal_U_IAA_2023_1X7A0045.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Toyota_Prius_%28XW60%29_Plug-in_Hybrid_Automesse_Ludwigsburg_2023_1X7A0004.jpg/960px-Toyota_Prius_%28XW60%29_Plug-in_Hybrid_Automesse_Ludwigsburg_2023_1X7A0004.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Toyota_RAV4_Plug-in_Hybrid_GR_Sport_IMG_9896.jpg/960px-Toyota_RAV4_Plug-in_Hybrid_GR_Sport_IMG_9896.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Kia_Sportage_Plug-in-Hybrid_%28NQ5%29_1X7A0317.jpg/960px-Kia_Sportage_Plug-in-Hybrid_%28NQ5%29_1X7A0317.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/BYD_Seal%2C_IAA_Open_Space_2023%2C_Munich_%28P1120203%29.jpg/960px-BYD_Seal%2C_IAA_Open_Space_2023%2C_Munich_%28P1120203%29.jpg"],
-          baiViet: [
-            "## A quota that starts in a week",
-            "From December 1, 2026, the European Union will cap imports of hybrid cars from China at 191,780 vehicles for 200 days, running until June 18, 2027. The European Commission published the provisional safeguard measure in the Official Journal on Tuesday, November 24, turning an October deal between Brussels and Beijing into enforceable law. The cap covers plug-in hybrids, conventional hybrids and mild hybrids alike, and it applies to cars built in China regardless of brand. Once a period's quota is exhausted, EU customs simply cannot clear further imports under it. The 200-day window is split into three tranches: 86,301 cars for December through February, 88,219 for March through May, and 17,260 for the first 18 days of June, with unused quota rolling over into the next period.",
-            "## Why Brussels acted now",
-            "The trigger was speed. In the first eight months of 2026 alone, EU imports of hybrid cars reached 474,475 units — already 64% above the whole of 2025 and up 175% year on year, according to Eurostat figures cited by trade press. Brussels had forecast Chinese hybrid shipments could approach 800,000 in 2026, so the annualised cap of 350,000 — the 191,780 figure is simply that annual number pro-rated over 200 days — cuts the expected flow by more than half. The Commission launched its safeguard investigation on October 30, arguing the import surge threatened serious injury to European carmakers, and the provisional measure buys time while that inquiry runs. A permanent arrangement is already sketched out: the 350,000 annual ceiling would rise by 6% a year for four years.",
-            "## Not just China — and one big loophole",
-            "Because World Trade Organization safeguard rules require measures to apply to all major exporters, the quotas reach well beyond China. Japan, Turkey, the UK and South Korea all received their own country-specific ceilings — roughly 310,000, 230,000, 190,000 and 105,000 a year respectively — set at about 15% above their 2025 import levels, so for most of them the limits sit comfortably above current shipments and China bears almost all of the pain. There is also a deliberate carve-out: range-extended EVs, whose combustion engine only generates electricity, fall outside the quota entirely. That exemption is already reshaping strategy — Chinese makers are expected to push more range-extender models into Europe, even though those cars still face the same countervailing duties as pure battery EVs, up to 45.3% in some cases. Hybrids assembled inside the EU do not count against the quota either, which hands another advantage to Chinese brands building European plants, such as BYD in Hungary and Turkey.",
-            "## What happens next",
-            "China's Ministry of Commerce said on November 24 that it reserved the right to challenge the measure at the WTO and seek trade compensation, setting up a fresh front in the EU-China auto trade war that began with tariffs on Chinese-made battery EVs. For European buyers, the practical effect is narrower choice and possibly firmer prices on Chinese plug-in hybrids such as the BYD Seal U DM-i, while dealers can keep selling cars that cleared customs before December 1. For the industry, the next milestone is the end of the investigation in mid-2027, when Brussels must decide whether the temporary brake becomes a lasting wall — and whether the range-extender detour becomes the next battleground."
-          ],
-          nguon: [
-            { ten: "electrive", link: "https://www.electrive.com/2026/11/24/eu-introduces-import-quotas-for-hybrids-from-china-and-other-countries/" },
-            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/24/eu-to-cap-hybrid-car-imports-from-china-at-191780-from-december-2026-to-june-2027/" },
-            { ten: "Nikkei Asia", link: "https://asia.nikkei.com/business/automobiles/electric-vehicles/eu-curb-on-chinese-hybrid-cars-drives-shift-to-niche-powertrain" }
-          ],
-          gio: "Morning, Nov 25"
-        },
       ]
     },
     {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Li Auto beats the quarter and turns its eyes overseas: Europe deliveries start in the Netherlands and Norway in Q1 2027",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Li_Auto_L9_001.jpg/960px-Li_Auto_L9_001.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Li_Auto_L9_2022102501.jpg/960px-Li_Auto_L9_2022102501.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Li_Auto_Mega_001.jpg/960px-Li_Auto_Mega_001.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Li_Auto_Mega_002.jpg/960px-Li_Auto_Mega_002.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Li_L6%2C_Astana_%28P1190742%29.jpg/960px-Li_L6%2C_Astana_%28P1190742%29.jpg"],
+          baiViet: [
+            "## A beat on revenue — and a much smaller loss",
+            "Li Auto topped expectations in its third quarter, reporting revenue of 28.8 billion yuan ($4.29 billion), up 5.4% year on year and above the roughly 27 billion yuan Wall Street had expected, the company said on November 25. Net loss narrowed sharply to 309.7 million yuan, down 50.4% from a year earlier and 81.8% from the second quarter; on a non-GAAP basis the loss was just 112.9 million yuan. Deliveries rose 7.2% to 99,964 vehicles, vehicle gross margin stood at 15.3%, and overall gross margin improved to 16.7%. The stock gained about 3.6% after the results. For the fourth quarter, Li Auto guided deliveries of 110,000 to 115,000 vehicles and revenue of 31.7 to 33.1 billion yuan — and management told analysts it expects to return to profit in the quarter, helped by cheaper batteries and its own in-house technologies.",
+            "## Slower refreshes at home, faster expansion abroad",
+            "The earnings call also marked a strategic shift. Li Auto will move its model refresh cycle from annually to about once every two years, updating only one or two models in 2027 instead of the full line-up — a sign the company is trading launch cadence for margins as China's price war drags on. At the same time, it is pushing overseas harder than ever. The all-new L9 launched in the United Arab Emirates in September, the right-hand-drive MEGA will be unveiled in Thailand and launched in Hong Kong in December, and the Europe-spec Li 6 (the Li i6) begins deliveries in the Netherlands and Norway in the first quarter of 2027, with management expecting overseas sales to double in 2027. The Li i6, which debuted at the Paris Motor Show in October, uses Li Auto's 5C ultra-fast-charging battery and posted a tested range of 811 km.",
+            "## Why Europe matters — and what could go wrong",
+            "Europe is the proving ground for Li Auto's premium pitch: the Li 6 will compete against established German premium SUVs and a wave of cheaper Chinese rivals, in a market where Brussels is tightening the screws on China-built cars — a hybrid import cap takes effect on December 1 and incentive rules increasingly favour locally made vehicles. Li Auto's answer is differentiation rather than price: extended-range models adapted for European tastes, its own chips and batteries, and a service network built before volume arrives. The new-generation MEGA is already averaging more than 3,000 deliveries a month, and cumulative orders for the Li i6 beat the previous generation's pace within 72 hours of launch. If the Netherlands and Norway launches land well, Li Auto will have shown a Chinese premium brand can sell on technology rather than discounts — the same bet Xpeng, BYD and Nio are all making at once, in the same showrooms, in the same year."
+          ],
+          nguon: [
+            { ten: "Finimize", link: "https://finimize.com/content/li-autos-earnings-beat-put-its-overseas-push-front-and-center" },
+            { ten: "CnEVPost", link: "https://cnevpost.com/2026/11/25/li-auto-q3-2026-earnings/" },
+            { ten: "Blockonomi", link: "https://blockonomi.com/li-auto-li-stock-climbs-after-earnings-beat-offsets-cooler-delivery-growth/" }
+          ],
+          gio: "Evening, Nov 26"
+        },
+
         {
           tieuDe: "BMW's long-wheelbase iX3 goes on sale in China from $40,300 with up to 919 km of range — one fixed price nationwide",
           anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/BMW_iX3_NA5_IAA_2025_DSC_1682.jpg/960px-BMW_iX3_NA5_IAA_2025_DSC_1682.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/BMW_iX3_NA5_IAA_2025_DSC_1685.jpg/960px-BMW_iX3_NA5_IAA_2025_DSC_1685.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/BMW_iX3_50_xDrive_M_Sportpaket_Pro_%28NA5%29_%E2%80%93_h_17052026.jpg/960px-BMW_iX3_50_xDrive_M_Sportpaket_Pro_%28NA5%29_%E2%80%93_h_17052026.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/BMW_iX3_50L_003.jpg/960px-BMW_iX3_50L_003.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/BMW_Panoramic_iDrive_IAA_2025_DSC_1335.jpg/960px-BMW_Panoramic_iDrive_IAA_2025_DSC_1335.jpg"],
@@ -106,24 +124,6 @@ window.TIN_TUC = {
           gio: "Morning, Nov 26"
         },
 
-        {
-          tieuDe: "BYD launches third-generation Tang EV from $28,000 with up to 850 km of range and steer-by-wire",
-          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/BYD_Tang_L_EV_IAA_2025_DSC_2306.jpg/960px-BYD_Tang_L_EV_IAA_2025_DSC_2306.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/2024_BYD_Tang_GIMS_2024_1X7A2258.jpg/960px-2024_BYD_Tang_GIMS_2024_1X7A2258.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/2024_BYD_Tang_GIMS_2024_1X7A2306.jpg/960px-2024_BYD_Tang_GIMS_2024_1X7A2306.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/2024_BYD_Tang_GIMS_2024_1X7A2342.jpg/960px-2024_BYD_Tang_GIMS_2024_1X7A2342.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/BYD_Tang_DM-p_IMG003.jpg/960px-BYD_Tang_DM-p_IMG003.jpg"],
-          baiViet: [
-            "## A flagship SUV, priced like a mid-size one",
-            "BYD officially launched the third-generation Tang electric SUV in China on Tuesday, November 24, and the pricing is the story. The large five-seat flagship comes in three rear-wheel-drive trims — Premium at 187,900 yuan (about $28,000), Laser Premium at 207,900 yuan and Laser Flagship at 219,900 yuan — a starting price 16.49% below the 225,000 yuan pre-sale figure announced on November 13. Buyers of the top trim can add a 20,000 yuan (about $3,000) all-wheel-drive drive-by-wire package. The Tang sits in BYD's Dynasty lineup as a five-seat flagship alongside the seven-seat Da Tang, and at under $30,000 it undercuts electric SUVs such as the Tesla Model Y and XPeng G6 by a wide margin. Deliveries have already begun across all variants.",
-            "## Range, charging and the new chassis",
-            "Every rear-wheel-drive version uses a single 300 kW (402 hp) electric motor. The base Premium pairs an 88.7 kWh second-generation Blade LFP battery with 730 km of CLTC range, while the two Laser trims use a 105.8 kWh pack for up to 850 km. The optional dual-motor all-wheel-drive system lifts combined output to 515 kW (690 hp), cuts the 0–100 km/h sprint to 4.3 seconds and is rated at 770 km. Flash charging is standard, and the car rides on BYD's new-generation drive-by-wire digital chassis with steer-by-wire and brake-by-wire, plus DiSus-A dual-chamber air suspension and rear-wheel steering for a minimum turning radius of 5.6 metres. At 5,045 mm long with a 2,950 mm wheelbase, it is a genuinely large SUV — and the cabin leans into that, with two screens over 30 inches. The usual caveat applies to the range figures: CLTC is China's domestic cycle and runs roughly 30% above EPA numbers, so real-world range will be lower.",
-            "## What it means beyond China",
-            "The Tang's launch lands in the same week Brussels moved to cap Chinese hybrid imports and to keep Japan- and Korea-built EVs out of its subsidy scheme — a reminder that price is now the sharpest weapon in the EV trade war. BYD has not announced overseas timing for the new Tang, and the car is China-only for now. But the formula is clear: flagship size, 850 km of claimed range, steer-by-wire hardware and a price that starts where rivals' mid-size models begin. If BYD exports it at anything like the domestic price, European and Southeast Asian rivals will face the same pressure Chinese brands are already applying in the hybrid segment — and the EU's new quotas will look less like a wall than a speed bump."
-          ],
-          nguon: [
-            { ten: "Electrek", link: "https://electrek.co/2026/11/24/byd-launches-new-luxury-5-seat-ev-suv-two-30-screens-under-30000/" },
-            { ten: "CnEVPost", link: "https://cnevpost.com/2026/11/24/byd-launches-3rd-gen-tang-electric-suv/" },
-            { ten: "TechNode", link: "https://technode.com/2026/11/25/byd-launches-third-generation-tang-ev-with-850km-range-and-steer-by-wire-technology/" }
-          ],
-          gio: "Evening, Nov 25"
-        },
 
       ]
     }
