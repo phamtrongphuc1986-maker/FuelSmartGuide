@@ -17,12 +17,31 @@
 // turns those lines into H2 subheadings. Articles missing anh still
 // render (placeholder cover), but new articles must not omit it.
 window.TIN_TUC = {
-  capNhat: "Thursday, November 26, 2026 — evening edition",
+  capNhat: "Friday, November 27, 2026 — morning edition",
   nhom: [
     {
       id: "thi-truong-chinh-sach",
       ten: "📊 Vehicle Market & Policy",
       tin: [
+        {
+          tieuDe: "Opel pays Leapmotor €100 million to engineer its next electric SUV — Europe now buys Chinese EV know-how",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Leapmotor_B10_004.jpg/960px-Leapmotor_B10_004.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Leapmotor_B10_IAA_2025_DSC_2067.jpg/960px-Leapmotor_B10_IAA_2025_DSC_2067.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Opel_Mokka-e_%282023%29.jpg/960px-Opel_Mokka-e_%282023%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Opel_Mokka_Electric_Edition_%28B%2C_Facelift%29_%E2%80%93_f_12102025.jpg/960px-Opel_Mokka_Electric_Edition_%28B%2C_Facelift%29_%E2%80%93_f_12102025.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Figueruelas_12.jpg/960px-Figueruelas_12.jpg"],
+          baiViet: [
+            "## A €100 million reversal of the old technology flow",
+            "Opel and Leapmotor signed a cooperation agreement on November 20 under which the Chinese carmaker will provide engineering and development services for Opel's next C-segment battery-electric SUV for a total consideration of €100 million (about $110 million). Opel chief executive Florian Huettl and Leapmotor founder and chief executive Zhu Jiangming signed the deal, which Leapmotor disclosed the same day in a filing to the Hong Kong Stock Exchange. The new model is planned to be built at Stellantis's plant in Zaragoza, Spain, with the start of production expected in September 2028 and sales to begin the same year. Development is taking place at joint project hubs in Rüsselsheim, Germany, and Hangzhou, China, and will run through the rest of 2026, all of 2027 and part of 2028.",
+            "## What each side brings — and what the money does not buy",
+            "Under the agreement, the SUV will use core components from Leapmotor combined with Opel's own design, cabin ergonomics, chassis engineering and lighting and seating technology, and it is intended to complement Opel's existing SUV range of the Mokka, Frontera and Grandland. The €100 million covers engineering and development work only: as of the signing, the companies had yet to agree a binding parts-supply deal, so component sales sit outside the current contract and remain subject to separate negotiation. The project was already under way before the signing — Reuters reported in April, citing people familiar with the talks, that it was code-named O3U, would share an architecture with Leapmotor's B10 and had a proposed annual production target of about 50,000 vehicles. The B10 itself is already in volume production at the Zaragoza plant, having started there in October 2026.",
+            "## A crowded market where growth no longer means profit",
+            "The deal is the clearest example yet of a reversal in the industry's old pattern: European brands now pay Chinese makers to develop cars, rather than the other way round. Stellantis already holds about 19.99% of Leapmotor, which makes the agreement a related-party transaction under Hong Kong listing rules. Leapmotor's own third-quarter results, published the same day, show why the Chinese side is keen on fee income: revenue rose 63% year on year to 31.7 billion yuan, but net profit fell 73% in China's brutal price war. For Opel, buying proven Chinese EV engineering is faster and cheaper than developing a clean-sheet platform at home — and with a hybrid import cap taking effect in Europe on December 1, locally built electric models are becoming the safer bet for both sides."
+          ],
+          nguon: [
+            { ten: "China Daily", link: "https://global.chinadaily.com.cn/a/202611/23/WS6b03d717e4b03ebf8519e13b.html" },
+            { ten: "Daily Volt", link: "https://dailyvolt.se/opel-and-leapmotor-sign-a-deal-for-a-new-electric-c-suv-to-be-built-in-zaragoza-with-sales-due-in-2028/" },
+            { ten: "EuropeSays (CnEVPost)", link: "https://www.europesays.com/netherlands/65424/" }
+          ],
+          gio: "Morning, Nov 27"
+        },
+
         {
           tieuDe: "Chinese brands double their European sales as hybrids lead the charge — 151,112 cars in October, 13.6% of the market",
           anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/BYD_Atto_3_1X7A6494.jpg/960px-BYD_Atto_3_1X7A6494.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/MG4_EV%2C_Worms_%28P1180575%29.jpg/960px-MG4_EV%2C_Worms_%28P1180575%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Chery_Tiggo_7_Back_IMG_0391.jpg/960px-Chery_Tiggo_7_Back_IMG_0391.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Geely_Xingyue_001.jpg/960px-Geely_Xingyue_001.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/XPeng_P7%2B_IAA_2025_DSC_2059.jpg/960px-XPeng_P7%2B_IAA_2025_DSC_2059.jpg"],
@@ -61,24 +80,6 @@ window.TIN_TUC = {
           gio: "Morning, Nov 26"
         },
 
-        {
-          tieuDe: "EU keeps Japan- and Korea-made EVs out of incentives in amended Industrial Acceleration Act",
-          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Toyota_bZ4X%2C_Auto_2024%2C_Zurich_%28PANA0765%29.jpg/960px-Toyota_bZ4X%2C_Auto_2024%2C_Zurich_%28PANA0765%29.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Hyundai_Ioniq_5.jpg/960px-Hyundai_Ioniq_5.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/2025_Kia_EV6_GT_IAA_2025_DSC_2508.jpg/960px-2025_Kia_EV6_GT_IAA_2025_DSC_2508.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Toyota_bZ4X_Automesse_Ludwigsburg_2022_1X7A5895.jpg/960px-Toyota_bZ4X_Automesse_Ludwigsburg_2022_1X7A5895.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Hyundai_Ioniq_5_IAA_2021_1X7A0189.jpg/960px-Hyundai_Ioniq_5_IAA_2021_1X7A0189.jpg"],
-          baiViet: [
-            "## The exclusion survives the rewrite",
-            "The European Union still plans to exclude electric vehicles made in Japan from preferential treatment even in an amended version of its Industrial Acceleration Act (IAA), Nikkei learned on Monday, November 24. The revised draft, presented to member states by Ireland — which currently holds the EU's rotating presidency — keeps eligibility for EV subsidies and tax benefits limited to vehicles assembled inside the bloc, plus the European Economic Area's Norway, Switzerland and the United Kingdom. Japan and South Korea, two of the world's biggest car exporters, remain outside. The Commission published the original IAA draft in March 2026, and in mid-October Germany and France — the two member states that matter most on this file — agreed to keep vehicles built outside the EU out of the incentive scheme. The amended text was presented to member states on November 23, and the EU aims to finalise it with the European Parliament within the year.",
-            "## Tokyo and Seoul lobbied — and lost",
-            "The exclusion is a direct blow to Japanese and Korean carmakers, and both governments fought it. Japanese Prime Minister Sanae Takaichi raised the issue directly with the leaders of Germany and France, and Tokyo lobbied the Commission and member states publicly and privately to include Japan-assembled EVs — but the request was not reflected in the amended proposal. Chief Cabinet Secretary Minoru Kihara warned at a press conference on November 24 that the assembly requirement 'could create significant disadvantages for the Japanese automotive industry.' Companies such as Toyota, which sells Japan-built EVs into Europe, now face competing against European-made cars without subsidies or tax breaks. South Korea is in the same position: EVs built in South Korea for export to Europe are also unlikely to qualify, even though Korean brands are deeply exposed — Chinese-made EVs already took 43.5% of new passenger EV registrations in South Korea in the first nine months of 2026.",
-            "## One small concession — and Seoul's answer",
-            "The draft does leave one door ajar: vehicles assembled inside the EU using Japanese or Korean parts could qualify for preferential treatment under certain conditions. A Japanese government negotiator dismissed that as 'insufficient,' noting that finished cars produced in Japan would still get nothing. For Europe's own industry, the logic is the point — the IAA is designed to concentrate public support on European-made products and revive manufacturing inside the bloc. For the affected exporters, the response is now national: South Korea's Finance Ministry told Reuters on November 25 that Seoul will announce its own EV competitiveness package on Friday, including a possible tax credit for EVs produced and sold domestically, as Chinese competition eats into its home market. The two tracks point the same way: the EV trade war is fragmenting into rival subsidy blocs, and assembly location — not brand — is becoming the decisive factor."
-          ],
-          nguon: [
-            { ten: "Nikkei Asia", link: "https://asia.nikkei.com/business/automobiles/electric-vehicles/eu-s-ev-incentives-to-exclude-japan-made-cars-even-in-amended-proposal" },
-            { ten: "Aju Press", link: "https://www.ajupress.com/view/20261125142870509" },
-            { ten: "Seoul Economic Daily", link: "https://en.sedaily.com/world/2026/11/24/eu-keeps-korean-japanese-evs-out-of-subsidy-perks" }
-          ],
-          gio: "Evening, Nov 25"
-        },
 
       ]
     },
@@ -86,6 +87,25 @@ window.TIN_TUC = {
       id: "cong-nghe-mau-moi",
       ten: "🔋 Technology & New Models",
       tin: [
+        {
+          tieuDe: "Nio's Firefly Haven lands in Europe: orders open in Oslo, deliveries from spring 2027",
+          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Firefly_%28vehicle%29_IAA_2025_DSC_1910.jpg/960px-Firefly_%28vehicle%29_IAA_2025_DSC_1910.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Firefly_AS7.jpg/960px-Firefly_AS7.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Firefly_Seats.jpg/960px-Firefly_Seats.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/NIO_ES8_%281st_generation%29_KIRA_IAA_2025_DSC_2294.jpg/960px-NIO_ES8_%281st_generation%29_KIRA_IAA_2025_DSC_2294.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/NIO_ES8_racecar_002.jpg/960px-NIO_ES8_racecar_002.jpg"],
+          baiViet: [
+            "## The first car in Nio's Halo design series reaches Europe",
+            "Nio introduced its new Halo design series in Oslo on November 19, unveiling the Firefly Haven as its inaugural model for European buyers. Orders opened on November 20, 2026, with first deliveries planned for spring 2027. The Haven is a compact electric car aimed squarely at Europe's small-car heartland, and Nio has pitched it as a design-led product rather than a price-led one: a calm green metallic finish, light green logo lights, dual-tone alloy wheels and around 30 custom cabin details, including recycled Urbanite textiles. Powertrain figures, European pricing and country allocations beyond the Norwegian launch have not yet been disclosed.",
+            "## A limited autumn edition for China, no plans for America",
+            "At the same time as the European launch, Firefly released a strictly limited Pianke Liujin autumn edition for the Chinese domestic market, capped at 333 units and priced from 135,800 yuan ($20,230) — a 16,000 yuan premium over the base trim. Drawing on autumn ginkgo leaves, the variant adds dual-layer metallic decals, the brand's first sunroof decal and an exclusive interior fragrance. With the battery-as-a-service rental option, the upfront cost falls to 95,800 yuan ($14,271) plus 399 yuan ($59) a month. Neither Firefly variant is slated for the United States, where 100% tariffs on Chinese-built EVs continue to block direct sales — a reminder that Europe, not America, is where Chinese brands are now concentrating their expansion.",
+            "## One more Chinese badge in a crowded European showroom",
+            "The Haven arrives in a European market where Chinese brands are no longer a curiosity: they took 13.6% of the region's new-car market in October, and the past month alone has seen Xpeng hand over its first Mona L03 to a customer in Paris, Zeekr open German orders for the updated 7X, and Leapmotor sign a €100 million deal to engineer an Opel SUV. What sets Firefly apart is positioning — a small, design-focused car from a premium group's sub-brand, sold on character rather than range figures or discounts. The test will be whether European buyers waiting for pricing and specifications in the coming months see enough in the Halo series to choose it over established small EVs from Renault, Stellantis and Volkswagen, all of which are defending the same segment at home."
+          ],
+          nguon: [
+            { ten: "Notebookcheck", link: "https://www.notebookcheck.net/Firefly-Haven-NIO-s-small-electric-car-launches-in-Europe.1456397.0.html" },
+            { ten: "EV.com", link: "https://ev.com/news/tag/evs-from-china" },
+            { ten: "EuropeSays", link: "https://www.europesays.com/dk/210761/" }
+          ],
+          gio: "Morning, Nov 27"
+        },
+
         {
           tieuDe: "Li Auto beats the quarter and turns its eyes overseas: Europe deliveries start in the Netherlands and Norway in Q1 2027",
           anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Li_Auto_L9_001.jpg/960px-Li_Auto_L9_001.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Li_Auto_L9_2022102501.jpg/960px-Li_Auto_L9_2022102501.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Li_Auto_Mega_001.jpg/960px-Li_Auto_Mega_001.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Li_Auto_Mega_002.jpg/960px-Li_Auto_Mega_002.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Li_L6%2C_Astana_%28P1190742%29.jpg/960px-Li_L6%2C_Astana_%28P1190742%29.jpg"],
@@ -105,24 +125,6 @@ window.TIN_TUC = {
           gio: "Evening, Nov 26"
         },
 
-        {
-          tieuDe: "BMW's long-wheelbase iX3 goes on sale in China from $40,300 with up to 919 km of range — one fixed price nationwide",
-          anh: ["https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/BMW_iX3_NA5_IAA_2025_DSC_1682.jpg/960px-BMW_iX3_NA5_IAA_2025_DSC_1682.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/BMW_iX3_NA5_IAA_2025_DSC_1685.jpg/960px-BMW_iX3_NA5_IAA_2025_DSC_1685.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/BMW_iX3_50_xDrive_M_Sportpaket_Pro_%28NA5%29_%E2%80%93_h_17052026.jpg/960px-BMW_iX3_50_xDrive_M_Sportpaket_Pro_%28NA5%29_%E2%80%93_h_17052026.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/BMW_iX3_50L_003.jpg/960px-BMW_iX3_50L_003.jpg", "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/BMW_Panoramic_iDrive_IAA_2025_DSC_1335.jpg/960px-BMW_Panoramic_iDrive_IAA_2025_DSC_1335.jpg"],
-          baiViet: [
-            "## Three trims, one price everywhere in China",
-            "BMW put its China-built, long-wheelbase iX3 on sale on November 25, 2026, with test drives and customer deliveries starting the same day. The first Neue Klasse model BMW builds in China comes in three versions at one fixed national price — 269,900 yuan (about $40,300) for the 30L, 299,900 yuan for the 40L xDrive and 339,900 yuan (about $50,700) for the 50L xDrive — the same prices BMW set when pre-sales opened at the Chengdu show in August, and the same at every dealer in the country. Buyers can order through BMW China's website, its WeChat mini program or the My BMW App, with launch offers for orders placed by January 31, 2027. Full production started at BMW's Shenyang plant on November 16, and the car is 108 mm longer in wheelbase than the standard global version, with all of the extra room going to the second row.",
-            "## 919 km on paper — and what it really means",
-            "The headline number belongs to the flagship 50L xDrive: a 113.4 kWh battery, 469 hp, 0–100 km/h in 4.9 seconds and a 919 km rating on China's CLTC cycle. The entry 30L uses a 77 kWh CATL lithium-iron-phosphate battery with 630 km of CLTC range and a 6.8-second sprint, while the mid-range 40L xDrive pairs an 86.9 kWh pack with 702 km and 5.6 seconds. Both all-wheel-drive versions use BMW's sixth-generation cylindrical cells, and all three charge from 10% to 80% in about 21 minutes — the 50L can add up to 418 km of range in just 10 minutes. The CLTC figures flatter the car: the same 50 xDrive sold outside China is rated at up to 805 km on the European WLTP cycle and 383 to 434 miles by the US EPA, so real-world range will sit well below the 919 km headline. Even so, the value ladder is clear — each extra CLTC kilometre costs roughly 184 yuan stepping from the 40L to the 50L, against about 417 yuan from the 30L to the 40L.",
-            "## Why China gets the long wheelbase first",
-            "The iX3 is the opening move of BMW's Neue Klasse era in its biggest market, and the stakes are high: BMW said in October that its brand's decline in China mirrored the market as a whole, and it plans to bring close to 20 new models carrying Neue Klasse technology to China by 2027 — the all-new i3 follows at the Guangzhou Auto Show on November 27. The long-wheelbase formula, the fixed nationwide pricing and the CATL-supplied LFP battery in the base car all show a German maker adapting to Chinese rules: rear-seat space matters, price transparency matters, and cost control matters against local rivals. Whether the iX3 can win back buyers from BYD, Xpeng and the rest will depend less on the 919 km figure than on the driving experience and the Panoramic iDrive cabin — but as a statement of intent, launching the Neue Klasse in China with deliveries on day one is about as clear as it gets."
-          ],
-          nguon: [
-            { ten: "CarNewsChina", link: "https://carnewschina.com/2026/11/25/all-new-bmw-ix3-launches-in-china-starting-at-40300-usd-featuring-up-to-919-km-cltc-range/" },
-            { ten: "GlobalChinaEV", link: "https://www.globalchinaev.com/post/bmw-ix3-launches-in-china-at-269900-cny-with-one-fixed-price-nationwide" },
-            { ten: "Charjin", link: "https://charjin.com/stories/bmw-ix3-long-wheelbase-china-launch-cltc-range-lfp-nmc" }
-          ],
-          gio: "Morning, Nov 26"
-        },
 
 
       ]
